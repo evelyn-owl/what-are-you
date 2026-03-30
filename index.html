@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Який Ти?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet"/>
+  <style id="theme-style"></style>
+</head>
+<body>
+
+  <div id="screen-home" class="screen active">
+    <header class="top-bar">
+      <div class="logo">ЯКИЙ ТИ?</div>
+      <div class="top-right">
+        <button class="theme-toggle" id="theme-btn">☀</button>
+        <button class="lang-toggle" id="lang-btn">EN</button>
+      </div>
+    </header>
+    <main class="home-main">
+      <div class="home-hero">
+        <div class="home-orb">✨</div>
+        <p class="home-eyebrow" data-i18n="home_eyebrow">Відкрий свою природу</p>
+        <h1 class="home-title">Який Ти?</h1>
+        <p class="home-subtitle" data-i18n="home_subtitle">Пройди магічний квіз і дізнайся хто ти</p>
+      </div>
+      <div class="quiz-grid" id="quiz-grid"></div>
+    </main>
+  </div>
+
+  <div id="screen-quiz" class="screen">
+    <header class="top-bar">
+      <button class="back-btn" id="quiz-back-btn">←</button>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        <span class="progress-label" id="progress-label"></span>
+      </div>
+      <div class="top-right">
+        <button class="theme-toggle" id="theme-btn-quiz">☀</button>
+        <button class="lang-toggle" id="lang-btn-quiz">EN</button>
+      </div>
+    </header>
+    <main class="quiz-main">
+      <div class="question-card" id="question-card">
+        <p class="question-num" id="question-num"></p>
+        <p class="question-text" id="question-text"></p>
+        <div class="options-grid" id="options-grid"></div>
+      </div>
+    </main>
+  </div>
+
+  <div id="screen-result" class="screen">
+    <header class="top-bar">
+      <button class="back-btn" id="result-back-btn">←</button>
+      <div class="logo">ЯКИЙ ТИ?</div>
+      <div class="top-right">
+        <button class="theme-toggle" id="theme-btn-result">☀</button>
+        <button class="lang-toggle" id="lang-btn-result">EN</button>
+      </div>
+    </header>
+    <main class="result-main">
+      <div class="result-photo-wrap">
+        <span class="result-emoji-fallback" id="result-emoji-fallback"></span>
+        <img class="result-photo" id="result-photo" alt="" style="display:none"/>
+      </div>
+      <p class="result-eyebrow" id="result-eyebrow">ТИ —</p>
+      <h2 class="result-name" id="result-name"></h2>
+      <div class="result-traits" id="result-traits"></div>
+      <p class="result-desc" id="result-desc"></p>
+    </main>
+    <footer class="result-footer">
+      <button class="btn-share" id="btn-share">✦ Поділитися</button>
+      <button class="btn-retry" id="btn-retry">Пройти ще раз</button>
+    </footer>
+  </div>
+
+  <script>
+
+'use strict';
+
+const THEMES = {
+  dark: `
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Nunito:wght@400;700;800&display=swap');
+:root{
+  --bg:#0a0818;--surface:#160f2e;--surface2:#1e1540;
+  --border:rgba(255,255,255,0.09);--border2:rgba(255,255,255,0.18);
+  --text:#ede8ff;--text-muted:#8a7fb0;
+  --gold:#f0c060;--gold2:#ffd980;--purple:#a78bfa;
+  --radius:22px;--radius-sm:14px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{height:100%;}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;overflow-x:hidden;transition:background 0.4s,color 0.4s;}
+
+body::before {
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(1px 1px at 8% 12%,rgba(255,255,255,0.7) 0%,transparent 100%),
+    radial-gradient(1px 1px at 22% 38%,rgba(255,255,255,0.4) 0%,transparent 100%),
+    radial-gradient(1.5px 1.5px at 45% 8%,rgba(255,255,255,0.8) 0%,transparent 100%),
+    radial-gradient(1px 1px at 65% 55%,rgba(255,255,255,0.5) 0%,transparent 100%),
+    radial-gradient(1px 1px at 80% 22%,rgba(255,255,255,0.4) 0%,transparent 100%),
+    radial-gradient(1.5px 1.5px at 18% 72%,rgba(255,255,255,0.6) 0%,transparent 100%),
+    radial-gradient(1px 1px at 55% 82%,rgba(255,255,255,0.3) 0%,transparent 100%),
+    radial-gradient(1px 1px at 92% 88%,rgba(255,255,255,0.5) 0%,transparent 100%),
+    radial-gradient(2px 2px at 72% 42%,rgba(240,192,96,0.5) 0%,transparent 100%),
+    radial-gradient(1.5px 1.5px at 12% 48%,rgba(167,139,250,0.5) 0%,transparent 100%),
+    radial-gradient(2px 2px at 5% 90%,rgba(240,192,96,0.3) 0%,transparent 100%);
+}
+body::after {
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 10%,rgba(124,77,255,0.12) 0%,transparent 70%),
+    radial-gradient(ellipse 50% 35% at 80% 80%,rgba(94,234,212,0.08) 0%,transparent 70%),
+    radial-gradient(ellipse 40% 50% at 90% 20%,rgba(240,192,96,0.06) 0%,transparent 70%);
+}
+.screen{display:none;flex-direction:column;min-height:100vh;width:100%;max-width:500px;padding:0 20px;position:relative;z-index:1;}
+.screen.active{display:flex;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:20px 0 14px;gap:10px;}
+.logo{font-family:'Cinzel',serif;font-size:15px;font-weight:700;color:var(--gold);letter-spacing:2px;text-shadow:0 0 20px rgba(167,139,250,0.3);}
+.top-right{display:flex;align-items:center;gap:8px;}
+.lang-toggle,.theme-toggle{font-family:'Nunito',sans-serif;font-size:11px;font-weight:800;padding:6px 12px;border-radius:99px;border:1.5px solid var(--border2);background:rgba(128,128,128,0.06);color:var(--text-muted);cursor:pointer;transition:all 0.2s;letter-spacing:0.5px;}
+.lang-toggle:hover,.theme-toggle:hover{border-color:var(--gold);color:var(--gold);}
+.back-btn{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--border2);background:rgba(128,128,128,0.06);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:all 0.2s;flex-shrink:0;}
+.back-btn:hover{border-color:var(--gold);color:var(--gold);}
+.home-main{flex:1;padding-bottom:24px;}
+.home-hero{padding:16px 0 28px;text-align:center;}
+.home-orb{width:72px;height:72px;border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,0.3) 0%,rgba(124,77,255,0.1) 60%,transparent 100%);border:1.5px solid rgba(167,139,250,0.3);display:flex;align-items:center;justify-content:center;font-size:32px;margin:0 auto 18px;animation:pulse 3s ease-in-out infinite;}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}
+.home-eyebrow{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;opacity:0.7;}
+.home-title{font-family:'Cinzel',serif;font-size:30px;font-weight:900;line-height:1.2;background:linear-gradient(135deg,var(--gold) 0%,var(--purple) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+.home-subtitle{font-size:13px;color:var(--text-muted);line-height:1.5;}
+.quiz-grid{display:flex;flex-direction:column;gap:10px;}
+.quiz-card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius);padding:16px 18px;cursor:pointer;transition:all 0.25s;display:flex;align-items:center;gap:14px;position:relative;overflow:hidden;}
+.quiz-card:hover{border-color:rgba(167,139,250,0.4);transform:translateY(-2px);box-shadow:0 8px 28px rgba(109,40,217,0.1);}
+.quiz-card.coming-soon{opacity:0.35;cursor:default;}
+.quiz-card.coming-soon:hover{transform:none;border-color:var(--border);box-shadow:none;}
+.quiz-card-emoji{font-size:38px;line-height:1;flex-shrink:0;}
+.quiz-card-body{flex:1;min-width:0;}
+.quiz-card-title{font-family:'Cinzel',serif;font-size:13px;font-weight:700;margin-bottom:3px;color:var(--text);}
+.quiz-card-desc{font-size:12px;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.quiz-card-arrow{font-size:16px;color:var(--text-muted);transition:all 0.2s;flex-shrink:0;}
+.quiz-card:hover .quiz-card-arrow{color:var(--gold);transform:translateX(4px);}
+.coming-soon-badge{font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);border:1.5px solid var(--border);border-radius:99px;padding:3px 9px;flex-shrink:0;}
+.progress-wrap{flex:1;display:flex;flex-direction:column;gap:4px;}
+.progress-bar{height:3px;background:var(--surface2);border-radius:99px;overflow:hidden;}
+.progress-fill{height:100%;background:linear-gradient(90deg,#a78bfa,#f0c060);border-radius:99px;transition:width 0.4s ease;width:0%;}
+.progress-label{font-size:10px;font-weight:700;color:var(--text-muted);text-align:center;letter-spacing:0.5px;}
+.quiz-main{flex:1;display:flex;flex-direction:column;justify-content:center;padding:8px 0 28px;}
+.question-card{animation:fadeUp 0.35s ease;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+.question-num{font-family:'Cinzel',serif;font-size:10px;font-weight:600;color:var(--gold);opacity:0.6;text-align:center;margin-bottom:10px;letter-spacing:2px;}
+.question-text{font-family:'Cinzel',serif;font-size:20px;font-weight:700;line-height:1.45;margin-bottom:22px;text-align:center;color:var(--text);}
+.options-grid{display:flex;flex-direction:column;gap:9px;}
+.option-btn{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:15px 18px;font-family:'Nunito',sans-serif;font-size:14px;font-weight:700;color:var(--text);cursor:pointer;text-align:left;transition:all 0.18s;line-height:1.4;width:100%;}
+.option-btn:hover{border-color:var(--purple);transform:translateX(5px);background:rgba(167,139,250,0.12);}
+.option-btn.selected{border-color:var(--gold);background:rgba(240,192,96,0.07);transform:translateX(6px);pointer-events:none;color:#f0c060;}
+.option-btn.selected::before{content:'✦ ';color:var(--gold);}
+.result-main{flex:1;display:flex;flex-direction:column;align-items:center;padding:4px 0 20px;text-align:center;}
+.result-photo-wrap{width:200px;height:200px;border-radius:50%;overflow:hidden;border:2px solid rgba(240,192,96,0.35);box-shadow:0 0 0 8px rgba(167,139,250,0.06),0 0 50px rgba(167,139,250,0.18);margin:0 auto 18px;animation:popIn 0.65s cubic-bezier(0.34,1.56,0.64,1);position:relative;background:var(--surface2);display:flex;align-items:center;justify-content:center;}
+@keyframes popIn{from{transform:scale(0.3);opacity:0;}to{transform:scale(1);opacity:1;}}
+.result-photo{width:100%;height:100%;object-fit:cover;transition:opacity 0.5s;}
+.result-emoji-fallback{font-size:80px;line-height:1;position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+.result-eyebrow{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;opacity:0.7;}
+.result-name{font-family:'Cinzel',serif;font-size:36px;font-weight:900;letter-spacing:-0.5px;margin-bottom:14px;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.result-traits{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;}
+.trait-pill{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:5px 13px;border-radius:99px;background:rgba(167,139,250,0.1);color:var(--purple);border:1.5px solid rgba(167,139,250,0.25);}
+.result-desc{font-size:14px;color:var(--text-muted);line-height:1.7;max-width:340px;}
+.result-footer{padding:14px 0 28px;display:flex;flex-direction:column;gap:9px;}
+.btn-share{width:100%;padding:17px;border-radius:var(--radius-sm);border:none;background:linear-gradient(135deg,#6d28d9,#a78bfa);color:#fff;font-family:'Cinzel',serif;font-size:13px;font-weight:700;letter-spacing:1px;cursor:pointer;transition:all 0.2s;box-shadow:0 4px 20px rgba(109,40,217,0.4);}
+.btn-share:hover{transform:translateY(-2px);}
+.btn-retry{width:100%;padding:14px;border-radius:var(--radius-sm);border:1.5px solid var(--border2);background:transparent;color:var(--text-muted);font-family:'Nunito',sans-serif;font-size:13px;font-weight:800;cursor:pointer;transition:all 0.2s;}
+.btn-retry:hover{border-color:var(--text-muted);color:var(--text);}
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--surface2);color:var(--text);border:1.5px solid var(--border2);font-family:'Nunito',sans-serif;font-size:13px;font-weight:700;padding:11px 22px;border-radius:99px;opacity:0;transition:all 0.3s;pointer-events:none;white-space:nowrap;z-index:999;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+`,
+  light: `
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Nunito:wght@400;700;800&display=swap');
+:root{
+  --bg:#f7f2ee;--surface:#ffffff;--surface2:#f0ebe4;
+  --border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.15);
+  --text:#1a1a2e;--text-muted:#8a7f90;
+  --gold:#d4820a;--gold2:#e09820;--purple:#6d28d9;
+  --radius:22px;--radius-sm:14px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{height:100%;}
+body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;overflow-x:hidden;transition:background 0.4s,color 0.4s;}
+
+body::before {
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(ellipse 70% 50% at 15% 10%,rgba(109,40,217,0.06) 0%,transparent 70%),
+    radial-gradient(ellipse 60% 40% at 85% 80%,rgba(212,130,10,0.06) 0%,transparent 70%);
+}
+.screen{display:none;flex-direction:column;min-height:100vh;width:100%;max-width:500px;padding:0 20px;position:relative;z-index:1;}
+.screen.active{display:flex;}
+.top-bar{display:flex;align-items:center;justify-content:space-between;padding:20px 0 14px;gap:10px;}
+.logo{font-family:'Cinzel',serif;font-size:15px;font-weight:700;color:var(--gold);letter-spacing:2px;text-shadow:0 0 20px rgba(167,139,250,0.3);}
+.top-right{display:flex;align-items:center;gap:8px;}
+.lang-toggle,.theme-toggle{font-family:'Nunito',sans-serif;font-size:11px;font-weight:800;padding:6px 12px;border-radius:99px;border:1.5px solid var(--border2);background:rgba(128,128,128,0.06);color:var(--text-muted);cursor:pointer;transition:all 0.2s;letter-spacing:0.5px;}
+.lang-toggle:hover,.theme-toggle:hover{border-color:var(--gold);color:var(--gold);}
+.back-btn{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--border2);background:rgba(128,128,128,0.06);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-muted);transition:all 0.2s;flex-shrink:0;}
+.back-btn:hover{border-color:var(--gold);color:var(--gold);}
+.home-main{flex:1;padding-bottom:24px;}
+.home-hero{padding:16px 0 28px;text-align:center;}
+.home-orb{width:72px;height:72px;border-radius:50%;background:radial-gradient(circle,rgba(109,40,217,0.15) 0%,rgba(109,40,217,0.05) 60%,transparent 100%);border:1.5px solid rgba(109,40,217,0.2);display:flex;align-items:center;justify-content:center;font-size:32px;margin:0 auto 18px;animation:pulse 3s ease-in-out infinite;}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}
+.home-eyebrow{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;opacity:0.7;}
+.home-title{font-family:'Cinzel',serif;font-size:30px;font-weight:900;line-height:1.2;background:linear-gradient(135deg,var(--gold) 0%,var(--purple) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+.home-subtitle{font-size:13px;color:var(--text-muted);line-height:1.5;}
+.quiz-grid{display:flex;flex-direction:column;gap:10px;}
+.quiz-card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius);padding:16px 18px;cursor:pointer;transition:all 0.25s;display:flex;align-items:center;gap:14px;position:relative;overflow:hidden;}
+.quiz-card:hover{border-color:rgba(167,139,250,0.4);transform:translateY(-2px);box-shadow:0 8px 28px rgba(109,40,217,0.1);}
+.quiz-card.coming-soon{opacity:0.35;cursor:default;}
+.quiz-card.coming-soon:hover{transform:none;border-color:var(--border);box-shadow:none;}
+.quiz-card-emoji{font-size:38px;line-height:1;flex-shrink:0;}
+.quiz-card-body{flex:1;min-width:0;}
+.quiz-card-title{font-family:'Cinzel',serif;font-size:13px;font-weight:700;margin-bottom:3px;color:var(--text);}
+.quiz-card-desc{font-size:12px;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.quiz-card-arrow{font-size:16px;color:var(--text-muted);transition:all 0.2s;flex-shrink:0;}
+.quiz-card:hover .quiz-card-arrow{color:var(--gold);transform:translateX(4px);}
+.coming-soon-badge{font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);border:1.5px solid var(--border);border-radius:99px;padding:3px 9px;flex-shrink:0;}
+.progress-wrap{flex:1;display:flex;flex-direction:column;gap:4px;}
+.progress-bar{height:3px;background:var(--surface2);border-radius:99px;overflow:hidden;}
+.progress-fill{height:100%;background:linear-gradient(90deg,#9b72f7,#d4820a);border-radius:99px;transition:width 0.4s ease;width:0%;}
+.progress-label{font-size:10px;font-weight:700;color:var(--text-muted);text-align:center;letter-spacing:0.5px;}
+.quiz-main{flex:1;display:flex;flex-direction:column;justify-content:center;padding:8px 0 28px;}
+.question-card{animation:fadeUp 0.35s ease;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+.question-num{font-family:'Cinzel',serif;font-size:10px;font-weight:600;color:var(--gold);opacity:0.6;text-align:center;margin-bottom:10px;letter-spacing:2px;}
+.question-text{font-family:'Cinzel',serif;font-size:20px;font-weight:700;line-height:1.45;margin-bottom:22px;text-align:center;color:var(--text);}
+.options-grid{display:flex;flex-direction:column;gap:9px;}
+.option-btn{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:15px 18px;font-family:'Nunito',sans-serif;font-size:14px;font-weight:700;color:var(--text);cursor:pointer;text-align:left;transition:all 0.18s;line-height:1.4;width:100%;}
+.option-btn:hover{border-color:var(--purple);transform:translateX(5px);background:rgba(109,40,217,0.06);}
+.option-btn.selected{border-color:var(--gold);background:rgba(212,130,10,0.08);transform:translateX(6px);pointer-events:none;color:#d4820a;}
+.option-btn.selected::before{content:'✦ ';color:var(--gold);}
+.result-main{flex:1;display:flex;flex-direction:column;align-items:center;padding:4px 0 20px;text-align:center;}
+.result-photo-wrap{width:200px;height:200px;border-radius:50%;overflow:hidden;border:2px solid rgba(240,192,96,0.35);box-shadow:0 0 0 8px rgba(167,139,250,0.06),0 0 50px rgba(167,139,250,0.18);margin:0 auto 18px;animation:popIn 0.65s cubic-bezier(0.34,1.56,0.64,1);position:relative;background:var(--surface2);display:flex;align-items:center;justify-content:center;}
+@keyframes popIn{from{transform:scale(0.3);opacity:0;}to{transform:scale(1);opacity:1;}}
+.result-photo{width:100%;height:100%;object-fit:cover;transition:opacity 0.5s;}
+.result-emoji-fallback{font-size:80px;line-height:1;position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+.result-eyebrow{font-size:10px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;opacity:0.7;}
+.result-name{font-family:'Cinzel',serif;font-size:36px;font-weight:900;letter-spacing:-0.5px;margin-bottom:14px;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.result-traits{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;}
+.trait-pill{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:5px 13px;border-radius:99px;background:rgba(167,139,250,0.1);color:var(--purple);border:1.5px solid rgba(167,139,250,0.25);}
+.result-desc{font-size:14px;color:var(--text-muted);line-height:1.7;max-width:340px;}
+.result-footer{padding:14px 0 28px;display:flex;flex-direction:column;gap:9px;}
+.btn-share{width:100%;padding:17px;border-radius:var(--radius-sm);border:none;background:linear-gradient(135deg,#6d28d9,#9b72f7);color:#fff;font-family:'Cinzel',serif;font-size:13px;font-weight:700;letter-spacing:1px;cursor:pointer;transition:all 0.2s;box-shadow:0 4px 20px rgba(109,40,217,0.3);}
+.btn-share:hover{transform:translateY(-2px);}
+.btn-retry{width:100%;padding:14px;border-radius:var(--radius-sm);border:1.5px solid var(--border2);background:transparent;color:var(--text-muted);font-family:'Nunito',sans-serif;font-size:13px;font-weight:800;cursor:pointer;transition:all 0.2s;}
+.btn-retry:hover{border-color:var(--text-muted);color:var(--text);}
+.toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--surface2);color:var(--text);border:1.5px solid var(--border2);font-family:'Nunito',sans-serif;font-size:13px;font-weight:700;padding:11px 22px;border-radius:99px;opacity:0;transition:all 0.3s;pointer-events:none;white-space:nowrap;z-index:999;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+`
+};
+
+let currentTheme = 'dark';
+function applyTheme(name) {
+  currentTheme = name;
+  document.getElementById('theme-style').textContent = THEMES[name];
+  ['theme-btn','theme-btn-quiz','theme-btn-result'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = name === 'dark' ? '☀' : '☽';
+  });
+}
+
+const UI_TEXT = {
+  ua: {
+    home_eyebrow: 'Відкрий свою природу',
+    home_subtitle: 'Пройди магічний квіз і дізнайся хто ти',
+    result_eyebrow: 'ТИ —',
+    btn_share: '✦ Поділитися',
+    btn_retry: 'Пройти ще раз',
+    coming_soon: 'Скоро',
+    progress: '{current} / {total}',
+    copied: 'Посилання скопійовано!',
+  },
+  en: {
+    home_eyebrow: 'Discover your nature',
+    home_subtitle: 'Take the magical quiz and find out who you are',
+    result_eyebrow: 'YOU ARE A',
+    btn_share: '✦ Share',
+    btn_retry: 'Try again',
+    coming_soon: 'Coming soon',
+    progress: '{current} / {total}',
+    copied: 'Link copied!',
+  }
+};
+
+const WIKI_NAMES = {"lion": "Lion", "fox": "Red_fox", "wolf": "Wolf", "owl": "Owl", "dolphin": "Common_bottlenose_dolphin", "eagle": "Bald_eagle", "bear": "Brown_bear", "cat": "Cat", "dog": "Dog", "elephant": "African_bush_elephant", "cheetah": "Cheetah", "penguin": "Emperor_penguin", "octopus": "Octopus", "butterfly": "Monarch_butterfly", "parrot": "Macaw", "turtle": "Sea_turtle", "horse": "Horse", "peacock": "Indian_peafowl", "rabbit": "European_rabbit", "tiger": "Tiger", "monkey": "Mandrill", "flamingo": "Flamingo", "shark": "Great_white_shark", "deer": "White-tailed_deer", "crow": "Carrion_crow", "otter": "Sea_otter", "snow_leopard": "Snow_leopard"};
+
+async function fetchWikiPhoto(animalId) {
+  const wikiName = WIKI_NAMES[animalId];
+  if (!wikiName) return null;
+  try {
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wikiName)}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const src = data?.thumbnail?.source;
+    if (!src) return null;
+    return src.replace(/\/\d+px-/, '/400px-');
+  } catch (e) { return null; }
+}
+
+const QUIZ_DATA = { animals: {
+  "meta": {
+    "id": "animals",
+    "questions_count": 8,
+    "i18n": {
+      "ua": {
+        "title": "Яка ти тварина?",
+        "description": "Дай відповідь на кілька запитань і дізнайся, яка тварина живе всередині тебе",
+        "start_btn": "Почати",
+        "result_title": "Ти — це",
+        "share_btn": "Поділитися",
+        "retry_btn": "Пройти ще раз",
+        "progress": "Питання {current} з {total}"
+      },
+      "en": {
+        "title": "What animal are you?",
+        "description": "Answer a few questions and find out which animal lives inside you",
+        "start_btn": "Start",
+        "result_title": "You are a",
+        "share_btn": "Share",
+        "retry_btn": "Try again",
+        "progress": "Question {current} of {total}"
+      }
+    }
+  },
+
+  "animals": [
+    {
+      "id": "lion",
+      "emoji": "🦁",
+      "i18n": {
+        "ua": { "name": "Лев", "description": "Ти народжений вести за собою. Впевнений, рішучий і захищаєш тих, хто поруч. Люди відчувають твою силу і тягнуться до тебе.", "traits": ["Лідерство", "Сміливість", "Гордість"] },
+        "en": { "name": "Lion", "description": "You were born to lead. Confident, decisive, and protective of those around you. People feel your strength and are drawn to you.", "traits": ["Leadership", "Courage", "Pride"] }
+      }
+    },
+    {
+      "id": "fox",
+      "emoji": "🦊",
+      "i18n": {
+        "ua": { "name": "Лисиця", "description": "Ти завжди на крок попереду. Знаходиш вихід там, де інші бачать глухий кут. Чарівний і непередбачуваний.", "traits": ["Хитрість", "Харизма", "Адаптивність"] },
+        "en": { "name": "Fox", "description": "You're always one step ahead. You find a way where others see a dead end. Charming and unpredictable.", "traits": ["Cleverness", "Charisma", "Adaptability"] }
+      }
+    },
+    {
+      "id": "wolf",
+      "emoji": "🐺",
+      "i18n": {
+        "ua": { "name": "Вовк", "description": "Ти цінуєш зграю більше за все. Мовчазний, але надійний — на тебе завжди можна покластись у найтяжчу мить.", "traits": ["Вірність", "Інстинкт", "Сила духу"] },
+        "en": { "name": "Wolf", "description": "You value your pack above all. Silent but reliable — people can always count on you in the hardest moments.", "traits": ["Loyalty", "Instinct", "Resilience"] }
+      }
+    },
+    {
+      "id": "owl",
+      "emoji": "🦉",
+      "i18n": {
+        "ua": { "name": "Сова", "description": "Ти думаєш, перш ніж діяти. Бачиш те, що інші пропускають. Твоя порада завжди влучна і зважена.", "traits": ["Мудрість", "Спостережливість", "Терпіння"] },
+        "en": { "name": "Owl", "description": "You think before you act. You see what others miss. Your advice is always precise and well-considered.", "traits": ["Wisdom", "Observation", "Patience"] }
+      }
+    },
+    {
+      "id": "dolphin",
+      "emoji": "🐬",
+      "i18n": {
+        "ua": { "name": "Дельфін", "description": "Ти заряджаєш всіх навколо позитивом. Легко знаходиш спільну мову з будь-ким і робиш світ трохи кращим.", "traits": ["Радість", "Емпатія", "Грайливість"] },
+        "en": { "name": "Dolphin", "description": "You energize everyone around you with positivity. You connect easily with anyone and make the world a little better.", "traits": ["Joy", "Empathy", "Playfulness"] }
+      }
+    },
+    {
+      "id": "eagle",
+      "emoji": "🦅",
+      "i18n": {
+        "ua": { "name": "Орел", "description": "Ти бачиш картину цілком і ніколи не розмінюєшся на дрібниці. Незалежний і амбітний — небо для тебе замало.", "traits": ["Свобода", "Гострий зір", "Незалежність"] },
+        "en": { "name": "Eagle", "description": "You see the big picture and never sweat the small stuff. Independent and ambitious — even the sky isn't enough for you.", "traits": ["Freedom", "Vision", "Independence"] }
+      }
+    },
+    {
+      "id": "bear",
+      "emoji": "🐻",
+      "i18n": {
+        "ua": { "name": "Ведмідь", "description": "Ти — скеля для близьких. Не кричиш, але всі знають: за тобою надійно. Добродушний, але не слід переходити межу.", "traits": ["Надійність", "Спокій", "Захист"] },
+        "en": { "name": "Bear", "description": "You're a rock for those close to you. You don't shout, but everyone knows they're safe with you. Good-natured, but don't cross the line.", "traits": ["Reliability", "Calm", "Protection"] }
+      }
+    },
+    {
+      "id": "cat",
+      "emoji": "🐱",
+      "i18n": {
+        "ua": { "name": "Кіт", "description": "Ти живеш за своїми правилами. Мила зовні, але ніхто не знає, що у тебе на думці. Граціозний і трохи таємничий.", "traits": ["Незалежність", "Елегантність", "Цікавість"] },
+        "en": { "name": "Cat", "description": "You live by your own rules. Cute on the outside, but nobody knows what's on your mind. Graceful and a little mysterious.", "traits": ["Independence", "Elegance", "Curiosity"] }
+      }
+    },
+    {
+      "id": "dog",
+      "emoji": "🐶",
+      "i18n": {
+        "ua": { "name": "Собака", "description": "Ти — найкращий друг. Щирий, відданий і завжди поруч. Твоя енергія і любов заряджають всіх навколо.", "traits": ["Відданість", "Щирість", "Ентузіазм"] },
+        "en": { "name": "Dog", "description": "You're the best friend anyone could have. Sincere, loyal, and always there. Your energy and love charge everyone around.", "traits": ["Loyalty", "Sincerity", "Enthusiasm"] }
+      }
+    },
+    {
+      "id": "elephant",
+      "emoji": "🐘",
+      "i18n": {
+        "ua": { "name": "Слон", "description": "Ти пам'ятаєш усе і дбаєш про кожного. Спокійний велетень з великим серцем — твоя присутність заспокоює.", "traits": ["Пам'ять", "Мудрість", "Турбота"] },
+        "en": { "name": "Elephant", "description": "You remember everything and care for everyone. A calm giant with a big heart — your presence is soothing.", "traits": ["Memory", "Wisdom", "Care"] }
+      }
+    },
+    {
+      "id": "cheetah",
+      "emoji": "🐆",
+      "i18n": {
+        "ua": { "name": "Гепард", "description": "Ти дієш блискавично. Коли маєш ціль — ніщо не зупинить. Живеш у моменті й насолоджуєшся швидкістю.", "traits": ["Швидкість", "Фокус", "Рішучість"] },
+        "en": { "name": "Cheetah", "description": "You act in a flash. When you have a goal — nothing can stop you. You live in the moment and love the speed.", "traits": ["Speed", "Focus", "Decisiveness"] }
+      }
+    },
+    {
+      "id": "penguin",
+      "emoji": "🐧",
+      "i18n": {
+        "ua": { "name": "Пінгвін", "description": "Ти смішний, але серйозний там де треба. Піклуєшся про близьких і ніколи не кидаєш команду в скрутну хвилину.", "traits": ["Відданість", "Командність", "Гумор"] },
+        "en": { "name": "Penguin", "description": "Funny but serious when needed. You care for those close to you and never abandon your team in a tough moment.", "traits": ["Loyalty", "Teamwork", "Humor"] }
+      }
+    },
+    {
+      "id": "octopus",
+      "emoji": "🐙",
+      "i18n": {
+        "ua": { "name": "Восьминіг", "description": "Ти одночасно думаєш у кількох напрямках. Нестандартний підхід — твоя суперсила. Ніколи не дієш за шаблоном.", "traits": ["Інтелект", "Гнучкість", "Творчість"] },
+        "en": { "name": "Octopus", "description": "You think in multiple directions at once. An unconventional approach is your superpower. You never follow a template.", "traits": ["Intelligence", "Flexibility", "Creativity"] }
+      }
+    },
+    {
+      "id": "butterfly",
+      "emoji": "🦋",
+      "i18n": {
+        "ua": { "name": "Метелик", "description": "Ти постійно змінюєшся і стаєш кращою версією себе. Твоя присутність надихає і приносить радість.", "traits": ["Трансформація", "Краса", "Легкість"] },
+        "en": { "name": "Butterfly", "description": "You're constantly changing and becoming a better version of yourself. Your presence inspires and brings joy.", "traits": ["Transformation", "Beauty", "Lightness"] }
+      }
+    },
+    {
+      "id": "parrot",
+      "emoji": "🦜",
+      "i18n": {
+        "ua": { "name": "Папуга", "description": "Ти ніколи не мовчиш і заповнюєш кімнату кольорами. Товариський, яскравий і завжди в центрі уваги.", "traits": ["Комунікація", "Яскравість", "Соціальність"] },
+        "en": { "name": "Parrot", "description": "You're never silent and fill any room with color. Social, vibrant, and always at the center of attention.", "traits": ["Communication", "Vibrancy", "Sociability"] }
+      }
+    },
+    {
+      "id": "turtle",
+      "emoji": "🐢",
+      "i18n": {
+        "ua": { "name": "Черепаха", "description": "Ти не поспішаєш, але завжди досягаєш мети. Твоя повільна і впевнена хода веде далі, ніж будь-який спринт.", "traits": ["Мудрість", "Терпіння", "Стійкість"] },
+        "en": { "name": "Turtle", "description": "You don't rush, but you always reach your goal. Your slow and steady pace takes you further than any sprint.", "traits": ["Wisdom", "Patience", "Steadiness"] }
+      }
+    },
+    {
+      "id": "horse",
+      "emoji": "🐴",
+      "i18n": {
+        "ua": { "name": "Кінь", "description": "Ти не терпиш клітки. Сильний, вільний і пристрасний — тебе неможливо зупинити, коли ти мчиш до мрії.", "traits": ["Свобода", "Гордість", "Сила"] },
+        "en": { "name": "Horse", "description": "You can't stand being caged. Strong, free, and passionate — nothing can stop you when you're racing toward your dream.", "traits": ["Freedom", "Pride", "Strength"] }
+      }
+    },
+    {
+      "id": "peacock",
+      "emoji": "🦚",
+      "i18n": {
+        "ua": { "name": "Павич", "description": "Ти не боїшся виділятись. Знаєш собі ціну і не соромишся це показувати. Твій стиль — це твоє послання світу.", "traits": ["Самовираження", "Краса", "Впевненість"] },
+        "en": { "name": "Peacock", "description": "You're not afraid to stand out. You know your worth and aren't shy about showing it. Your style is your message to the world.", "traits": ["Self-expression", "Beauty", "Confidence"] }
+      }
+    },
+    {
+      "id": "rabbit",
+      "emoji": "🐰",
+      "i18n": {
+        "ua": { "name": "Кролик", "description": "Ти чуйний і уважний до деталей. Швидко реагуєш, добре слухаєш і цінуєш затишок і близьких людей.", "traits": ["Швидкість", "Ніжність", "Обережність"] },
+        "en": { "name": "Rabbit", "description": "You're sensitive and attentive to detail. Quick to react, a good listener, and you treasure comfort and the people close to you.", "traits": ["Quickness", "Gentleness", "Caution"] }
+      }
+    },
+    {
+      "id": "tiger",
+      "emoji": "🐯",
+      "i18n": {
+        "ua": { "name": "Тигр", "description": "Ти поєднуєш красу і небезпеку. Пристрасний і непередбачуваний — дієш на інстинкті і завжди виграєш.", "traits": ["Пристрасть", "Сила", "Незалежність"] },
+        "en": { "name": "Tiger", "description": "You combine beauty and danger. Passionate and unpredictable — you act on instinct and always win.", "traits": ["Passion", "Strength", "Independence"] }
+      }
+    },
+    {
+      "id": "monkey",
+      "emoji": "🐒",
+      "i18n": {
+        "ua": { "name": "Мавпа", "description": "Тобі нудно сидіти на місці. Вічно допитливий, веселий і спритний — ти той, хто оживляє будь-яку компанію.", "traits": ["Допитливість", "Гумор", "Спритність"] },
+        "en": { "name": "Monkey", "description": "Sitting still bores you. Forever curious, funny, and nimble — you're the one who brings any gathering to life.", "traits": ["Curiosity", "Humor", "Agility"] }
+      }
+    },
+    {
+      "id": "flamingo",
+      "emoji": "🦩",
+      "i18n": {
+        "ua": { "name": "Фламінго", "description": "Ти стоїш на своєму, навіть коли це незручно. Витончений і особливий — ти не такий, як всі, і пишаєшся цим.", "traits": ["Витонченість", "Баланс", "Унікальність"] },
+        "en": { "name": "Flamingo", "description": "You stand your ground even when it's uncomfortable. Elegant and unique — you're not like everyone else, and you're proud of it.", "traits": ["Elegance", "Balance", "Uniqueness"] }
+      }
+    },
+    {
+      "id": "shark",
+      "emoji": "🦈",
+      "i18n": {
+        "ua": { "name": "Акула", "description": "Ти ніколи не зупиняєшся. Цілеспрямований і холоднокровний у досягненні мети — тебе не збити з курсу.", "traits": ["Рішучість", "Фокус", "Амбіції"] },
+        "en": { "name": "Shark", "description": "You never stop moving. Goal-driven and cool-headed — nothing can throw you off course.", "traits": ["Decisiveness", "Focus", "Ambition"] }
+      }
+    },
+    {
+      "id": "deer",
+      "emoji": "🦌",
+      "i18n": {
+        "ua": { "name": "Олень", "description": "Ти відчуваєш настрій кімнати до того як увійти. Ніжний і уважний — поруч з тобою завжди спокійно.", "traits": ["Граційність", "Чутливість", "Інтуїція"] },
+        "en": { "name": "Deer", "description": "You sense the mood of a room before you even enter. Gentle and attentive — people always feel calm around you.", "traits": ["Grace", "Sensitivity", "Intuition"] }
+      }
+    },
+    {
+      "id": "crow",
+      "emoji": "🐦‍⬛",
+      "i18n": {
+        "ua": { "name": "Ворона", "description": "Ти бачиш більше, ніж показуєш. Гострий розум і пам'ять на деталі роблять тебе непереможним стратегом.", "traits": ["Інтелект", "Спостережливість", "Хитрість"] },
+        "en": { "name": "Crow", "description": "You see more than you show. A sharp mind and memory for detail make you an unbeatable strategist.", "traits": ["Intelligence", "Observation", "Cunning"] }
+      }
+    },
+    {
+      "id": "otter",
+      "emoji": "🦦",
+      "i18n": {
+        "ua": { "name": "Видра", "description": "Ти перетворюєш буденність на пригоду. Завжди у гарному настрої, любиш близьких і береш від життя максимум.", "traits": ["Грайливість", "Тепло", "Допитливість"] },
+        "en": { "name": "Otter", "description": "You turn the everyday into an adventure. Always in a good mood, loving to those close to you, and squeezing the most out of life.", "traits": ["Playfulness", "Warmth", "Curiosity"] }
+      }
+    },
+    {
+      "id": "snow_leopard",
+      "emoji": "🐈‍⬛",
+      "i18n": {
+        "ua": { "name": "Сніговий барс", "description": "Ти рідко показуєш себе повністю. Загадковий і самодостатній — ті, хто тебе знає справді, вважають це привілеєм.", "traits": ["Таємничість", "Самодостатність", "Грація"] },
+        "en": { "name": "Snow Leopard", "description": "You rarely show yourself fully. Mysterious and self-sufficient — those who truly know you consider it a privilege.", "traits": ["Mystery", "Self-sufficiency", "Grace"] }
+      }
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "i18n": {
+        "ua": { "text": "Як ти почуваєшся на великій вечірці?" },
+        "en": { "text": "How do you feel at a big party?" }
+      },
+      "options": [
+        { "id": "q1a", "i18n": { "ua": { "label": "🎤 В центрі уваги — це моя стихія" }, "en": { "label": "🎤 In the spotlight — that's my element" } }, "animals": ["lion", "parrot", "peacock", "dolphin", "monkey"] },
+        { "id": "q1b", "i18n": { "ua": { "label": "🤝 Спілкуюсь з кількома близькими" }, "en": { "label": "🤝 Chatting with a few close people" } }, "animals": ["wolf", "dog", "penguin", "deer", "otter"] },
+        { "id": "q1c", "i18n": { "ua": { "label": "👀 Спостерігаю і вивчаю людей" }, "en": { "label": "👀 Observing and studying people" } }, "animals": ["owl", "fox", "crow", "cat", "snow_leopard"] },
+        { "id": "q1d", "i18n": { "ua": { "label": "🚪 Шукаю привід піти раніше" }, "en": { "label": "🚪 Looking for an excuse to leave early" } }, "animals": ["turtle", "bear", "eagle", "rabbit", "tiger"] }
+      ]
+    },
+    {
+      "id": "q2",
+      "i18n": {
+        "ua": { "text": "Перед важливим рішенням ти..." },
+        "en": { "text": "Before an important decision, you..." }
+      },
+      "options": [
+        { "id": "q2a", "i18n": { "ua": { "label": "⚡ Дієш одразу — інстинкт не підводить" }, "en": { "label": "⚡ Act immediately — instinct never fails" } }, "animals": ["cheetah", "tiger", "shark", "eagle", "fox"] },
+        { "id": "q2b", "i18n": { "ua": { "label": "🧠 Довго аналізую всі варіанти" }, "en": { "label": "🧠 Analyze all options for a long time" } }, "animals": ["owl", "crow", "octopus", "elephant", "turtle"] },
+        { "id": "q2c", "i18n": { "ua": { "label": "💬 Раджусь з тими, кому довіряю" }, "en": { "label": "💬 Consult with people I trust" } }, "animals": ["dog", "wolf", "penguin", "dolphin", "bear"] },
+        { "id": "q2d", "i18n": { "ua": { "label": "🎲 Покладаюсь на відчуття моменту" }, "en": { "label": "🎲 Go with the feeling of the moment" } }, "animals": ["butterfly", "monkey", "parrot", "otter", "flamingo"] }
+      ]
+    },
+    {
+      "id": "q3",
+      "i18n": {
+        "ua": { "text": "Що тебе найбільше надихає?" },
+        "en": { "text": "What inspires you the most?" }
+      },
+      "options": [
+        { "id": "q3a", "i18n": { "ua": { "label": "🏔️ Нові виклики і перемоги" }, "en": { "label": "🏔️ New challenges and victories" } }, "animals": ["lion", "shark", "eagle", "cheetah", "tiger"] },
+        { "id": "q3b", "i18n": { "ua": { "label": "🌿 Природа, тиша, простір" }, "en": { "label": "🌿 Nature, silence, open space" } }, "animals": ["deer", "horse", "bear", "turtle", "snow_leopard"] },
+        { "id": "q3c", "i18n": { "ua": { "label": "🎨 Творчість і самовираження" }, "en": { "label": "🎨 Creativity and self-expression" } }, "animals": ["peacock", "octopus", "butterfly", "flamingo", "parrot"] },
+        { "id": "q3d", "i18n": { "ua": { "label": "❤️ Люди та стосунки навколо" }, "en": { "label": "❤️ People and relationships around you" } }, "animals": ["dolphin", "dog", "otter", "rabbit", "penguin"] }
+      ]
+    },
+    {
+      "id": "q4",
+      "i18n": {
+        "ua": { "text": "Як ти реагуєш на конфлікт?" },
+        "en": { "text": "How do you react to conflict?" }
+      },
+      "options": [
+        { "id": "q4a", "i18n": { "ua": { "label": "🔥 Відстоюю свою позицію до кінця" }, "en": { "label": "🔥 Stand my ground to the end" } }, "animals": ["lion", "tiger", "wolf", "shark", "horse"] },
+        { "id": "q4b", "i18n": { "ua": { "label": "🧩 Шукаю компроміс і рішення" }, "en": { "label": "🧩 Look for compromise and solutions" } }, "animals": ["dolphin", "elephant", "owl", "penguin", "bear"] },
+        { "id": "q4c", "i18n": { "ua": { "label": "🌀 Уникаю і чекаю доки вляжеться" }, "en": { "label": "🌀 Avoid it and wait for it to settle" } }, "animals": ["rabbit", "deer", "turtle", "cat", "snow_leopard"] },
+        { "id": "q4d", "i18n": { "ua": { "label": "😄 Розряджаю гумором" }, "en": { "label": "😄 Defuse it with humor" } }, "animals": ["monkey", "otter", "parrot", "dog", "fox"] }
+      ]
+    },
+    {
+      "id": "q5",
+      "i18n": {
+        "ua": { "text": "Який твій ідеальний відпочинок?" },
+        "en": { "text": "What's your ideal rest?" }
+      },
+      "options": [
+        { "id": "q5a", "i18n": { "ua": { "label": "🏕️ Похід, природа, фізична активність" }, "en": { "label": "🏕️ Hiking, nature, physical activity" } }, "animals": ["wolf", "horse", "eagle", "cheetah", "bear"] },
+        { "id": "q5b", "i18n": { "ua": { "label": "🎉 Гулянка, друзі, нові знайомства" }, "en": { "label": "🎉 Party, friends, new people" } }, "animals": ["dolphin", "monkey", "parrot", "dog", "otter"] },
+        { "id": "q5c", "i18n": { "ua": { "label": "📚 Книга, серіал, тиша вдома" }, "en": { "label": "📚 Book, series, quiet at home" } }, "animals": ["cat", "owl", "turtle", "crow", "snow_leopard"] },
+        { "id": "q5d", "i18n": { "ua": { "label": "✈️ Подорож у нове місце" }, "en": { "label": "✈️ Traveling somewhere new" } }, "animals": ["butterfly", "flamingo", "fox", "peacock", "octopus"] }
+      ]
+    },
+    {
+      "id": "q6",
+      "i18n": {
+        "ua": { "text": "Що про тебе кажуть друзі?" },
+        "en": { "text": "What do your friends say about you?" }
+      },
+      "options": [
+        { "id": "q6a", "i18n": { "ua": { "label": "💪 Надійний і завжди поруч" }, "en": { "label": "💪 Reliable and always there" } }, "animals": ["dog", "wolf", "bear", "elephant", "penguin"] },
+        { "id": "q6b", "i18n": { "ua": { "label": "😂 Найвеселіший у компанії" }, "en": { "label": "😂 The funniest in the group" } }, "animals": ["monkey", "otter", "parrot", "dolphin", "rabbit"] },
+        { "id": "q6c", "i18n": { "ua": { "label": "🌟 Впевнений і надихаючий" }, "en": { "label": "🌟 Confident and inspiring" } }, "animals": ["lion", "eagle", "peacock", "cheetah", "tiger"] },
+        { "id": "q6d", "i18n": { "ua": { "label": "🔮 Загадковий і неочікуваний" }, "en": { "label": "🔮 Mysterious and unpredictable" } }, "animals": ["fox", "cat", "octopus", "crow", "snow_leopard"] }
+      ]
+    },
+    {
+      "id": "q7",
+      "i18n": {
+        "ua": { "text": "Як ти ставишся до змін у житті?" },
+        "en": { "text": "How do you feel about changes in life?" }
+      },
+      "options": [
+        { "id": "q7a", "i18n": { "ua": { "label": "🚀 Обожнюю — це нові можливості" }, "en": { "label": "🚀 Love them — new opportunities!" } }, "animals": ["butterfly", "cheetah", "dolphin", "monkey", "fox"] },
+        { "id": "q7b", "i18n": { "ua": { "label": "📋 Планую і готуюсь заздалегідь" }, "en": { "label": "📋 Plan and prepare in advance" } }, "animals": ["owl", "elephant", "shark", "crow", "penguin"] },
+        { "id": "q7c", "i18n": { "ua": { "label": "🌊 Пливу за течією, адаптуюсь" }, "en": { "label": "🌊 Go with the flow, adapt" } }, "animals": ["otter", "deer", "flamingo", "cat", "octopus"] },
+        { "id": "q7d", "i18n": { "ua": { "label": "🛡️ Надаю перевагу стабільності" }, "en": { "label": "🛡️ Prefer stability" } }, "animals": ["bear", "turtle", "wolf", "horse", "rabbit"] }
+      ]
+    },
+    {
+      "id": "q8",
+      "i18n": {
+        "ua": { "text": "Як ти поводишся, коли тебе просять про допомогу?" },
+        "en": { "text": "How do you behave when someone asks for your help?" }
+      },
+      "options": [
+        { "id": "q8a", "i18n": { "ua": { "label": "🦸 Кидаю все і біжу рятувати" }, "en": { "label": "🦸 Drop everything and rush to help" } }, "animals": ["dog", "lion", "wolf", "bear", "penguin"] },
+        { "id": "q8b", "i18n": { "ua": { "label": "🗺️ Спочатку розбираюсь у проблемі" }, "en": { "label": "🗺️ First understand the problem" } }, "animals": ["owl", "elephant", "crow", "octopus", "fox"] },
+        { "id": "q8c", "i18n": { "ua": { "label": "🤗 Підтримую морально, вислуховую" }, "en": { "label": "🤗 Give emotional support, listen" } }, "animals": ["dolphin", "deer", "otter", "rabbit", "cat"] },
+        { "id": "q8d", "i18n": { "ua": { "label": "💡 Пропоную нестандартне рішення" }, "en": { "label": "💡 Suggest an unconventional solution" } }, "animals": ["monkey", "cheetah", "flamingo", "peacock", "butterfly"] }
+      ]
+    },
+    {
+      "id": "q9",
+      "i18n": {
+        "ua": { "text": "Яке твоє ставлення до правил?" },
+        "en": { "text": "What's your attitude toward rules?" }
+      },
+      "options": [
+        { "id": "q9a", "i18n": { "ua": { "label": "📏 Правила існують з причини — дотримуюсь" }, "en": { "label": "📏 Rules exist for a reason — I follow them" } }, "animals": ["penguin", "elephant", "owl", "bear", "turtle"] },
+        { "id": "q9b", "i18n": { "ua": { "label": "🔓 Правила для тих, хто не вміє думати" }, "en": { "label": "🔓 Rules are for those who can't think" } }, "animals": ["cat", "fox", "tiger", "eagle", "snow_leopard"] },
+        { "id": "q9c", "i18n": { "ua": { "label": "⚖️ Залежить від ситуації" }, "en": { "label": "⚖️ Depends on the situation" } }, "animals": ["wolf", "dolphin", "deer", "crow", "octopus"] },
+        { "id": "q9d", "i18n": { "ua": { "label": "🎪 Правила — це нудно, ламаю їх з посмішкою" }, "en": { "label": "🎪 Rules are boring, I break them with a smile" } }, "animals": ["monkey", "parrot", "flamingo", "cheetah", "otter"] }
+      ]
+    },
+    {
+      "id": "q10",
+      "i18n": {
+        "ua": { "text": "Що ти робиш, коли тобі сумно?" },
+        "en": { "text": "What do you do when you're feeling down?" }
+      },
+      "options": [
+        { "id": "q10a", "i18n": { "ua": { "label": "🚶 Іду на самоту — мені потрібен час" }, "en": { "label": "🚶 Go somewhere alone — I need time" } }, "animals": ["cat", "snow_leopard", "eagle", "tiger", "horse"] },
+        { "id": "q10b", "i18n": { "ua": { "label": "📞 Телефоную другу — разом краще" }, "en": { "label": "📞 Call a friend — better together" } }, "animals": ["dog", "dolphin", "penguin", "parrot", "otter"] },
+        { "id": "q10c", "i18n": { "ua": { "label": "🎵 Музика, їжа, улюблений серіал" }, "en": { "label": "🎵 Music, food, favorite show" } }, "animals": ["bear", "rabbit", "turtle", "monkey", "deer"] },
+        { "id": "q10d", "i18n": { "ua": { "label": "💪 Йду в дію — робота лікує" }, "en": { "label": "💪 Jump into action — work heals" } }, "animals": ["lion", "shark", "wolf", "cheetah", "crow"] }
+      ]
+    },
+    {
+      "id": "q11",
+      "i18n": {
+        "ua": { "text": "Як ти обираєш, куди піти у вихідний?" },
+        "en": { "text": "How do you decide where to go on a day off?" }
+      },
+      "options": [
+        { "id": "q11a", "i18n": { "ua": { "label": "📍 Є улюблені місця — іду туди" }, "en": { "label": "📍 I have favorite spots — I go there" } }, "animals": ["bear", "turtle", "cat", "elephant", "penguin"] },
+        { "id": "q11b", "i18n": { "ua": { "label": "🎯 Шукаю щось нове і незвідане" }, "en": { "label": "🎯 Look for something new and unexplored" } }, "animals": ["fox", "monkey", "otter", "butterfly", "octopus"] },
+        { "id": "q11c", "i18n": { "ua": { "label": "👥 Куди скажуть друзі — туди й піду" }, "en": { "label": "👥 Wherever friends suggest — I'm in" } }, "animals": ["dog", "dolphin", "parrot", "rabbit", "deer"] },
+        { "id": "q11d", "i18n": { "ua": { "label": "🌄 Туди де є простір і краєвид" }, "en": { "label": "🌄 Somewhere with open space and views" } }, "animals": ["eagle", "horse", "wolf", "flamingo", "snow_leopard"] }
+      ]
+    },
+    {
+      "id": "q12",
+      "i18n": {
+        "ua": { "text": "Як ти сприймаєш критику?" },
+        "en": { "text": "How do you take criticism?" }
+      },
+      "options": [
+        { "id": "q12a", "i18n": { "ua": { "label": "🙏 Дякую — це допомагає рости" }, "en": { "label": "🙏 Thank you — it helps me grow" } }, "animals": ["elephant", "owl", "dolphin", "turtle", "penguin"] },
+        { "id": "q12b", "i18n": { "ua": { "label": "🔥 Захищаюсь — я знаю що роблю" }, "en": { "label": "🔥 Defend myself — I know what I'm doing" } }, "animals": ["lion", "tiger", "horse", "shark", "peacock"] },
+        { "id": "q12c", "i18n": { "ua": { "label": "🤔 Обмірковую наодинці пізніше" }, "en": { "label": "🤔 Think it over alone later" } }, "animals": ["cat", "crow", "fox", "snow_leopard", "bear"] },
+        { "id": "q12d", "i18n": { "ua": { "label": "😅 Жартую і перемикаюсь" }, "en": { "label": "😅 Laugh it off and move on" } }, "animals": ["monkey", "otter", "parrot", "rabbit", "butterfly"] }
+      ]
+    },
+    {
+      "id": "q13",
+      "i18n": {
+        "ua": { "text": "Що для тебе означає успіх?" },
+        "en": { "text": "What does success mean to you?" }
+      },
+      "options": [
+        { "id": "q13a", "i18n": { "ua": { "label": "🏆 Досягти більшого ніж інші" }, "en": { "label": "🏆 Achieve more than others" } }, "animals": ["lion", "shark", "eagle", "cheetah", "tiger"] },
+        { "id": "q13b", "i18n": { "ua": { "label": "❤️ Щасливі близькі люди поруч" }, "en": { "label": "❤️ Happy loved ones around me" } }, "animals": ["dog", "elephant", "penguin", "dolphin", "bear"] },
+        { "id": "q13c", "i18n": { "ua": { "label": "🎨 Робити те, що люблю щодня" }, "en": { "label": "🎨 Do what I love every day" } }, "animals": ["peacock", "butterfly", "flamingo", "octopus", "otter"] },
+        { "id": "q13d", "i18n": { "ua": { "label": "🌿 Свобода і спокій у душі" }, "en": { "label": "🌿 Freedom and inner peace" } }, "animals": ["horse", "deer", "wolf", "turtle", "snow_leopard"] }
+      ]
+    },
+    {
+      "id": "q14",
+      "i18n": {
+        "ua": { "text": "Яку роль ти зазвичай граєш у команді?" },
+        "en": { "text": "What role do you usually play in a team?" }
+      },
+      "options": [
+        { "id": "q14a", "i18n": { "ua": { "label": "👑 Беру ініціативу і веду" }, "en": { "label": "👑 Take initiative and lead" } }, "animals": ["lion", "wolf", "eagle", "shark", "cheetah"] },
+        { "id": "q14b", "i18n": { "ua": { "label": "🔧 Роблю свою частину якісно і тихо" }, "en": { "label": "🔧 Do my part well and quietly" } }, "animals": ["bear", "turtle", "elephant", "crow", "cat"] },
+        { "id": "q14c", "i18n": { "ua": { "label": "🌈 Підтримую і мотивую інших" }, "en": { "label": "🌈 Support and motivate others" } }, "animals": ["dog", "dolphin", "penguin", "otter", "rabbit"] },
+        { "id": "q14d", "i18n": { "ua": { "label": "💡 Генерую ідеї і нестандартні рішення" }, "en": { "label": "💡 Generate ideas and unconventional solutions" } }, "animals": ["octopus", "monkey", "fox", "flamingo", "parrot"] }
+      ]
+    }
+  ]
+}
+ };
+
+const QUIZZES = [
+  { id:'animals', emoji:'🐾', available:true,
+    i18n:{ ua:{title:'Яка ти тварина?',desc:'Дізнайся свого духовного звіра'}, en:{title:'What animal are you?',desc:'Discover your spirit animal'} } },
+  { id:'hp', emoji:'⚡', available:false,
+    i18n:{ ua:{title:'Хто ти з Гаррі Поттера?',desc:'Гоґвортс чекає'}, en:{title:'Which Harry Potter character?',desc:'Hogwarts is waiting'} } },
+  { id:'peculiar', emoji:'🏠', available:false,
+    i18n:{ ua:{title:'Хто ти з Дому дивних дітей?',desc:'Яка в тебе здібність?'}, en:{title:'Which Peculiar child are you?',desc:"What's your peculiarity?"} } },
+  { id:'mythical', emoji:'🐉', available:false,
+    i18n:{ ua:{title:'Яка ти казкова істота?',desc:'Дракон, фенікс чи єдиноріг?'}, en:{title:'Which mythical creature?',desc:'Dragon, phoenix or unicorn?'} } },
+  { id:'food', emoji:'🍜', available:false,
+    i18n:{ ua:{title:'Яка ти страва?',desc:'Бо ти те, що ти їси'}, en:{title:'Which dish are you?',desc:'You are what you eat'} } },
+];
+
+let lang = 'ua';
+let currentQuiz = null;
+let questions = [];
+let currentQ = 0;
+let answers = [];
+let currentAnimal = null;
+
+const $ = id => document.getElementById(id);
+const t = key => UI_TEXT[lang][key] || key;
+
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+function updateLangButtons() {
+  const label = lang === 'ua' ? 'EN' : 'UA';
+  ['lang-btn','lang-btn-quiz','lang-btn-result'].forEach(id => {
+    const el = $(id); if (el) el.textContent = label;
+  });
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function showToast(msg) {
+  let toast = document.querySelector('.toast');
+  if (!toast) { toast = document.createElement('div'); toast.className = 'toast'; document.body.appendChild(toast); }
+  toast.textContent = msg;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2500);
+}
+
+function renderHome() {
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  const grid = $('quiz-grid');
+  grid.innerHTML = '';
+  QUIZZES.forEach(quiz => {
+    const card = document.createElement('div');
+    card.className = 'quiz-card' + (quiz.available ? '' : ' coming-soon');
+    card.innerHTML = `
+      <div class="quiz-card-emoji">${quiz.emoji}</div>
+      <div class="quiz-card-body">
+        <div class="quiz-card-title">${quiz.i18n[lang].title}</div>
+        <div class="quiz-card-desc">${quiz.i18n[lang].desc}</div>
+      </div>
+      ${quiz.available ? '<div class="quiz-card-arrow">→</div>' : `<div class="coming-soon-badge">${t('coming_soon')}</div>`}
+    `;
+    if (quiz.available) card.addEventListener('click', () => startQuiz(quiz));
+    grid.appendChild(card);
+  });
+}
+
+function startQuiz(quiz) {
+  currentQuiz = quiz;
+  answers = [];
+  const data = QUIZ_DATA[quiz.id];
+  if (!data) return;
+  currentQuiz.data = data;
+  questions = shuffle(data.questions).slice(0, data.meta.questions_count || 8);
+  currentQ = 0;
+  showScreen('quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = questions[currentQ];
+  const total = questions.length;
+  $('progress-fill').style.width = Math.round((currentQ / total) * 100) + '%';
+  $('progress-label').textContent = t('progress').replace('{current}', currentQ + 1).replace('{total}', total);
+  $('question-num').textContent = `ПИТАННЯ ${currentQ + 1}`;
+  $('question-text').textContent = q.i18n[lang].text;
+  const grid = $('options-grid');
+  grid.innerHTML = '';
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt.i18n[lang].label;
+    btn.addEventListener('click', () => selectAndAdvance(btn, opt));
+    grid.appendChild(btn);
+  });
+  const card = $('question-card');
+  card.style.animation = 'none';
+  requestAnimationFrame(() => { card.style.animation = ''; });
+}
+
+function selectAndAdvance(btn, opt) {
+  document.querySelectorAll('.option-btn').forEach(b => { b.style.pointerEvents = 'none'; });
+  btn.classList.add('selected');
+  answers.push(opt);
+  setTimeout(() => {
+    currentQ++;
+    if (currentQ >= questions.length) showResult();
+    else renderQuestion();
+  }, 650);
+}
+
+function calcResult() {
+  const scores = {};
+  answers.forEach(opt => { opt.animals.forEach(a => { scores[a] = (scores[a] || 0) + 1; }); });
+  const winner = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+  return currentQuiz.data.animals.find(a => a.id === winner);
+}
+
+async function showResult() {
+  currentAnimal = calcResult();
+  const info = currentAnimal.i18n[lang];
+
+  $('result-eyebrow').textContent = t('result_eyebrow');
+  $('result-name').textContent = info.name;
+  $('result-desc').textContent = info.description;
+  $('result-emoji-fallback').textContent = currentAnimal.emoji;
+  $('result-emoji-fallback').style.opacity = '1';
+
+  const img = $('result-photo');
+  img.style.opacity = '0';
+  img.style.display = 'block';
+
+  fetchWikiPhoto(currentAnimal.id).then(photoUrl => {
+    if (photoUrl) {
+      img.src = photoUrl;
+      img.onload = () => { $('result-emoji-fallback').style.opacity = '0'; img.style.opacity = '1'; };
+      img.onerror = () => { img.style.display = 'none'; };
+    }
+  });
+
+  const traitsEl = $('result-traits');
+  traitsEl.innerHTML = '';
+  info.traits.forEach(tr => {
+    const pill = document.createElement('span');
+    pill.className = 'trait-pill'; pill.textContent = tr;
+    traitsEl.appendChild(pill);
+  });
+  $('btn-share').textContent = t('btn_share');
+  $('btn-retry').textContent = t('btn_retry');
+  showScreen('result');
+}
+
+function refreshResult() {
+  if (!currentAnimal) return;
+  const info = currentAnimal.i18n[lang];
+  $('result-eyebrow').textContent = t('result_eyebrow');
+  $('result-name').textContent = info.name;
+  $('result-desc').textContent = info.description;
+  const traitsEl = $('result-traits');
+  traitsEl.innerHTML = '';
+  info.traits.forEach(tr => {
+    const pill = document.createElement('span');
+    pill.className = 'trait-pill'; pill.textContent = tr;
+    traitsEl.appendChild(pill);
+  });
+  $('btn-share').textContent = t('btn_share');
+  $('btn-retry').textContent = t('btn_retry');
+}
+
+$('btn-share').addEventListener('click', async () => {
+  const name = $('result-name').textContent;
+  const text = lang === 'ua' ? `Я — ${name}! Дізнайся хто ти` : `I am a ${name}! Find out who you are`;
+  if (navigator.share) {
+    try { await navigator.share({ title: text, text: text, url: location.href }); } catch (_) {}
+  } else {
+    try { await navigator.clipboard.writeText(location.href); } catch (_) {}
+    showToast(t('copied'));
+  }
+});
+
+$('btn-retry').addEventListener('click', () => { startQuiz(currentQuiz); });
+$('quiz-back-btn').addEventListener('click', () => { showScreen('home'); renderHome(); });
+$('result-back-btn').addEventListener('click', () => { showScreen('home'); renderHome(); });
+
+function toggleLang() {
+  lang = lang === 'ua' ? 'en' : 'ua';
+  updateLangButtons();
+  const active = document.querySelector('.screen.active').id;
+  if (active === 'screen-home') renderHome();
+  else if (active === 'screen-quiz') renderQuestion();
+  else if (active === 'screen-result') refreshResult();
+}
+
+function toggleTheme() {
+  applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+}
+
+['lang-btn','lang-btn-quiz','lang-btn-result'].forEach(id => {
+  const el = $(id); if (el) el.addEventListener('click', toggleLang);
+});
+['theme-btn','theme-btn-quiz','theme-btn-result'].forEach(id => {
+  const el = $(id); if (el) el.addEventListener('click', toggleTheme);
+});
+
+renderHome();
+
+applyTheme('dark');
+  </script>
+</body>
+</html>
