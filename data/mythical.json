@@ -1,0 +1,3669 @@
+{
+  "meta": {
+    "id": "mythical",
+    "questions_count": 8,
+    "i18n": {
+      "ua": {
+        "title": "Яка ти казкова істота?",
+        "description": "Дізнайся яке магічне створіння живе у твоїй душі",
+        "start_btn": "Почати",
+        "result_title": "Ти — це",
+        "share_btn": "Поділитися",
+        "retry_btn": "Пройти ще раз",
+        "progress": "Питання {current} з {total}"
+      },
+      "en": {
+        "title": "Which mythical creature are you?",
+        "description": "Find out which magical being lives in your soul",
+        "start_btn": "Start",
+        "result_title": "You are",
+        "share_btn": "Share",
+        "retry_btn": "Try again",
+        "progress": "Question {current} of {total}"
+      },
+      "es": {
+        "title": "¿Qué criatura mítica eres?",
+        "description": "Descubre qué ser mágico vive en tu alma.",
+        "start_btn": "Comenzar",
+        "result_title": "Eres",
+        "share_btn": "Compartir",
+        "retry_btn": "Intentar otra vez",
+        "progress": "Pregunta {actual} de {total}"
+      },
+      "de": {
+        "title": "Welches Fabelwesen bist du?",
+        "description": "Finde heraus, welches magische Wesen in deiner Seele wohnt.",
+        "start_btn": "Start",
+        "result_title": "Du bist",
+        "share_btn": "Aktie",
+        "retry_btn": "Versuchen Sie es erneut",
+        "progress": "Frage {aktuell} von {gesamt}"
+      }
+    }
+  },
+  "animals": [
+    {
+      "id": "dragon",
+      "emoji": "🐉",
+      "wiki": "Dragon",
+      "i18n": {
+        "ua": {
+          "name": "Дракон",
+          "description": "Ти — сила, яку неможливо ігнорувати. Пристрасний, владний і незламний. Коли ти входиш у кімнату — всі це відчувають.",
+          "traits": [
+            "Могутність",
+            "Пристрасть",
+            "Влада"
+          ]
+        },
+        "en": {
+          "name": "Dragon",
+          "description": "You're a force that cannot be ignored. Passionate, commanding, and unbreakable. When you enter a room — everyone feels it.",
+          "traits": [
+            "Power",
+            "Passion",
+            "Authority"
+          ]
+        },
+        "es": {
+          "name": "Dragón",
+          "description": "Eres una fuerza que no se puede ignorar. Apasionada, imponente e inquebrantable. Cuando entras en una habitación, todo el mundo lo nota.",
+          "traits": [
+            "Fuerza",
+            "Pasión",
+            "Autoridad"
+          ]
+        },
+        "de": {
+          "name": "Drachen",
+          "description": "Du bist eine Naturgewalt, die man nicht ignorieren kann. Leidenschaftlich, souverän und unzerbrechlich. Wenn du einen Raum betrittst, spürt es jeder.",
+          "traits": [
+            "Leistung",
+            "Hingabe",
+            "Behörde"
+          ]
+        }
+      }
+    },
+    {
+      "id": "phoenix",
+      "emoji": "🔥",
+      "wiki": "Phoenix_(mythology)",
+      "i18n": {
+        "ua": {
+          "name": "Фенікс",
+          "description": "Ти завжди повертаєшся. Після будь-якого падіння встаєш ще сильнішим. Твоя стійкість надихає всіх навколо.",
+          "traits": [
+            "Відродження",
+            "Стійкість",
+            "Надія"
+          ]
+        },
+        "en": {
+          "name": "Phoenix",
+          "description": "You always come back. After any fall you rise even stronger. Your resilience inspires everyone around you.",
+          "traits": [
+            "Rebirth",
+            "Resilience",
+            "Hope"
+          ]
+        },
+        "es": {
+          "name": "Fénix",
+          "description": "Siempre te recuperas. Tras cualquier caída, te levantas aún más fuerte. Tu resiliencia inspira a todos a tu alrededor.",
+          "traits": [
+            "Renacimiento",
+            "Resiliencia",
+            "Esperanza"
+          ]
+        },
+        "de": {
+          "name": "Phönix",
+          "description": "Du stehst immer wieder auf. Nach jedem Fall stehst du noch stärker wieder auf. Deine Widerstandsfähigkeit inspiriert alle um dich herum.",
+          "traits": [
+            "Wiedergeburt",
+            "Widerstandsfähigkeit",
+            "Hoffnung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unicorn",
+      "emoji": "🦄",
+      "wiki": "Unicorn",
+      "i18n": {
+        "ua": {
+          "name": "Єдиноріг",
+          "description": "Ти — чистота і магія у чистому вигляді. Рідкісний і особливий — люди тягнуться до твого світла, навіть не розуміючи чому.",
+          "traits": [
+            "Чистота",
+            "Магія",
+            "Унікальність"
+          ]
+        },
+        "en": {
+          "name": "Unicorn",
+          "description": "You're purity and magic in its purest form. Rare and special — people are drawn to your light without even understanding why.",
+          "traits": [
+            "Purity",
+            "Magic",
+            "Uniqueness"
+          ]
+        },
+        "es": {
+          "name": "Unicornio",
+          "description": "Eres pureza y magia en su forma más pura. Única y especial, la gente se siente atraída por tu luz sin siquiera comprender por qué.",
+          "traits": [
+            "Pureza",
+            "Magia",
+            "Unicidad"
+          ]
+        },
+        "de": {
+          "name": "Einhorn",
+          "description": "Du bist Reinheit und Magie in ihrer reinsten Form. Selten und besonders – die Menschen fühlen sich von deinem Licht angezogen, ohne zu verstehen, warum.",
+          "traits": [
+            "Reinheit",
+            "Magie",
+            "Einzigartigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "griffin",
+      "emoji": "🦅",
+      "wiki": "Griffin",
+      "i18n": {
+        "ua": {
+          "name": "Грифон",
+          "description": "Ти поєднуєш розум і силу. Шляхетний воїн із золотим серцем — захищаєш справедливість і ніколи не зраджуєш своїм принципам.",
+          "traits": [
+            "Шляхетність",
+            "Сила",
+            "Справедливість"
+          ]
+        },
+        "en": {
+          "name": "Griffin",
+          "description": "You combine wisdom and strength. A noble warrior with a golden heart — you defend justice and never betray your principles.",
+          "traits": [
+            "Nobility",
+            "Strength",
+            "Justice"
+          ]
+        },
+        "es": {
+          "name": "Grifo",
+          "description": "Combinas sabiduría y fuerza. Un noble guerrero con un corazón de oro: defiendes la justicia y jamás traicionas tus principios.",
+          "traits": [
+            "Nobleza",
+            "Fortaleza",
+            "Justicia"
+          ]
+        },
+        "de": {
+          "name": "Greif",
+          "description": "Du verbindest Weisheit und Stärke. Ein edler Krieger mit einem goldenen Herzen – du verteidigst die Gerechtigkeit und verrätst niemals deine Prinzipien.",
+          "traits": [
+            "Adel",
+            "Stärke",
+            "Gerechtigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mermaid",
+      "emoji": "🧜",
+      "wiki": "Mermaid",
+      "i18n": {
+        "ua": {
+          "name": "Русалка",
+          "description": "Ти глибокий як океан. Чарівний голос, таємнича душа — ти притягуєш людей своєю загадковістю і красою.",
+          "traits": [
+            "Таємничість",
+            "Краса",
+            "Глибина"
+          ]
+        },
+        "en": {
+          "name": "Mermaid",
+          "description": "You're deep as the ocean. Enchanting voice, mysterious soul — you attract people with your mystery and beauty.",
+          "traits": [
+            "Mystery",
+            "Beauty",
+            "Depth"
+          ]
+        },
+        "es": {
+          "name": "Sirena",
+          "description": "Eres tan profunda como el océano. Voz cautivadora, alma misteriosa: atraes a la gente con tu misterio y belleza.",
+          "traits": [
+            "Misterio",
+            "Belleza",
+            "Profundidad"
+          ]
+        },
+        "de": {
+          "name": "Meerjungfrau",
+          "description": "Du bist so tiefgründig wie der Ozean. Bezaubernde Stimme, geheimnisvolle Seele – du ziehst die Menschen mit deinem Geheimnis und deiner Schönheit in deinen Bann.",
+          "traits": [
+            "Geheimnis",
+            "Schönheit",
+            "Tiefe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "werewolf",
+      "emoji": "🐺",
+      "wiki": "Werewolf",
+      "i18n": {
+        "ua": {
+          "name": "Перевертень",
+          "description": "У тебе дві сторони — і обидві справжні. Вдень спокійний і надійний, але всередині вирує дика сила, яка чекає свого моменту.",
+          "traits": [
+            "Двоїстість",
+            "Інстинкт",
+            "Дика сила"
+          ]
+        },
+        "en": {
+          "name": "Werewolf",
+          "description": "You have two sides — and both are real. Calm and reliable by day, but inside a wild force rages, waiting for its moment.",
+          "traits": [
+            "Duality",
+            "Instinct",
+            "Wild power"
+          ]
+        },
+        "es": {
+          "name": "Hombre-lobo",
+          "description": "Tienes dos caras, y ambas son reales. De día eres tranquilo y confiable, pero en tu interior arde una fuerza salvaje, esperando su momento.",
+          "traits": [
+            "Dualidad",
+            "Instinto",
+            "Poder salvaje"
+          ]
+        },
+        "de": {
+          "name": "Werwolf",
+          "description": "Du hast zwei Seiten – und beide sind real. Tagsüber ruhig und verlässlich, doch innerlich tobt eine wilde Kraft, die auf ihren Moment wartet.",
+          "traits": [
+            "Dualität",
+            "Instinkt",
+            "Wilde Kraft"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fairy",
+      "emoji": "🧚",
+      "wiki": "Fairy",
+      "i18n": {
+        "ua": {
+          "name": "Фея",
+          "description": "Ти робиш світ магічним просто своєю присутністю. Легка, весела і трохи пустотлива — ти приносиш радість туди, де з'являєшся.",
+          "traits": [
+            "Радість",
+            "Легкість",
+            "Пустощі"
+          ]
+        },
+        "en": {
+          "name": "Fairy",
+          "description": "You make the world magical just by being there. Light, cheerful, and a little mischievous — you bring joy wherever you appear.",
+          "traits": [
+            "Joy",
+            "Lightness",
+            "Mischief"
+          ]
+        },
+        "es": {
+          "name": "Hada",
+          "description": "Haces que el mundo sea mágico con solo estar presente. Alegre, optimista y un poco traviesa, traes alegría allá donde vas.",
+          "traits": [
+            "Alegría",
+            "Ligereza",
+            "Travesura"
+          ]
+        },
+        "de": {
+          "name": "Fee",
+          "description": "Du verzauberst die Welt allein durch deine Anwesenheit. Leicht, fröhlich und ein bisschen schelmisch – du bringst Freude, wo immer du auftauchst.",
+          "traits": [
+            "Freude",
+            "Leichtigkeit",
+            "Unfug"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kraken",
+      "emoji": "🦑",
+      "wiki": "Kraken",
+      "i18n": {
+        "ua": {
+          "name": "Кракен",
+          "description": "Ти ховаєшся у глибині, але коли дієш — земля тремтить. Тихий стратег із колосальною силою. Тебе краще не недооцінювати.",
+          "traits": [
+            "Стратегія",
+            "Прихована сила",
+            "Терпіння"
+          ]
+        },
+        "en": {
+          "name": "Kraken",
+          "description": "You hide in the depths, but when you act — the earth trembles. A quiet strategist with colossal power. Better not underestimate you.",
+          "traits": [
+            "Strategy",
+            "Hidden power",
+            "Patience"
+          ]
+        },
+        "es": {
+          "name": "Kraken",
+          "description": "Te escondes en las profundidades, pero cuando actúas, la tierra tiembla. Un estratega silencioso con un poder colosal. Mejor no te subestimes.",
+          "traits": [
+            "Estrategia",
+            "Poder oculto",
+            "Paciencia"
+          ]
+        },
+        "de": {
+          "name": "Krake",
+          "description": "Du verbirgst dich in der Tiefe, doch wenn du handelst, erbebt die Erde. Ein stiller Stratege mit kolossaler Macht. Unterschätze dich besser nicht.",
+          "traits": [
+            "Strategie",
+            "Verborgene Kraft",
+            "Geduld"
+          ]
+        }
+      }
+    },
+    {
+      "id": "centaur",
+      "emoji": "🏹",
+      "wiki": "Centaur",
+      "i18n": {
+        "ua": {
+          "name": "Кентавр",
+          "description": "Ти — мудрець, що читає зорі та знаходить істину в русі небесних тіл. Твоя філософія глибока, а стріли — бездоганно точні.",
+          "traits": [
+            "Мудрість",
+            "Філософія",
+            "Влучність"
+          ]
+        },
+        "en": {
+          "name": "Centaur",
+          "description": "You are a sage who reads the stars and finds truth in the movement of celestial bodies. Your philosophy runs deep, and your arrows fly unerringly true.",
+          "traits": [
+            "Wisdom",
+            "Philosophy",
+            "Precision"
+          ]
+        },
+        "es": {
+          "name": "Centauro",
+          "description": "Eres un sabio que lee las estrellas y encuentra la verdad en el movimiento de los cuerpos celestes. Tu filosofía es profunda y tus flechas dan siempre en el blanco.",
+          "traits": [
+            "Sabiduría",
+            "Filosofía",
+            "Precisión"
+          ]
+        },
+        "de": {
+          "name": "Zentaur",
+          "description": "Du bist ein Weiser, der die Sterne deutet und in der Bewegung der Himmelskörper die Wahrheit erkennt. Deine Philosophie ist tiefgründig, und deine Pfeile treffen unfehlbar ins Schwarze.",
+          "traits": [
+            "Weisheit",
+            "Philosophie",
+            "Präzision"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hydra",
+      "emoji": "🐍",
+      "wiki": "Lernaean_Hydra",
+      "i18n": {
+        "ua": {
+          "name": "Гідра",
+          "description": "Ти невпинний і невразливий. Кожна перешкода робить тебе лише сильнішим — на місці кожної відрубаної голови виростають дві нові.",
+          "traits": [
+            "Регенерація",
+            "Наполегливість",
+            "Нездоланність"
+          ]
+        },
+        "en": {
+          "name": "Hydra",
+          "description": "You are relentless and indestructible. Every obstacle only makes you stronger — for every head cut off, two more grow in its place.",
+          "traits": [
+            "Regeneration",
+            "Persistence",
+            "Unstoppability"
+          ]
+        },
+        "es": {
+          "name": "Hidra",
+          "description": "Eres implacable e indestructible. Cada obstáculo solo te hace más fuerte: por cada cabeza que se corta, dos más crecen en su lugar.",
+          "traits": [
+            "Regeneración",
+            "Persistencia",
+            "Imparable"
+          ]
+        },
+        "de": {
+          "name": "Hydra",
+          "description": "Du bist unerbittlich und unzerstörbar. Jedes Hindernis macht dich nur stärker – für jeden abgeschlagenen Kopf wachsen zwei neue nach.",
+          "traits": [
+            "Regeneration",
+            "Beharrlichkeit",
+            "Unaufhaltsamkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sphinx",
+      "emoji": "🦁",
+      "wiki": "Sphinx",
+      "i18n": {
+        "ua": {
+          "name": "Сфінкс",
+          "description": "Ти — вартовий на межі відомого і невідомого. Твої загадки перевіряють гідність кожного, хто наважиться наблизитись до істини.",
+          "traits": [
+            "Загадковість",
+            "Мудрість",
+            "Випробування"
+          ]
+        },
+        "en": {
+          "name": "Sphinx",
+          "description": "You are a guardian at the boundary of the known and unknown. Your riddles test the worthiness of all who dare approach the truth.",
+          "traits": [
+            "Enigma",
+            "Wisdom",
+            "Trials"
+          ]
+        },
+        "es": {
+          "name": "Esfinge",
+          "description": "Eres un guardián en la frontera entre lo conocido y lo desconocido. Tus acertijos ponen a prueba la valía de todos aquellos que se atreven a acercarse a la verdad.",
+          "traits": [
+            "Enigma",
+            "Sabiduría",
+            "juicios"
+          ]
+        },
+        "de": {
+          "name": "Sphinx",
+          "description": "Du bist ein Wächter an der Grenze zwischen dem Bekannten und dem Unbekannten. Deine Rätsel prüfen die Würdigkeit all jener, die es wagen, sich der Wahrheit zu nähern.",
+          "traits": [
+            "Rätsel",
+            "Weisheit",
+            "Prozesse"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pegasus",
+      "emoji": "🐴",
+      "wiki": "Pegasus",
+      "i18n": {
+        "ua": {
+          "name": "Пегас",
+          "description": "Ти — вільний дух, що ширяє над хмарами. Шляхетний і поетичний, ти надихаєш кожного, хто підніме очі до неба.",
+          "traits": [
+            "Свобода",
+            "Шляхетність",
+            "Натхнення"
+          ]
+        },
+        "en": {
+          "name": "Pegasus",
+          "description": "You are a free spirit soaring above the clouds. Noble and poetic, you inspire everyone who lifts their eyes to the sky.",
+          "traits": [
+            "Freedom",
+            "Nobility",
+            "Inspiration"
+          ]
+        },
+        "es": {
+          "name": "Pegaso",
+          "description": "Eres un espíritu libre que se eleva por encima de las nubes. Noble y poético, inspiras a todo aquel que alza la vista al cielo.",
+          "traits": [
+            "Libertad",
+            "Nobleza",
+            "Inspiración"
+          ]
+        },
+        "de": {
+          "name": "Pegasus",
+          "description": "Du bist ein Freigeist, der über den Wolken schwebt. Edel und poetisch inspirierst du jeden, der den Blick zum Himmel erhebt.",
+          "traits": [
+            "Freiheit",
+            "Adel",
+            "Inspiration"
+          ]
+        }
+      }
+    },
+    {
+      "id": "elf",
+      "emoji": "🧝",
+      "wiki": "Elf_(mythology)",
+      "i18n": {
+        "ua": {
+          "name": "Ельф",
+          "description": "Ти — витончений хранитель стародавніх знань. Безсмертний і пов'язаний з природою, ти бачиш світ очима тисячоліть.",
+          "traits": [
+            "Витонченість",
+            "Безсмертя",
+            "Стародавні знання"
+          ]
+        },
+        "en": {
+          "name": "Elf",
+          "description": "You are a graceful keeper of ancient knowledge. Immortal and bound to nature, you see the world through the eyes of millennia.",
+          "traits": [
+            "Grace",
+            "Immortality",
+            "Ancient knowledge"
+          ]
+        },
+        "es": {
+          "name": "Duende",
+          "description": "Eres un guardián elegante del conocimiento ancestral. Inmortal y ligado a la naturaleza, ves el mundo a través de los ojos de milenios.",
+          "traits": [
+            "Gracia",
+            "Inmortalidad",
+            "Conocimientos antiguos"
+          ]
+        },
+        "de": {
+          "name": "Elf",
+          "description": "Du bist eine anmutige Bewahrerin uralten Wissens. Unsterblich und mit der Natur verbunden, siehst du die Welt mit den Augen der Jahrtausende.",
+          "traits": [
+            "Anmut",
+            "Unsterblichkeit",
+            "Altes Wissen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "basilisk",
+      "emoji": "👁️",
+      "wiki": "Basilisk",
+      "i18n": {
+        "ua": {
+          "name": "Василіск",
+          "description": "Один твій погляд змінює все. Тебе бояться і поважають — ти втілення сили, що не потребує доказів.",
+          "traits": [
+            "Смертоносний погляд",
+            "Могутність",
+            "Самотність"
+          ]
+        },
+        "en": {
+          "name": "Basilisk",
+          "description": "A single glance from you changes everything. You are feared and revered — the embodiment of power that needs no proof.",
+          "traits": [
+            "Deadly gaze",
+            "Power",
+            "Solitude"
+          ]
+        },
+        "es": {
+          "name": "Basilisco",
+          "description": "Una sola mirada tuya lo cambia todo. Eres temida y venerada: la personificación del poder que no necesita demostración.",
+          "traits": [
+            "Mirada mortal",
+            "Fuerza",
+            "Soledad"
+          ]
+        },
+        "de": {
+          "name": "Basilisk",
+          "description": "Ein einziger Blick von dir verändert alles. Du wirst gefürchtet und verehrt – die Verkörperung von Macht, die keinerlei Beweis bedarf.",
+          "traits": [
+            "Tödlicher Blick",
+            "Leistung",
+            "Einsamkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "yeti",
+      "emoji": "❄️",
+      "wiki": "Yeti",
+      "i18n": {
+        "ua": {
+          "name": "Йєті",
+          "description": "Ти — загадковий велетень із ніжним серцем, що блукає снігами. Тебе не розуміють, але ті, хто наважиться наблизитись, знаходять друга.",
+          "traits": [
+            "Таємничість",
+            "Ніжність",
+            "Непорозуміння"
+          ]
+        },
+        "en": {
+          "name": "Yeti",
+          "description": "You are a mysterious giant with a gentle heart, wandering through the snows. Misunderstood by many, but those brave enough to approach find a loyal friend.",
+          "traits": [
+            "Mystery",
+            "Gentleness",
+            "Misunderstood"
+          ]
+        },
+        "es": {
+          "name": "Yeti",
+          "description": "Eres un gigante misterioso de corazón bondadoso, que vaga por la nieve. Muchos te malinterpretan, pero quienes se atreven a acercarse encuentran un amigo leal.",
+          "traits": [
+            "Misterio",
+            "Dulzura",
+            "Incomprendido"
+          ]
+        },
+        "de": {
+          "name": "Yeti",
+          "description": "Du bist ein geheimnisvoller Riese mit einem sanften Herzen, der durch den Schnee wandert. Von vielen missverstanden, doch wer mutig genug ist, sich dir zu nähern, findet in dir einen treuen Freund.",
+          "traits": [
+            "Geheimnis",
+            "Sanftmut",
+            "Missverstanden"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chimera",
+      "emoji": "🔥",
+      "wiki": "Chimera_(mythology)",
+      "i18n": {
+        "ua": {
+          "name": "Химера",
+          "description": "Ти — унікальне поєднання, яке не піддається класифікації. Непередбачуваний і лютий, ти ламаєш всі шаблони.",
+          "traits": [
+            "Непередбачуваність",
+            "Унікальність",
+            "Лютість"
+          ]
+        },
+        "en": {
+          "name": "Chimera",
+          "description": "You are a unique combination that defies classification. Unpredictable and fierce, you shatter every mold and expectation.",
+          "traits": [
+            "Unpredictability",
+            "Uniqueness",
+            "Ferocity"
+          ]
+        },
+        "es": {
+          "name": "Quimera",
+          "description": "Eres una combinación única que desafía toda clasificación. Impredecible y aguerrida, rompes con todos los moldes y expectativas.",
+          "traits": [
+            "Imprevisibilidad",
+            "Unicidad",
+            "Ferocidad"
+          ]
+        },
+        "de": {
+          "name": "Chimäre",
+          "description": "Du bist eine einzigartige Kombination, die sich jeder Kategorisierung entzieht. Unberechenbar und wild, sprengst du jede Norm und Erwartung.",
+          "traits": [
+            "Unvorhersehbarkeit",
+            "Einzigartigkeit",
+            "Wildheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "minotaur",
+      "emoji": "🐂",
+      "wiki": "Minotaur",
+      "i18n": {
+        "ua": {
+          "name": "Мінотавр",
+          "description": "Ти — могутня сила, замкнена у лабіринті власних емоцій. Твоя лють руйнівна, але в глибині душі ти шукаєш вихід до світла.",
+          "traits": [
+            "Могутність",
+            "Лють",
+            "Пошук виходу"
+          ]
+        },
+        "en": {
+          "name": "Minotaur",
+          "description": "You are a mighty force trapped in the labyrinth of your own emotions. Your rage is devastating, but deep inside you seek a way toward the light.",
+          "traits": [
+            "Might",
+            "Rage",
+            "Seeking escape"
+          ]
+        },
+        "es": {
+          "name": "Minotauro",
+          "description": "Eres una fuerza poderosa atrapada en el laberinto de tus propias emociones. Tu rabia es devastadora, pero en tu interior buscas un camino hacia la luz.",
+          "traits": [
+            "Podría",
+            "Furia",
+            "Buscando escapar"
+          ]
+        },
+        "de": {
+          "name": "Minotaur",
+          "description": "Du bist eine gewaltige Kraft, gefangen im Labyrinth deiner eigenen Gefühle. Deine Wut ist verheerend, doch tief in deinem Inneren suchst du einen Weg zum Licht.",
+          "traits": [
+            "Könnte",
+            "Wut",
+            "Auf der Suche nach einem Ausweg"
+          ]
+        }
+      }
+    },
+    {
+      "id": "selkie",
+      "emoji": "🦭",
+      "wiki": "Selkie",
+      "i18n": {
+        "ua": {
+          "name": "Селкі",
+          "description": "Ти розірваний між двома світами — і в кожному залишаєш частину серця. Твоя емоційна глибина безмежна, а тоска за іншим берегом ніколи не вщухає.",
+          "traits": [
+            "Перевтілення",
+            "Тоска",
+            "Емоційна глибина"
+          ]
+        },
+        "en": {
+          "name": "Selkie",
+          "description": "You are torn between two worlds — leaving a piece of your heart in each. Your emotional depth is boundless, and the longing for the other shore never fades.",
+          "traits": [
+            "Shapeshifting",
+            "Longing",
+            "Emotional depth"
+          ]
+        },
+        "es": {
+          "name": "Selkie",
+          "description": "Te encuentras dividida entre dos mundos, dejando un pedacito de tu corazón en cada uno. Tu profundidad emocional es ilimitada, y el anhelo por la otra orilla nunca se desvanece.",
+          "traits": [
+            "Cambio de forma",
+            "Anhelo",
+            "Profundidad emocional"
+          ]
+        },
+        "de": {
+          "name": "Selkie",
+          "description": "Du bist hin- und hergerissen zwischen zwei Welten – und lässt in jeder einen Teil deines Herzens zurück. Deine Gefühlswelt ist grenzenlos, und die Sehnsucht nach dem anderen Ufer verblasst nie.",
+          "traits": [
+            "Gestaltwandlung",
+            "Sehnsucht",
+            "Emotionale Tiefe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "djinn",
+      "emoji": "🌀",
+      "wiki": "Jinn",
+      "i18n": {
+        "ua": {
+          "name": "Джин",
+          "description": "Ти — стародавня сила, що виконує бажання, але завжди на своїх умовах. Хитрий і безмежно могутній, ти граєш за правилами, яких інші не знають.",
+          "traits": [
+            "Хитрість",
+            "Стародавня сила",
+            "Виконання бажань"
+          ]
+        },
+        "en": {
+          "name": "Djinn",
+          "description": "You are an ancient force that grants wishes, but always on your own terms. Tricky and immensely powerful, you play by rules that others cannot fathom.",
+          "traits": [
+            "Trickery",
+            "Ancient power",
+            "Wish-granting"
+          ]
+        },
+        "es": {
+          "name": "Djinn",
+          "description": "Eres una fuerza ancestral que concede deseos, pero siempre bajo tus propias condiciones. Astuto e inmensamente poderoso, te riges por reglas que otros no pueden comprender.",
+          "traits": [
+            "Astucia",
+            "Poder antiguo",
+            "Conceder deseos"
+          ]
+        },
+        "de": {
+          "name": "Dschinn",
+          "description": "Du bist eine uralte Macht, die Wünsche erfüllt, aber immer nur zu deinen Bedingungen. Verschlagen und ungemein mächtig, spielst du nach Regeln, die andere nicht verstehen.",
+          "traits": [
+            "Täuschung",
+            "Uralte Macht",
+            "Wunscherfüllung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "valkyrie",
+      "emoji": "⚔️",
+      "wiki": "Valkyrie",
+      "i18n": {
+        "ua": {
+          "name": "Валькірія",
+          "description": "Ти — воїн, що обирає гідних. Безстрашна і благородна, ти стоїш на межі життя і смерті, вирішуючи долі героїв.",
+          "traits": [
+            "Відвага",
+            "Благородство",
+            "Доля"
+          ]
+        },
+        "en": {
+          "name": "Valkyrie",
+          "description": "You are a warrior who chooses the worthy. Fearless and honorable, you stand at the threshold between life and death, deciding the fates of heroes.",
+          "traits": [
+            "Bravery",
+            "Honor",
+            "Fate"
+          ]
+        },
+        "es": {
+          "name": "Valquiria",
+          "description": "Eres un guerrero que elige a los dignos. Valiente y honorable, te encuentras en el umbral entre la vida y la muerte, decidiendo el destino de los héroes.",
+          "traits": [
+            "Valentía",
+            "Honor",
+            "Destino"
+          ]
+        },
+        "de": {
+          "name": "Walküre",
+          "description": "Du bist ein Krieger, der die Würdigen auswählt. Furchtlos und ehrenhaft stehst du an der Schwelle zwischen Leben und Tod und entscheidest über das Schicksal von Helden.",
+          "traits": [
+            "Tapferkeit",
+            "Ehre",
+            "Schicksal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kitsune",
+      "emoji": "🦊",
+      "wiki": "Kitsune",
+      "i18n": {
+        "ua": {
+          "name": "Кіцуне",
+          "description": "Ти — хитрий чарівник у лисячій шкурі. Перевертень із безліччю облич, ти граєш із реальністю, як з іграшкою, і ніхто не знає твого справжнього обличчя.",
+          "traits": [
+            "Хитрість",
+            "Перевтілення",
+            "Магія"
+          ]
+        },
+        "en": {
+          "name": "Kitsune",
+          "description": "You are a cunning sorcerer in a fox's skin. A shapeshifter with countless faces, you play with reality like a toy, and no one knows your true form.",
+          "traits": [
+            "Cunning",
+            "Shapeshifting",
+            "Magic"
+          ]
+        },
+        "es": {
+          "name": "Kitsune",
+          "description": "Eres un astuto hechicero con piel de zorro. Un cambiaformas con innumerables rostros, juegas con la realidad como si fuera un juguete, y nadie conoce tu verdadera forma.",
+          "traits": [
+            "Astuto",
+            "Cambio de forma",
+            "Magia"
+          ]
+        },
+        "de": {
+          "name": "Kitsune",
+          "description": "Du bist ein gerissener Zauberer im Fell eines Fuchses. Ein Gestaltwandler mit unzähligen Gesichtern, der mit der Realität wie mit einem Spielzeug spielt, und niemand kennt deine wahre Gestalt.",
+          "traits": [
+            "Listig",
+            "Gestaltwandlung",
+            "Magie"
+          ]
+        }
+      }
+    },
+    {
+      "id": "golem",
+      "emoji": "🗿",
+      "wiki": "Golem",
+      "i18n": {
+        "ua": {
+          "name": "Голем",
+          "description": "Ти — незламний захисник, створений із самої землі. Вірний і нездоланний, ти стоїш на варті тих, кого покликаний оберігати, доки не розсиплешся на прах.",
+          "traits": [
+            "Захист",
+            "Вірність",
+            "Нездоланність"
+          ]
+        },
+        "en": {
+          "name": "Golem",
+          "description": "You are an unbreakable protector shaped from the earth itself. Loyal and unstoppable, you stand guard over those you were created to protect, until you crumble to dust.",
+          "traits": [
+            "Protection",
+            "Loyalty",
+            "Unstoppability"
+          ]
+        },
+        "es": {
+          "name": "Golem",
+          "description": "Eres un protector inquebrantable, forjado a partir de la tierra misma. Leal e imparable, velas por aquellos a quienes fuiste creado para proteger, hasta que te conviertas en polvo.",
+          "traits": [
+            "Protección",
+            "Lealtad",
+            "Imparable"
+          ]
+        },
+        "de": {
+          "name": "Golem",
+          "description": "Du bist ein unzerbrechlicher Beschützer, geformt aus der Erde selbst. Treu und unaufhaltsam wachst du über jene, die du zu beschützen erschaffen wurdest, bis du zu Staub zerfällst.",
+          "traits": [
+            "Schutz",
+            "Loyalität",
+            "Unaufhaltsamkeit"
+          ]
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "mq1",
+      "i18n": {
+        "ua": {
+          "text": "Яка стихія тобі ближча?"
+        },
+        "en": {
+          "text": "Which element is closest to you?"
+        },
+        "es": {
+          "text": "¿Qué elemento está más cerca de ti?"
+        },
+        "de": {
+          "text": "Welches Element ist Ihnen am nächsten?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq1a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Вогонь — пристрасть і руйнування"
+            },
+            "en": {
+              "label": "🔥 Fire — passion and destruction"
+            },
+            "es": {
+              "label": "🔥 Fuego: pasión y destrucción"
+            },
+            "de": {
+              "label": "🔥 Feuer – Leidenschaft und Zerstörung"
+            }
+          },
+          "animals": [
+            "dragon",
+            "phoenix",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq1b",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Вода — глибина і таємниці"
+            },
+            "en": {
+              "label": "🌊 Water — depth and mysteries"
+            },
+            "es": {
+              "label": "🌊 El agua: profundidad y misterios"
+            },
+            "de": {
+              "label": "🌊 Wasser – Tiefe und Geheimnisse"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "kraken",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq1c",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Земля — стабільність і сила"
+            },
+            "en": {
+              "label": "🌿 Earth — stability and strength"
+            },
+            "es": {
+              "label": "🌿 Tierra: estabilidad y fuerza"
+            },
+            "de": {
+              "label": "🌿 Erde – Stabilität und Stärke"
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "minotaur"
+          ]
+        },
+        {
+          "id": "mq1d",
+          "i18n": {
+            "ua": {
+              "label": "✨ Повітря — свобода і легкість"
+            },
+            "en": {
+              "label": "✨ Air — freedom and lightness"
+            },
+            "es": {
+              "label": "✨ Aire: libertad y ligereza"
+            },
+            "de": {
+              "label": "✨ Luft – Freiheit und Leichtigkeit"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "fairy",
+            "pegasus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq2",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся коли тебе зрадили?"
+        },
+        "en": {
+          "text": "How do you act when betrayed?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas cuando te traicionan?"
+        },
+        "de": {
+          "text": "Wie verhält man sich, wenn man verraten wird?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq2a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Спалюю мости дотла"
+            },
+            "en": {
+              "label": "🔥 Burn bridges to the ground"
+            },
+            "es": {
+              "label": "🔥 Quemar puentes hasta los cimientos"
+            },
+            "de": {
+              "label": "🔥 Alle Brücken hinter uns abbrechen"
+            }
+          },
+          "animals": [
+            "dragon",
+            "phoenix",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq2b",
+          "i18n": {
+            "ua": {
+              "label": "🥶 Зникаю назавжди і мовчу"
+            },
+            "en": {
+              "label": "🥶 Disappear forever and stay silent"
+            },
+            "es": {
+              "label": "🥶 Desaparece para siempre y permanece en silencio."
+            },
+            "de": {
+              "label": "🥶 Verschwinde für immer und bleibe still"
+            }
+          },
+          "animals": [
+            "kraken",
+            "yeti",
+            "basilisk"
+          ]
+        },
+        {
+          "id": "mq2c",
+          "i18n": {
+            "ua": {
+              "label": "💔 Прощаю, але ніколи не забуваю"
+            },
+            "en": {
+              "label": "💔 Forgive but never forget"
+            },
+            "es": {
+              "label": "💔 Perdona, pero nunca olvides"
+            },
+            "de": {
+              "label": "💔 Vergib, aber vergiss niemals"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "centaur",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq2d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Чекаю правильного моменту для відповіді"
+            },
+            "en": {
+              "label": "🌙 Wait for the right moment to respond"
+            },
+            "es": {
+              "label": "🌙 Espera el momento adecuado para responder."
+            },
+            "de": {
+              "label": "🌙 Warte auf den richtigen Moment, um zu antworten"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "kitsune",
+            "djinn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq3",
+      "i18n": {
+        "ua": {
+          "text": "Яка суперсила тобі найбільше пасує?"
+        },
+        "en": {
+          "text": "Which superpower suits you best?"
+        },
+        "es": {
+          "text": "¿Qué superpoder te conviene más?"
+        },
+        "de": {
+          "text": "Welche Superkraft passt am besten zu dir?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq3a",
+          "i18n": {
+            "ua": {
+              "label": "💪 Нездоланна фізична сила"
+            },
+            "en": {
+              "label": "💪 Unstoppable physical strength"
+            },
+            "es": {
+              "label": "💪 Fuerza física imparable"
+            },
+            "de": {
+              "label": "💪 Unaufhaltsame Körperkraft"
+            }
+          },
+          "animals": [
+            "dragon",
+            "minotaur",
+            "golem"
+          ]
+        },
+        {
+          "id": "mq3b",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Передбачення майбутнього"
+            },
+            "en": {
+              "label": "🔮 Seeing the future"
+            },
+            "es": {
+              "label": "🔮 Viendo el futuro"
+            },
+            "de": {
+              "label": "🔮 Die Zukunft sehen"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "centaur",
+            "elf"
+          ]
+        },
+        {
+          "id": "mq3c",
+          "i18n": {
+            "ua": {
+              "label": "🫥 Невидимість"
+            },
+            "en": {
+              "label": "🫥 Invisibility"
+            },
+            "es": {
+              "label": "🫥 Invisibilidad"
+            },
+            "de": {
+              "label": "🫥 Unsichtbarkeit"
+            }
+          },
+          "animals": [
+            "fairy",
+            "kitsune",
+            "yeti"
+          ]
+        },
+        {
+          "id": "mq3d",
+          "i18n": {
+            "ua": {
+              "label": "🔄 Перевтілення"
+            },
+            "en": {
+              "label": "🔄 Shapeshifting"
+            },
+            "es": {
+              "label": "🔄 Metamorfosis"
+            },
+            "de": {
+              "label": "🔄 Gestaltwandlung"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "selkie",
+            "kitsune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq4",
+      "i18n": {
+        "ua": {
+          "text": "Який час доби тобі найближчий?"
+        },
+        "en": {
+          "text": "What time of day is closest to you?"
+        },
+        "es": {
+          "text": "¿Qué hora del día te viene mejor?"
+        },
+        "de": {
+          "text": "Welche Tageszeit liegt Ihnen am nächsten?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq4a",
+          "i18n": {
+            "ua": {
+              "label": "🌅 Світанок — нові початки"
+            },
+            "en": {
+              "label": "🌅 Dawn — new beginnings"
+            },
+            "es": {
+              "label": "🌅 Amanecer — nuevos comienzos"
+            },
+            "de": {
+              "label": "🌅 Morgendämmerung – Neuanfänge"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "pegasus",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq4b",
+          "i18n": {
+            "ua": {
+              "label": "☀️ Полудень — час діяти"
+            },
+            "en": {
+              "label": "☀️ Noon — time to act"
+            },
+            "es": {
+              "label": "☀️ Mediodía: hora de actuar"
+            },
+            "de": {
+              "label": "☀️ Mittag – Zeit zum Handeln"
+            }
+          },
+          "animals": [
+            "dragon",
+            "griffin",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq4c",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Сутінки — магія між світлом і тінню"
+            },
+            "en": {
+              "label": "🌙 Twilight — magic between light and shadow"
+            },
+            "es": {
+              "label": "🌙 Crepúsculo: magia entre la luz y la sombra"
+            },
+            "de": {
+              "label": "🌙 Dämmerung – Magie zwischen Licht und Schatten"
+            }
+          },
+          "animals": [
+            "fairy",
+            "elf",
+            "kitsune"
+          ]
+        },
+        {
+          "id": "mq4d",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Ніч — тиша і справжнє я"
+            },
+            "en": {
+              "label": "🌑 Night — silence and true self"
+            },
+            "es": {
+              "label": "🌑 Noche: silencio y verdadero yo"
+            },
+            "de": {
+              "label": "🌑 Nacht – Stille und wahres Selbst"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "kraken",
+            "basilisk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq5",
+      "i18n": {
+        "ua": {
+          "text": "Як тебе бачать оточуючі?"
+        },
+        "en": {
+          "text": "How do others see you?"
+        },
+        "es": {
+          "text": "¿Cómo te ven los demás?"
+        },
+        "de": {
+          "text": "Wie sehen dich andere?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq5a",
+          "i18n": {
+            "ua": {
+              "label": "👑 Лідер, якого поважають і бояться"
+            },
+            "en": {
+              "label": "👑 A leader who's respected and feared"
+            },
+            "es": {
+              "label": "👑 Un líder respetado y temido"
+            },
+            "de": {
+              "label": "👑 Ein Anführer, der respektiert und gefürchtet wird"
+            }
+          },
+          "animals": [
+            "dragon",
+            "basilisk",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq5b",
+          "i18n": {
+            "ua": {
+              "label": "🌟 Особлива людина з чарівною аурою"
+            },
+            "en": {
+              "label": "🌟 A special person with a magical aura"
+            },
+            "es": {
+              "label": "🌟 Una persona especial con un aura mágica"
+            },
+            "de": {
+              "label": "🌟 Ein besonderer Mensch mit einer magischen Ausstrahlung"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "pegasus",
+            "elf"
+          ]
+        },
+        {
+          "id": "mq5c",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Загадка, яку хочеться розгадати"
+            },
+            "en": {
+              "label": "🎭 A mystery everyone wants to solve"
+            },
+            "es": {
+              "label": "🎭 Un misterio que todos quieren resolver"
+            },
+            "de": {
+              "label": "🎭 Ein Rätsel, das jeder lösen möchte"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "kitsune",
+            "yeti"
+          ]
+        },
+        {
+          "id": "mq5d",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Людина, з якою завжди тепло"
+            },
+            "en": {
+              "label": "🤗 Someone who always makes you feel warm"
+            },
+            "es": {
+              "label": "🤗 Alguien que siempre te hace sentir cálido"
+            },
+            "de": {
+              "label": "🤗 Jemand, der dir immer ein warmes Gefühl gibt."
+            }
+          },
+          "animals": [
+            "fairy",
+            "centaur",
+            "selkie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq6",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе лякає найбільше?"
+        },
+        "en": {
+          "text": "What scares you the most?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te asusta?"
+        },
+        "de": {
+          "text": "Was macht dir am meisten Angst?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq6a",
+          "i18n": {
+            "ua": {
+              "label": "⛓️ Втрата свободи"
+            },
+            "en": {
+              "label": "⛓️ Losing freedom"
+            },
+            "es": {
+              "label": "⛓️ Perder la libertad"
+            },
+            "de": {
+              "label": "⛓️ Verlust der Freiheit"
+            }
+          },
+          "animals": [
+            "dragon",
+            "pegasus",
+            "djinn"
+          ]
+        },
+        {
+          "id": "mq6b",
+          "i18n": {
+            "ua": {
+              "label": "💀 Бути забутим"
+            },
+            "en": {
+              "label": "💀 Being forgotten"
+            },
+            "es": {
+              "label": "💀 Ser olvidado"
+            },
+            "de": {
+              "label": "💀 Vergessen werden"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "mermaid",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq6c",
+          "i18n": {
+            "ua": {
+              "label": "🪞 Втратити контроль над собою"
+            },
+            "en": {
+              "label": "🪞 Losing control of yourself"
+            },
+            "es": {
+              "label": "🪞 Perder el control de uno mismo"
+            },
+            "de": {
+              "label": "🪞 Die Kontrolle über sich selbst verlieren"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "minotaur",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq6d",
+          "i18n": {
+            "ua": {
+              "label": "💔 Самотність"
+            },
+            "en": {
+              "label": "💔 Loneliness"
+            },
+            "es": {
+              "label": "💔 Soledad"
+            },
+            "de": {
+              "label": "💔 Einsamkeit"
+            }
+          },
+          "animals": [
+            "fairy",
+            "selkie",
+            "yeti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq7",
+      "i18n": {
+        "ua": {
+          "text": "Який скарб ти би охороняв?"
+        },
+        "en": {
+          "text": "What treasure would you guard?"
+        },
+        "es": {
+          "text": "¿Qué tesoro protegerías?"
+        },
+        "de": {
+          "text": "Welchen Schatz würdest du bewachen?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq7a",
+          "i18n": {
+            "ua": {
+              "label": "💎 Золото і коштовності"
+            },
+            "en": {
+              "label": "💎 Gold and jewels"
+            },
+            "es": {
+              "label": "💎 Oro y joyas"
+            },
+            "de": {
+              "label": "💎 Gold und Juwelen"
+            }
+          },
+          "animals": [
+            "dragon",
+            "kraken",
+            "djinn"
+          ]
+        },
+        {
+          "id": "mq7b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Таємні знання"
+            },
+            "en": {
+              "label": "📚 Secret knowledge"
+            },
+            "es": {
+              "label": "📚 Conocimiento secreto"
+            },
+            "de": {
+              "label": "📚 Geheimes Wissen"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "elf",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq7c",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧‍👦 Свою сім'ю і близьких"
+            },
+            "en": {
+              "label": "👨‍👩‍👧‍👦 Your family and loved ones"
+            },
+            "es": {
+              "label": "👨‍👩‍👧‍👦 Tu familia y seres queridos"
+            },
+            "de": {
+              "label": "👨‍👩‍👧‍👦 Deine Familie und deine Lieben"
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "werewolf"
+          ]
+        },
+        {
+          "id": "mq7d",
+          "i18n": {
+            "ua": {
+              "label": "🌍 Цілий світ від зла"
+            },
+            "en": {
+              "label": "🌍 The whole world from evil"
+            },
+            "es": {
+              "label": "🌍 El mundo entero libre del mal"
+            },
+            "de": {
+              "label": "🌍 Die ganze Welt vor dem Bösen"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "valkyrie",
+            "phoenix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq8",
+      "i18n": {
+        "ua": {
+          "text": "Яке магічне місце тебе притягує?"
+        },
+        "en": {
+          "text": "Which magical place draws you?"
+        },
+        "es": {
+          "text": "¿Qué lugar mágico te atrae?"
+        },
+        "de": {
+          "text": "Welcher magische Ort zieht dich an?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq8a",
+          "i18n": {
+            "ua": {
+              "label": "🌋 Вулкан із лавовими ріками"
+            },
+            "en": {
+              "label": "🌋 A volcano with rivers of lava"
+            },
+            "es": {
+              "label": "🌋 Un volcán con ríos de lava"
+            },
+            "de": {
+              "label": "🌋 Ein Vulkan mit Lavaströmen"
+            }
+          },
+          "animals": [
+            "dragon",
+            "phoenix",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq8b",
+          "i18n": {
+            "ua": {
+              "label": "🏰 Стародавній замок у горах"
+            },
+            "en": {
+              "label": "🏰 An ancient castle in the mountains"
+            },
+            "es": {
+              "label": "🏰 Un antiguo castillo en las montañas"
+            },
+            "de": {
+              "label": "🏰 Eine alte Burg in den Bergen"
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "sphinx"
+          ]
+        },
+        {
+          "id": "mq8c",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Затонуле місто на дні океану"
+            },
+            "en": {
+              "label": "🌊 A sunken city at the ocean floor"
+            },
+            "es": {
+              "label": "🌊 Una ciudad sumergida en el fondo del océano"
+            },
+            "de": {
+              "label": "🌊 Eine versunkene Stadt auf dem Meeresgrund"
+            }
+          },
+          "animals": [
+            "kraken",
+            "mermaid",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq8d",
+          "i18n": {
+            "ua": {
+              "label": "🌸 Зачарований ліс із вічною весною"
+            },
+            "en": {
+              "label": "🌸 An enchanted forest with eternal spring"
+            },
+            "es": {
+              "label": "🌸 Un bosque encantado con primavera eterna"
+            },
+            "de": {
+              "label": "🌸 Ein verwunschener Wald mit ewigem Frühling"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "fairy",
+            "elf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq9",
+      "i18n": {
+        "ua": {
+          "text": "Як ти приймаєш рішення?"
+        },
+        "en": {
+          "text": "How do you make decisions?"
+        },
+        "es": {
+          "text": "¿Cómo tomas decisiones?"
+        },
+        "de": {
+          "text": "Wie treffen Sie Entscheidungen?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq9a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Миттєво — і не озираюсь"
+            },
+            "en": {
+              "label": "⚡ Instantly — and never look back"
+            },
+            "es": {
+              "label": "⚡ Al instante, y sin mirar atrás."
+            },
+            "de": {
+              "label": "⚡ Sofort – und nie wieder zurückblicken"
+            }
+          },
+          "animals": [
+            "dragon",
+            "chimera",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq9b",
+          "i18n": {
+            "ua": {
+              "label": "🧘 Слухаю серце і інтуїцію"
+            },
+            "en": {
+              "label": "🧘 Listen to my heart and intuition"
+            },
+            "es": {
+              "label": "🧘 Escucha a tu corazón y a tu intuición."
+            },
+            "de": {
+              "label": "🧘 Höre auf mein Herz und meine Intuition"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "selkie",
+            "pegasus"
+          ]
+        },
+        {
+          "id": "mq9c",
+          "i18n": {
+            "ua": {
+              "label": "♟️ Прораховую всі ходи наперед"
+            },
+            "en": {
+              "label": "♟️ Calculate all moves ahead"
+            },
+            "es": {
+              "label": "♟️ Calcula todos los movimientos por adelantado"
+            },
+            "de": {
+              "label": "♟️ Berechne alle Züge im Voraus"
+            }
+          },
+          "animals": [
+            "kraken",
+            "sphinx",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq9d",
+          "i18n": {
+            "ua": {
+              "label": "🌀 Чекаю знак і потім дію"
+            },
+            "en": {
+              "label": "🌀 Wait for a sign and then act"
+            },
+            "es": {
+              "label": "🌀 Espera una señal y luego actúa."
+            },
+            "de": {
+              "label": "🌀 Warte auf ein Zeichen und handle dann."
+            }
+          },
+          "animals": [
+            "mermaid",
+            "djinn",
+            "kitsune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq10",
+      "i18n": {
+        "ua": {
+          "text": "Що в тобі найсильніше?"
+        },
+        "en": {
+          "text": "What is your greatest strength?"
+        },
+        "es": {
+          "text": "¿Cuál es tu mayor fortaleza?"
+        },
+        "de": {
+          "text": "Was ist Ihre größte Stärke?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq10a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Незламна воля"
+            },
+            "en": {
+              "label": "🔥 Unbreakable will"
+            },
+            "es": {
+              "label": "🔥 Voluntad inquebrantable"
+            },
+            "de": {
+              "label": "🔥 Unzerbrechlicher Wille"
+            }
+          },
+          "animals": [
+            "dragon",
+            "hydra",
+            "golem"
+          ]
+        },
+        {
+          "id": "mq10b",
+          "i18n": {
+            "ua": {
+              "label": "💫 Здатність дарувати надію"
+            },
+            "en": {
+              "label": "💫 Ability to give hope"
+            },
+            "es": {
+              "label": "💫 Capacidad para dar esperanza"
+            },
+            "de": {
+              "label": "💫 Die Fähigkeit, Hoffnung zu geben"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "phoenix",
+            "pegasus"
+          ]
+        },
+        {
+          "id": "mq10c",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Холодний розум під тиском"
+            },
+            "en": {
+              "label": "🧠 Cool head under pressure"
+            },
+            "es": {
+              "label": "🧠 Mantén la calma bajo presión"
+            },
+            "de": {
+              "label": "🧠 Auch unter Druck einen kühlen Kopf bewahren"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "centaur",
+            "elf"
+          ]
+        },
+        {
+          "id": "mq10d",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Адаптація до будь-яких умов"
+            },
+            "en": {
+              "label": "🌊 Adapting to any conditions"
+            },
+            "es": {
+              "label": "🌊 Adaptable a cualquier condición"
+            },
+            "de": {
+              "label": "🌊 Anpassungsfähigkeit an alle Bedingungen"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "kitsune",
+            "selkie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq11",
+      "i18n": {
+        "ua": {
+          "text": "Яку зброю ти б обрав?"
+        },
+        "en": {
+          "text": "What weapon would you choose?"
+        },
+        "es": {
+          "text": "¿Qué arma elegirías?"
+        },
+        "de": {
+          "text": "Welche Waffe würdest du wählen?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq11a",
+          "i18n": {
+            "ua": {
+              "label": "🗡️ Полум'яний меч, що палає вічно"
+            },
+            "en": {
+              "label": "🗡️ A flaming sword that burns eternally"
+            },
+            "es": {
+              "label": "🗡️ Una espada llameante que arde eternamente"
+            },
+            "de": {
+              "label": "🗡️ Ein flammendes Schwert, das ewig brennt"
+            }
+          },
+          "animals": [
+            "dragon",
+            "valkyrie",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq11b",
+          "i18n": {
+            "ua": {
+              "label": "🏹 Срібний лук із зоряними стрілами"
+            },
+            "en": {
+              "label": "🏹 A silver bow with starlight arrows"
+            },
+            "es": {
+              "label": "🏹 Un arco plateado con flechas de luz de estrellas"
+            },
+            "de": {
+              "label": "🏹 Ein silberner Bogen mit Sternenlichtpfeilen"
+            }
+          },
+          "animals": [
+            "centaur",
+            "elf",
+            "pegasus"
+          ]
+        },
+        {
+          "id": "mq11c",
+          "i18n": {
+            "ua": {
+              "label": "🔱 Тризуб із глибин океану"
+            },
+            "en": {
+              "label": "🔱 A trident from the ocean depths"
+            },
+            "es": {
+              "label": "🔱 Un tridente de las profundidades del océano"
+            },
+            "de": {
+              "label": "🔱 Ein Dreizack aus den Tiefen des Ozeans"
+            }
+          },
+          "animals": [
+            "kraken",
+            "mermaid",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq11d",
+          "i18n": {
+            "ua": {
+              "label": "✨ Чарівна паличка з деревини стародавнього дерева"
+            },
+            "en": {
+              "label": "✨ A wand made from an ancient tree"
+            },
+            "es": {
+              "label": "✨ Una varita hecha de un árbol antiguo"
+            },
+            "de": {
+              "label": "✨ Ein Zauberstab aus einem uralten Baum"
+            }
+          },
+          "animals": [
+            "fairy",
+            "djinn",
+            "kitsune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq12",
+      "i18n": {
+        "ua": {
+          "text": "Як ти захищаєш тих, кого любиш?"
+        },
+        "en": {
+          "text": "How do you protect those you love?"
+        },
+        "es": {
+          "text": "¿Cómo proteges a tus seres queridos?"
+        },
+        "de": {
+          "text": "Wie schützt man diejenigen, die man liebt?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq12a",
+          "i18n": {
+            "ua": {
+              "label": "🛡️ Стаю щитом і приймаю удар на себе"
+            },
+            "en": {
+              "label": "🛡️ I become a shield and take the blow myself"
+            },
+            "es": {
+              "label": "🛡️ Me convierto en un escudo y recibo el golpe yo mismo."
+            },
+            "de": {
+              "label": "🛡️ Ich werde zum Schutzschild und fange den Schlag selbst ab."
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq12b",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Зцілюю їхні рани і біль"
+            },
+            "en": {
+              "label": "🌿 I heal their wounds and pain"
+            },
+            "es": {
+              "label": "🌿 Yo curo sus heridas y su dolor."
+            },
+            "de": {
+              "label": "🌿 Ich heile ihre Wunden und ihren Schmerz"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "phoenix",
+            "elf"
+          ]
+        },
+        {
+          "id": "mq12c",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Ховаю їх у тіні, де ніхто не знайде"
+            },
+            "en": {
+              "label": "🌑 I hide them in shadows where no one can find them"
+            },
+            "es": {
+              "label": "🌑 Los escondo en las sombras donde nadie puede encontrarlos."
+            },
+            "de": {
+              "label": "🌑 Ich verstecke sie im Schatten, wo sie niemand finden kann."
+            }
+          },
+          "animals": [
+            "kraken",
+            "yeti",
+            "basilisk"
+          ]
+        },
+        {
+          "id": "mq12d",
+          "i18n": {
+            "ua": {
+              "label": "🎶 Накладаю захисні чари на кожного"
+            },
+            "en": {
+              "label": "🎶 I cast protective enchantments on each one"
+            },
+            "es": {
+              "label": "🎶 Lanzo encantamientos protectores sobre cada uno"
+            },
+            "de": {
+              "label": "🎶 Ich habe jeden einzelnen mit Schutzzaubern belegt."
+            }
+          },
+          "animals": [
+            "fairy",
+            "djinn",
+            "kitsune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq13",
+      "i18n": {
+        "ua": {
+          "text": "Які у тебе стосунки з людьми?"
+        },
+        "en": {
+          "text": "What's your relationship with humans?"
+        },
+        "es": {
+          "text": "¿Cuál es tu relación con los seres humanos?"
+        },
+        "de": {
+          "text": "Wie ist Ihr Verhältnis zu anderen Menschen?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq13a",
+          "i18n": {
+            "ua": {
+              "label": "👑 Вони мене поважають і бояться"
+            },
+            "en": {
+              "label": "👑 They respect and fear me"
+            },
+            "es": {
+              "label": "👑 Me respetan y me temen"
+            },
+            "de": {
+              "label": "👑 Sie respektieren und fürchten mich."
+            }
+          },
+          "animals": [
+            "dragon",
+            "basilisk",
+            "hydra"
+          ]
+        },
+        {
+          "id": "mq13b",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Я живу серед них, але вони не знають хто я"
+            },
+            "en": {
+              "label": "🤝 I live among them but they don't know what I am"
+            },
+            "es": {
+              "label": "🤝 Vivo entre ellos, pero no saben lo que soy."
+            },
+            "de": {
+              "label": "🤝 Ich lebe unter ihnen, aber sie wissen nicht, wer ich bin."
+            }
+          },
+          "animals": [
+            "werewolf",
+            "kitsune",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq13c",
+          "i18n": {
+            "ua": {
+              "label": "🌟 Вони шукають мене, але рідко знаходять"
+            },
+            "en": {
+              "label": "🌟 They seek me but rarely find me"
+            },
+            "es": {
+              "label": "🌟 Me buscan, pero rara vez me encuentran."
+            },
+            "de": {
+              "label": "🌟 Sie suchen mich, aber finden mich selten."
+            }
+          },
+          "animals": [
+            "unicorn",
+            "yeti",
+            "pegasus"
+          ]
+        },
+        {
+          "id": "mq13d",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Я зачаровую їх здалеку"
+            },
+            "en": {
+              "label": "🎭 I enchant them from afar"
+            },
+            "es": {
+              "label": "🎭 Los encanto desde lejos"
+            },
+            "de": {
+              "label": "🎭 Ich verzaubere sie aus der Ferne"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "sphinx",
+            "djinn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq14",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся зі своєю силою?"
+        },
+        "en": {
+          "text": "How do you handle your own power?"
+        },
+        "es": {
+          "text": "¿Cómo manejas tu propio poder?"
+        },
+        "de": {
+          "text": "Wie gehst du mit deiner eigenen Macht um?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq14a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Вивільняю її без обмежень"
+            },
+            "en": {
+              "label": "🔥 I unleash it without limits"
+            },
+            "es": {
+              "label": "🔥 Lo desato sin límites"
+            },
+            "de": {
+              "label": "🔥 Ich lasse es ohne Grenzen raus"
+            }
+          },
+          "animals": [
+            "dragon",
+            "hydra",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq14b",
+          "i18n": {
+            "ua": {
+              "label": "⚖️ Тримаю під суворим контролем"
+            },
+            "en": {
+              "label": "⚖️ I keep it under strict control"
+            },
+            "es": {
+              "label": "⚖️ Lo mantengo bajo estricto control"
+            },
+            "de": {
+              "label": "⚖️ Ich halte es streng unter Kontrolle"
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq14c",
+          "i18n": {
+            "ua": {
+              "label": "🌱 Ділюся нею з іншими"
+            },
+            "en": {
+              "label": "🌱 I share it with others"
+            },
+            "es": {
+              "label": "🌱 Lo comparto con los demás"
+            },
+            "de": {
+              "label": "🌱 Ich teile es mit anderen"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "unicorn",
+            "elf"
+          ]
+        },
+        {
+          "id": "mq14d",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Приховую її, доки вона не знадобиться"
+            },
+            "en": {
+              "label": "🎭 I conceal it until it's needed"
+            },
+            "es": {
+              "label": "🎭 Lo oculto hasta que sea necesario"
+            },
+            "de": {
+              "label": "🎭 Ich verberge es, bis es gebraucht wird"
+            }
+          },
+          "animals": [
+            "djinn",
+            "kitsune",
+            "basilisk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq15",
+      "i18n": {
+        "ua": {
+          "text": "Що ти робиш під час бурі?"
+        },
+        "en": {
+          "text": "What do you do during a storm?"
+        },
+        "es": {
+          "text": "¿Qué haces durante una tormenta?"
+        },
+        "de": {
+          "text": "Was macht man bei einem Sturm?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq15a",
+          "i18n": {
+            "ua": {
+              "label": "⛈️ Лечу назустріч блискавкам"
+            },
+            "en": {
+              "label": "⛈️ I fly straight into the lightning"
+            },
+            "es": {
+              "label": "⛈️ Vuelo directo hacia el rayo"
+            },
+            "de": {
+              "label": "⛈️ Ich fliege direkt in den Blitz"
+            }
+          },
+          "animals": [
+            "dragon",
+            "pegasus",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq15b",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Занурююсь у глибину, де тиша"
+            },
+            "en": {
+              "label": "🌊 I dive deep where it's silent"
+            },
+            "es": {
+              "label": "🌊 Me sumerjo en lo profundo donde reina el silencio."
+            },
+            "de": {
+              "label": "🌊 Ich tauche tief ein, dorthin, wo es still ist."
+            }
+          },
+          "animals": [
+            "kraken",
+            "mermaid",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq15c",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Вию разом із вітром"
+            },
+            "en": {
+              "label": "🐺 I howl along with the wind"
+            },
+            "es": {
+              "label": "🐺 Aúllo junto con el viento"
+            },
+            "de": {
+              "label": "🐺 Ich heule mit dem Wind"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "hydra",
+            "minotaur"
+          ]
+        },
+        {
+          "id": "mq15d",
+          "i18n": {
+            "ua": {
+              "label": "🍃 Танцюю серед крапель дощу"
+            },
+            "en": {
+              "label": "🍃 I dance among the raindrops"
+            },
+            "es": {
+              "label": "🍃 Bailo entre las gotas de lluvia"
+            },
+            "de": {
+              "label": "🍃 Ich tanze zwischen den Regentropfen"
+            }
+          },
+          "animals": [
+            "fairy",
+            "unicorn",
+            "elf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq16",
+      "i18n": {
+        "ua": {
+          "text": "Як ти позначаєш свою територію?"
+        },
+        "en": {
+          "text": "How do you mark your territory?"
+        },
+        "es": {
+          "text": "¿Cómo marcas tu territorio?"
+        },
+        "de": {
+          "text": "Wie markierst du dein Territorium?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq16a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Сліди вогню, що ніколи не гаснуть"
+            },
+            "en": {
+              "label": "🔥 Trails of fire that never go out"
+            },
+            "es": {
+              "label": "🔥 Rastros de fuego que nunca se apagan"
+            },
+            "de": {
+              "label": "🔥 Feuerspuren, die niemals erlöschen"
+            }
+          },
+          "animals": [
+            "dragon",
+            "phoenix",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq16b",
+          "i18n": {
+            "ua": {
+              "label": "🏔️ Величні скульптури з каменю та золота"
+            },
+            "en": {
+              "label": "🏔️ Majestic sculptures of stone and gold"
+            },
+            "es": {
+              "label": "🏔️ Majestuosas esculturas de piedra y oro"
+            },
+            "de": {
+              "label": "🏔️ Majestätische Skulpturen aus Stein und Gold"
+            }
+          },
+          "animals": [
+            "griffin",
+            "golem",
+            "sphinx"
+          ]
+        },
+        {
+          "id": "mq16c",
+          "i18n": {
+            "ua": {
+              "label": "🌀 Водовороти та підводні течії"
+            },
+            "en": {
+              "label": "🌀 Whirlpools and underwater currents"
+            },
+            "es": {
+              "label": "🌀 Remolinos y corrientes submarinas"
+            },
+            "de": {
+              "label": "🌀 Strudel und Unterwasserströmungen"
+            }
+          },
+          "animals": [
+            "kraken",
+            "mermaid",
+            "hydra"
+          ]
+        },
+        {
+          "id": "mq16d",
+          "i18n": {
+            "ua": {
+              "label": "🍄 Кільця з грибів та світлячки вночі"
+            },
+            "en": {
+              "label": "🍄 Fairy rings and fireflies at night"
+            },
+            "es": {
+              "label": "🍄 Círculos de hadas y luciérnagas por la noche"
+            },
+            "de": {
+              "label": "🍄 Feenringe und Glühwürmchen in der Nacht"
+            }
+          },
+          "animals": [
+            "fairy",
+            "elf",
+            "kitsune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq17",
+      "i18n": {
+        "ua": {
+          "text": "Що відбувається, коли ти розлючений?"
+        },
+        "en": {
+          "text": "What happens when you're angry?"
+        },
+        "es": {
+          "text": "¿Qué ocurre cuando estás enfadado?"
+        },
+        "de": {
+          "text": "Was passiert, wenn man wütend ist?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq17a",
+          "i18n": {
+            "ua": {
+              "label": "🌋 Все навколо починає палати"
+            },
+            "en": {
+              "label": "🌋 Everything around me starts to burn"
+            },
+            "es": {
+              "label": "🌋 Todo a mi alrededor empieza a arder"
+            },
+            "de": {
+              "label": "🌋 Alles um mich herum fängt an zu brennen"
+            }
+          },
+          "animals": [
+            "dragon",
+            "chimera",
+            "hydra"
+          ]
+        },
+        {
+          "id": "mq17b",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Щось темне прокидається всередині"
+            },
+            "en": {
+              "label": "🐺 Something dark awakens inside me"
+            },
+            "es": {
+              "label": "🐺 Algo oscuro despierta dentro de mí"
+            },
+            "de": {
+              "label": "🐺 Etwas Dunkles erwacht in mir"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "minotaur",
+            "basilisk"
+          ]
+        },
+        {
+          "id": "mq17c",
+          "i18n": {
+            "ua": {
+              "label": "❄️ Я стаю холодним і мовчазним"
+            },
+            "en": {
+              "label": "❄️ I become cold and silent"
+            },
+            "es": {
+              "label": "❄️ Me vuelvo fría y silenciosa."
+            },
+            "de": {
+              "label": "❄️ Ich werde kalt und still."
+            }
+          },
+          "animals": [
+            "sphinx",
+            "yeti",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq17d",
+          "i18n": {
+            "ua": {
+              "label": "💨 Зникаю, поки не заспокоюсь"
+            },
+            "en": {
+              "label": "💨 I vanish until I calm down"
+            },
+            "es": {
+              "label": "💨 Desaparezco hasta que me calmo."
+            },
+            "de": {
+              "label": "💨 Ich verschwinde, bis ich mich beruhigt habe"
+            }
+          },
+          "animals": [
+            "fairy",
+            "pegasus",
+            "selkie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq18",
+      "i18n": {
+        "ua": {
+          "text": "Яка магія тебе приваблює?"
+        },
+        "en": {
+          "text": "What kind of magic attracts you?"
+        },
+        "es": {
+          "text": "¿Qué tipo de magia te atrae?"
+        },
+        "de": {
+          "text": "Welche Art von Magie übt auf dich eine Anziehungskraft aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq18a",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Магія перетворення та хаосу"
+            },
+            "en": {
+              "label": "🔮 Magic of transformation and chaos"
+            },
+            "es": {
+              "label": "🔮 Magia de transformación y caos"
+            },
+            "de": {
+              "label": "🔮 Magie der Verwandlung und des Chaos"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "kitsune",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq18b",
+          "i18n": {
+            "ua": {
+              "label": "✨ Стародавні руни та заклинання"
+            },
+            "en": {
+              "label": "✨ Ancient runes and incantations"
+            },
+            "es": {
+              "label": "✨ Runas e invocaciones antiguas"
+            },
+            "de": {
+              "label": "✨ Uralte Runen und Beschwörungen"
+            }
+          },
+          "animals": [
+            "elf",
+            "sphinx",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq18c",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Магія ілюзій та снів"
+            },
+            "en": {
+              "label": "🌙 Magic of illusions and dreams"
+            },
+            "es": {
+              "label": "🌙 La magia de las ilusiones y los sueños"
+            },
+            "de": {
+              "label": "🌙 Magie der Illusionen und Träume"
+            }
+          },
+          "animals": [
+            "fairy",
+            "djinn",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq18d",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Магія стихій і глибин"
+            },
+            "en": {
+              "label": "🌊 Magic of elements and depths"
+            },
+            "es": {
+              "label": "🌊 Magia de los elementos y las profundidades"
+            },
+            "de": {
+              "label": "🌊 Magie der Elemente und Tiefen"
+            }
+          },
+          "animals": [
+            "kraken",
+            "hydra",
+            "mermaid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq19",
+      "i18n": {
+        "ua": {
+          "text": "Як ти проводиш вічність?"
+        },
+        "en": {
+          "text": "How do you spend eternity?"
+        },
+        "es": {
+          "text": "¿Cómo se pasa la eternidad?"
+        },
+        "de": {
+          "text": "Wie verbringt man die Ewigkeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq19a",
+          "i18n": {
+            "ua": {
+              "label": "📚 Збираю мудрість усіх епох"
+            },
+            "en": {
+              "label": "📚 I collect wisdom from all ages"
+            },
+            "es": {
+              "label": "📚 Recopilo sabiduría de todas las edades."
+            },
+            "de": {
+              "label": "📚 Ich sammle Weisheit aus allen Zeitaltern"
+            }
+          },
+          "animals": [
+            "elf",
+            "centaur",
+            "sphinx"
+          ]
+        },
+        {
+          "id": "mq19b",
+          "i18n": {
+            "ua": {
+              "label": "🔄 Перероджуюсь і починаю все спочатку"
+            },
+            "en": {
+              "label": "🔄 I am reborn and start everything anew"
+            },
+            "es": {
+              "label": "🔄 He renacido y empiezo todo de nuevo."
+            },
+            "de": {
+              "label": "🔄 Ich bin wiedergeboren und beginne alles von neuem"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "hydra",
+            "kitsune"
+          ]
+        },
+        {
+          "id": "mq19c",
+          "i18n": {
+            "ua": {
+              "label": "🌺 Оберігаю священне місце"
+            },
+            "en": {
+              "label": "🌺 I guard a sacred place"
+            },
+            "es": {
+              "label": "🌺 Yo custodio un lugar sagrado"
+            },
+            "de": {
+              "label": "🌺 Ich bewache einen heiligen Ort"
+            }
+          },
+          "animals": [
+            "golem",
+            "griffin",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq19d",
+          "i18n": {
+            "ua": {
+              "label": "🎵 Співаю пісні, які ніхто не чує"
+            },
+            "en": {
+              "label": "🎵 I sing songs that no one hears"
+            },
+            "es": {
+              "label": "🎵 Canto canciones que nadie escucha"
+            },
+            "de": {
+              "label": "🎵 Ich singe Lieder, die niemand hört"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "selkie",
+            "fairy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq20",
+      "i18n": {
+        "ua": {
+          "text": "Які у тебе стосунки з місяцем?"
+        },
+        "en": {
+          "text": "What's your relationship with the moon?"
+        },
+        "es": {
+          "text": "¿Cuál es tu relación con la luna?"
+        },
+        "de": {
+          "text": "Welche Beziehung hast du zum Mond?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq20a",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Місяць пробуджує мою справжню сутність"
+            },
+            "en": {
+              "label": "🐺 The moon awakens my true nature"
+            },
+            "es": {
+              "label": "🐺 La luna despierta mi verdadera naturaleza"
+            },
+            "de": {
+              "label": "🐺 Der Mond erweckt mein wahres Wesen"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "selkie",
+            "kitsune"
+          ]
+        },
+        {
+          "id": "mq20b",
+          "i18n": {
+            "ua": {
+              "label": "🌕 Я черпаю з нього силу"
+            },
+            "en": {
+              "label": "🌕 I draw power from it"
+            },
+            "es": {
+              "label": "🌕 Obtengo poder de ello"
+            },
+            "de": {
+              "label": "🌕 Ich schöpfe Kraft daraus."
+            }
+          },
+          "animals": [
+            "mermaid",
+            "djinn",
+            "centaur"
+          ]
+        },
+        {
+          "id": "mq20c",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Я активніший у темряві нового місяця"
+            },
+            "en": {
+              "label": "🌑 I'm most active during the new moon darkness"
+            },
+            "es": {
+              "label": "🌑 Soy más activa durante la oscuridad de la luna nueva."
+            },
+            "de": {
+              "label": "🌑 Ich bin am aktivsten während der Neumondnacht."
+            }
+          },
+          "animals": [
+            "kraken",
+            "basilisk",
+            "minotaur"
+          ]
+        },
+        {
+          "id": "mq20d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Я танцюю в місячному промінні"
+            },
+            "en": {
+              "label": "🌙 I dance in the moonbeams"
+            },
+            "es": {
+              "label": "🌙 Bailo bajo los rayos de la luna"
+            },
+            "de": {
+              "label": "🌙 Ich tanze im Mondlicht"
+            }
+          },
+          "animals": [
+            "fairy",
+            "pegasus",
+            "elf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq21",
+      "i18n": {
+        "ua": {
+          "text": "Як ти обираєш союзників?"
+        },
+        "en": {
+          "text": "How do you choose allies?"
+        },
+        "es": {
+          "text": "¿Cómo eliges a tus aliados?"
+        },
+        "de": {
+          "text": "Wie wählt man Verbündete aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq21a",
+          "i18n": {
+            "ua": {
+              "label": "💪 За силою та відвагою"
+            },
+            "en": {
+              "label": "💪 By their strength and courage"
+            },
+            "es": {
+              "label": "💪 Por su fuerza y ​​coraje"
+            },
+            "de": {
+              "label": "💪 Durch ihre Stärke und ihren Mut"
+            }
+          },
+          "animals": [
+            "dragon",
+            "valkyrie",
+            "minotaur"
+          ]
+        },
+        {
+          "id": "mq21b",
+          "i18n": {
+            "ua": {
+              "label": "💎 За чистотою їхнього серця"
+            },
+            "en": {
+              "label": "💎 By the purity of their heart"
+            },
+            "es": {
+              "label": "💎 Por la pureza de su corazón"
+            },
+            "de": {
+              "label": "💎 Durch die Reinheit ihres Herzens"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "pegasus",
+            "fairy"
+          ]
+        },
+        {
+          "id": "mq21c",
+          "i18n": {
+            "ua": {
+              "label": "🧩 За розумом та стратегічним мисленням"
+            },
+            "en": {
+              "label": "🧩 By their intellect and strategic thinking"
+            },
+            "es": {
+              "label": "🧩 Por su intelecto y pensamiento estratégico"
+            },
+            "de": {
+              "label": "🧩 Durch ihren Intellekt und ihr strategisches Denken"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "centaur",
+            "djinn"
+          ]
+        },
+        {
+          "id": "mq21d",
+          "i18n": {
+            "ua": {
+              "label": "🔥 За готовністю пройти крізь вогонь"
+            },
+            "en": {
+              "label": "🔥 By their willingness to walk through fire"
+            },
+            "es": {
+              "label": "🔥 Por su disposición a atravesar el fuego"
+            },
+            "de": {
+              "label": "🔥 Durch ihre Bereitschaft, durchs Feuer zu gehen"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "hydra",
+            "golem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq22",
+      "i18n": {
+        "ua": {
+          "text": "Яку спадщину ти хочеш залишити?"
+        },
+        "en": {
+          "text": "What legacy do you want to leave?"
+        },
+        "es": {
+          "text": "¿Qué legado quieres dejar?"
+        },
+        "de": {
+          "text": "Welches Vermächtnis möchten Sie hinterlassen?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq22a",
+          "i18n": {
+            "ua": {
+              "label": "📖 Легенди, які розповідатимуть віками"
+            },
+            "en": {
+              "label": "📖 Legends that will be told for centuries"
+            },
+            "es": {
+              "label": "📖 Leyendas que se contarán durante siglos"
+            },
+            "de": {
+              "label": "📖 Legenden, die noch Jahrhunderte lang erzählt werden."
+            }
+          },
+          "animals": [
+            "dragon",
+            "phoenix",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq22b",
+          "i18n": {
+            "ua": {
+              "label": "⚖️ Справедливий світ для всіх істот"
+            },
+            "en": {
+              "label": "⚖️ A just world for all creatures"
+            },
+            "es": {
+              "label": "⚖️ Un mundo justo para todas las criaturas"
+            },
+            "de": {
+              "label": "⚖️ Eine gerechte Welt für alle Geschöpfe"
+            }
+          },
+          "animals": [
+            "griffin",
+            "centaur",
+            "golem"
+          ]
+        },
+        {
+          "id": "mq22c",
+          "i18n": {
+            "ua": {
+              "label": "🌍 Таємниці, що захищають світ"
+            },
+            "en": {
+              "label": "🌍 Secrets that protect the world"
+            },
+            "es": {
+              "label": "🌍 Secretos que protegen el mundo"
+            },
+            "de": {
+              "label": "🌍 Geheimnisse, die die Welt schützen"
+            }
+          },
+          "animals": [
+            "sphinx",
+            "djinn",
+            "basilisk"
+          ]
+        },
+        {
+          "id": "mq22d",
+          "i18n": {
+            "ua": {
+              "label": "🌈 Красу та радість у кожному куточку"
+            },
+            "en": {
+              "label": "🌈 Beauty and joy in every corner"
+            },
+            "es": {
+              "label": "🌈 Belleza y alegría en cada rincón"
+            },
+            "de": {
+              "label": "🌈 Schönheit und Freude in jeder Ecke"
+            }
+          },
+          "animals": [
+            "fairy",
+            "selkie",
+            "pegasus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq23",
+      "i18n": {
+        "ua": {
+          "text": "Як ти зцілюєшся після битви?"
+        },
+        "en": {
+          "text": "How do you heal after a battle?"
+        },
+        "es": {
+          "text": "¿Cómo te recuperas después de una batalla?"
+        },
+        "de": {
+          "text": "Wie heilt man nach einem Kampf?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq23a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Згораю і відроджуюсь із попелу"
+            },
+            "en": {
+              "label": "🔥 I burn and rise again from the ashes"
+            },
+            "es": {
+              "label": "🔥 Ardo y resurjo de las cenizas"
+            },
+            "de": {
+              "label": "🔥 Ich verbrenne und erhebe mich aus der Asche wieder"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "hydra",
+            "chimera"
+          ]
+        },
+        {
+          "id": "mq23b",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Занурююсь у цілющі води"
+            },
+            "en": {
+              "label": "🌊 I submerge into healing waters"
+            },
+            "es": {
+              "label": "🌊 Me sumerjo en aguas curativas"
+            },
+            "de": {
+              "label": "🌊 Ich tauche ein in heilende Gewässer"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "selkie",
+            "kraken"
+          ]
+        },
+        {
+          "id": "mq23c",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Відпочиваю в тихому священному місці"
+            },
+            "en": {
+              "label": "🌿 I rest in a quiet sacred place"
+            },
+            "es": {
+              "label": "🌿 Descanso en un lugar tranquilo y sagrado."
+            },
+            "de": {
+              "label": "🌿 Ich ruhe an einem stillen, heiligen Ort"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "elf",
+            "yeti"
+          ]
+        },
+        {
+          "id": "mq23d",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Зализую рани та стаю сильнішим"
+            },
+            "en": {
+              "label": "🐺 I lick my wounds and grow stronger"
+            },
+            "es": {
+              "label": "🐺 Lamo mis heridas y me hago más fuerte"
+            },
+            "de": {
+              "label": "🐺 Ich lecke meine Wunden und werde stärker."
+            }
+          },
+          "animals": [
+            "werewolf",
+            "minotaur",
+            "hydra"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq24",
+      "i18n": {
+        "ua": {
+          "text": "Який звук тебе найкраще описує?"
+        },
+        "en": {
+          "text": "What sound represents you?"
+        },
+        "es": {
+          "text": "¿Qué sonido te representa?"
+        },
+        "de": {
+          "text": "Welcher Klang repräsentiert dich?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq24a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Гуркіт полум'я та розкат грому"
+            },
+            "en": {
+              "label": "🔥 The roar of flames and rolling thunder"
+            },
+            "es": {
+              "label": "🔥 El rugido de las llamas y el trueno retumbante"
+            },
+            "de": {
+              "label": "🔥 Das Tosen der Flammen und das Grollen des Donners"
+            }
+          },
+          "animals": [
+            "dragon",
+            "chimera",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq24b",
+          "i18n": {
+            "ua": {
+              "label": "🎵 Ніжна мелодія, що зачаровує"
+            },
+            "en": {
+              "label": "🎵 A gentle melody that enchants"
+            },
+            "es": {
+              "label": "🎵 Una suave melodía que encanta"
+            },
+            "de": {
+              "label": "🎵 Eine sanfte Melodie, die verzaubert"
+            }
+          },
+          "animals": [
+            "mermaid",
+            "fairy",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq24c",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Протяжний вовчий вий у ночі"
+            },
+            "en": {
+              "label": "🐺 A long wolf howl in the night"
+            },
+            "es": {
+              "label": "🐺 Un largo aullido de lobo en la noche"
+            },
+            "de": {
+              "label": "🐺 Ein langes Wolfsgeheul in der Nacht"
+            }
+          },
+          "animals": [
+            "werewolf",
+            "yeti",
+            "minotaur"
+          ]
+        },
+        {
+          "id": "mq24d",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Глибокий гул океанських глибин"
+            },
+            "en": {
+              "label": "🌊 The deep hum of ocean depths"
+            },
+            "es": {
+              "label": "🌊 El profundo zumbido de las profundidades oceánicas"
+            },
+            "de": {
+              "label": "🌊 Das tiefe Summen der Meerestiefen"
+            }
+          },
+          "animals": [
+            "kraken",
+            "hydra",
+            "djinn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mq25",
+      "i18n": {
+        "ua": {
+          "text": "Як ти зустрічаєш новий день?"
+        },
+        "en": {
+          "text": "How do you greet a new day?"
+        },
+        "es": {
+          "text": "¿Cómo recibes un nuevo día?"
+        },
+        "de": {
+          "text": "Wie begrüßt ihr einen neuen Tag?"
+        }
+      },
+      "options": [
+        {
+          "id": "mq25a",
+          "i18n": {
+            "ua": {
+              "label": "🌅 Здіймаюсь у небо назустріч сонцю"
+            },
+            "en": {
+              "label": "🌅 I rise into the sky to meet the sun"
+            },
+            "es": {
+              "label": "🌅 Me elevo hacia el cielo para encontrarme con el sol."
+            },
+            "de": {
+              "label": "🌅 Ich steige in den Himmel auf, um die Sonne zu treffen"
+            }
+          },
+          "animals": [
+            "phoenix",
+            "pegasus",
+            "valkyrie"
+          ]
+        },
+        {
+          "id": "mq25b",
+          "i18n": {
+            "ua": {
+              "label": "🌸 Пробуджую квіти та росу навколо"
+            },
+            "en": {
+              "label": "🌸 I awaken flowers and dew around me"
+            },
+            "es": {
+              "label": "🌸 Despierto las flores y el rocío a mi alrededor"
+            },
+            "de": {
+              "label": "🌸 Ich erwecke Blumen und Tau um mich herum"
+            }
+          },
+          "animals": [
+            "unicorn",
+            "elf",
+            "fairy"
+          ]
+        },
+        {
+          "id": "mq25c",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Спостерігаю з глибини, як світло пронизує воду"
+            },
+            "en": {
+              "label": "🌊 I watch from the depths as light pierces the water"
+            },
+            "es": {
+              "label": "🌊 Observo desde las profundidades cómo la luz atraviesa el agua."
+            },
+            "de": {
+              "label": "🌊 Aus der Tiefe beobachte ich, wie das Licht die Wasseroberfläche durchdringt."
+            }
+          },
+          "animals": [
+            "kraken",
+            "mermaid",
+            "selkie"
+          ]
+        },
+        {
+          "id": "mq25d",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Повертаюсь до людської форми із першим промінням"
+            },
+            "en": {
+              "label": "🐺 I return to human form with the first rays"
+            },
+            "es": {
+              "label": "🐺 Regreso a mi forma humana con los primeros rayos"
+            },
+            "de": {
+              "label": "🐺 Mit den ersten Sonnenstrahlen nehme ich wieder meine menschliche Gestalt an."
+            }
+          },
+          "animals": [
+            "werewolf",
+            "kitsune",
+            "djinn"
+          ]
+        }
+      ]
+    }
+  ]
+}

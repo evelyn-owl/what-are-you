@@ -1,0 +1,1246 @@
+animals|meta|title|What animal are you?
+animals|meta|description|Answer a few questions and find out which animal lives inside you
+animals|meta|start_btn|Start
+animals|meta|result_title|You are a
+animals|meta|share_btn|Share
+animals|meta|retry_btn|Try again
+animals|meta|progress|Question {current} of {total}
+animals|result|lion|name|Lion
+animals|result|lion|desc|You were born to lead. Confident, decisive, and protective of those around you. People feel your strength and are drawn to you.
+animals|result|lion|trait0|Leadership
+animals|result|lion|trait1|Courage
+animals|result|lion|trait2|Pride
+animals|result|fox|name|Fox
+animals|result|fox|desc|You're always one step ahead. You find a way where others see a dead end. Charming and unpredictable.
+animals|result|fox|trait0|Cleverness
+animals|result|fox|trait1|Charisma
+animals|result|fox|trait2|Adaptability
+animals|result|wolf|name|Wolf
+animals|result|wolf|desc|You value your pack above all. Silent but reliable — people can always count on you in the hardest moments.
+animals|result|wolf|trait0|Loyalty
+animals|result|wolf|trait1|Instinct
+animals|result|wolf|trait2|Resilience
+animals|result|owl|name|Owl
+animals|result|owl|desc|You think before you act. You see what others miss. Your advice is always precise and well-considered.
+animals|result|owl|trait0|Wisdom
+animals|result|owl|trait1|Observation
+animals|result|owl|trait2|Patience
+animals|result|dolphin|name|Dolphin
+animals|result|dolphin|desc|You energize everyone around you with positivity. You connect easily with anyone and make the world a little better.
+animals|result|dolphin|trait0|Joy
+animals|result|dolphin|trait1|Empathy
+animals|result|dolphin|trait2|Playfulness
+animals|result|eagle|name|Eagle
+animals|result|eagle|desc|You see the big picture and never sweat the small stuff. Independent and ambitious — even the sky isn't enough for you.
+animals|result|eagle|trait0|Freedom
+animals|result|eagle|trait1|Vision
+animals|result|eagle|trait2|Independence
+animals|result|bear|name|Bear
+animals|result|bear|desc|You're a rock for those close to you. You don't shout, but everyone knows they're safe with you. Good-natured, but don't cross the line.
+animals|result|bear|trait0|Reliability
+animals|result|bear|trait1|Calm
+animals|result|bear|trait2|Protection
+animals|result|cat|name|Cat
+animals|result|cat|desc|You live by your own rules. Cute on the outside, but nobody knows what's on your mind. Graceful and a little mysterious.
+animals|result|cat|trait0|Independence
+animals|result|cat|trait1|Elegance
+animals|result|cat|trait2|Curiosity
+animals|result|dog|name|Dog
+animals|result|dog|desc|You're the best friend anyone could have. Sincere, loyal, and always there. Your energy and love charge everyone around.
+animals|result|dog|trait0|Loyalty
+animals|result|dog|trait1|Sincerity
+animals|result|dog|trait2|Enthusiasm
+animals|result|elephant|name|Elephant
+animals|result|elephant|desc|You remember everything and care for everyone. A calm giant with a big heart — your presence is soothing.
+animals|result|elephant|trait0|Memory
+animals|result|elephant|trait1|Wisdom
+animals|result|elephant|trait2|Care
+animals|result|cheetah|name|Cheetah
+animals|result|cheetah|desc|You act in a flash. When you have a goal — nothing can stop you. You live in the moment and love the speed.
+animals|result|cheetah|trait0|Speed
+animals|result|cheetah|trait1|Focus
+animals|result|cheetah|trait2|Decisiveness
+animals|result|penguin|name|Penguin
+animals|result|penguin|desc|Funny but serious when needed. You care for those close to you and never abandon your team in a tough moment.
+animals|result|penguin|trait0|Loyalty
+animals|result|penguin|trait1|Teamwork
+animals|result|penguin|trait2|Humor
+animals|result|octopus|name|Octopus
+animals|result|octopus|desc|You think in multiple directions at once. An unconventional approach is your superpower. You never follow a template.
+animals|result|octopus|trait0|Intelligence
+animals|result|octopus|trait1|Flexibility
+animals|result|octopus|trait2|Creativity
+animals|result|butterfly|name|Butterfly
+animals|result|butterfly|desc|You're constantly changing and becoming a better version of yourself. Your presence inspires and brings joy.
+animals|result|butterfly|trait0|Transformation
+animals|result|butterfly|trait1|Beauty
+animals|result|butterfly|trait2|Lightness
+animals|result|parrot|name|Parrot
+animals|result|parrot|desc|You're never silent and fill any room with color. Social, vibrant, and always at the center of attention.
+animals|result|parrot|trait0|Communication
+animals|result|parrot|trait1|Vibrancy
+animals|result|parrot|trait2|Sociability
+animals|result|turtle|name|Turtle
+animals|result|turtle|desc|You don't rush, but you always reach your goal. Your slow and steady pace takes you further than any sprint.
+animals|result|turtle|trait0|Wisdom
+animals|result|turtle|trait1|Patience
+animals|result|turtle|trait2|Steadiness
+animals|result|horse|name|Horse
+animals|result|horse|desc|You can't stand being caged. Strong, free, and passionate — nothing can stop you when you're racing toward your dream.
+animals|result|horse|trait0|Freedom
+animals|result|horse|trait1|Pride
+animals|result|horse|trait2|Strength
+animals|result|peacock|name|Peacock
+animals|result|peacock|desc|You're not afraid to stand out. You know your worth and aren't shy about showing it. Your style is your message to the world.
+animals|result|peacock|trait0|Self-expression
+animals|result|peacock|trait1|Beauty
+animals|result|peacock|trait2|Confidence
+animals|result|rabbit|name|Rabbit
+animals|result|rabbit|desc|You're sensitive and attentive to detail. Quick to react, a good listener, and you treasure comfort and the people close to you.
+animals|result|rabbit|trait0|Quickness
+animals|result|rabbit|trait1|Gentleness
+animals|result|rabbit|trait2|Caution
+animals|result|tiger|name|Tiger
+animals|result|tiger|desc|You combine beauty and danger. Passionate and unpredictable — you act on instinct and always win.
+animals|result|tiger|trait0|Passion
+animals|result|tiger|trait1|Strength
+animals|result|tiger|trait2|Independence
+animals|result|monkey|name|Monkey
+animals|result|monkey|desc|Sitting still bores you. Forever curious, funny, and nimble — you're the one who brings any gathering to life.
+animals|result|monkey|trait0|Curiosity
+animals|result|monkey|trait1|Humor
+animals|result|monkey|trait2|Agility
+animals|result|flamingo|name|Flamingo
+animals|result|flamingo|desc|You stand your ground even when it's uncomfortable. Elegant and unique — you're not like everyone else, and you're proud of it.
+animals|result|flamingo|trait0|Elegance
+animals|result|flamingo|trait1|Balance
+animals|result|flamingo|trait2|Uniqueness
+animals|result|shark|name|Shark
+animals|result|shark|desc|You never stop moving. Goal-driven and cool-headed — nothing can throw you off course.
+animals|result|shark|trait0|Decisiveness
+animals|result|shark|trait1|Focus
+animals|result|shark|trait2|Ambition
+animals|result|deer|name|Deer
+animals|result|deer|desc|You sense the mood of a room before you even enter. Gentle and attentive — people always feel calm around you.
+animals|result|deer|trait0|Grace
+animals|result|deer|trait1|Sensitivity
+animals|result|deer|trait2|Intuition
+animals|result|crow|name|Crow
+animals|result|crow|desc|You see more than you show. A sharp mind and memory for detail make you an unbeatable strategist.
+animals|result|crow|trait0|Intelligence
+animals|result|crow|trait1|Observation
+animals|result|crow|trait2|Cunning
+animals|result|otter|name|Otter
+animals|result|otter|desc|You turn the everyday into an adventure. Always in a good mood, loving to those close to you, and squeezing the most out of life.
+animals|result|otter|trait0|Playfulness
+animals|result|otter|trait1|Warmth
+animals|result|otter|trait2|Curiosity
+animals|result|snow_leopard|name|Snow Leopard
+animals|result|snow_leopard|desc|You rarely show yourself fully. Mysterious and self-sufficient — those who truly know you consider it a privilege.
+animals|result|snow_leopard|trait0|Mystery
+animals|result|snow_leopard|trait1|Self-sufficiency
+animals|result|snow_leopard|trait2|Grace
+animals|result|panda|name|Panda
+animals|result|panda|desc|You radiate calm and harmony. Gentle and balanced — everything feels simpler and warmer when you're around.
+animals|result|panda|trait0|Calm
+animals|result|panda|trait1|Kindness
+animals|result|panda|trait2|Balance
+animals|result|chameleon|name|Chameleon
+animals|result|chameleon|desc|You adapt to any situation. Observant and versatile — you see what others miss and always find your place.
+animals|result|chameleon|trait0|Adaptability
+animals|result|chameleon|trait1|Observation
+animals|result|chameleon|trait2|Versatility
+animals|result|hedgehog|name|Hedgehog
+animals|result|hedgehog|desc|You're prickly on the outside but warm on the inside. Cautious with new people, but the coziest soul for those close to you.
+animals|result|hedgehog|trait0|Coziness
+animals|result|hedgehog|trait1|Caution
+animals|result|hedgehog|trait2|Warmth
+animals|result|swan|name|Swan
+animals|result|swan|desc|You're graceful and elegant in everything you do. Loyal in love and capable of deep transformation — your beauty comes from within.
+animals|result|swan|trait0|Grace
+animals|result|swan|trait1|Loyalty
+animals|result|swan|trait2|Elegance
+animals|result|koala|name|Koala
+animals|result|koala|desc|You know how to enjoy life. Relaxed and easygoing — you value comfort and don't overcomplicate things.
+animals|result|koala|trait0|Relaxation
+animals|result|koala|trait1|Comfort
+animals|result|koala|trait2|Easygoing
+animals|question|q1|text|How do you feel at a big party?
+animals|option|q1a|label|🎤 In the spotlight — that's my element
+animals|option|q1b|label|🤝 Chatting with a few close people
+animals|option|q1c|label|👀 Observing and studying people
+animals|option|q1d|label|🚪 Looking for an excuse to leave early
+animals|question|q2|text|Before an important decision, you...
+animals|option|q2a|label|⚡ Act immediately — instinct never fails
+animals|option|q2b|label|🧠 Analyze all options for a long time
+animals|option|q2c|label|💬 Consult with people I trust
+animals|option|q2d|label|🎲 Go with the feeling of the moment
+animals|question|q3|text|What inspires you the most?
+animals|option|q3a|label|🏔️ New challenges and victories
+animals|option|q3b|label|🌿 Nature, silence, open space
+animals|option|q3c|label|🎨 Creativity and self-expression
+animals|option|q3d|label|❤️ People and relationships around you
+animals|question|q4|text|How do you react to conflict?
+animals|option|q4a|label|🔥 Stand my ground to the end
+animals|option|q4b|label|🧩 Look for compromise and solutions
+animals|option|q4c|label|🌀 Avoid it and wait for it to settle
+animals|option|q4d|label|😄 Defuse it with humor
+animals|question|q5|text|What's your ideal rest?
+animals|option|q5a|label|🏕️ Hiking, nature, physical activity
+animals|option|q5b|label|🎉 Party, friends, new people
+animals|option|q5c|label|📚 Book, series, quiet at home
+animals|option|q5d|label|✈️ Traveling somewhere new
+animals|question|q6|text|What do your friends say about you?
+animals|option|q6a|label|💪 Reliable and always there
+animals|option|q6b|label|😂 The funniest in the group
+animals|option|q6c|label|🌟 Confident and inspiring
+animals|option|q6d|label|🔮 Mysterious and unpredictable
+animals|question|q7|text|How do you feel about changes in life?
+animals|option|q7a|label|🚀 Love them — new opportunities!
+animals|option|q7b|label|📋 Plan and prepare in advance
+animals|option|q7c|label|🌊 Go with the flow, adapt
+animals|option|q7d|label|🛡️ Prefer stability
+animals|question|q8|text|How do you behave when someone asks for your help?
+animals|option|q8a|label|🦸 Drop everything and rush to help
+animals|option|q8b|label|🗺️ First understand the problem
+animals|option|q8c|label|🤗 Give emotional support, listen
+animals|option|q8d|label|💡 Suggest an unconventional solution
+animals|question|q9|text|What's your attitude toward rules?
+animals|option|q9a|label|📏 Rules exist for a reason — I follow them
+animals|option|q9b|label|🔓 Rules are for those who can't think
+animals|option|q9c|label|⚖️ Depends on the situation
+animals|option|q9d|label|🎪 Rules are boring, I break them with a smile
+animals|question|q10|text|What do you do when you're feeling down?
+animals|option|q10a|label|🚶 Go somewhere alone — I need time
+animals|option|q10b|label|📞 Call a friend — better together
+animals|option|q10c|label|🎵 Music, food, favorite show
+animals|option|q10d|label|💪 Jump into action — work heals
+animals|question|q11|text|How do you decide where to go on a day off?
+animals|option|q11a|label|📍 I have favorite spots — I go there
+animals|option|q11b|label|🎯 Look for something new and unexplored
+animals|option|q11c|label|👥 Wherever friends suggest — I'm in
+animals|option|q11d|label|🌄 Somewhere with open space and views
+animals|question|q12|text|How do you take criticism?
+animals|option|q12a|label|🙏 Thank you — it helps me grow
+animals|option|q12b|label|🔥 Defend myself — I know what I'm doing
+animals|option|q12c|label|🤔 Think it over alone later
+animals|option|q12d|label|😅 Laugh it off and move on
+animals|question|q13|text|What does success mean to you?
+animals|option|q13a|label|🏆 Achieve more than others
+animals|option|q13b|label|❤️ Happy loved ones around me
+animals|option|q13c|label|🎨 Do what I love every day
+animals|option|q13d|label|🌿 Freedom and inner peace
+animals|question|q14|text|What role do you usually play in a team?
+animals|option|q14a|label|👑 Take initiative and lead
+animals|option|q14b|label|🔧 Do my part well and quietly
+animals|option|q14c|label|🌈 Support and motivate others
+animals|option|q14d|label|💡 Generate ideas and unconventional solutions
+animals|question|q15|text|What would you do with a time machine?
+animals|option|q15a|label|🏛️ Witness great events of the past
+animals|option|q15b|label|🚀 Fly to the future to see what's there
+animals|option|q15c|label|🔄 Fix my past mistakes
+animals|option|q15d|label|🎪 Just travel around and have fun
+animals|question|q16|text|How do you learn new things?
+animals|option|q16a|label|📚 Read, research, analyze
+animals|option|q16b|label|🤸 Try it hands-on right away
+animals|option|q16c|label|👥 Learn from other people
+animals|option|q16d|label|🎨 Seek inspiration and my own path
+animals|question|q17|text|What kind of music fits your mood?
+animals|option|q17a|label|🎸 Rock or metal — powerful and loud
+animals|option|q17b|label|🎶 Pop or dance — cheerful and light
+animals|option|q17c|label|🎹 Classical or jazz — deep and elegant
+animals|option|q17d|label|🌧️ Lo-fi or ambient — quiet and dreamy
+animals|question|q18|text|How do you celebrate achievements?
+animals|option|q18a|label|🥳 Big party with friends!
+animals|option|q18b|label|🏅 Set a new goal right away
+animals|option|q18c|label|🍫 Quietly treat myself to something nice
+animals|option|q18d|label|✨ Share the joy, inspire others
+animals|question|q19|text|What's your relationship with nature?
+animals|option|q19a|label|🌲 The forest feels like home to me
+animals|option|q19b|label|🌊 I'm drawn to water and the ocean
+animals|option|q19c|label|☀️ I love sun, flowers, and open spaces
+animals|option|q19d|label|🏙️ I'm more of a city person, honestly
+animals|question|q20|text|How do you handle waiting?
+animals|option|q20a|label|😤 Very impatiently — time drags!
+animals|option|q20b|label|🧘 Calmly — everything comes in its time
+animals|option|q20c|label|📱 Find something to keep myself busy
+animals|option|q20d|label|💬 Chat with whoever is nearby
+animals|question|q21|text|What's your approach to secrets?
+animals|option|q21a|label|🤐 Never tell — take them to the grave
+animals|option|q21b|label|🫣 I try but sometimes slip up
+animals|option|q21c|label|🕵️ Love finding out others' secrets
+animals|option|q21d|label|🤷 Don't like secrets — prefer openness
+animals|question|q22|text|What kind of weather matches your personality?
+animals|option|q22a|label|⛈️ Thunderstorm — powerful and unpredictable
+animals|option|q22b|label|☀️ Sunny day — warm and bright
+animals|option|q22c|label|❄️ Snow — quiet, beautiful, and mysterious
+animals|option|q22d|label|🌦️ Spring rain — fresh and changeable
+animals|question|q23|text|How do you start a new project?
+animals|option|q23a|label|📋 Detailed plan from A to Z
+animals|option|q23b|label|⚡ Jump right in — figure it out later
+animals|option|q23c|label|💭 Dream, sketch, search for ideas
+animals|option|q23d|label|🤝 Gather a team of like-minded people
+animals|question|q24|text|What's your morning routine?
+animals|option|q24a|label|🌅 Up early — the day awaits!
+animals|option|q24b|label|😴 Five more minutes... and five more
+animals|option|q24c|label|🎵 Music, shower, dancing in the mirror
+animals|option|q24d|label|🌑 I'm a night person — mornings are my enemy
+animals|question|q25|text|How do you express your feelings?
+animals|option|q25a|label|🗣️ Say directly what I feel
+animals|option|q25b|label|🎭 Through creativity — draw, write, play
+animals|option|q25c|label|🤗 Hug, help, give gifts
+animals|option|q25d|label|🙃 Keep it inside — don't like to show
+hp|result|harry|name|Harry Potter
+hp|result|harry|desc|You're the heart of the team. Not the strongest or smartest, but the bravest. You move forward even when afraid — and that's what makes you a hero.
+hp|result|harry|trait0|Bravery
+hp|result|harry|trait1|Sacrifice
+hp|result|harry|trait2|Loyalty
+hp|result|hermione|name|Hermione Granger
+hp|result|hermione|desc|You're prepared for everything. Logic, knowledge and discipline are your weapons. Friends know: if there's a problem, you already have three solutions.
+hp|result|hermione|trait0|Intelligence
+hp|result|hermione|trait1|Preparedness
+hp|result|hermione|trait2|Justice
+hp|result|ron|name|Ron Weasley
+hp|result|ron|desc|You're the one everyone can count on. Not always confident, but nobody feels alone with you around. Loyal to the end.
+hp|result|ron|trait0|Loyalty
+hp|result|ron|trait1|Humor
+hp|result|ron|trait2|Heart
+hp|result|luna|name|Luna Lovegood
+hp|result|luna|desc|You live in your own world — and that's your strength. You see beauty where others don't. Odd to some, magical to those who know.
+hp|result|luna|trait0|Uniqueness
+hp|result|luna|trait1|Intuition
+hp|result|luna|trait2|Dreaminess
+hp|result|neville|name|Neville Longbottom
+hp|result|neville|desc|You grow quietly but steadily. Long underestimated, but you're the one who takes the decisive step when it matters. Your courage is hidden but real.
+hp|result|neville|trait0|Growth
+hp|result|neville|trait1|Resilience
+hp|result|neville|trait2|Humility
+hp|result|dumbledore|name|Albus Dumbledore
+hp|result|dumbledore|desc|You see further than others and stay quiet about it. Wise, patient, with secrets nobody knows. Your presence changes people.
+hp|result|dumbledore|trait0|Wisdom
+hp|result|dumbledore|trait1|Patience
+hp|result|dumbledore|trait2|Mystery
+hp|result|snape|name|Severus Snape
+hp|result|snape|desc|You're rarely understood correctly. Cold outside, but inside — deep feelings and principles. You do the right thing not because it's easy, but because it must be done.
+hp|result|snape|trait0|Complexity
+hp|result|snape|trait1|Principles
+hp|result|snape|trait2|Hidden depth
+hp|result|draco|name|Draco Malfoy
+hp|result|draco|desc|You were born with great expectations and still wrestling with them. Sharp-tongued and confident outside, but inside — more doubt than anyone thinks.
+hp|result|draco|trait0|Ambition
+hp|result|draco|trait1|Complexity
+hp|result|draco|trait2|Pride
+hp|result|ginny|name|Ginny Weasley
+hp|result|ginny|desc|People underestimate you — and that's their mistake. Strong, direct, and not afraid to speak the truth. You know your worth and don't need approval.
+hp|result|ginny|trait0|Strength
+hp|result|ginny|trait1|Independence
+hp|result|ginny|trait2|Honesty
+hp|result|fred_george|name|Fred & George Weasley
+hp|result|fred_george|desc|You're the fire in the room. Jokes, energy and laughter are your language. But behind the humor is intelligence and care for those you love.
+hp|result|fred_george|trait0|Humor
+hp|result|fred_george|trait1|Energy
+hp|result|fred_george|trait2|Sincerity
+hp|result|hagrid|name|Rubeus Hagrid
+hp|result|hagrid|desc|You're big not just in size, but in heart. You love all creatures, protect the weak, and are always open to friends. Your emotions are real and strong.
+hp|result|hagrid|trait0|Kindness
+hp|result|hagrid|trait1|Loyalty
+hp|result|hagrid|trait2|Emotion
+hp|result|mcgonagall|name|Minerva McGonagall
+hp|result|mcgonagall|desc|You embody discipline and fairness. Strict but never cruel. Behind a cool exterior hides a warm heart and dry wit.
+hp|result|mcgonagall|trait0|Discipline
+hp|result|mcgonagall|trait1|Fairness
+hp|result|mcgonagall|trait2|Dry wit
+hp|result|sirius|name|Sirius Black
+hp|result|sirius|desc|You're a rebel with a golden heart. Impulsive, passionate, and an incredibly loyal friend. Freedom is everything to you, and boredom is your worst enemy.
+hp|result|sirius|trait0|Rebellion
+hp|result|sirius|trait1|Loyalty
+hp|result|sirius|trait2|Passion
+hp|result|lupin|name|Remus Lupin
+hp|result|lupin|desc|You're a quiet sage who struggles with inner demons. Gentle, humble, and always ready to help. You teach not with words but by example.
+hp|result|lupin|trait0|Wisdom
+hp|result|lupin|trait1|Gentleness
+hp|result|lupin|trait2|Humility
+hp|result|tonks|name|Nymphadora Tonks
+hp|result|tonks|desc|You're bright and cheerful even when chaos surrounds you. Clumsy but brave, colorful but serious when needed. You don't fit in boxes — and that's beautiful.
+hp|result|tonks|trait0|Colorfulness
+hp|result|tonks|trait1|Bravery
+hp|result|tonks|trait2|Fun
+hp|result|dobby|name|Dobby
+hp|result|dobby|desc|You're a small hero with a big soul. Selfless, devoted, and brave in your own way. You value freedom and will do anything for those you love.
+hp|result|dobby|trait0|Selflessness
+hp|result|dobby|trait1|Devotion
+hp|result|dobby|trait2|Freedom
+hp|result|cedric|name|Cedric Diggory
+hp|result|cedric|desc|You're a true knight. Fair, noble, and humble. Winning matters to you, but not at any cost. You play fair — always.
+hp|result|cedric|trait0|Nobility
+hp|result|cedric|trait1|Fairness
+hp|result|cedric|trait2|Humility
+hp|result|bellatrix|name|Bellatrix Lestrange
+hp|result|bellatrix|desc|You're a storm. Intense, fanatical, and unpredictable. Your passion knows no bounds, and your devotion is absolute. It's never boring with you — and never safe.
+hp|result|bellatrix|trait0|Intensity
+hp|result|bellatrix|trait1|Fanaticism
+hp|result|bellatrix|trait2|Unpredictability
+hp|result|voldemort|name|Lord Voldemort
+hp|result|voldemort|desc|You crave absolute power and control. Ambitious, powerful, and ruthless. You fear only one thing — death. Your will is unbreakable, but the cost is your humanity.
+hp|result|voldemort|trait0|Ambition
+hp|result|voldemort|trait1|Power
+hp|result|voldemort|trait2|Control
+hp|result|moody|name|Alastor Moody
+hp|result|moody|desc|You're an eternally vigilant warrior. Paranoid, experienced, and tough. You trust only facts and your own eyes. Constant vigilance is your creed.
+hp|result|moody|trait0|Vigilance
+hp|result|moody|trait1|Experience
+hp|result|moody|trait2|Toughness
+hp|result|molly_weasley|name|Molly Weasley
+hp|result|molly_weasley|desc|You're the heart of the family. Warm, caring, and fiercely protective. Don't mess with her kids — you'll see what a mother is capable of. Behind the tenderness is steel.
+hp|result|molly_weasley|trait0|Protectiveness
+hp|result|molly_weasley|trait1|Warmth
+hp|result|molly_weasley|trait2|Fierce love
+hp|result|arthur_weasley|name|Arthur Weasley
+hp|result|arthur_weasley|desc|You're endlessly curious and kind. Fascinated by ordinary things others find boring. Humble, but with a big heart and true values.
+hp|result|arthur_weasley|trait0|Curiosity
+hp|result|arthur_weasley|trait1|Kindness
+hp|result|arthur_weasley|trait2|Humility
+hp|question|hq1|text|How do you react when someone unfairly hurts the weak?
+hp|option|hq1a|label|⚡ I defend immediately — can't just watch
+hp|option|hq1b|label|📚 Find a rule or argument
+hp|option|hq1c|label|🌙 Watch sadly — the world is like that
+hp|option|hq1d|label|🐍 Assess the situation — is it worth interfering?
+hp|question|hq2|text|What matters most to you in friendship?
+hp|option|hq2a|label|🤝 Loyalty through anything
+hp|option|hq2b|label|🧠 Mutual respect and intelligence
+hp|option|hq2c|label|😄 Laughter and shared adventures
+hp|option|hq2d|label|🌙 Acceptance without judgment
+hp|question|hq3|text|How do you make an important decision?
+hp|option|hq3a|label|⚡ With my heart — and forward
+hp|option|hq3b|label|📚 Analyze all facts
+hp|option|hq3c|label|🔮 Think about long-term consequences
+hp|option|hq3d|label|🌙 Trust my intuition
+hp|question|hq4|text|Which Hogwarts subject would be your favourite?
+hp|option|hq4a|label|🧹 Quidditch — I want to fly
+hp|option|hq4b|label|🧪 Potions or Transfiguration
+hp|option|hq4c|label|🌿 Care of Magical Creatures
+hp|option|hq4d|label|🔮 Divination or Defence Against the Dark Arts
+hp|question|hq5|text|How do you react to criticism?
+hp|option|hq5a|label|🔥 Defend myself and argue
+hp|option|hq5b|label|📚 Analyze if it's fair
+hp|option|hq5c|label|🌙 Doesn't affect me — I have my own path
+hp|option|hq5d|label|🤝 Accept it and try to improve
+hp|question|hq6|text|What scares you most?
+hp|option|hq6a|label|💔 Losing loved ones
+hp|option|hq6b|label|❌ Making a mistake
+hp|option|hq6c|label|🔒 Losing freedom and myself
+hp|option|hq6d|label|🌑 Disappointing those who believe in you
+hp|question|hq7|text|How would your friends describe you in one word?
+hp|option|hq7a|label|🦁 Brave
+hp|option|hq7b|label|🧠 Smart
+hp|option|hq7c|label|😄 Funny
+hp|option|hq7d|label|🌙 Unique
+hp|question|hq8|text|What's your attitude toward rules?
+hp|option|hq8a|label|⚡ Rules can be broken if it's just
+hp|option|hq8b|label|📚 Rules exist for a reason
+hp|option|hq8c|label|🌙 Rules are a human construct
+hp|option|hq8d|label|🖤 Follow publicly — decide privately
+hp|question|hq9|text|What's your role in a group?
+hp|option|hq9a|label|👑 I lead
+hp|option|hq9b|label|📋 Plan and organize
+hp|option|hq9c|label|🤝 Support and motivate
+hp|option|hq9d|label|💡 Bring unexpected ideas
+hp|question|hq10|text|What inspires you most?
+hp|option|hq10a|label|❤️ Love and protecting loved ones
+hp|option|hq10b|label|📖 Knowledge and understanding the world
+hp|option|hq10c|label|🏆 Achievement and recognition
+hp|option|hq10d|label|😄 Laughter and the moment
+hp|question|hq11|text|What would you see in the Mirror of Erised?
+hp|option|hq11a|label|👨‍👩‍👧‍👦 My family — happy and together
+hp|option|hq11b|label|🏅 Myself — successful and recognized
+hp|option|hq11c|label|🌍 A peaceful world without evil
+hp|option|hq11d|label|🎪 Myself surrounded by friends and laughter
+hp|question|hq12|text|How do you prepare for exams?
+hp|option|hq12a|label|📚 Make a schedule and study early
+hp|option|hq12b|label|😅 Last night — panic and coffee
+hp|option|hq12c|label|🤷 Rely on intuition and luck
+hp|option|hq12d|label|🧠 Find a clever way to pass
+hp|question|hq13|text|What would your Patronus represent?
+hp|option|hq13a|label|🦁 Courage and determination
+hp|option|hq13b|label|🦉 Wisdom and calm
+hp|option|hq13c|label|🐺 Loyalty and protection
+hp|option|hq13d|label|🦊 Cunning and adaptability
+hp|question|hq14|text|How do you handle a secret you accidentally discovered?
+hp|option|hq14a|label|🤐 Keep it secret — it's not my business
+hp|option|hq14b|label|🗣️ Tell a close friend
+hp|option|hq14c|label|🔍 Investigate further — I'm curious!
+hp|option|hq14d|label|💡 Use it to my advantage
+hp|question|hq15|text|What's your approach when a friend makes a mistake?
+hp|option|hq15a|label|🤗 Support them and help fix it
+hp|option|hq15b|label|📏 Honestly tell them they're wrong
+hp|option|hq15c|label|😂 Joke to lighten the situation
+hp|option|hq15d|label|🤔 Let them figure it out themselves
+hp|question|hq16|text|Which magical item would you want?
+hp|option|hq16a|label|👻 Invisibility Cloak
+hp|option|hq16b|label|⏳ Time-Turner
+hp|option|hq16c|label|🗺️ Marauder's Map
+hp|option|hq16d|label|🔮 Omnioculars — see everything in detail
+hp|question|hq17|text|How do you deal with being alone?
+hp|option|hq17a|label|📖 Read or learn something new
+hp|option|hq17b|label|😟 I struggle — I look for company
+hp|option|hq17c|label|💭 Dive into my thoughts and dreams
+hp|option|hq17d|label|🔧 Invent something fun or tinker
+hp|question|hq18|text|What's your reaction to an unfair teacher?
+hp|option|hq18a|label|😤 Openly speak up against it
+hp|option|hq18b|label|😏 Quietly resist — they won't break me
+hp|option|hq18c|label|😔 Endure it, but it hurts inside
+hp|option|hq18d|label|🧩 Look for a wise way to solve it
+hp|question|hq19|text|How would you spend a free day at Hogwarts?
+hp|option|hq19a|label|🏕️ Walk by the lake or in the forest
+hp|option|hq19b|label|📚 Sit in the library — so many books!
+hp|option|hq19c|label|🧨 Plan pranks and have fun
+hp|option|hq19d|label|🏰 Explore the castle's secret corridors
+hp|question|hq20|text|What motivates you to keep going in tough times?
+hp|option|hq20a|label|💪 The people I have to protect
+hp|option|hq20b|label|📐 Belief that I know the right path
+hp|option|hq20c|label|🔥 Desire to prove I'm worth something
+hp|option|hq20d|label|✨ Faith that everything will work out
+hp|question|hq21|text|How do you enter a room full of strangers?
+hp|option|hq21a|label|🎤 Confidently — I love meeting people
+hp|option|hq21b|label|👀 Quietly observe from the corner
+hp|option|hq21c|label|🤝 Look for someone I know to stay near
+hp|option|hq21d|label|😎 Walk in to make an impression
+hp|question|hq22|text|What would you do with the Marauder's Map?
+hp|option|hq22a|label|🕵️ Track suspicious people
+hp|option|hq22b|label|🍰 Sneak to the kitchen for snacks
+hp|option|hq22c|label|🗺️ Explore all hidden places of Hogwarts
+hp|option|hq22d|label|😈 Use it for pranks on others
+hp|question|hq23|text|How do you handle your own mistakes?
+hp|option|hq23a|label|😣 Overthink and analyze for a long time
+hp|option|hq23b|label|🔄 Fix it quickly and move on
+hp|option|hq23c|label|😅 Laugh at myself — everyone makes mistakes
+hp|option|hq23d|label|🙄 Don't admit it — maybe no one noticed
+hp|question|hq24|text|What kind of leader would you be?
+hp|option|hq24a|label|🛡️ One who leads by example
+hp|option|hq24b|label|📋 An organized strategist
+hp|option|hq24c|label|🎭 A charismatic inspirer
+hp|option|hq24d|label|🤜 One who supports everyone on the team
+hp|question|hq25|text|How do you say goodbye?
+hp|option|hq25a|label|🫂 Big hug — who knows when we'll meet again
+hp|option|hq25b|label|✋ Restrained but sincere — 'take care'
+hp|option|hq25c|label|🎉 'This isn't goodbye — it's see you later!'
+hp|option|hq25d|label|😎 Leave silently — dramatic exit
+peculiar|result|jacob|name|Jacob
+peculiar|result|jacob|desc|You're ordinary — and that's exactly what makes you special. You enter a strange world with fresh eyes, and your 'ordinariness' turns out to be a strength others lack.
+peculiar|result|jacob|trait0|Openness
+peculiar|result|jacob|trait1|Bravery
+peculiar|result|jacob|trait2|Heart
+peculiar|result|emma|name|Emma
+peculiar|result|emma|desc|You carry warmth — literally and figuratively. Passionate, protective, and if you love someone — ready for anything. Your fire can warm or burn.
+peculiar|result|emma|trait0|Passion
+peculiar|result|emma|trait1|Protection
+peculiar|result|emma|trait2|Strength
+peculiar|result|olive|name|Olive
+peculiar|result|olive|desc|You're easygoing and always look upward. Optimistic, light of spirit — you lift everyone's mood. But inside there's an anchor: those you love.
+peculiar|result|olive|trait0|Optimism
+peculiar|result|olive|trait1|Lightness
+peculiar|result|olive|trait2|Joy
+peculiar|result|enoch|name|Enoch
+peculiar|result|enoch|desc|You observe more than you speak. Somewhat dark, somewhat mysterious — but deeper than you seem. Your dark humor is a defense for very deep feelings.
+peculiar|result|enoch|trait0|Mystery
+peculiar|result|enoch|trait1|Depth
+peculiar|result|enoch|trait2|Independence
+peculiar|result|miss_peregrine|name|Miss Peregrine
+peculiar|result|miss_peregrine|desc|You protect those you love at any cost. Strict outside, but every decision is driven by care. You carry responsibility — and carry it well.
+peculiar|result|miss_peregrine|trait0|Protection
+peculiar|result|miss_peregrine|trait1|Responsibility
+peculiar|result|miss_peregrine|trait2|Strength
+peculiar|result|bronwyn|name|Bronwyn
+peculiar|result|bronwyn|desc|You're stronger than you look — and kinder than they think. You protect the weak not because you must, but because it's right. A gentle giant.
+peculiar|result|bronwyn|trait0|Strength
+peculiar|result|bronwyn|trait1|Kindness
+peculiar|result|bronwyn|trait2|Protection
+peculiar|result|millard|name|Millard
+peculiar|result|millard|desc|You're invisible but omnipresent. You observe, remember, know more than anyone. Your invisibility isn't a weakness — it's an advantage.
+peculiar|result|millard|trait0|Observation
+peculiar|result|millard|trait1|Knowledge
+peculiar|result|millard|trait2|Subtlety
+peculiar|result|horace|name|Horace
+peculiar|result|horace|desc|You're elegant and a little old-fashioned — for a reason. You see things ahead and appreciate beauty in details. Your style isn't vanity — it's a language.
+peculiar|result|horace|trait0|Elegance
+peculiar|result|horace|trait1|Foresight
+peculiar|result|horace|trait2|Style
+peculiar|result|hugh|name|Hugh
+peculiar|result|hugh|desc|You're quiet, but an entire kingdom buzzes within you. Bees live inside you — and you live in harmony with them. Loyal to nature and those you love, you would never betray your swarm.
+peculiar|result|hugh|trait0|Loyalty
+peculiar|result|hugh|trait1|Quietness
+peculiar|result|hugh|trait2|Connection to nature
+peculiar|result|fiona|name|Fiona
+peculiar|result|fiona|desc|You grow quietly, like a vine in the mist. Shy and earthy, you feel every root and every branch. Where you step — life blooms, even amid the ruins.
+peculiar|result|fiona|trait0|Earthiness
+peculiar|result|fiona|trait1|Shyness
+peculiar|result|fiona|trait2|Quiet strength
+peculiar|result|claire|name|Claire
+peculiar|result|claire|desc|You're sweet and innocent — but with a secret hidden behind you. Your childlike tenderness disarms, while the mouth on the back of your head reminds us: even angels can be strange.
+peculiar|result|claire|trait0|Innocence
+peculiar|result|claire|trait1|Sweetness
+peculiar|result|claire|trait2|Hidden secret
+peculiar|result|abe|name|Abe
+peculiar|result|abe|desc|You're the one who walked through darkness and returned with stories. A brave adventurer, a legendary grandfather — your scars tell more than any book. You protected the peculiar, even when the world forgot them.
+peculiar|result|abe|trait0|Bravery
+peculiar|result|abe|trait1|Experience
+peculiar|result|abe|trait2|Storyteller
+peculiar|result|caul|name|Caul
+peculiar|result|caul|desc|You see the world as a chessboard and people as pieces. Cold, ambitious, and ruthless, you crave power not for its own sake, but because you believe you're the only one worthy of ruling.
+peculiar|result|caul|trait0|Manipulation
+peculiar|result|caul|trait1|Ambition
+peculiar|result|caul|trait2|Coldness
+peculiar|result|noor|name|Noor
+peculiar|result|noor|desc|You are light in the darkness, literally. Modern, brave, and adaptable, you find a way where others surrender. You manipulate light as easily as you navigate situations — always one step ahead.
+peculiar|result|noor|trait0|Bravery
+peculiar|result|noor|trait1|Adaptability
+peculiar|result|noor|trait2|Radiance
+peculiar|result|peculiar_twins|name|The Twins
+peculiar|result|peculiar_twins|desc|You're silent and inseparable — two hearts, one mind. Behind masks and silence, you see the world differently. Your telepathy isn't a trick — it's a way of being: words are unnecessary when someone understands you without them.
+peculiar|result|peculiar_twins|trait0|Mystery
+peculiar|result|peculiar_twins|trait1|Telepathy
+peculiar|result|peculiar_twins|trait2|Inseparability
+peculiar|result|ricky|name|Ricky
+peculiar|result|ricky|desc|You're from the ordinary world — and skeptical of all things strange. Street smarts instead of magic, loyalty instead of peculiarities. You're the friend who doesn't believe in miracles but will have your back without hesitation.
+peculiar|result|ricky|trait0|Skepticism
+peculiar|result|ricky|trait1|Street smarts
+peculiar|result|ricky|trait2|Loyalty
+peculiar|result|althea|name|Althea
+peculiar|result|althea|desc|You're invisible — not because you hide, but because you choose to observe. Ethereal and independent, you glide through the world like wind: everywhere and nowhere at once. You see what no one else can.
+peculiar|result|althea|trait0|Independence
+peculiar|result|althea|trait1|Observation
+peculiar|result|althea|trait2|Ethereality
+peculiar|result|jules|name|Jules
+peculiar|result|jules|desc|You're a thousand faces in one body. You shapeshift with ease and delight, because the real you is all those faces combined. Theatrical, unpredictable, and dazzling — life is never boring around you.
+peculiar|result|jules|trait0|Theatricality
+peculiar|result|jules|trait1|Unpredictability
+peculiar|result|jules|trait2|Brilliance
+peculiar|result|dogface|name|Dogface
+peculiar|result|dogface|desc|You live by instinct — and that's your honesty. Half human, half dog, you're loyal to the bone and simple in your desires. A nose for danger, unconditional devotion — you're the most honest of all the peculiar.
+peculiar|result|dogface|trait0|Loyalty
+peculiar|result|dogface|trait1|Instinct
+peculiar|result|dogface|trait2|Simplicity
+peculiar|result|victor|name|Victor
+peculiar|result|victor|desc|You're the hero who is no more. Bronwyn's brother, strong and tragic — your absence speaks louder than presence. You remind us: even the strongest can fall, and that's what makes their courage real.
+peculiar|result|victor|trait0|Strength
+peculiar|result|victor|trait1|Tragedy
+peculiar|result|victor|trait2|Heroism
+peculiar|result|perplexus|name|Perplexus
+peculiar|result|perplexus|desc|You're the navigator between worlds and time loops. Old and wise, you know paths that exist on no map. Mysterious and unhurried — you guide others through labyrinths they cannot even see.
+peculiar|result|perplexus|trait0|Wisdom
+peculiar|result|perplexus|trait1|Mystery
+peculiar|result|perplexus|trait2|Navigation
+peculiar|result|myron|name|Myron
+peculiar|result|myron|desc|You're the librarian of souls, keeper of knowledge no one else remembers. Quiet and intellectual, you collect stories the way others collect butterflies — with care and reverence. Every page is a living thing to you.
+peculiar|result|myron|trait0|Intellect
+peculiar|result|myron|trait1|Collecting
+peculiar|result|myron|trait2|Quietness
+peculiar|question|pq1|text|If you had a peculiarity — which would you choose?
+peculiar|option|pq1a|label|🔥 Control fire or air
+peculiar|option|pq1b|label|👁️ See others' dreams
+peculiar|option|pq1c|label|🎈 Levitate — float above it all
+peculiar|option|pq1d|label|🪆 Bring the lifeless to life
+peculiar|question|pq2|text|How do you feel among people who don't understand you?
+peculiar|option|pq2a|label|🧳 Look for where I truly belong
+peculiar|option|pq2b|label|👁️ Quietly observe — don't explain
+peculiar|option|pq2c|label|💪 Prove myself through actions
+peculiar|option|pq2d|label|🎈 I don't care — I stay myself
+peculiar|question|pq3|text|What do you value most about your home?
+peculiar|option|pq3a|label|🏠 Safety and protecting loved ones
+peculiar|option|pq3b|label|📚 Books and quiet for thinking
+peculiar|option|pq3c|label|😄 Laughter and shared moments
+peculiar|option|pq3d|label|🎨 Beauty and order
+peculiar|question|pq4|text|How do you face danger?
+peculiar|option|pq4a|label|⚡ Protect others first
+peculiar|option|pq4b|label|🧠 Find a plan — no panic
+peculiar|option|pq4c|label|🎈 Stay light — panic won't help
+peculiar|option|pq4d|label|🪆 Do what's needed — silently
+peculiar|question|pq5|text|What draws you most to the past?
+peculiar|option|pq5a|label|❤️ People who are no longer there
+peculiar|option|pq5b|label|📖 Knowledge and traditions
+peculiar|option|pq5c|label|🕰️ The feeling when everything was simpler
+peculiar|option|pq5d|label|🎨 The beauty and style of that era
+peculiar|question|pq6|text|How do you act when someone is crying?
+peculiar|option|pq6a|label|🤗 Hug and listen
+peculiar|option|pq6b|label|🔧 Try to solve the problem
+peculiar|option|pq6c|label|😶 Uncomfortable — don't know what to do
+peculiar|option|pq6d|label|🎈 Try to cheer them up
+peculiar|question|pq7|text|What kind of place feels like yours?
+peculiar|option|pq7a|label|🏡 A cozy home where everyone belongs
+peculiar|option|pq7b|label|📚 A library or old-fashioned room
+peculiar|option|pq7c|label|🌊 Open space — sea or sky
+peculiar|option|pq7d|label|🌑 A place where nobody finds me
+peculiar|question|pq8|text|How do you feel about your own strangeness?
+peculiar|option|pq8a|label|🌟 It's my gift — I'm proud
+peculiar|option|pq8b|label|🔍 I study and understand it
+peculiar|option|pq8c|label|😔 Sometimes wish I were simpler
+peculiar|option|pq8d|label|🖤 It's mine — no need to explain
+peculiar|question|pq9|text|How do you deal with nostalgia?
+peculiar|option|pq9a|label|📸 I keep every little thing — photos, letters, memories
+peculiar|option|pq9b|label|🔥 I remember with warmth, but live in the present
+peculiar|option|pq9c|label|🫥 I try not to look back
+peculiar|option|pq9d|label|🕰️ I create rituals to keep the past alive
+peculiar|question|pq10|text|What role do you play in a group of friends?
+peculiar|option|pq10a|label|🛡️ The protector — I make sure everyone is safe
+peculiar|option|pq10b|label|🔎 The observer — I notice what others miss
+peculiar|option|pq10c|label|🌪️ The spark — I ignite and inspire
+peculiar|option|pq10d|label|🆕 The newcomer — I bring a fresh perspective
+peculiar|question|pq11|text|How do you react when you discover a lie?
+peculiar|option|pq11a|label|🔥 I explode — lies are unacceptable to me
+peculiar|option|pq11b|label|🧩 I analyze — why did the person lie?
+peculiar|option|pq11c|label|💔 I silently get hurt and distance myself
+peculiar|option|pq11d|label|🖤 I'm not surprised — people always lie
+peculiar|question|pq12|text|What would you save from a burning house?
+peculiar|option|pq12a|label|👨‍👩‍👧 The people — everything else is replaceable
+peculiar|option|pq12b|label|📖 A journal or book — my thoughts live there
+peculiar|option|pq12c|label|🔑 Something small but deeply precious to me
+peculiar|option|pq12d|label|🚪 Nothing — I just move on
+peculiar|question|pq13|text|How do you deal with loneliness?
+peculiar|option|pq13a|label|📚 I dive into books or research
+peculiar|option|pq13b|label|💪 I look for someone who needs help
+peculiar|option|pq13c|label|🎭 I pretend I don't care, though it hurts inside
+peculiar|option|pq13d|label|🎈 I find joy in small things around me
+peculiar|question|pq14|text|What's your attitude toward the unknown?
+peculiar|option|pq14a|label|🚀 The unknown pulls me like a magnet
+peculiar|option|pq14b|label|🧪 I want to study it before stepping in
+peculiar|option|pq14c|label|🏠 I prefer the known and safe
+peculiar|option|pq14d|label|⚡ I'm not afraid — I've seen the worst already
+peculiar|question|pq15|text|How do you show love?
+peculiar|option|pq15a|label|🔥 Fiercely and without compromise
+peculiar|option|pq15b|label|🤲 Through quiet actions and care
+peculiar|option|pq15c|label|🎁 With unexpected gifts and surprises
+peculiar|option|pq15d|label|🖤 It's hard for me to show, but I'm always there
+peculiar|question|pq16|text|What's your relationship with time?
+peculiar|option|pq16a|label|⏳ Time is something to protect and control
+peculiar|option|pq16b|label|🏃 Time is running — I must do everything
+peculiar|option|pq16c|label|🎈 Time doesn't matter when you're happy
+peculiar|option|pq16d|label|💀 Time is an illusion — everything ends anyway
+peculiar|question|pq17|text|How do you face your fears?
+peculiar|option|pq17a|label|⚔️ I run toward them — come what may
+peculiar|option|pq17b|label|🧠 I break fear into pieces and analyze it
+peculiar|option|pq17c|label|🤝 It's easier with someone by my side
+peculiar|option|pq17d|label|🌙 I pretend I'm not afraid
+peculiar|question|pq18|text|What do you do when nobody's watching?
+peculiar|option|pq18a|label|👻 I observe the world unnoticed
+peculiar|option|pq18b|label|🎨 I draw, dream, or create something
+peculiar|option|pq18c|label|🏋️ I train and prepare for the next challenge
+peculiar|option|pq18d|label|🕯️ I indulge in my dark hobbies
+peculiar|question|pq19|text|What's your ideal way to spend a rainy day?
+peculiar|option|pq19a|label|☕ A book, tea, and a blanket
+peculiar|option|pq19b|label|🌧️ I'll go out in the rain — to feel the elements
+peculiar|option|pq19c|label|🧸 I'll spend time with the people I love
+peculiar|option|pq19d|label|🗂️ I'll organize everything and make plans
+peculiar|question|pq20|text|How do you react to injustice?
+peculiar|option|pq20a|label|🔥 I fight openly — silence is not an option
+peculiar|option|pq20b|label|📝 I gather facts and prove the truth
+peculiar|option|pq20c|label|😢 I feel it deeply but don't know how to act
+peculiar|option|pq20d|label|😏 The world is unfair — I got used to it long ago
+peculiar|question|pq21|text|What draws you to a person?
+peculiar|option|pq21a|label|✨ Courage and inner fire
+peculiar|option|pq21b|label|🧠 Intelligence and depth of thought
+peculiar|option|pq21c|label|💛 Kindness and sincerity
+peculiar|option|pq21d|label|🖤 Mystery and being hard to read
+peculiar|question|pq22|text|How do you handle responsibility?
+peculiar|option|pq22a|label|🦅 I take it all on — it's safer that way
+peculiar|option|pq22b|label|💪 I'm ready to carry the burden for others
+peculiar|option|pq22c|label|😬 It weighs on me, but I try
+peculiar|option|pq22d|label|🚫 I avoid it — I don't want people depending on me
+peculiar|question|pq23|text|What kind of art speaks to you?
+peculiar|option|pq23a|label|🎭 Theater and performance — raw emotions
+peculiar|option|pq23b|label|🖋️ Literature — words hold power
+peculiar|option|pq23c|label|👔 Fashion and style — appearance as expression
+peculiar|option|pq23d|label|🖤 Dark art — sculpture, shadows, taxidermy
+peculiar|question|pq24|text|What do you dream about?
+peculiar|option|pq24a|label|🔮 I see visions of the future — vivid and strange
+peculiar|option|pq24b|label|🏡 About a place where I finally belong
+peculiar|option|pq24c|label|⚡ About adventures and battles
+peculiar|option|pq24d|label|🌑 About things better left untold
+peculiar|question|pq25|text|How do you say goodbye?
+peculiar|option|pq25a|label|🫂 I hug tightly and don't want to let go
+peculiar|option|pq25b|label|🔥 I say everything on my heart — no holding back
+peculiar|option|pq25c|label|🚶 I quietly disappear — it's easier that way
+peculiar|option|pq25d|label|🕊️ I say 'see you' — because goodbyes don't exist
+food|meta|title|Which dish are you?
+food|meta|description|Answer a few questions and find out which dish you are
+food|meta|start_btn|Start
+food|meta|result_title|You are
+food|meta|share_btn|Share
+food|meta|retry_btn|Try again
+food|meta|progress|Question {current} of {total}
+food|result|borshch|name|Borscht
+food|result|borshch|desc|You're a timeless classic. Warm, rich, and multi-layered. Everyone loves you because you're genuine.
+food|result|borshch|trait0|Tradition
+food|result|borshch|trait1|Depth
+food|result|borshch|trait2|Warmth
+food|result|pizza|name|Pizza
+food|result|pizza|desc|You're the life of the party. Versatile, vibrant, and always fitting. Every evening becomes a party with you.
+food|result|pizza|trait0|Fun
+food|result|pizza|trait1|Flexibility
+food|result|pizza|trait2|Popularity
+food|result|sushi|name|Sushi
+food|result|sushi|desc|You're elegant and precise. Simple on the outside, complex within. You value quality over quantity.
+food|result|sushi|trait0|Elegance
+food|result|sushi|trait1|Balance
+food|result|sushi|trait2|Refinement
+food|result|varenyky|name|Varenyky
+food|result|varenyky|desc|You're pure comfort. Tender, sincere, and always reminding of home. People feel safe around you.
+food|result|varenyky|trait0|Comfort
+food|result|varenyky|trait1|Sincerity
+food|result|varenyky|trait2|Tenderness
+food|result|ramen|name|Ramen
+food|result|ramen|desc|You're complex and deep. It takes time to understand you, but it's worth it. You warm from within.
+food|result|ramen|trait0|Depth
+food|result|ramen|trait1|Complexity
+food|result|ramen|trait2|Soulfulness
+food|result|steak|name|Steak
+food|result|steak|desc|You're confidence and strength. No extras, no decorations — just the essence. You know your worth.
+food|result|steak|trait0|Confidence
+food|result|steak|trait1|Strength
+food|result|steak|trait2|Directness
+food|result|croissant|name|Croissant
+food|result|croissant|desc|You're an aesthete to the core. Light, airy, and a little mysterious. You turn everyday life into art.
+food|result|croissant|trait0|Aesthetics
+food|result|croissant|trait1|Lightness
+food|result|croissant|trait2|Mystery
+food|result|tacos|name|Tacos
+food|result|tacos|desc|You're pure energy and spontaneity. Bright, spicy, unpredictable. It's never boring with you.
+food|result|tacos|trait0|Energy
+food|result|tacos|trait1|Spontaneity
+food|result|tacos|trait2|Vibrancy
+food|result|pad_thai|name|Pad Thai
+food|result|pad_thai|desc|You're harmony in everything. Balanced, exotic yet approachable. You blend opposites with effortless grace.
+food|result|pad_thai|trait0|Balance
+food|result|pad_thai|trait1|Harmony
+food|result|pad_thai|trait2|Openness
+food|result|cheesecake|name|Cheesecake
+food|result|cheesecake|desc|You're pure indulgence. Layered, sweet, and irresistible. Impossible to forget after the first encounter.
+food|result|cheesecake|trait0|Indulgence
+food|result|cheesecake|trait1|Layers
+food|result|cheesecake|trait2|Charm
+food|result|hummus|name|Hummus
+food|result|hummus|desc|You're simplicity and sincerity. You bring people together and create a sense of community. Always ready to share.
+food|result|hummus|trait0|Simplicity
+food|result|hummus|trait1|Generosity
+food|result|hummus|trait2|Community
+food|result|pho|name|Pho
+food|result|pho|desc|You're healing and warmth. Patient, nurturing, and deep. You warm the soul and help others recover.
+food|result|pho|trait0|Healing
+food|result|pho|trait1|Patience
+food|result|pho|trait2|Nurturing
+food|result|paella|name|Paella
+food|result|paella|desc|You're a celebration in every moment. Generous, colorful, and unifying. You turn an ordinary meal into an event.
+food|result|paella|trait0|Generosity
+food|result|paella|trait1|Festivity
+food|result|paella|trait2|Vibrancy
+food|result|curry|name|Curry
+food|result|curry|desc|You're complexity and boldness. Layered, rich, and always full of character. You're not afraid to stand out.
+food|result|curry|trait0|Boldness
+food|result|curry|trait1|Complexity
+food|result|curry|trait2|Character
+food|result|gelato|name|Gelato
+food|result|gelato|desc|You're joy and lightness. Sweet, refined, and always lifting spirits. You make any day brighter.
+food|result|gelato|trait0|Joy
+food|result|gelato|trait1|Lightness
+food|result|gelato|trait2|Refinement
+food|result|burger|name|Burger
+food|result|burger|desc|You're straightforward and satisfying. No pretense, no fuss — just honest and delicious. A universal crowd-pleaser.
+food|result|burger|trait0|Directness
+food|result|burger|trait1|Satisfaction
+food|result|burger|trait2|Simplicity
+food|result|dim_sum|name|Dim Sum
+food|result|dim_sum|desc|You're variety and delicacy. You love socializing, value details, and always have something to offer.
+food|result|dim_sum|trait0|Variety
+food|result|dim_sum|trait1|Delicacy
+food|result|dim_sum|trait2|Sociability
+food|result|pancakes|name|Pancakes
+food|result|pancakes|desc|You're coziness and nostalgia. Warm, sweet, and always reminding of the best moments. You're a morning ray of happiness.
+food|result|pancakes|trait0|Coziness
+food|result|pancakes|trait1|Nostalgia
+food|result|pancakes|trait2|Sweetness
+food|result|ceviche|name|Ceviche
+food|result|ceviche|desc|You're freshness and daring. Modern, bold, and always a step ahead. You're not afraid to experiment.
+food|result|ceviche|trait0|Freshness
+food|result|ceviche|trait1|Daring
+food|result|ceviche|trait2|Modernity
+food|result|shawarma|name|Shawarma
+food|result|shawarma|desc|You're street-smart and energetic. Quick, bold, and always satisfying. You know how to make the most of everything.
+food|result|shawarma|trait0|Street-smarts
+food|result|shawarma|trait1|Energy
+food|result|shawarma|trait2|Boldness
+food|result|fondue|name|Fondue
+food|result|fondue|desc|You're warmth and togetherness. Romantic, social, and always bringing people together. Everyone feels special around you.
+food|result|fondue|trait0|Warmth
+food|result|fondue|trait1|Romance
+food|result|fondue|trait2|Togetherness
+food|result|matcha|name|Matcha
+food|result|matcha|desc|You're mindfulness and calm. Aesthetic, balanced, and always in harmony. You find beauty in simplicity.
+food|result|matcha|trait0|Mindfulness
+food|result|matcha|trait1|Calm
+food|result|matcha|trait2|Aesthetics
+food|question|fq1|text|What kind of morning makes you happiest?
+food|option|fq1a|label|☕ Coffee, silence, and a slow morning
+food|option|fq1b|label|🍳 Big breakfast with family
+food|option|fq1c|label|🏃 Quick snack and off to work
+food|option|fq1d|label|🎶 Music, dancing, breakfast on the go
+food|question|fq2|text|How do you behave in a new group?
+food|option|fq2a|label|🌟 I immediately become the center of attention
+food|option|fq2b|label|😊 Quietly get to know everyone
+food|option|fq2c|label|🎩 Make an impression with style
+food|option|fq2d|label|🤷 Depends on my mood
+food|question|fq3|text|What do you value most in friendship?
+food|option|fq3a|label|🤝 Reliability and honesty
+food|option|fq3b|label|😂 Fun and shared adventures
+food|option|fq3c|label|🎭 Deep conversations and understanding
+food|option|fq3d|label|🏠 Coziness and peace together
+food|question|fq4|text|How do you handle stress?
+food|option|fq4a|label|💪 Pull myself together and act
+food|option|fq4b|label|🛀 Rest and recover
+food|option|fq4c|label|🎉 Look for positive vibes and distract myself
+food|option|fq4d|label|📝 Analyze causes and make a plan
+food|question|fq5|text|Choose your perfect evening:
+food|option|fq5a|label|🕯️ Book, candles, silence
+food|option|fq5b|label|🎬 Movie with friends and snacks
+food|option|fq5c|label|🎤 Karaoke or a club
+food|option|fq5d|label|🍽️ Fancy candlelit dinner
+food|question|fq6|text|Which superpower is closest to you?
+food|option|fq6a|label|🔮 Read minds
+food|option|fq6b|label|⏱️ Stop time
+food|option|fq6c|label|🦸 Super strength
+food|option|fq6d|label|✈️ Teleportation
+food|question|fq7|text|How do your friends describe you?
+food|option|fq7a|label|🧸 Warm and caring
+food|option|fq7b|label|🔥 Fiery and bright
+food|option|fq7c|label|🎨 Creative and unusual
+food|option|fq7d|label|🏋️ Strong and reliable
+food|question|fq8|text|What travel style suits you?
+food|option|fq8a|label|🏛️ Culture, museums, architecture
+food|option|fq8b|label|🏖️ Beach, cocktails, relaxation
+food|option|fq8c|label|🎒 Adventures, hiking, extreme
+food|option|fq8d|label|🏡 Staying home — the best trip
+food|question|fq9|text|What motivates you the most?
+food|option|fq9a|label|🏆 Recognition and success
+food|option|fq9b|label|💡 Ideas and inspiration
+food|option|fq9c|label|👨‍👩‍👧‍👦 Family and loved ones
+food|option|fq9d|label|🌍 Discovering new things
+food|question|fq10|text|Choose a color that describes you:
+food|option|fq10a|label|❤️ Red — passion
+food|option|fq10b|label|💛 Yellow — joy
+food|option|fq10c|label|💙 Blue — calm
+food|option|fq10d|label|💜 Purple — mystery
+food|question|fq11|text|How do you act at a restaurant?
+food|option|fq11a|label|📖 I study the entire menu from start to finish
+food|option|fq11b|label|🎉 I order everything — let's try it all!
+food|option|fq11c|label|🏠 I go with my tried-and-true favorite
+food|option|fq11d|label|💪 I know exactly what I want — no hesitation
+food|question|fq12|text|What's your approach to gift-giving?
+food|option|fq12a|label|🎁 I make something handmade — with soul
+food|option|fq12b|label|🎯 I find the perfect gift, even if it takes a month
+food|option|fq12c|label|🎈 It's all about emotions! I throw a surprise party
+food|option|fq12d|label|✨ I give something elegant and stylish
+food|question|fq13|text|How do you spend money?
+food|option|fq13a|label|💰 I save and plan — stability above all
+food|option|fq13b|label|🛍️ On experiences and fun with friends
+food|option|fq13c|label|🖼️ On beautiful things and aesthetics
+food|option|fq13d|label|🥩 On quality — less but better
+food|question|fq14|text|What's your social media style?
+food|option|fq14a|label|📸 Aesthetic feed — every photo is a work of art
+food|option|fq14b|label|🤪 Memes, stories, and chaotic posts
+food|option|fq14c|label|🔒 I rarely post — I'm here to observe
+food|option|fq14d|label|👨‍👩‍👧 Family photos, recipes, cozy moments
+food|question|fq15|text|How do you deal with boredom?
+food|option|fq15a|label|🧪 I start a new unusual project
+food|option|fq15b|label|📞 I call friends — gather the crew
+food|option|fq15c|label|🛋️ I wrap up in a blanket and binge a show
+food|option|fq15d|label|🏋️ I go work out or do something productive
+food|question|fq16|text|What's your fashion style?
+food|option|fq16a|label|🧥 Classic and elegant — always impeccable
+food|option|fq16b|label|🎨 Bold and bright — fashion is self-expression
+food|option|fq16c|label|🥐 Airy and refined — French chic
+food|option|fq16d|label|👕 Comfy and cozy — comfort is key
+food|question|fq17|text|How do you organize your room?
+food|option|fq17a|label|✨ Everything in its place — minimalism and order
+food|option|fq17b|label|🎪 Creative chaos — but I know where everything is!
+food|option|fq17c|label|🕯️ Candles, blankets, photos — a cozy nest
+food|option|fq17d|label|🖼️ Stylish decor and curated aesthetics
+food|question|fq18|text|What's your attitude to traditions?
+food|option|fq18a|label|❤️ I love them! Family rituals are sacred
+food|option|fq18b|label|🔄 I take the best of the old and add my own twist
+food|option|fq18c|label|🚀 I create my own traditions — new generation!
+food|option|fq18d|label|🤷 Traditions? I live in the moment
+food|question|fq19|text|How do you act when you're excited?
+food|option|fq19a|label|🗣️ I tell EVERYONE — I can't keep it in!
+food|option|fq19b|label|😊 I smile quietly — savoring it inside
+food|option|fq19c|label|🤗 I hug everyone around me!
+food|option|fq19d|label|💃 I throw a mini celebration — cake and champagne!
+food|question|fq20|text|What's your relationship with time/punctuality?
+food|option|fq20a|label|⏰ Always on time — it's a matter of respect
+food|option|fq20b|label|😅 Always late — but with a great story why
+food|option|fq20c|label|📐 I arrive 5 minutes early — everything calculated
+food|option|fq20d|label|🌸 Whenever the mood strikes — time is relative
+food|question|fq21|text|How do you choose a movie to watch?
+food|option|fq21a|label|⭐ Only high ratings and critic reviews
+food|option|fq21b|label|🍿 Whatever friends recommend — watching together!
+food|option|fq21c|label|🎲 Randomly! I click the first thing that catches my eye
+food|option|fq21d|label|🎬 I pick deep, meaningful films
+food|question|fq22|text|What's your approach to hobbies?
+food|option|fq22a|label|🔥 I dive in deep — and become an expert
+food|option|fq22b|label|🦋 I try a bit of everything — life is short!
+food|option|fq22c|label|🎨 I choose something creative and aesthetic
+food|option|fq22d|label|👨‍👩‍👧 My hobby is spending time with loved ones
+food|question|fq23|text|How do you react to compliments?
+food|option|fq23a|label|😳 I blush and don't know where to hide
+food|option|fq23b|label|😎 Thanks! I know I'm awesome
+food|option|fq23c|label|🥰 I melt and hug back
+food|option|fq23d|label|💅 I accept gracefully — as one should
+food|question|fq24|text|What's your energy like at a party?
+food|option|fq24a|label|🎤 I'm the life of the party — everyone's around me!
+food|option|fq24b|label|🗨️ I have deep conversations in a quiet corner
+food|option|fq24c|label|🍷 I mingle elegantly, holding a glass
+food|option|fq24d|label|🫂 Next to my closest people — I don't need more
+food|question|fq25|text|How do you end your day?
+food|option|fq25a|label|📓 I plan tomorrow and reflect on today
+food|option|fq25b|label|🌙 Tea, a book, silence — the perfect ending
+food|option|fq25c|label|📱 I text friends until 3 AM
+food|option|fq25d|label|🛁 Bath bomb, face mask, aromatherapy
+mythical|meta|title|Which mythical creature are you?
+mythical|meta|description|Find out which magical being lives in your soul
+mythical|meta|start_btn|Start
+mythical|meta|result_title|You are
+mythical|meta|share_btn|Share
+mythical|meta|retry_btn|Try again
+mythical|meta|progress|Question {current} of {total}
+mythical|result|dragon|name|Dragon
+mythical|result|dragon|desc|You're a force that cannot be ignored. Passionate, commanding, and unbreakable. When you enter a room — everyone feels it.
+mythical|result|dragon|trait0|Power
+mythical|result|dragon|trait1|Passion
+mythical|result|dragon|trait2|Authority
+mythical|result|phoenix|name|Phoenix
+mythical|result|phoenix|desc|You always come back. After any fall you rise even stronger. Your resilience inspires everyone around you.
+mythical|result|phoenix|trait0|Rebirth
+mythical|result|phoenix|trait1|Resilience
+mythical|result|phoenix|trait2|Hope
+mythical|result|unicorn|name|Unicorn
+mythical|result|unicorn|desc|You're purity and magic in its purest form. Rare and special — people are drawn to your light without even understanding why.
+mythical|result|unicorn|trait0|Purity
+mythical|result|unicorn|trait1|Magic
+mythical|result|unicorn|trait2|Uniqueness
+mythical|result|griffin|name|Griffin
+mythical|result|griffin|desc|You combine wisdom and strength. A noble warrior with a golden heart — you defend justice and never betray your principles.
+mythical|result|griffin|trait0|Nobility
+mythical|result|griffin|trait1|Strength
+mythical|result|griffin|trait2|Justice
+mythical|result|mermaid|name|Mermaid
+mythical|result|mermaid|desc|You're deep as the ocean. Enchanting voice, mysterious soul — you attract people with your mystery and beauty.
+mythical|result|mermaid|trait0|Mystery
+mythical|result|mermaid|trait1|Beauty
+mythical|result|mermaid|trait2|Depth
+mythical|result|werewolf|name|Werewolf
+mythical|result|werewolf|desc|You have two sides — and both are real. Calm and reliable by day, but inside a wild force rages, waiting for its moment.
+mythical|result|werewolf|trait0|Duality
+mythical|result|werewolf|trait1|Instinct
+mythical|result|werewolf|trait2|Wild power
+mythical|result|fairy|name|Fairy
+mythical|result|fairy|desc|You make the world magical just by being there. Light, cheerful, and a little mischievous — you bring joy wherever you appear.
+mythical|result|fairy|trait0|Joy
+mythical|result|fairy|trait1|Lightness
+mythical|result|fairy|trait2|Mischief
+mythical|result|kraken|name|Kraken
+mythical|result|kraken|desc|You hide in the depths, but when you act — the earth trembles. A quiet strategist with colossal power. Better not underestimate you.
+mythical|result|kraken|trait0|Strategy
+mythical|result|kraken|trait1|Hidden power
+mythical|result|kraken|trait2|Patience
+mythical|result|centaur|name|Centaur
+mythical|result|centaur|desc|You are a sage who reads the stars and finds truth in the movement of celestial bodies. Your philosophy runs deep, and your arrows fly unerringly true.
+mythical|result|centaur|trait0|Wisdom
+mythical|result|centaur|trait1|Philosophy
+mythical|result|centaur|trait2|Precision
+mythical|result|hydra|name|Hydra
+mythical|result|hydra|desc|You are relentless and indestructible. Every obstacle only makes you stronger — for every head cut off, two more grow in its place.
+mythical|result|hydra|trait0|Regeneration
+mythical|result|hydra|trait1|Persistence
+mythical|result|hydra|trait2|Unstoppability
+mythical|result|sphinx|name|Sphinx
+mythical|result|sphinx|desc|You are a guardian at the boundary of the known and unknown. Your riddles test the worthiness of all who dare approach the truth.
+mythical|result|sphinx|trait0|Enigma
+mythical|result|sphinx|trait1|Wisdom
+mythical|result|sphinx|trait2|Trials
+mythical|result|pegasus|name|Pegasus
+mythical|result|pegasus|desc|You are a free spirit soaring above the clouds. Noble and poetic, you inspire everyone who lifts their eyes to the sky.
+mythical|result|pegasus|trait0|Freedom
+mythical|result|pegasus|trait1|Nobility
+mythical|result|pegasus|trait2|Inspiration
+mythical|result|elf|name|Elf
+mythical|result|elf|desc|You are a graceful keeper of ancient knowledge. Immortal and bound to nature, you see the world through the eyes of millennia.
+mythical|result|elf|trait0|Grace
+mythical|result|elf|trait1|Immortality
+mythical|result|elf|trait2|Ancient knowledge
+mythical|result|basilisk|name|Basilisk
+mythical|result|basilisk|desc|A single glance from you changes everything. You are feared and revered — the embodiment of power that needs no proof.
+mythical|result|basilisk|trait0|Deadly gaze
+mythical|result|basilisk|trait1|Power
+mythical|result|basilisk|trait2|Solitude
+mythical|result|yeti|name|Yeti
+mythical|result|yeti|desc|You are a mysterious giant with a gentle heart, wandering through the snows. Misunderstood by many, but those brave enough to approach find a loyal friend.
+mythical|result|yeti|trait0|Mystery
+mythical|result|yeti|trait1|Gentleness
+mythical|result|yeti|trait2|Misunderstood
+mythical|result|chimera|name|Chimera
+mythical|result|chimera|desc|You are a unique combination that defies classification. Unpredictable and fierce, you shatter every mold and expectation.
+mythical|result|chimera|trait0|Unpredictability
+mythical|result|chimera|trait1|Uniqueness
+mythical|result|chimera|trait2|Ferocity
+mythical|result|minotaur|name|Minotaur
+mythical|result|minotaur|desc|You are a mighty force trapped in the labyrinth of your own emotions. Your rage is devastating, but deep inside you seek a way toward the light.
+mythical|result|minotaur|trait0|Might
+mythical|result|minotaur|trait1|Rage
+mythical|result|minotaur|trait2|Seeking escape
+mythical|result|selkie|name|Selkie
+mythical|result|selkie|desc|You are torn between two worlds — leaving a piece of your heart in each. Your emotional depth is boundless, and the longing for the other shore never fades.
+mythical|result|selkie|trait0|Shapeshifting
+mythical|result|selkie|trait1|Longing
+mythical|result|selkie|trait2|Emotional depth
+mythical|result|djinn|name|Djinn
+mythical|result|djinn|desc|You are an ancient force that grants wishes, but always on your own terms. Tricky and immensely powerful, you play by rules that others cannot fathom.
+mythical|result|djinn|trait0|Trickery
+mythical|result|djinn|trait1|Ancient power
+mythical|result|djinn|trait2|Wish-granting
+mythical|result|valkyrie|name|Valkyrie
+mythical|result|valkyrie|desc|You are a warrior who chooses the worthy. Fearless and honorable, you stand at the threshold between life and death, deciding the fates of heroes.
+mythical|result|valkyrie|trait0|Bravery
+mythical|result|valkyrie|trait1|Honor
+mythical|result|valkyrie|trait2|Fate
+mythical|result|kitsune|name|Kitsune
+mythical|result|kitsune|desc|You are a cunning sorcerer in a fox's skin. A shapeshifter with countless faces, you play with reality like a toy, and no one knows your true form.
+mythical|result|kitsune|trait0|Cunning
+mythical|result|kitsune|trait1|Shapeshifting
+mythical|result|kitsune|trait2|Magic
+mythical|result|golem|name|Golem
+mythical|result|golem|desc|You are an unbreakable protector shaped from the earth itself. Loyal and unstoppable, you stand guard over those you were created to protect, until you crumble to dust.
+mythical|result|golem|trait0|Protection
+mythical|result|golem|trait1|Loyalty
+mythical|result|golem|trait2|Unstoppability
+mythical|question|mq1|text|Which element is closest to you?
+mythical|option|mq1a|label|🔥 Fire — passion and destruction
+mythical|option|mq1b|label|🌊 Water — depth and mysteries
+mythical|option|mq1c|label|🌿 Earth — stability and strength
+mythical|option|mq1d|label|✨ Air — freedom and lightness
+mythical|question|mq2|text|How do you act when betrayed?
+mythical|option|mq2a|label|🔥 Burn bridges to the ground
+mythical|option|mq2b|label|🥶 Disappear forever and stay silent
+mythical|option|mq2c|label|💔 Forgive but never forget
+mythical|option|mq2d|label|🌙 Wait for the right moment to respond
+mythical|question|mq3|text|Which superpower suits you best?
+mythical|option|mq3a|label|💪 Unstoppable physical strength
+mythical|option|mq3b|label|🔮 Seeing the future
+mythical|option|mq3c|label|🫥 Invisibility
+mythical|option|mq3d|label|🔄 Shapeshifting
+mythical|question|mq4|text|What time of day is closest to you?
+mythical|option|mq4a|label|🌅 Dawn — new beginnings
+mythical|option|mq4b|label|☀️ Noon — time to act
+mythical|option|mq4c|label|🌙 Twilight — magic between light and shadow
+mythical|option|mq4d|label|🌑 Night — silence and true self
+mythical|question|mq5|text|How do others see you?
+mythical|option|mq5a|label|👑 A leader who's respected and feared
+mythical|option|mq5b|label|🌟 A special person with a magical aura
+mythical|option|mq5c|label|🎭 A mystery everyone wants to solve
+mythical|option|mq5d|label|🤗 Someone who always makes you feel warm
+mythical|question|mq6|text|What scares you the most?
+mythical|option|mq6a|label|⛓️ Losing freedom
+mythical|option|mq6b|label|💀 Being forgotten
+mythical|option|mq6c|label|🪞 Losing control of yourself
+mythical|option|mq6d|label|💔 Loneliness
+mythical|question|mq7|text|What treasure would you guard?
+mythical|option|mq7a|label|💎 Gold and jewels
+mythical|option|mq7b|label|📚 Secret knowledge
+mythical|option|mq7c|label|👨‍👩‍👧‍👦 Your family and loved ones
+mythical|option|mq7d|label|🌍 The whole world from evil
+mythical|question|mq8|text|Which magical place draws you?
+mythical|option|mq8a|label|🌋 A volcano with rivers of lava
+mythical|option|mq8b|label|🏰 An ancient castle in the mountains
+mythical|option|mq8c|label|🌊 A sunken city at the ocean floor
+mythical|option|mq8d|label|🌸 An enchanted forest with eternal spring
+mythical|question|mq9|text|How do you make decisions?
+mythical|option|mq9a|label|⚡ Instantly — and never look back
+mythical|option|mq9b|label|🧘 Listen to my heart and intuition
+mythical|option|mq9c|label|♟️ Calculate all moves ahead
+mythical|option|mq9d|label|🌀 Wait for a sign and then act
+mythical|question|mq10|text|What is your greatest strength?
+mythical|option|mq10a|label|🔥 Unbreakable will
+mythical|option|mq10b|label|💫 Ability to give hope
+mythical|option|mq10c|label|🧠 Cool head under pressure
+mythical|option|mq10d|label|🌊 Adapting to any conditions
+mythical|question|mq11|text|What weapon would you choose?
+mythical|option|mq11a|label|🗡️ A flaming sword that burns eternally
+mythical|option|mq11b|label|🏹 A silver bow with starlight arrows
+mythical|option|mq11c|label|🔱 A trident from the ocean depths
+mythical|option|mq11d|label|✨ A wand made from an ancient tree
+mythical|question|mq12|text|How do you protect those you love?
+mythical|option|mq12a|label|🛡️ I become a shield and take the blow myself
+mythical|option|mq12b|label|🌿 I heal their wounds and pain
+mythical|option|mq12c|label|🌑 I hide them in shadows where no one can find them
+mythical|option|mq12d|label|🎶 I cast protective enchantments on each one
+mythical|question|mq13|text|What's your relationship with humans?
+mythical|option|mq13a|label|👑 They respect and fear me
+mythical|option|mq13b|label|🤝 I live among them but they don't know what I am
+mythical|option|mq13c|label|🌟 They seek me but rarely find me
+mythical|option|mq13d|label|🎭 I enchant them from afar
+mythical|question|mq14|text|How do you handle your own power?
+mythical|option|mq14a|label|🔥 I unleash it without limits
+mythical|option|mq14b|label|⚖️ I keep it under strict control
+mythical|option|mq14c|label|🌱 I share it with others
+mythical|option|mq14d|label|🎭 I conceal it until it's needed
+mythical|question|mq15|text|What do you do during a storm?
+mythical|option|mq15a|label|⛈️ I fly straight into the lightning
+mythical|option|mq15b|label|🌊 I dive deep where it's silent
+mythical|option|mq15c|label|🐺 I howl along with the wind
+mythical|option|mq15d|label|🍃 I dance among the raindrops
+mythical|question|mq16|text|How do you mark your territory?
+mythical|option|mq16a|label|🔥 Trails of fire that never go out
+mythical|option|mq16b|label|🏔️ Majestic sculptures of stone and gold
+mythical|option|mq16c|label|🌀 Whirlpools and underwater currents
+mythical|option|mq16d|label|🍄 Fairy rings and fireflies at night
+mythical|question|mq17|text|What happens when you're angry?
+mythical|option|mq17a|label|🌋 Everything around me starts to burn
+mythical|option|mq17b|label|🐺 Something dark awakens inside me
+mythical|option|mq17c|label|❄️ I become cold and silent
+mythical|option|mq17d|label|💨 I vanish until I calm down
+mythical|question|mq18|text|What kind of magic attracts you?
+mythical|option|mq18a|label|🔮 Magic of transformation and chaos
+mythical|option|mq18b|label|✨ Ancient runes and incantations
+mythical|option|mq18c|label|🌙 Magic of illusions and dreams
+mythical|option|mq18d|label|🌊 Magic of elements and depths
+mythical|question|mq19|text|How do you spend eternity?
+mythical|option|mq19a|label|📚 I collect wisdom from all ages
+mythical|option|mq19b|label|🔄 I am reborn and start everything anew
+mythical|option|mq19c|label|🌺 I guard a sacred place
+mythical|option|mq19d|label|🎵 I sing songs that no one hears
+mythical|question|mq20|text|What's your relationship with the moon?
+mythical|option|mq20a|label|🐺 The moon awakens my true nature
+mythical|option|mq20b|label|🌕 I draw power from it
+mythical|option|mq20c|label|🌑 I'm most active during the new moon darkness
+mythical|option|mq20d|label|🌙 I dance in the moonbeams
+mythical|question|mq21|text|How do you choose allies?
+mythical|option|mq21a|label|💪 By their strength and courage
+mythical|option|mq21b|label|💎 By the purity of their heart
+mythical|option|mq21c|label|🧩 By their intellect and strategic thinking
+mythical|option|mq21d|label|🔥 By their willingness to walk through fire
+mythical|question|mq22|text|What legacy do you want to leave?
+mythical|option|mq22a|label|📖 Legends that will be told for centuries
+mythical|option|mq22b|label|⚖️ A just world for all creatures
+mythical|option|mq22c|label|🌍 Secrets that protect the world
+mythical|option|mq22d|label|🌈 Beauty and joy in every corner
+mythical|question|mq23|text|How do you heal after a battle?
+mythical|option|mq23a|label|🔥 I burn and rise again from the ashes
+mythical|option|mq23b|label|🌊 I submerge into healing waters
+mythical|option|mq23c|label|🌿 I rest in a quiet sacred place
+mythical|option|mq23d|label|🐺 I lick my wounds and grow stronger
+mythical|question|mq24|text|What sound represents you?
+mythical|option|mq24a|label|🔥 The roar of flames and rolling thunder
+mythical|option|mq24b|label|🎵 A gentle melody that enchants
+mythical|option|mq24c|label|🐺 A long wolf howl in the night
+mythical|option|mq24d|label|🌊 The deep hum of ocean depths
+mythical|question|mq25|text|How do you greet a new day?
+mythical|option|mq25a|label|🌅 I rise into the sky to meet the sun
+mythical|option|mq25b|label|🌸 I awaken flowers and dew around me
+mythical|option|mq25c|label|🌊 I watch from the depths as light pierces the water
+mythical|option|mq25d|label|🐺 I return to human form with the first rays

@@ -1,0 +1,3818 @@
+{
+  "meta": {
+    "id": "hp",
+    "questions_count": 8
+  },
+  "questions": [
+    {
+      "id": "hq1",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш коли хтось несправедливо ображає слабшого?"
+        },
+        "en": {
+          "text": "How do you react when someone unfairly hurts the weak?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas cuando alguien lastima injustamente a los débiles?"
+        },
+        "de": {
+          "text": "Wie reagieren Sie, wenn jemand die Schwachen ungerechtfertigt verletzt?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq1a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Одразу захищаю — не можу дивитись"
+            },
+            "en": {
+              "label": "⚡ I defend immediately — can't just watch"
+            },
+            "es": {
+              "label": "⚡ Defiendo inmediatamente; no puedo quedarme de brazos cruzados."
+            },
+            "de": {
+              "label": "⚡ Ich verteidige sofort – ich kann nicht einfach zusehen."
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "ron",
+            "neville",
+            "hagrid",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq1b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Знаходжу правило або аргумент"
+            },
+            "en": {
+              "label": "📚 Find a rule or argument"
+            },
+            "es": {
+              "label": "📚 Encuentra una regla o un argumento"
+            },
+            "de": {
+              "label": "📚 Finde eine Regel oder ein Argument"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "snape",
+            "mcgonagall"
+          ]
+        },
+        {
+          "id": "hq1c",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Дивлюсь із сумом — світ такий"
+            },
+            "en": {
+              "label": "🌙 Watch sadly — the world is like that"
+            },
+            "es": {
+              "label": "🌙 Mira con tristeza: el mundo es así."
+            },
+            "de": {
+              "label": "🌙 Traurigerweise ist die Welt so."
+            }
+          },
+          "animals": [
+            "luna",
+            "neville",
+            "fred_george",
+            "lupin",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq1d",
+          "i18n": {
+            "ua": {
+              "label": "🐍 Оцінюю ситуацію — чи варто втручатись"
+            },
+            "en": {
+              "label": "🐍 Assess the situation — is it worth interfering?"
+            },
+            "es": {
+              "label": "🐍 Evalúa la situación: ¿merece la pena intervenir?"
+            },
+            "de": {
+              "label": "🐍 Schätzen Sie die Situation ein – lohnt sich ein Eingreifen?"
+            }
+          },
+          "animals": [
+            "draco",
+            "snape",
+            "dumbledore",
+            "voldemort",
+            "moody"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq2",
+      "i18n": {
+        "ua": {
+          "text": "Що для тебе найважливіше в дружбі?"
+        },
+        "en": {
+          "text": "What matters most to you in friendship?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te importa en una amistad?"
+        },
+        "de": {
+          "text": "Was ist dir in Freundschaften am wichtigsten?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq2a",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Вірність у будь-яку погоду"
+            },
+            "en": {
+              "label": "🤝 Loyalty through anything"
+            },
+            "es": {
+              "label": "🤝 Lealtad a través de todo"
+            },
+            "de": {
+              "label": "🤝 Treue in jeder Hinsicht"
+            }
+          },
+          "animals": [
+            "ron",
+            "harry",
+            "neville",
+            "ginny",
+            "sirius",
+            "hagrid"
+          ]
+        },
+        {
+          "id": "hq2b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Взаємна повага і розум"
+            },
+            "en": {
+              "label": "🧠 Mutual respect and intelligence"
+            },
+            "es": {
+              "label": "🧠 Respeto mutuo e inteligencia"
+            },
+            "de": {
+              "label": "🧠 Gegenseitiger Respekt und Intelligenz"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "snape",
+            "mcgonagall",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq2c",
+          "i18n": {
+            "ua": {
+              "label": "😄 Сміх і спільні пригоди"
+            },
+            "en": {
+              "label": "😄 Laughter and shared adventures"
+            },
+            "es": {
+              "label": "😄 Risas y aventuras compartidas"
+            },
+            "de": {
+              "label": "😄 Lachen und gemeinsame Abenteuer"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ron",
+            "harry",
+            "tonks",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq2d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Прийняття без осуду"
+            },
+            "en": {
+              "label": "🌙 Acceptance without judgment"
+            },
+            "es": {
+              "label": "🌙 Aceptación sin juicio"
+            },
+            "de": {
+              "label": "🌙 Akzeptanz ohne Vorurteile"
+            }
+          },
+          "animals": [
+            "luna",
+            "neville",
+            "ginny",
+            "lupin",
+            "arthur_weasley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq3",
+      "i18n": {
+        "ua": {
+          "text": "Як ти приймаєш важливе рішення?"
+        },
+        "en": {
+          "text": "How do you make an important decision?"
+        },
+        "es": {
+          "text": "¿Cómo se toma una decisión importante?"
+        },
+        "de": {
+          "text": "Wie trifft man eine wichtige Entscheidung?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq3a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Серцем — і вперед"
+            },
+            "en": {
+              "label": "⚡ With my heart — and forward"
+            },
+            "es": {
+              "label": "⚡ Con todo mi corazón — y adelante"
+            },
+            "de": {
+              "label": "⚡ Mit meinem Herzen – und vorwärts"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "ron",
+            "fred_george",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq3b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Аналізую всі факти"
+            },
+            "en": {
+              "label": "📚 Analyze all facts"
+            },
+            "es": {
+              "label": "📚 Analiza todos los hechos"
+            },
+            "de": {
+              "label": "📚 Analysiere alle Fakten"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "mcgonagall"
+          ]
+        },
+        {
+          "id": "hq3c",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Думаю про довгострокові наслідки"
+            },
+            "en": {
+              "label": "🔮 Think about long-term consequences"
+            },
+            "es": {
+              "label": "🔮 Piensa en las consecuencias a largo plazo"
+            },
+            "de": {
+              "label": "🔮 Denken Sie an die langfristigen Folgen."
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "snape",
+            "draco",
+            "voldemort",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq3d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Довіряю інтуїції"
+            },
+            "en": {
+              "label": "🌙 Trust my intuition"
+            },
+            "es": {
+              "label": "🌙 Confía en mi intuición"
+            },
+            "de": {
+              "label": "🌙 Vertraue meiner Intuition"
+            }
+          },
+          "animals": [
+            "luna",
+            "neville",
+            "harry",
+            "lupin",
+            "tonks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq4",
+      "i18n": {
+        "ua": {
+          "text": "Який предмет у Гоґвортсі був би твоїм улюбленим?"
+        },
+        "en": {
+          "text": "Which Hogwarts subject would be your favourite?"
+        },
+        "es": {
+          "text": "¿Cuál sería tu asignatura favorita de Hogwarts?"
+        },
+        "de": {
+          "text": "Welches Schulfach in Hogwarts wäre dein Lieblingsfach?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq4a",
+          "i18n": {
+            "ua": {
+              "label": "🧹 Квідич — хочу літати"
+            },
+            "en": {
+              "label": "🧹 Quidditch — I want to fly"
+            },
+            "es": {
+              "label": "🧹 Quidditch: quiero volar"
+            },
+            "de": {
+              "label": "🧹 Quidditch – Ich will fliegen"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "ron",
+            "fred_george",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq4b",
+          "i18n": {
+            "ua": {
+              "label": "🧪 Зілля або трансфігурація"
+            },
+            "en": {
+              "label": "🧪 Potions or Transfiguration"
+            },
+            "es": {
+              "label": "🧪 Pociones o Transfiguración"
+            },
+            "de": {
+              "label": "🧪 Zaubertränke oder Verwandlung"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "draco",
+            "mcgonagall",
+            "voldemort"
+          ]
+        },
+        {
+          "id": "hq4c",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Догляд за магічними істотами"
+            },
+            "en": {
+              "label": "🌿 Care of Magical Creatures"
+            },
+            "es": {
+              "label": "🌿 Cuidado de criaturas mágicas"
+            },
+            "de": {
+              "label": "🌿 Pflege magischer Geschöpfe"
+            }
+          },
+          "animals": [
+            "neville",
+            "luna",
+            "harry",
+            "hagrid",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq4d",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Прорікання або захист від темряви"
+            },
+            "en": {
+              "label": "🔮 Divination or Defence Against the Dark Arts"
+            },
+            "es": {
+              "label": "🔮 Adivinación o Defensa contra las Artes Oscuras"
+            },
+            "de": {
+              "label": "🔮 Wahrsagerei oder Verteidigung gegen die dunklen Künste"
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "luna",
+            "hermione",
+            "moody",
+            "lupin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq5",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на критику?"
+        },
+        "en": {
+          "text": "How do you react to criticism?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas ante las críticas?"
+        },
+        "de": {
+          "text": "Wie reagieren Sie auf Kritik?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq5a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Захищаюсь і сперечаюсь"
+            },
+            "en": {
+              "label": "🔥 Defend myself and argue"
+            },
+            "es": {
+              "label": "🔥 Defiéndete y argumenta"
+            },
+            "de": {
+              "label": "🔥 Mich verteidigen und argumentieren"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "draco",
+            "fred_george",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq5b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Аналізую чи справедлива"
+            },
+            "en": {
+              "label": "📚 Analyze if it's fair"
+            },
+            "es": {
+              "label": "📚 Analiza si es justo"
+            },
+            "de": {
+              "label": "📚 Prüfen Sie, ob es fair ist."
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "mcgonagall"
+          ]
+        },
+        {
+          "id": "hq5c",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Не зачіпає — у мене свій шлях"
+            },
+            "en": {
+              "label": "🌙 Doesn't affect me — I have my own path"
+            },
+            "es": {
+              "label": "🌙 No me afecta; tengo mi propio camino."
+            },
+            "de": {
+              "label": "🌙 Das betrifft mich nicht – ich gehe meinen eigenen Weg."
+            }
+          },
+          "animals": [
+            "luna",
+            "neville",
+            "lupin",
+            "tonks"
+          ]
+        },
+        {
+          "id": "hq5d",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Приймаю і намагаюсь покращитись"
+            },
+            "en": {
+              "label": "🤝 Accept it and try to improve"
+            },
+            "es": {
+              "label": "🤝 Acéptalo e intenta mejorar."
+            },
+            "de": {
+              "label": "🤝 Akzeptiere es und versuche, dich zu verbessern."
+            }
+          },
+          "animals": [
+            "ron",
+            "neville",
+            "harry",
+            "cedric",
+            "arthur_weasley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq6",
+      "i18n": {
+        "ua": {
+          "text": "Що найбільше тебе лякає?"
+        },
+        "en": {
+          "text": "What scares you most?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te asusta?"
+        },
+        "de": {
+          "text": "Was macht dir am meisten Angst?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq6a",
+          "i18n": {
+            "ua": {
+              "label": "💔 Втратити близьких"
+            },
+            "en": {
+              "label": "💔 Losing loved ones"
+            },
+            "es": {
+              "label": "💔 Perder a seres queridos"
+            },
+            "de": {
+              "label": "💔 Verlust von Angehörigen"
+            }
+          },
+          "animals": [
+            "harry",
+            "ron",
+            "neville",
+            "ginny",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq6b",
+          "i18n": {
+            "ua": {
+              "label": "❌ Зробити помилку"
+            },
+            "en": {
+              "label": "❌ Making a mistake"
+            },
+            "es": {
+              "label": "❌ Cometer un error"
+            },
+            "de": {
+              "label": "❌ Einen Fehler machen"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "draco",
+            "mcgonagall",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq6c",
+          "i18n": {
+            "ua": {
+              "label": "🔒 Втратити свободу і себе"
+            },
+            "en": {
+              "label": "🔒 Losing freedom and myself"
+            },
+            "es": {
+              "label": "🔒 Perdiendo la libertad y a mí mismo"
+            },
+            "de": {
+              "label": "🔒 Freiheit und mich selbst verlieren"
+            }
+          },
+          "animals": [
+            "ginny",
+            "luna",
+            "fred_george",
+            "dobby",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq6d",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Розчарувати тих хто вірить у тебе"
+            },
+            "en": {
+              "label": "🌑 Disappointing those who believe in you"
+            },
+            "es": {
+              "label": "🌑 Decepcionar a quienes creen en ti"
+            },
+            "de": {
+              "label": "🌑 Diejenigen enttäuschen, die an dich geglaubt haben"
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "snape",
+            "neville",
+            "lupin",
+            "cedric"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq7",
+      "i18n": {
+        "ua": {
+          "text": "Як твої друзі описали б тебе одним словом?"
+        },
+        "en": {
+          "text": "How would your friends describe you in one word?"
+        },
+        "es": {
+          "text": "¿Cómo te describirían tus amigos en una sola palabra?"
+        },
+        "de": {
+          "text": "Wie würden deine Freunde dich in einem Wort beschreiben?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq7a",
+          "i18n": {
+            "ua": {
+              "label": "🦁 Хоробрий"
+            },
+            "en": {
+              "label": "🦁 Brave"
+            },
+            "es": {
+              "label": "🦁 Valiente"
+            },
+            "de": {
+              "label": "🦁 Mutig"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "neville",
+            "ron",
+            "mcgonagall",
+            "tonks"
+          ]
+        },
+        {
+          "id": "hq7b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Розумний"
+            },
+            "en": {
+              "label": "🧠 Smart"
+            },
+            "es": {
+              "label": "🧠 Inteligente"
+            },
+            "de": {
+              "label": "🧠 Klug"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "draco",
+            "voldemort"
+          ]
+        },
+        {
+          "id": "hq7c",
+          "i18n": {
+            "ua": {
+              "label": "😄 Веселий"
+            },
+            "en": {
+              "label": "😄 Funny"
+            },
+            "es": {
+              "label": "😄 Divertido"
+            },
+            "de": {
+              "label": "😄 Lustig"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ron",
+            "ginny",
+            "tonks",
+            "hagrid"
+          ]
+        },
+        {
+          "id": "hq7d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Особливий"
+            },
+            "en": {
+              "label": "🌙 Unique"
+            },
+            "es": {
+              "label": "🌙 Único"
+            },
+            "de": {
+              "label": "🌙 Einzigartig"
+            }
+          },
+          "animals": [
+            "luna",
+            "neville",
+            "dumbledore",
+            "dobby",
+            "arthur_weasley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq8",
+      "i18n": {
+        "ua": {
+          "text": "Яке твоє ставлення до правил?"
+        },
+        "en": {
+          "text": "What's your attitude toward rules?"
+        },
+        "es": {
+          "text": "¿Cuál es tu actitud hacia las reglas?"
+        },
+        "de": {
+          "text": "Wie stehst du zu Regeln?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq8a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Правила можна порушити якщо це справедливо"
+            },
+            "en": {
+              "label": "⚡ Rules can be broken if it's just"
+            },
+            "es": {
+              "label": "⚡ Las reglas se pueden romper si es solo"
+            },
+            "de": {
+              "label": "⚡ Regeln können gebrochen werden, wenn es nur"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "fred_george",
+            "ron",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq8b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Правила існують з причини"
+            },
+            "en": {
+              "label": "📚 Rules exist for a reason"
+            },
+            "es": {
+              "label": "📚 Las reglas existen por una razón."
+            },
+            "de": {
+              "label": "📚 Regeln haben ihren Sinn"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "draco",
+            "mcgonagall",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq8c",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Правила — людський конструкт"
+            },
+            "en": {
+              "label": "🌙 Rules are a human construct"
+            },
+            "es": {
+              "label": "🌙 Las reglas son una construcción humana"
+            },
+            "de": {
+              "label": "🌙 Regeln sind ein menschliches Konstrukt."
+            }
+          },
+          "animals": [
+            "luna",
+            "fred_george",
+            "dobby",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq8d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Дотримуюсь публічно — вирішую сам приватно"
+            },
+            "en": {
+              "label": "🖤 Follow publicly — decide privately"
+            },
+            "es": {
+              "label": "🖤 ​​Síguenos públicamente — decide en privado"
+            },
+            "de": {
+              "label": "🖤 ​​Öffentlich folgen – privat entscheiden"
+            }
+          },
+          "animals": [
+            "snape",
+            "neville",
+            "dumbledore",
+            "voldemort",
+            "moody"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq9",
+      "i18n": {
+        "ua": {
+          "text": "Яка твоя роль у групі?"
+        },
+        "en": {
+          "text": "What's your role in a group?"
+        },
+        "es": {
+          "text": "¿Cuál es tu rol en un grupo?"
+        },
+        "de": {
+          "text": "Welche Rolle spielst du in einer Gruppe?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq9a",
+          "i18n": {
+            "ua": {
+              "label": "👑 Веду за собою"
+            },
+            "en": {
+              "label": "👑 I lead"
+            },
+            "es": {
+              "label": "👑 Yo lidero"
+            },
+            "de": {
+              "label": "👑 Ich führe"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "dumbledore",
+            "draco",
+            "voldemort"
+          ]
+        },
+        {
+          "id": "hq9b",
+          "i18n": {
+            "ua": {
+              "label": "📋 Планую і організовую"
+            },
+            "en": {
+              "label": "📋 Plan and organize"
+            },
+            "es": {
+              "label": "📋 Planifica y organiza"
+            },
+            "de": {
+              "label": "📋 Planen und organisieren"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "draco",
+            "mcgonagall",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq9c",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Підтримую і мотивую"
+            },
+            "en": {
+              "label": "🤝 Support and motivate"
+            },
+            "es": {
+              "label": "🤝 Apoyar y motivar"
+            },
+            "de": {
+              "label": "🤝 Unterstützung und Motivation"
+            }
+          },
+          "animals": [
+            "ron",
+            "neville",
+            "ginny",
+            "hagrid",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq9d",
+          "i18n": {
+            "ua": {
+              "label": "💡 Пропоную несподівані ідеї"
+            },
+            "en": {
+              "label": "💡 Bring unexpected ideas"
+            },
+            "es": {
+              "label": "💡 Trae ideas inesperadas"
+            },
+            "de": {
+              "label": "💡 Bringe unerwartete Ideen ein"
+            }
+          },
+          "animals": [
+            "luna",
+            "fred_george",
+            "harry",
+            "tonks",
+            "arthur_weasley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq10",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе надихає найбільше?"
+        },
+        "en": {
+          "text": "What inspires you most?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te inspira?"
+        },
+        "de": {
+          "text": "Was inspiriert dich am meisten?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq10a",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Любов і захист близьких"
+            },
+            "en": {
+              "label": "❤️ Love and protecting loved ones"
+            },
+            "es": {
+              "label": "❤️ Amar y proteger a los seres queridos"
+            },
+            "de": {
+              "label": "❤️ Liebe und Schutz für die Liebsten"
+            }
+          },
+          "animals": [
+            "harry",
+            "ron",
+            "neville",
+            "ginny",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq10b",
+          "i18n": {
+            "ua": {
+              "label": "📖 Знання і розуміння світу"
+            },
+            "en": {
+              "label": "📖 Knowledge and understanding the world"
+            },
+            "es": {
+              "label": "📖 Conocimiento y comprensión del mundo"
+            },
+            "de": {
+              "label": "📖 Wissen und Verständnis der Welt"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "luna",
+            "arthur_weasley",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq10c",
+          "i18n": {
+            "ua": {
+              "label": "🏆 Досягнення і визнання"
+            },
+            "en": {
+              "label": "🏆 Achievement and recognition"
+            },
+            "es": {
+              "label": "🏆 Logros y reconocimientos"
+            },
+            "de": {
+              "label": "🏆 Leistung und Anerkennung"
+            }
+          },
+          "animals": [
+            "draco",
+            "snape",
+            "ginny",
+            "voldemort",
+            "bellatrix"
+          ]
+        },
+        {
+          "id": "hq10d",
+          "i18n": {
+            "ua": {
+              "label": "😄 Сміх і момент"
+            },
+            "en": {
+              "label": "😄 Laughter and the moment"
+            },
+            "es": {
+              "label": "😄 La risa y el momento"
+            },
+            "de": {
+              "label": "😄 Lachen und der Moment"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ron",
+            "luna",
+            "tonks",
+            "sirius"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq11",
+      "i18n": {
+        "ua": {
+          "text": "Що б ти побачив(ла) у Дзеркалі Еріседа?"
+        },
+        "en": {
+          "text": "What would you see in the Mirror of Erised?"
+        },
+        "es": {
+          "text": "¿Qué verías en el Espejo de Erised?"
+        },
+        "de": {
+          "text": "Was würdest du im Spiegel Nerhegeb sehen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq11a",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧‍👦 Свою сім'ю — щасливу і разом"
+            },
+            "en": {
+              "label": "👨‍👩‍👧‍👦 My family — happy and together"
+            },
+            "es": {
+              "label": "👨‍👩‍👧‍👦 Mi familia: feliz y unida."
+            },
+            "de": {
+              "label": "👨‍👩‍👧‍👦 Meine Familie – glücklich und zusammen"
+            }
+          },
+          "animals": [
+            "harry",
+            "neville",
+            "ron",
+            "hagrid",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq11b",
+          "i18n": {
+            "ua": {
+              "label": "🏅 Себе — успішного і визнаного"
+            },
+            "en": {
+              "label": "🏅 Myself — successful and recognized"
+            },
+            "es": {
+              "label": "🏅 Yo mismo: exitoso y reconocido"
+            },
+            "de": {
+              "label": "🏅 Ich selbst – erfolgreich und anerkannt"
+            }
+          },
+          "animals": [
+            "draco",
+            "snape",
+            "hermione",
+            "voldemort",
+            "bellatrix"
+          ]
+        },
+        {
+          "id": "hq11c",
+          "i18n": {
+            "ua": {
+              "label": "🌍 Мирний світ без зла"
+            },
+            "en": {
+              "label": "🌍 A peaceful world without evil"
+            },
+            "es": {
+              "label": "🌍 Un mundo pacífico sin maldad"
+            },
+            "de": {
+              "label": "🌍 Eine friedliche Welt ohne Böses"
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "luna",
+            "ginny",
+            "dobby",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq11d",
+          "i18n": {
+            "ua": {
+              "label": "🎪 Себе в оточенні друзів і сміху"
+            },
+            "en": {
+              "label": "🎪 Myself surrounded by friends and laughter"
+            },
+            "es": {
+              "label": "🎪 Yo rodeada de amigos y risas"
+            },
+            "de": {
+              "label": "🎪 Ich selbst, umgeben von Freunden und Lachen"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ron",
+            "ginny",
+            "tonks",
+            "sirius"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq12",
+      "i18n": {
+        "ua": {
+          "text": "Як ти готуєшся до іспитів?"
+        },
+        "en": {
+          "text": "How do you prepare for exams?"
+        },
+        "es": {
+          "text": "¿Cómo te preparas para los exámenes?"
+        },
+        "de": {
+          "text": "Wie bereitet man sich auf Prüfungen vor?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq12a",
+          "i18n": {
+            "ua": {
+              "label": "📚 Складаю розклад і вчу завчасно"
+            },
+            "en": {
+              "label": "📚 Make a schedule and study early"
+            },
+            "es": {
+              "label": "📚 Haz un horario y estudia temprano"
+            },
+            "de": {
+              "label": "📚 Erstelle einen Zeitplan und lerne früh"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "mcgonagall",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq12b",
+          "i18n": {
+            "ua": {
+              "label": "😅 В останню ніч — паніка і кава"
+            },
+            "en": {
+              "label": "😅 Last night — panic and coffee"
+            },
+            "es": {
+              "label": "😅 Anoche: pánico y café"
+            },
+            "de": {
+              "label": "😅 Letzte Nacht – Panik und Kaffee"
+            }
+          },
+          "animals": [
+            "ron",
+            "harry",
+            "neville",
+            "hagrid",
+            "tonks"
+          ]
+        },
+        {
+          "id": "hq12c",
+          "i18n": {
+            "ua": {
+              "label": "🤷 Покладаюся на інтуїцію і удачу"
+            },
+            "en": {
+              "label": "🤷 Rely on intuition and luck"
+            },
+            "es": {
+              "label": "🤷 Confía en la intuición y la suerte."
+            },
+            "de": {
+              "label": "🤷 Verlass dich auf Intuition und Glück."
+            }
+          },
+          "animals": [
+            "luna",
+            "fred_george",
+            "ginny",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq12d",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Знаходжу хитрий спосіб здати"
+            },
+            "en": {
+              "label": "🧠 Find a clever way to pass"
+            },
+            "es": {
+              "label": "🧠 Encuentra una forma ingeniosa de pasar"
+            },
+            "de": {
+              "label": "🧠 Finde einen cleveren Weg, um weiterzukommen"
+            }
+          },
+          "animals": [
+            "draco",
+            "fred_george",
+            "harry",
+            "voldemort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq13",
+      "i18n": {
+        "ua": {
+          "text": "Що б уособлював твій Патронус?"
+        },
+        "en": {
+          "text": "What would your Patronus represent?"
+        },
+        "es": {
+          "text": "¿Qué representaría tu Patronus?"
+        },
+        "de": {
+          "text": "Was würde dein Patronus darstellen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq13a",
+          "i18n": {
+            "ua": {
+              "label": "🦁 Сміливість і рішучість"
+            },
+            "en": {
+              "label": "🦁 Courage and determination"
+            },
+            "es": {
+              "label": "🦁 Coraje y determinación"
+            },
+            "de": {
+              "label": "🦁 Mut und Entschlossenheit"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "neville",
+            "mcgonagall",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq13b",
+          "i18n": {
+            "ua": {
+              "label": "🦉 Мудрість і спокій"
+            },
+            "en": {
+              "label": "🦉 Wisdom and calm"
+            },
+            "es": {
+              "label": "🦉 Sabiduría y calma"
+            },
+            "de": {
+              "label": "🦉 Weisheit und Ruhe"
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "hermione",
+            "luna",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq13c",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Вірність і захист"
+            },
+            "en": {
+              "label": "🐺 Loyalty and protection"
+            },
+            "es": {
+              "label": "🐺 Lealtad y protección"
+            },
+            "de": {
+              "label": "🐺 Treue und Schutz"
+            }
+          },
+          "animals": [
+            "ron",
+            "snape",
+            "neville",
+            "hagrid",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq13d",
+          "i18n": {
+            "ua": {
+              "label": "🦊 Хитрість і адаптивність"
+            },
+            "en": {
+              "label": "🦊 Cunning and adaptability"
+            },
+            "es": {
+              "label": "🦊 Astucia y adaptabilidad"
+            },
+            "de": {
+              "label": "🦊 List und Anpassungsfähigkeit"
+            }
+          },
+          "animals": [
+            "draco",
+            "fred_george",
+            "ginny",
+            "bellatrix",
+            "voldemort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq14",
+      "i18n": {
+        "ua": {
+          "text": "Як ти вчиниш, якщо випадково дізнаєшся чужу таємницю?"
+        },
+        "en": {
+          "text": "How do you handle a secret you accidentally discovered?"
+        },
+        "es": {
+          "text": "¿Cómo se maneja un secreto que se descubre por accidente?"
+        },
+        "de": {
+          "text": "Wie geht man mit einem Geheimnis um, das man zufällig entdeckt hat?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq14a",
+          "i18n": {
+            "ua": {
+              "label": "🤐 Зберігаю в таємниці — це не моя справа"
+            },
+            "en": {
+              "label": "🤐 Keep it secret — it's not my business"
+            },
+            "es": {
+              "label": "🤐 Mantenlo en secreto, no es asunto mío."
+            },
+            "de": {
+              "label": "🤐 Behalte es für dich – es geht mich nichts an"
+            }
+          },
+          "animals": [
+            "luna",
+            "dumbledore",
+            "snape",
+            "lupin",
+            "hagrid"
+          ]
+        },
+        {
+          "id": "hq14b",
+          "i18n": {
+            "ua": {
+              "label": "🗣️ Розповідаю близькому другу"
+            },
+            "en": {
+              "label": "🗣️ Tell a close friend"
+            },
+            "es": {
+              "label": "🗣️ Cuéntaselo a un amigo cercano"
+            },
+            "de": {
+              "label": "🗣️ Erzähle es einem engen Freund"
+            }
+          },
+          "animals": [
+            "ron",
+            "ginny",
+            "fred_george",
+            "tonks",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq14c",
+          "i18n": {
+            "ua": {
+              "label": "🔍 Розслідую далі — мені ж цікаво!"
+            },
+            "en": {
+              "label": "🔍 Investigate further — I'm curious!"
+            },
+            "es": {
+              "label": "🔍 Investiga más a fondo, ¡tengo curiosidad!"
+            },
+            "de": {
+              "label": "🔍 Ich bin neugierig und möchte der Sache nachgehen!"
+            }
+          },
+          "animals": [
+            "harry",
+            "hermione",
+            "fred_george",
+            "moody",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq14d",
+          "i18n": {
+            "ua": {
+              "label": "💡 Використаю з вигодою для себе"
+            },
+            "en": {
+              "label": "💡 Use it to my advantage"
+            },
+            "es": {
+              "label": "💡 Úsalo a mi favor"
+            },
+            "de": {
+              "label": "💡 Nutze es zu meinem Vorteil"
+            }
+          },
+          "animals": [
+            "draco",
+            "snape",
+            "neville",
+            "voldemort",
+            "bellatrix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq15",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш, коли друг помиляється?"
+        },
+        "en": {
+          "text": "What's your approach when a friend makes a mistake?"
+        },
+        "es": {
+          "text": "¿Cuál es tu actitud cuando un amigo comete un error?"
+        },
+        "de": {
+          "text": "Wie reagierst du, wenn ein Freund einen Fehler macht?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq15a",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Підтримую і допомагаю виправити"
+            },
+            "en": {
+              "label": "🤗 Support them and help fix it"
+            },
+            "es": {
+              "label": "🤗 Apóyalos y ayúdalos a solucionarlo."
+            },
+            "de": {
+              "label": "🤗 Unterstützt sie und helft mit, das Problem zu beheben."
+            }
+          },
+          "animals": [
+            "harry",
+            "ron",
+            "ginny",
+            "hagrid",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq15b",
+          "i18n": {
+            "ua": {
+              "label": "📏 Чесно кажу, що вони неправі"
+            },
+            "en": {
+              "label": "📏 Honestly tell them they're wrong"
+            },
+            "es": {
+              "label": "📏 Diles honestamente que están equivocados."
+            },
+            "de": {
+              "label": "📏 Sag ihnen ehrlich, dass sie falsch liegen."
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "draco",
+            "mcgonagall",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq15c",
+          "i18n": {
+            "ua": {
+              "label": "😂 Жартую, щоб розрядити ситуацію"
+            },
+            "en": {
+              "label": "😂 Joke to lighten the situation"
+            },
+            "es": {
+              "label": "😂 Broma para aligerar la situación"
+            },
+            "de": {
+              "label": "😂 Ein Scherz, um die Situation aufzulockern"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "luna",
+            "ron",
+            "tonks",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq15d",
+          "i18n": {
+            "ua": {
+              "label": "🤔 Даю їм самим розібратися"
+            },
+            "en": {
+              "label": "🤔 Let them figure it out themselves"
+            },
+            "es": {
+              "label": "🤔 Que lo averigüen ellos mismos."
+            },
+            "de": {
+              "label": "🤔 Sollen sie es doch selbst herausfinden."
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "neville",
+            "luna",
+            "lupin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq16",
+      "i18n": {
+        "ua": {
+          "text": "Який магічний предмет ти б хотів(ла) мати?"
+        },
+        "en": {
+          "text": "Which magical item would you want?"
+        },
+        "es": {
+          "text": "¿Qué objeto mágico te gustaría tener?"
+        },
+        "de": {
+          "text": "Welchen magischen Gegenstand würdest du dir wünschen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq16a",
+          "i18n": {
+            "ua": {
+              "label": "👻 Мантію-невидимку"
+            },
+            "en": {
+              "label": "👻 Invisibility Cloak"
+            },
+            "es": {
+              "label": "👻 Capa de invisibilidad"
+            },
+            "de": {
+              "label": "👻 Unsichtbarkeitsumhang"
+            }
+          },
+          "animals": [
+            "harry",
+            "fred_george",
+            "neville",
+            "dobby",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq16b",
+          "i18n": {
+            "ua": {
+              "label": "⏳ Маховик часу"
+            },
+            "en": {
+              "label": "⏳ Time-Turner"
+            },
+            "es": {
+              "label": "⏳ Giratiempo"
+            },
+            "de": {
+              "label": "⏳ Zeitumkehrer"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "snape",
+            "mcgonagall"
+          ]
+        },
+        {
+          "id": "hq16c",
+          "i18n": {
+            "ua": {
+              "label": "🗺️ Карту Мародерів"
+            },
+            "en": {
+              "label": "🗺️ Marauder's Map"
+            },
+            "es": {
+              "label": "🗺️ Mapa del Merodeador"
+            },
+            "de": {
+              "label": "🗺️ Karte des Rumtreibers"
+            }
+          },
+          "animals": [
+            "ginny",
+            "fred_george",
+            "draco",
+            "sirius",
+            "tonks"
+          ]
+        },
+        {
+          "id": "hq16d",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Омнібінокль — бачити все з деталями"
+            },
+            "en": {
+              "label": "🔮 Omnioculars — see everything in detail"
+            },
+            "es": {
+              "label": "🔮 Omnioculares: vea todo con detalle."
+            },
+            "de": {
+              "label": "🔮 Omniokular – alles im Detail sehen"
+            }
+          },
+          "animals": [
+            "luna",
+            "ron",
+            "hermione",
+            "arthur_weasley",
+            "moody"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq17",
+      "i18n": {
+        "ua": {
+          "text": "Як ти справляєшся з самотністю?"
+        },
+        "en": {
+          "text": "How do you deal with being alone?"
+        },
+        "es": {
+          "text": "¿Cómo sobrellevas la soledad?"
+        },
+        "de": {
+          "text": "Wie gehst du mit dem Alleinsein um?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq17a",
+          "i18n": {
+            "ua": {
+              "label": "📖 Читаю або вчуся чомусь новому"
+            },
+            "en": {
+              "label": "📖 Read or learn something new"
+            },
+            "es": {
+              "label": "📖 Lee o aprende algo nuevo"
+            },
+            "de": {
+              "label": "📖 Lies oder lerne etwas Neues"
+            }
+          },
+          "animals": [
+            "hermione",
+            "dumbledore",
+            "luna",
+            "lupin",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq17b",
+          "i18n": {
+            "ua": {
+              "label": "😟 Мені важко — шукаю компанію"
+            },
+            "en": {
+              "label": "😟 I struggle — I look for company"
+            },
+            "es": {
+              "label": "😟 Tengo dificultades, busco compañía."
+            },
+            "de": {
+              "label": "😟 Ich habe Schwierigkeiten – ich suche Gesellschaft"
+            }
+          },
+          "animals": [
+            "ron",
+            "neville",
+            "ginny",
+            "hagrid",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq17c",
+          "i18n": {
+            "ua": {
+              "label": "💭 Занурююсь у свої думки і мрії"
+            },
+            "en": {
+              "label": "💭 Dive into my thoughts and dreams"
+            },
+            "es": {
+              "label": "💭 Sumérgete en mis pensamientos y sueños"
+            },
+            "de": {
+              "label": "💭 Tauche ein in meine Gedanken und Träume"
+            }
+          },
+          "animals": [
+            "harry",
+            "snape",
+            "luna",
+            "dobby",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq17d",
+          "i18n": {
+            "ua": {
+              "label": "🔧 Придумую щось цікаве або майструю"
+            },
+            "en": {
+              "label": "🔧 Invent something fun or tinker"
+            },
+            "es": {
+              "label": "🔧 Inventa algo divertido o trastea"
+            },
+            "de": {
+              "label": "🔧 Erfinde etwas Lustiges oder bastle etwas herum."
+            }
+          },
+          "animals": [
+            "fred_george",
+            "draco",
+            "ginny",
+            "tonks",
+            "arthur_weasley"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq18",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на несправедливого вчителя?"
+        },
+        "en": {
+          "text": "What's your reaction to an unfair teacher?"
+        },
+        "es": {
+          "text": "¿Cuál es tu reacción ante un profesor injusto?"
+        },
+        "de": {
+          "text": "Wie reagieren Sie auf einen ungerechten Lehrer?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq18a",
+          "i18n": {
+            "ua": {
+              "label": "😤 Відкрито висловлюю незгоду"
+            },
+            "en": {
+              "label": "😤 Openly speak up against it"
+            },
+            "es": {
+              "label": "😤 Habla abiertamente en contra de ello."
+            },
+            "de": {
+              "label": "😤 Sprich dich offen dagegen aus"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "hermione",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq18b",
+          "i18n": {
+            "ua": {
+              "label": "😏 Тихо саботую — вони мене не зламають"
+            },
+            "en": {
+              "label": "😏 Quietly resist — they won't break me"
+            },
+            "es": {
+              "label": "😏 Resiste en silencio; no me vencerán."
+            },
+            "de": {
+              "label": "😏 Leise Widerstand leisten – sie werden mich nicht brechen."
+            }
+          },
+          "animals": [
+            "fred_george",
+            "draco",
+            "snape",
+            "bellatrix",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq18c",
+          "i18n": {
+            "ua": {
+              "label": "😔 Терплю, але переживаю всередині"
+            },
+            "en": {
+              "label": "😔 Endure it, but it hurts inside"
+            },
+            "es": {
+              "label": "😔 Sopórtalo, pero duele por dentro."
+            },
+            "de": {
+              "label": "😔 Ertrage es, aber es schmerzt innerlich."
+            }
+          },
+          "animals": [
+            "neville",
+            "ron",
+            "luna",
+            "lupin",
+            "hagrid"
+          ]
+        },
+        {
+          "id": "hq18d",
+          "i18n": {
+            "ua": {
+              "label": "🧩 Шукаю мудрий спосіб вирішити проблему"
+            },
+            "en": {
+              "label": "🧩 Look for a wise way to solve it"
+            },
+            "es": {
+              "label": "🧩 Busca una forma inteligente de resolverlo"
+            },
+            "de": {
+              "label": "🧩 Suche nach einer klugen Lösung."
+            }
+          },
+          "animals": [
+            "dumbledore",
+            "hermione",
+            "snape",
+            "mcgonagall",
+            "cedric"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq19",
+      "i18n": {
+        "ua": {
+          "text": "Як би ти провів(ла) вільний день у Гоґвортсі?"
+        },
+        "en": {
+          "text": "How would you spend a free day at Hogwarts?"
+        },
+        "es": {
+          "text": "¿Cómo pasarías un día libre en Hogwarts?"
+        },
+        "de": {
+          "text": "Wie würdest du einen freien Tag in Hogwarts verbringen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq19a",
+          "i18n": {
+            "ua": {
+              "label": "🏕️ Гуляю біля озера або в лісі"
+            },
+            "en": {
+              "label": "🏕️ Walk by the lake or in the forest"
+            },
+            "es": {
+              "label": "🏕️ Pasea junto al lago o por el bosque."
+            },
+            "de": {
+              "label": "🏕️ Spaziergang am See oder im Wald"
+            }
+          },
+          "animals": [
+            "harry",
+            "luna",
+            "neville",
+            "hagrid",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq19b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Сиджу в бібліотеці — стільки книг!"
+            },
+            "en": {
+              "label": "📚 Sit in the library — so many books!"
+            },
+            "es": {
+              "label": "📚 Siéntate en la biblioteca: ¡hay tantos libros!"
+            },
+            "de": {
+              "label": "📚 In der Bibliothek sitzen – so viele Bücher!"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "mcgonagall"
+          ]
+        },
+        {
+          "id": "hq19c",
+          "i18n": {
+            "ua": {
+              "label": "🧨 Влаштовую розваги і жарти"
+            },
+            "en": {
+              "label": "🧨 Plan pranks and have fun"
+            },
+            "es": {
+              "label": "🧨 Planea bromas y diviértete."
+            },
+            "de": {
+              "label": "🧨 Plant Streiche und habt Spaß!"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ginny",
+            "ron",
+            "tonks",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq19d",
+          "i18n": {
+            "ua": {
+              "label": "🏰 Досліджую таємні коридори замку"
+            },
+            "en": {
+              "label": "🏰 Explore the castle's secret corridors"
+            },
+            "es": {
+              "label": "🏰 Explora los pasadizos secretos del castillo"
+            },
+            "de": {
+              "label": "🏰 Erkunden Sie die geheimen Gänge des Schlosses"
+            }
+          },
+          "animals": [
+            "draco",
+            "harry",
+            "fred_george",
+            "bellatrix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq20",
+      "i18n": {
+        "ua": {
+          "text": "Що мотивує тебе не здаватися у складні часи?"
+        },
+        "en": {
+          "text": "What motivates you to keep going in tough times?"
+        },
+        "es": {
+          "text": "¿Qué te motiva a seguir adelante en los momentos difíciles?"
+        },
+        "de": {
+          "text": "Was motiviert Sie, in schwierigen Zeiten weiterzumachen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq20a",
+          "i18n": {
+            "ua": {
+              "label": "💪 Ті, кого я маю захистити"
+            },
+            "en": {
+              "label": "💪 The people I have to protect"
+            },
+            "es": {
+              "label": "💪 La gente que tengo que proteger"
+            },
+            "de": {
+              "label": "💪 Die Menschen, die ich beschützen muss"
+            }
+          },
+          "animals": [
+            "harry",
+            "neville",
+            "ginny",
+            "molly_weasley",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq20b",
+          "i18n": {
+            "ua": {
+              "label": "📐 Впевненість, що я знаю правильний шлях"
+            },
+            "en": {
+              "label": "📐 Belief that I know the right path"
+            },
+            "es": {
+              "label": "📐 Creo que conozco el camino correcto"
+            },
+            "de": {
+              "label": "📐 Die Überzeugung, den richtigen Weg zu kennen"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "dumbledore",
+            "mcgonagall",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq20c",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Бажання довести, що я чогось вартий"
+            },
+            "en": {
+              "label": "🔥 Desire to prove I'm worth something"
+            },
+            "es": {
+              "label": "🔥 Deseo de demostrar que valgo algo"
+            },
+            "de": {
+              "label": "🔥 Der Wunsch, zu beweisen, dass ich etwas wert bin"
+            }
+          },
+          "animals": [
+            "draco",
+            "ron",
+            "neville",
+            "bellatrix",
+            "voldemort"
+          ]
+        },
+        {
+          "id": "hq20d",
+          "i18n": {
+            "ua": {
+              "label": "✨ Віра, що все якось складеться"
+            },
+            "en": {
+              "label": "✨ Faith that everything will work out"
+            },
+            "es": {
+              "label": "✨ Fe en que todo saldrá bien"
+            },
+            "de": {
+              "label": "✨ Der Glaube, dass alles gut wird"
+            }
+          },
+          "animals": [
+            "luna",
+            "fred_george",
+            "ron",
+            "hagrid",
+            "tonks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq21",
+      "i18n": {
+        "ua": {
+          "text": "Як ти заходиш у кімнату, повну незнайомців?"
+        },
+        "en": {
+          "text": "How do you enter a room full of strangers?"
+        },
+        "es": {
+          "text": "¿Cómo se entra en una habitación llena de desconocidos?"
+        },
+        "de": {
+          "text": "Wie betritt man einen Raum voller Fremder?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq21a",
+          "i18n": {
+            "ua": {
+              "label": "🎤 Впевнено — я люблю нові знайомства"
+            },
+            "en": {
+              "label": "🎤 Confidently — I love meeting people"
+            },
+            "es": {
+              "label": "🎤 Con confianza: me encanta conocer gente."
+            },
+            "de": {
+              "label": "🎤 Selbstbewusst – ich liebe es, Menschen kennenzulernen."
+            }
+          },
+          "animals": [
+            "ginny",
+            "fred_george",
+            "dumbledore",
+            "tonks",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq21b",
+          "i18n": {
+            "ua": {
+              "label": "👀 Тихо спостерігаю з кутка"
+            },
+            "en": {
+              "label": "👀 Quietly observe from the corner"
+            },
+            "es": {
+              "label": "👀 Observa en silencio desde la esquina"
+            },
+            "de": {
+              "label": "👀 Beobachte still aus der Ecke"
+            }
+          },
+          "animals": [
+            "snape",
+            "neville",
+            "luna",
+            "lupin",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq21c",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Шукаю когось знайомого, щоб триматися поруч"
+            },
+            "en": {
+              "label": "🤝 Look for someone I know to stay near"
+            },
+            "es": {
+              "label": "🤝 Busca a alguien que conozco para que se quede cerca"
+            },
+            "de": {
+              "label": "🤝 Suche jemanden, den ich kenne, in der Nähe wohnen kann."
+            }
+          },
+          "animals": [
+            "ron",
+            "harry",
+            "neville",
+            "hagrid",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq21d",
+          "i18n": {
+            "ua": {
+              "label": "😎 Входжу так, щоб мене запам'ятали"
+            },
+            "en": {
+              "label": "😎 Walk in to make an impression"
+            },
+            "es": {
+              "label": "😎 Entra y deja huella."
+            },
+            "de": {
+              "label": "😎 Komm herein und hinterlasse einen bleibenden Eindruck"
+            }
+          },
+          "animals": [
+            "draco",
+            "fred_george",
+            "hermione",
+            "bellatrix",
+            "voldemort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq22",
+      "i18n": {
+        "ua": {
+          "text": "Що б ти робив(ла) з Картою Мародерів?"
+        },
+        "en": {
+          "text": "What would you do with the Marauder's Map?"
+        },
+        "es": {
+          "text": "¿Qué harías con el Mapa del Merodeador?"
+        },
+        "de": {
+          "text": "Was würdest du mit der Karte des Rumtreibers anfangen?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq22a",
+          "i18n": {
+            "ua": {
+              "label": "🕵️ Слідкую за підозрілими людьми"
+            },
+            "en": {
+              "label": "🕵️ Track suspicious people"
+            },
+            "es": {
+              "label": "🕵️ Rastrea a personas sospechosas"
+            },
+            "de": {
+              "label": "🕵️ Verdächtige Personen aufspüren"
+            }
+          },
+          "animals": [
+            "harry",
+            "hermione",
+            "snape",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq22b",
+          "i18n": {
+            "ua": {
+              "label": "🍰 Пробираюсь на кухню за смаколиками"
+            },
+            "en": {
+              "label": "🍰 Sneak to the kitchen for snacks"
+            },
+            "es": {
+              "label": "🍰 Escápate a la cocina a buscar algo para picar."
+            },
+            "de": {
+              "label": "🍰 Schleich dich in die Küche, um dir einen Snack zu holen"
+            }
+          },
+          "animals": [
+            "ron",
+            "fred_george",
+            "neville",
+            "hagrid",
+            "dobby"
+          ]
+        },
+        {
+          "id": "hq22c",
+          "i18n": {
+            "ua": {
+              "label": "🗺️ Досліджую всі приховані місця Гоґвортсу"
+            },
+            "en": {
+              "label": "🗺️ Explore all hidden places of Hogwarts"
+            },
+            "es": {
+              "label": "🗺️ Explora todos los rincones ocultos de Hogwarts"
+            },
+            "de": {
+              "label": "🗺️ Erkunde alle verborgenen Orte von Hogwarts"
+            }
+          },
+          "animals": [
+            "luna",
+            "ginny",
+            "dumbledore",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq22d",
+          "i18n": {
+            "ua": {
+              "label": "😈 Використовую для жартів над іншими"
+            },
+            "en": {
+              "label": "😈 Use it for pranks on others"
+            },
+            "es": {
+              "label": "😈 Úsalo para gastar bromas a los demás."
+            },
+            "de": {
+              "label": "😈 Nutze es für Streiche an anderen"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "draco",
+            "ginny",
+            "tonks",
+            "sirius"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq23",
+      "i18n": {
+        "ua": {
+          "text": "Як ти справляєшся зі своїми помилками?"
+        },
+        "en": {
+          "text": "How do you handle your own mistakes?"
+        },
+        "es": {
+          "text": "¿Cómo afrontas tus propios errores?"
+        },
+        "de": {
+          "text": "Wie gehst du mit deinen eigenen Fehlern um?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq23a",
+          "i18n": {
+            "ua": {
+              "label": "😣 Довго переживаю і аналізую"
+            },
+            "en": {
+              "label": "😣 Overthink and analyze for a long time"
+            },
+            "es": {
+              "label": "😣 Piensa demasiado y analiza durante mucho tiempo"
+            },
+            "de": {
+              "label": "😣 Langes Grübeln und Analysieren"
+            }
+          },
+          "animals": [
+            "hermione",
+            "neville",
+            "snape",
+            "lupin",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq23b",
+          "i18n": {
+            "ua": {
+              "label": "🔄 Швидко виправляю і йду далі"
+            },
+            "en": {
+              "label": "🔄 Fix it quickly and move on"
+            },
+            "es": {
+              "label": "🔄 Arréglalo rápido y sigue adelante."
+            },
+            "de": {
+              "label": "🔄 Repariere es schnell und mach weiter"
+            }
+          },
+          "animals": [
+            "harry",
+            "ginny",
+            "dumbledore",
+            "mcgonagall",
+            "tonks"
+          ]
+        },
+        {
+          "id": "hq23c",
+          "i18n": {
+            "ua": {
+              "label": "😅 Смію з себе — всі помиляються"
+            },
+            "en": {
+              "label": "😅 Laugh at myself — everyone makes mistakes"
+            },
+            "es": {
+              "label": "😅 Me río de mí mismo: todo el mundo comete errores."
+            },
+            "de": {
+              "label": "😅 Ich lache über mich selbst – jeder macht Fehler"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ron",
+            "luna",
+            "hagrid",
+            "arthur_weasley"
+          ]
+        },
+        {
+          "id": "hq23d",
+          "i18n": {
+            "ua": {
+              "label": "🙄 Не визнаю — може ніхто не помітить"
+            },
+            "en": {
+              "label": "🙄 Don't admit it — maybe no one noticed"
+            },
+            "es": {
+              "label": "🙄 No lo admitas, tal vez nadie se dio cuenta"
+            },
+            "de": {
+              "label": "🙄 Gib es nicht zu – vielleicht hat es ja niemand bemerkt."
+            }
+          },
+          "animals": [
+            "draco",
+            "ron",
+            "fred_george",
+            "bellatrix",
+            "voldemort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq24",
+      "i18n": {
+        "ua": {
+          "text": "Яким лідером ти б був(ла)?"
+        },
+        "en": {
+          "text": "What kind of leader would you be?"
+        },
+        "es": {
+          "text": "¿Qué tipo de líder serías?"
+        },
+        "de": {
+          "text": "Welche Art von Führungskraft wärst du?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq24a",
+          "i18n": {
+            "ua": {
+              "label": "🛡️ Тим, хто веде за собою прикладом"
+            },
+            "en": {
+              "label": "🛡️ One who leads by example"
+            },
+            "es": {
+              "label": "🛡️ Quien predica con el ejemplo"
+            },
+            "de": {
+              "label": "🛡️ Jemand, der mit gutem Beispiel vorangeht"
+            }
+          },
+          "animals": [
+            "harry",
+            "dumbledore",
+            "ginny",
+            "mcgonagall",
+            "cedric"
+          ]
+        },
+        {
+          "id": "hq24b",
+          "i18n": {
+            "ua": {
+              "label": "📋 Організованим стратегом"
+            },
+            "en": {
+              "label": "📋 An organized strategist"
+            },
+            "es": {
+              "label": "📋 Un estratega organizado"
+            },
+            "de": {
+              "label": "📋 Ein organisierter Stratege"
+            }
+          },
+          "animals": [
+            "hermione",
+            "snape",
+            "draco",
+            "voldemort",
+            "moody"
+          ]
+        },
+        {
+          "id": "hq24c",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Харизматичним натхненником"
+            },
+            "en": {
+              "label": "🎭 A charismatic inspirer"
+            },
+            "es": {
+              "label": "🎭 Una inspiración carismática"
+            },
+            "de": {
+              "label": "🎭 Eine charismatische Inspiration"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "luna",
+            "dumbledore",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq24d",
+          "i18n": {
+            "ua": {
+              "label": "🤜 Тим, хто підтримує кожного в команді"
+            },
+            "en": {
+              "label": "🤜 One who supports everyone on the team"
+            },
+            "es": {
+              "label": "🤜 Alguien que apoya a todos en el equipo."
+            },
+            "de": {
+              "label": "🤜 Jemand, der alle im Team unterstützt."
+            }
+          },
+          "animals": [
+            "ron",
+            "neville",
+            "ginny",
+            "molly_weasley",
+            "dobby"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hq25",
+      "i18n": {
+        "ua": {
+          "text": "Як ти прощаєшся?"
+        },
+        "en": {
+          "text": "How do you say goodbye?"
+        },
+        "es": {
+          "text": "¿Cómo te despides?"
+        },
+        "de": {
+          "text": "Wie verabschiedet man sich?"
+        }
+      },
+      "options": [
+        {
+          "id": "hq25a",
+          "i18n": {
+            "ua": {
+              "label": "🫂 Міцно обіймаю — хто знає, коли побачимось"
+            },
+            "en": {
+              "label": "🫂 Big hug — who knows when we'll meet again"
+            },
+            "es": {
+              "label": "🫂 Un fuerte abrazo: quién sabe cuándo nos volveremos a ver."
+            },
+            "de": {
+              "label": "🫂 Eine dicke Umarmung – wer weiß, wann wir uns wiedersehen."
+            }
+          },
+          "animals": [
+            "harry",
+            "ron",
+            "neville",
+            "hagrid",
+            "molly_weasley"
+          ]
+        },
+        {
+          "id": "hq25b",
+          "i18n": {
+            "ua": {
+              "label": "✋ Стримано, але щиро — 'бережи себе'"
+            },
+            "en": {
+              "label": "✋ Restrained but sincere — 'take care'"
+            },
+            "es": {
+              "label": "✋ Discreto pero sincero: «Cuídate»."
+            },
+            "de": {
+              "label": "✋ Zurückhaltend, aber aufrichtig – „Pass auf dich auf“"
+            }
+          },
+          "animals": [
+            "snape",
+            "dumbledore",
+            "hermione",
+            "mcgonagall",
+            "lupin"
+          ]
+        },
+        {
+          "id": "hq25c",
+          "i18n": {
+            "ua": {
+              "label": "🎉 'Це не прощання — це до зустрічі!'"
+            },
+            "en": {
+              "label": "🎉 'This isn't goodbye — it's see you later!'"
+            },
+            "es": {
+              "label": "🎉 'Esto no es un adiós, ¡es un hasta luego!'"
+            },
+            "de": {
+              "label": "🎉 „Das ist kein Abschied – sondern ein ‚Bis später!‘“"
+            }
+          },
+          "animals": [
+            "fred_george",
+            "ginny",
+            "luna",
+            "tonks",
+            "sirius"
+          ]
+        },
+        {
+          "id": "hq25d",
+          "i18n": {
+            "ua": {
+              "label": "😎 Йду мовчки — ефектний вихід"
+            },
+            "en": {
+              "label": "😎 Leave silently — dramatic exit"
+            },
+            "es": {
+              "label": "😎 Salir en silencio — salida dramática"
+            },
+            "de": {
+              "label": "😎 Leise verschwinden – dramatischer Abgang"
+            }
+          },
+          "animals": [
+            "draco",
+            "snape",
+            "luna",
+            "bellatrix",
+            "voldemort"
+          ]
+        }
+      ]
+    }
+  ],
+  "animals": [
+    {
+      "id": "harry",
+      "emoji": "⚡",
+      "wiki": "Harry_Potter_(character)",
+      "i18n": {
+        "ua": {
+          "name": "Гаррі Поттер",
+          "description": "Ти — серце команди. Не найсильніший і не найрозумніший, але найсміливіший. Йдеш вперед навіть коли страшно, і саме це робить тебе героєм.",
+          "traits": [
+            "Сміливість",
+            "Жертовність",
+            "Вірність"
+          ]
+        },
+        "en": {
+          "name": "Harry Potter",
+          "description": "You're the heart of the team. Not the strongest or smartest, but the bravest. You move forward even when afraid — and that's what makes you a hero.",
+          "traits": [
+            "Bravery",
+            "Sacrifice",
+            "Loyalty"
+          ]
+        },
+        "es": {
+          "name": "Harry Potter",
+          "description": "Eres el alma del equipo. No eres el más fuerte ni el más inteligente, pero sí el más valiente. Sigues adelante incluso cuando tienes miedo, y eso es lo que te convierte en un héroe.",
+          "traits": [
+            "Valentía",
+            "Sacrificio",
+            "Lealtad"
+          ]
+        },
+        "de": {
+          "name": "Harry Potter",
+          "description": "Du bist das Herz des Teams. Nicht der Stärkste oder Klügste, sondern der Mutigste. Du gehst voran, selbst wenn du Angst hast – und genau das macht dich zu einem Helden.",
+          "traits": [
+            "Tapferkeit",
+            "Opfern",
+            "Loyalität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hermione",
+      "emoji": "📚",
+      "wiki": "Hermione_Granger",
+      "i18n": {
+        "ua": {
+          "name": "Герміона Ґрейнджер",
+          "description": "Ти підготований до всього. Логіка, знання і дисципліна — твоя зброя. Друзі знають: якщо є проблема, ти вже маєш три рішення.",
+          "traits": [
+            "Інтелект",
+            "Підготовленість",
+            "Справедливість"
+          ]
+        },
+        "en": {
+          "name": "Hermione Granger",
+          "description": "You're prepared for everything. Logic, knowledge and discipline are your weapons. Friends know: if there's a problem, you already have three solutions.",
+          "traits": [
+            "Intelligence",
+            "Preparedness",
+            "Justice"
+          ]
+        },
+        "es": {
+          "name": "Hermione Granger",
+          "description": "Estás preparado para todo. La lógica, el conocimiento y la disciplina son tus armas. Tus amigos lo saben: si hay un problema, ya tienes tres soluciones.",
+          "traits": [
+            "Inteligencia",
+            "Preparación",
+            "Justicia"
+          ]
+        },
+        "de": {
+          "name": "Hermine Granger",
+          "description": "Du bist auf alles vorbereitet. Logik, Wissen und Disziplin sind deine Waffen. Deine Freunde wissen: Wenn es ein Problem gibt, hast du schon drei Lösungen parat.",
+          "traits": [
+            "Intelligenz",
+            "Bereitschaft",
+            "Gerechtigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ron",
+      "emoji": "🤝",
+      "wiki": "Ron_Weasley",
+      "i18n": {
+        "ua": {
+          "name": "Рон Уізлі",
+          "description": "Ти той, на кого завжди можна покластись. Не завжди впевнений у собі, але поруч з тобою ніхто не відчуває себе самотнім. Вірний до кінця.",
+          "traits": [
+            "Вірність",
+            "Гумор",
+            "Серце"
+          ]
+        },
+        "en": {
+          "name": "Ron Weasley",
+          "description": "You're the one everyone can count on. Not always confident, but nobody feels alone with you around. Loyal to the end.",
+          "traits": [
+            "Loyalty",
+            "Humor",
+            "Heart"
+          ]
+        },
+        "es": {
+          "name": "Ron Weasley",
+          "description": "Eres la persona en la que todos pueden confiar. No siempre segura de ti misma, pero nadie se siente solo contigo. Leal hasta el final.",
+          "traits": [
+            "Lealtad",
+            "Humor",
+            "Corazón"
+          ]
+        },
+        "de": {
+          "name": "Ron Weasley",
+          "description": "Auf dich ist jeder Verlass. Nicht immer selbstsicher, aber in deiner Gegenwart fühlt sich niemand allein. Loyal bis zum Schluss.",
+          "traits": [
+            "Loyalität",
+            "Humor",
+            "Herz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "luna",
+      "emoji": "🌙",
+      "wiki": "Luna_Lovegood",
+      "i18n": {
+        "ua": {
+          "name": "Луна Лавґуд",
+          "description": "Ти живеш у своєму світі — і це твоя сила. Бачиш красу там де інші не помічають. Дивний для деяких, чарівний для тих хто знає.",
+          "traits": [
+            "Унікальність",
+            "Інтуїція",
+            "Мрійливість"
+          ]
+        },
+        "en": {
+          "name": "Luna Lovegood",
+          "description": "You live in your own world — and that's your strength. You see beauty where others don't. Odd to some, magical to those who know.",
+          "traits": [
+            "Uniqueness",
+            "Intuition",
+            "Dreaminess"
+          ]
+        },
+        "es": {
+          "name": "Luna Lovegood",
+          "description": "Vives en tu propio mundo, y esa es tu fortaleza. Ves belleza donde otros no la ven. Extraño para algunos, mágico para quienes lo entienden.",
+          "traits": [
+            "Unicidad",
+            "Intuición",
+            "Sueños"
+          ]
+        },
+        "de": {
+          "name": "Luna Lovegood",
+          "description": "Du lebst in deiner eigenen Welt – und das ist deine Stärke. Du siehst Schönheit, wo andere sie nicht sehen. Für manche seltsam, für diejenigen, die sie kennen, magisch.",
+          "traits": [
+            "Einzigartigkeit",
+            "Intuition",
+            "Verträumtheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "neville",
+      "emoji": "🌿",
+      "wiki": "Neville_Longbottom",
+      "i18n": {
+        "ua": {
+          "name": "Невілл Лонґботом",
+          "description": "Ти ростеш тихо — але впевнено. Довго недооцінений, але саме ти робиш вирішальний крок у потрібний момент. Твоя сміливість прихована, але справжня.",
+          "traits": [
+            "Зростання",
+            "Стійкість",
+            "Скромність"
+          ]
+        },
+        "en": {
+          "name": "Neville Longbottom",
+          "description": "You grow quietly but steadily. Long underestimated, but you're the one who takes the decisive step when it matters. Your courage is hidden but real.",
+          "traits": [
+            "Growth",
+            "Resilience",
+            "Humility"
+          ]
+        },
+        "es": {
+          "name": "Neville Longbottom",
+          "description": "Creces en silencio, pero con constancia. Durante mucho tiempo te han subestimado, pero eres tú quien da el paso decisivo cuando importa. Tu valentía está oculta, pero es real.",
+          "traits": [
+            "Crecimiento",
+            "Resiliencia",
+            "Humildad"
+          ]
+        },
+        "de": {
+          "name": "Neville Longbottom",
+          "description": "Du entwickelst dich still und stetig weiter. Lange unterschätzt, bist du es, die im entscheidenden Moment den entscheidenden Schritt tut. Dein Mut ist verborgen, aber echt.",
+          "traits": [
+            "Wachstum",
+            "Widerstandsfähigkeit",
+            "Demut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dumbledore",
+      "emoji": "🔮",
+      "wiki": "Albus_Dumbledore",
+      "i18n": {
+        "ua": {
+          "name": "Альбус Дамблдор",
+          "description": "Ти бачиш далі за інших і мовчиш про це. Мудрий, терплячий, з таємницями які ніхто не знає. Твоя присутність змінює людей.",
+          "traits": [
+            "Мудрість",
+            "Терпіння",
+            "Таємничість"
+          ]
+        },
+        "en": {
+          "name": "Albus Dumbledore",
+          "description": "You see further than others and stay quiet about it. Wise, patient, with secrets nobody knows. Your presence changes people.",
+          "traits": [
+            "Wisdom",
+            "Patience",
+            "Mystery"
+          ]
+        },
+        "es": {
+          "name": "Albus Dumbledore",
+          "description": "Ves más allá que los demás y lo mantienes en secreto. Sabia, paciente, guardas secretos que nadie conoce. Tu presencia transforma a las personas.",
+          "traits": [
+            "Sabiduría",
+            "Paciencia",
+            "Misterio"
+          ]
+        },
+        "de": {
+          "name": "Albus Dumbledore",
+          "description": "Du siehst weiter als andere und bewahrst Stillschweigen darüber. Weise, geduldig, mit Geheimnissen, die niemand kennt. Deine Anwesenheit verändert die Menschen.",
+          "traits": [
+            "Weisheit",
+            "Geduld",
+            "Geheimnis"
+          ]
+        }
+      }
+    },
+    {
+      "id": "snape",
+      "emoji": "🖤",
+      "wiki": "Severus_Snape",
+      "i18n": {
+        "ua": {
+          "name": "Северус Снейп",
+          "description": "Тебе рідко розуміють правильно. Холодний зовні, але всередині — глибокі почуття і принципи. Робиш правильне не тому що легко, а тому що потрібно.",
+          "traits": [
+            "Складність",
+            "Принципи",
+            "Прихована глибина"
+          ]
+        },
+        "en": {
+          "name": "Severus Snape",
+          "description": "You're rarely understood correctly. Cold outside, but inside — deep feelings and principles. You do the right thing not because it's easy, but because it must be done.",
+          "traits": [
+            "Complexity",
+            "Principles",
+            "Hidden depth"
+          ]
+        },
+        "es": {
+          "name": "Severo Snape",
+          "description": "Rara vez te entienden como es debido. Frío por fuera, pero por dentro albergas profundos sentimientos y principios. Haces lo correcto no porque sea fácil, sino porque hay que hacerlo.",
+          "traits": [
+            "Complejidad",
+            "Principios",
+            "Profundidad oculta"
+          ]
+        },
+        "de": {
+          "name": "Severus Snape",
+          "description": "Du wirst selten richtig verstanden. Äußerlich kühl, innerlich aber tiefgründig und prinzipientreu. Du tust das Richtige nicht, weil es einfach ist, sondern weil es getan werden muss.",
+          "traits": [
+            "Komplexität",
+            "Prinzipien",
+            "Verborgene Tiefe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "draco",
+      "emoji": "🐍",
+      "wiki": "Draco_Malfoy",
+      "i18n": {
+        "ua": {
+          "name": "Драко Малфой",
+          "description": "Ти народився з великими очікуваннями і досі з ними борешся. Гострий на язик і впевнений зовні, але всередині — більше сумнівів ніж хтось думає.",
+          "traits": [
+            "Амбіції",
+            "Складність",
+            "Гордість"
+          ]
+        },
+        "en": {
+          "name": "Draco Malfoy",
+          "description": "You were born with great expectations and still wrestling with them. Sharp-tongued and confident outside, but inside — more doubt than anyone thinks.",
+          "traits": [
+            "Ambition",
+            "Complexity",
+            "Pride"
+          ]
+        },
+        "es": {
+          "name": "Draco Malfoy",
+          "description": "Naciste con grandes expectativas y aún luchas con ellas. De lengua afilada y segura de ti misma por fuera, pero por dentro hay más dudas de las que nadie imagina.",
+          "traits": [
+            "Ambición",
+            "Complejidad",
+            "Orgullo"
+          ]
+        },
+        "de": {
+          "name": "Draco Malfoy",
+          "description": "Du wurdest mit großen Erwartungen geboren und kämpfst noch immer mit ihnen. Nach außen hin schlagfertig und selbstbewusst, innerlich jedoch – voller Zweifel, als irgendjemand ahnt.",
+          "traits": [
+            "Ehrgeiz",
+            "Komplexität",
+            "Stolz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ginny",
+      "emoji": "🔥",
+      "wiki": "Ginny_Weasley",
+      "i18n": {
+        "ua": {
+          "name": "Джіні Уізлі",
+          "description": "Тебе недооцінюють — і це їхня помилка. Сильна, пряма і зовсім не боїться говорити правду. Знаєш собі ціну і не потребуєш схвалення.",
+          "traits": [
+            "Сила",
+            "Незалежність",
+            "Чесність"
+          ]
+        },
+        "en": {
+          "name": "Ginny Weasley",
+          "description": "People underestimate you — and that's their mistake. Strong, direct, and not afraid to speak the truth. You know your worth and don't need approval.",
+          "traits": [
+            "Strength",
+            "Independence",
+            "Honesty"
+          ]
+        },
+        "es": {
+          "name": "Ginny Weasley",
+          "description": "La gente te subestima, y ​​ese es su error. Eres fuerte, directa y no tienes miedo de decir la verdad. Conoces tu valía y no necesitas la aprobación de los demás.",
+          "traits": [
+            "Fortaleza",
+            "Independencia",
+            "Honestidad"
+          ]
+        },
+        "de": {
+          "name": "Ginny Weasley",
+          "description": "Man unterschätzt dich – und das ist deren Fehler. Du bist stark, direkt und scheust dich nicht, die Wahrheit zu sagen. Du kennst deinen Wert und brauchst keine Bestätigung.",
+          "traits": [
+            "Stärke",
+            "Unabhängigkeit",
+            "Ehrlichkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fred_george",
+      "emoji": "😄",
+      "wiki": "Fred_and_George_Weasley",
+      "i18n": {
+        "ua": {
+          "name": "Фред і Джордж Уізлі",
+          "description": "Ти — вогонь у кімнаті. Жарти, енергія і сміх — твоя мова. Але за гумором ховається розум і турбота про тих кого любиш.",
+          "traits": [
+            "Гумор",
+            "Енергія",
+            "Щирість"
+          ]
+        },
+        "en": {
+          "name": "Fred & George Weasley",
+          "description": "You're the fire in the room. Jokes, energy and laughter are your language. But behind the humor is intelligence and care for those you love.",
+          "traits": [
+            "Humor",
+            "Energy",
+            "Sincerity"
+          ]
+        },
+        "es": {
+          "name": "Fred y George Weasley",
+          "description": "Eres el alma de la fiesta. El humor, la energía y la risa son tu lenguaje. Pero detrás del humor se esconde la inteligencia y el cariño por tus seres queridos.",
+          "traits": [
+            "Humor",
+            "Energía",
+            "Sinceridad"
+          ]
+        },
+        "de": {
+          "name": "Fred und George Weasley",
+          "description": "Du bist der Mittelpunkt des Raumes. Witze, Energie und Lachen sind deine Sprache. Doch hinter dem Humor verbergen sich Intelligenz und Fürsorge für deine Lieben.",
+          "traits": [
+            "Humor",
+            "Energie",
+            "Aufrichtigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hagrid",
+      "emoji": "🧔",
+      "wiki": "Rubeus_Hagrid",
+      "i18n": {
+        "ua": {
+          "name": "Рубеус Геґрід",
+          "description": "Ти — великий не лише зовні, а й серцем. Любиш усіх створінь, захищаєш слабших і завжди відкритий до друзів. Твої емоції справжні і сильні.",
+          "traits": [
+            "Доброта",
+            "Вірність",
+            "Емоційність"
+          ]
+        },
+        "en": {
+          "name": "Rubeus Hagrid",
+          "description": "You're big not just in size, but in heart. You love all creatures, protect the weak, and are always open to friends. Your emotions are real and strong.",
+          "traits": [
+            "Kindness",
+            "Loyalty",
+            "Emotion"
+          ]
+        },
+        "es": {
+          "name": "Rubeus Hagrid",
+          "description": "No solo eres grande físicamente, sino también de corazón. Amas a todas las criaturas, proteges a los débiles y siempre estás dispuesto a hacer amigos. Tus emociones son auténticas e intensas.",
+          "traits": [
+            "Amabilidad",
+            "Lealtad",
+            "Emoción"
+          ]
+        },
+        "de": {
+          "name": "Rubeus Hagrid",
+          "description": "Du bist nicht nur groß, sondern auch von großem Herzen. Du liebst alle Lebewesen, beschützt die Schwachen und bist immer offen für Freunde. Deine Gefühle sind echt und stark.",
+          "traits": [
+            "Freundlichkeit",
+            "Loyalität",
+            "Emotion"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mcgonagall",
+      "emoji": "🎩",
+      "wiki": "Minerva_McGonagall",
+      "i18n": {
+        "ua": {
+          "name": "Мінерва Макґонеґел",
+          "description": "Ти — втілення дисципліни і справедливості. Строга, але ніколи не жорстока. За холодною зовнішністю ховається гаряче серце і сухий гумор.",
+          "traits": [
+            "Дисципліна",
+            "Справедливість",
+            "Сухий гумор"
+          ]
+        },
+        "en": {
+          "name": "Minerva McGonagall",
+          "description": "You embody discipline and fairness. Strict but never cruel. Behind a cool exterior hides a warm heart and dry wit.",
+          "traits": [
+            "Discipline",
+            "Fairness",
+            "Dry wit"
+          ]
+        },
+        "es": {
+          "name": "Minerva McGonagall",
+          "description": "Eres la personificación de la disciplina y la justicia. Estricta, pero nunca cruel. Tras una apariencia fría se esconde un corazón cálido y un ingenio sutil.",
+          "traits": [
+            "Disciplina",
+            "Justicia",
+            "Ingenio seco"
+          ]
+        },
+        "de": {
+          "name": "Minerva McGonagall",
+          "description": "Du verkörperst Disziplin und Fairness. Streng, aber niemals grausam. Hinter deiner kühlen Fassade verbirgt sich ein warmes Herz und trockener Humor.",
+          "traits": [
+            "Disziplin",
+            "Fairness",
+            "Trockener Humor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sirius",
+      "emoji": "⭐",
+      "wiki": "Sirius_Black",
+      "i18n": {
+        "ua": {
+          "name": "Сіріус Блек",
+          "description": "Ти — бунтар із золотим серцем. Імпульсивний, пристрасний і неймовірно вірний друг. Свобода для тебе — все, а нудьга — найгірший ворог.",
+          "traits": [
+            "Бунтарство",
+            "Вірність",
+            "Пристрасть"
+          ]
+        },
+        "en": {
+          "name": "Sirius Black",
+          "description": "You're a rebel with a golden heart. Impulsive, passionate, and an incredibly loyal friend. Freedom is everything to you, and boredom is your worst enemy.",
+          "traits": [
+            "Rebellion",
+            "Loyalty",
+            "Passion"
+          ]
+        },
+        "es": {
+          "name": "Sirius Black",
+          "description": "Eres una rebelde con un corazón de oro. Impulsiva, apasionada y una amiga increíblemente leal. La libertad lo es todo para ti, y el aburrimiento es tu peor enemigo.",
+          "traits": [
+            "Rebelión",
+            "Lealtad",
+            "Pasión"
+          ]
+        },
+        "de": {
+          "name": "Sirius Black",
+          "description": "Du bist ein Rebell mit einem goldenen Herzen. Impulsiv, leidenschaftlich und ein unglaublich loyaler Freund. Freiheit bedeutet dir alles, und Langeweile ist dein größter Feind.",
+          "traits": [
+            "Rebellion",
+            "Loyalität",
+            "Hingabe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lupin",
+      "emoji": "🌕",
+      "wiki": "Remus_Lupin",
+      "i18n": {
+        "ua": {
+          "name": "Ремус Люпін",
+          "description": "Ти — тихий мудрець, який бореться з внутрішніми демонами. Лагідний, скромний і завжди готовий допомогти. Навчаєш не словами, а прикладом.",
+          "traits": [
+            "Мудрість",
+            "Лагідність",
+            "Скромність"
+          ]
+        },
+        "en": {
+          "name": "Remus Lupin",
+          "description": "You're a quiet sage who struggles with inner demons. Gentle, humble, and always ready to help. You teach not with words but by example.",
+          "traits": [
+            "Wisdom",
+            "Gentleness",
+            "Humility"
+          ]
+        },
+        "es": {
+          "name": "Remus Lupin",
+          "description": "Eres un sabio silencioso que lucha contra sus demonios internos. Amable, humilde y siempre dispuesto a ayudar. Enseñas con el ejemplo, no con palabras.",
+          "traits": [
+            "Sabiduría",
+            "Dulzura",
+            "Humildad"
+          ]
+        },
+        "de": {
+          "name": "Remus Lupin",
+          "description": "Du bist ein stiller Weiser, der mit inneren Dämonen kämpft. Sanftmütig, demütig und stets hilfsbereit. Du lehrst nicht mit Worten, sondern durch dein Vorbild.",
+          "traits": [
+            "Weisheit",
+            "Sanftmut",
+            "Demut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tonks",
+      "emoji": "💜",
+      "wiki": "Nymphadora_Tonks",
+      "i18n": {
+        "ua": {
+          "name": "Німфадора Тонкс",
+          "description": "Ти — яскрава і весела, навіть коли навкруги хаос. Незграбна але смілива, кольорова але серйозна коли треба. Ти не вписуєшся в рамки — і це прекрасно.",
+          "traits": [
+            "Яскравість",
+            "Сміливість",
+            "Веселість"
+          ]
+        },
+        "en": {
+          "name": "Nymphadora Tonks",
+          "description": "You're bright and cheerful even when chaos surrounds you. Clumsy but brave, colorful but serious when needed. You don't fit in boxes — and that's beautiful.",
+          "traits": [
+            "Colorfulness",
+            "Bravery",
+            "Fun"
+          ]
+        },
+        "es": {
+          "name": "Nymphadora Tonks",
+          "description": "Eres brillante y alegre incluso en medio del caos. Torpe pero valiente, colorida pero seria cuando es necesario. No encajas en los estereotipos, y eso es maravilloso.",
+          "traits": [
+            "Colorido",
+            "Valentía",
+            "Divertido"
+          ]
+        },
+        "de": {
+          "name": "Nymphadora Tonks",
+          "description": "Du bist fröhlich und aufgeweckt, selbst wenn dich das Chaos umgibt. Tollpatschig, aber mutig, farbenfroh, aber ernst, wenn es nötig ist. Du passt in keine Schublade – und das ist wunderbar.",
+          "traits": [
+            "Farbenpracht",
+            "Tapferkeit",
+            "Spaß"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dobby",
+      "emoji": "🧦",
+      "wiki": "Dobby_(Harry_Potter)",
+      "i18n": {
+        "ua": {
+          "name": "Добі",
+          "description": "Ти — маленький герой з великою душею. Самовідданий, відданий і сміливий по-своєму. Цінуєш свободу і готовий на все заради тих, кого любиш.",
+          "traits": [
+            "Самовідданість",
+            "Відданість",
+            "Свободолюбство"
+          ]
+        },
+        "en": {
+          "name": "Dobby",
+          "description": "You're a small hero with a big soul. Selfless, devoted, and brave in your own way. You value freedom and will do anything for those you love.",
+          "traits": [
+            "Selflessness",
+            "Devotion",
+            "Freedom"
+          ]
+        },
+        "es": {
+          "name": "Dobby",
+          "description": "Eres un pequeño héroe con un gran corazón. Desinteresado, entregado y valiente a tu manera. Valorás la libertad y harías cualquier cosa por quienes amas.",
+          "traits": [
+            "Desinterés",
+            "Devoción",
+            "Libertad"
+          ]
+        },
+        "de": {
+          "name": "Dobby",
+          "description": "Du bist ein kleiner Held mit einem großen Herzen. Selbstlos, hingebungsvoll und auf deine Weise mutig. Du schätzt Freiheit und würdest alles für deine Lieben tun.",
+          "traits": [
+            "Selbstlosigkeit",
+            "Hingabe",
+            "Freiheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cedric",
+      "emoji": "💛",
+      "wiki": "Cedric_Diggory",
+      "i18n": {
+        "ua": {
+          "name": "Седрік Діґорі",
+          "description": "Ти — справжній лицар. Чесний, благородний і скромний. Перемога для тебе важлива, але не за будь-яку ціну. Ти граєш чесно — завжди.",
+          "traits": [
+            "Благородство",
+            "Чесність",
+            "Скромність"
+          ]
+        },
+        "en": {
+          "name": "Cedric Diggory",
+          "description": "You're a true knight. Fair, noble, and humble. Winning matters to you, but not at any cost. You play fair — always.",
+          "traits": [
+            "Nobility",
+            "Fairness",
+            "Humility"
+          ]
+        },
+        "es": {
+          "name": "Cedric Diggory",
+          "description": "Eres un verdadero caballero. Justo, noble y humilde. Ganar te importa, pero no a cualquier precio. Juegas limpio, siempre.",
+          "traits": [
+            "Nobleza",
+            "Justicia",
+            "Humildad"
+          ]
+        },
+        "de": {
+          "name": "Cedric Diggory",
+          "description": "Du bist ein wahrer Ritter. Aufrichtig, edel und bescheiden. Gewinnen ist dir wichtig, aber nicht um jeden Preis. Du spielst fair – immer.",
+          "traits": [
+            "Adel",
+            "Fairness",
+            "Demut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bellatrix",
+      "emoji": "🖤",
+      "wiki": "Bellatrix_Lestrange",
+      "i18n": {
+        "ua": {
+          "name": "Белатрікс Лестранж",
+          "description": "Ти — шторм. Інтенсивна, фанатична і непередбачувана. Твоя пристрасть не знає меж, а відданість — абсолютна. З тобою ніколи не нудно — і ніколи не безпечно.",
+          "traits": [
+            "Інтенсивність",
+            "Фанатизм",
+            "Непередбачуваність"
+          ]
+        },
+        "en": {
+          "name": "Bellatrix Lestrange",
+          "description": "You're a storm. Intense, fanatical, and unpredictable. Your passion knows no bounds, and your devotion is absolute. It's never boring with you — and never safe.",
+          "traits": [
+            "Intensity",
+            "Fanaticism",
+            "Unpredictability"
+          ]
+        },
+        "es": {
+          "name": "Bellatrix Lestrange",
+          "description": "Eres una tormenta. Intensa, fanática e impredecible. Tu pasión no conoce límites y tu devoción es absoluta. Contigo nunca hay aburrimiento, y nunca hay seguridad.",
+          "traits": [
+            "Intensidad",
+            "Fanatismo",
+            "Imprevisibilidad"
+          ]
+        },
+        "de": {
+          "name": "Bellatrix Lestrange",
+          "description": "Du bist ein Sturm. Intensiv, fanatisch und unberechenbar. Deine Leidenschaft kennt keine Grenzen, deine Hingabe ist absolut. Mit dir wird es nie langweilig – und nie sicher.",
+          "traits": [
+            "Intensität",
+            "Fanatismus",
+            "Unvorhersehbarkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "voldemort",
+      "emoji": "💀",
+      "wiki": "Lord_Voldemort",
+      "i18n": {
+        "ua": {
+          "name": "Лорд Волдеморт",
+          "description": "Ти прагнеш абсолютної влади і контролю. Амбітний, могутній і безжалісний. Боїшся лише одного — смерті. Твоя воля незламна, але ціна — людяність.",
+          "traits": [
+            "Амбіція",
+            "Влада",
+            "Контроль"
+          ]
+        },
+        "en": {
+          "name": "Lord Voldemort",
+          "description": "You crave absolute power and control. Ambitious, powerful, and ruthless. You fear only one thing — death. Your will is unbreakable, but the cost is your humanity.",
+          "traits": [
+            "Ambition",
+            "Power",
+            "Control"
+          ]
+        },
+        "es": {
+          "name": "Lord Voldemort",
+          "description": "Anhelas el poder y el control absolutos. Eres ambicioso, poderoso y despiadado. Solo temes una cosa: la muerte. Tu voluntad es inquebrantable, pero el precio es tu humanidad.",
+          "traits": [
+            "Ambición",
+            "Fuerza",
+            "Control"
+          ]
+        },
+        "de": {
+          "name": "Lord Voldemort",
+          "description": "Du gierst nach absoluter Macht und Kontrolle. Ehrgeizig, mächtig und skrupellos. Du fürchtest nur eines – den Tod. Dein Wille ist unbeugsam, doch der Preis dafür ist deine Menschlichkeit.",
+          "traits": [
+            "Ehrgeiz",
+            "Leistung",
+            "Kontrolle"
+          ]
+        }
+      }
+    },
+    {
+      "id": "moody",
+      "emoji": "👁️",
+      "wiki": "Alastor_Moody",
+      "i18n": {
+        "ua": {
+          "name": "Аластор Муді",
+          "description": "Ти — вічно пильний воїн. Параноїдальний, досвідчений і жорсткий. Довіряєш лише фактам і своїм очам. Постійна пильність — твоє кредо.",
+          "traits": [
+            "Пильність",
+            "Досвід",
+            "Жорсткість"
+          ]
+        },
+        "en": {
+          "name": "Alastor Moody",
+          "description": "You're an eternally vigilant warrior. Paranoid, experienced, and tough. You trust only facts and your own eyes. Constant vigilance is your creed.",
+          "traits": [
+            "Vigilance",
+            "Experience",
+            "Toughness"
+          ]
+        },
+        "es": {
+          "name": "Alastor Moody",
+          "description": "Eres un guerrero eternamente vigilante. Paranoico, experimentado y resistente. Solo confías en los hechos y en tus propios ojos. La vigilancia constante es tu lema.",
+          "traits": [
+            "Vigilancia",
+            "Experiencia",
+            "Tenacidad"
+          ]
+        },
+        "de": {
+          "name": "Alastor Moody",
+          "description": "Du bist ein ewig wachsamer Krieger. Paranoid, erfahren und hart. Du vertraust nur Fakten und deinen eigenen Augen. Ständige Wachsamkeit ist dein Credo.",
+          "traits": [
+            "Wachsamkeit",
+            "Erfahrung",
+            "Zähigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "molly_weasley",
+      "emoji": "🧡",
+      "wiki": "Molly_Weasley",
+      "i18n": {
+        "ua": {
+          "name": "Моллі Уізлі",
+          "description": "Ти — серце родини. Тепла, турботлива і неймовірно захисна. Не чіпай її дітей — бо побачиш, на що здатна мати. За ніжністю ховається сталь.",
+          "traits": [
+            "Захисність",
+            "Теплота",
+            "Материнська сила"
+          ]
+        },
+        "en": {
+          "name": "Molly Weasley",
+          "description": "You're the heart of the family. Warm, caring, and fiercely protective. Don't mess with her kids — you'll see what a mother is capable of. Behind the tenderness is steel.",
+          "traits": [
+            "Protectiveness",
+            "Warmth",
+            "Fierce love"
+          ]
+        },
+        "es": {
+          "name": "Molly Weasley",
+          "description": "Eres el corazón de la familia. Cálida, cariñosa y protectora a ultranza. No te metas con sus hijos; verás de lo que es capaz una madre. Detrás de la ternura se esconde una fortaleza inquebrantable.",
+          "traits": [
+            "Protección",
+            "Calor",
+            "Amor feroz"
+          ]
+        },
+        "de": {
+          "name": "Molly Weasley",
+          "description": "Du bist das Herz der Familie. Warmherzig, fürsorglich und ungemein beschützend. Leg dich bloß nicht mit ihren Kindern an – du wirst sehen, wozu eine Mutter fähig ist. Hinter der Zärtlichkeit verbirgt sich eiserne Entschlossenheit.",
+          "traits": [
+            "Schutzfunktion",
+            "Wärme",
+            "Heftige Liebe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "arthur_weasley",
+      "emoji": "🔌",
+      "wiki": "Arthur_Weasley",
+      "i18n": {
+        "ua": {
+          "name": "Артур Уізлі",
+          "description": "Ти — вічно допитливий і добрий. Зачарований звичайними речами, які інші вважають нудними. Скромний, але з великим серцем і справжніми цінностями.",
+          "traits": [
+            "Допитливість",
+            "Доброта",
+            "Скромність"
+          ]
+        },
+        "en": {
+          "name": "Arthur Weasley",
+          "description": "You're endlessly curious and kind. Fascinated by ordinary things others find boring. Humble, but with a big heart and true values.",
+          "traits": [
+            "Curiosity",
+            "Kindness",
+            "Humility"
+          ]
+        },
+        "es": {
+          "name": "Arthur Weasley",
+          "description": "Eres infinitamente curioso y amable. Te fascinan las cosas cotidianas que otros consideran aburridas. Humilde, pero con un gran corazón y valores auténticos.",
+          "traits": [
+            "Curiosidad",
+            "Amabilidad",
+            "Humildad"
+          ]
+        },
+        "de": {
+          "name": "Arthur Weasley",
+          "description": "Du bist unendlich neugierig und freundlich. Fasziniert von alltäglichen Dingen, die andere langweilig finden. Bescheiden, aber mit einem großen Herzen und echten Werten.",
+          "traits": [
+            "Neugier",
+            "Freundlichkeit",
+            "Demut"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3663 @@
+{
+  "meta": {
+    "id": "peculiar",
+    "questions_count": 8
+  },
+  "questions": [
+    {
+      "id": "pq1",
+      "i18n": {
+        "ua": {
+          "text": "Якби ти мав особливу здібність — яку б обрав?"
+        },
+        "en": {
+          "text": "If you had a peculiarity — which would you choose?"
+        },
+        "es": {
+          "text": "Si tuvieras una peculiaridad, ¿cuál elegirías?"
+        },
+        "de": {
+          "text": "Wenn du eine Besonderheit hättest – welche würdest du wählen?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq1a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Керувати вогнем або повітрям"
+            },
+            "en": {
+              "label": "🔥 Control fire or air"
+            },
+            "es": {
+              "label": "🔥 Controla el fuego o el aire"
+            },
+            "de": {
+              "label": "🔥 Feuer oder Luft kontrollieren"
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "miss_peregrine",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq1b",
+          "i18n": {
+            "ua": {
+              "label": "👁️ Бачити чужі сни"
+            },
+            "en": {
+              "label": "👁️ See others' dreams"
+            },
+            "es": {
+              "label": "👁️ Ve los sueños de los demás"
+            },
+            "de": {
+              "label": "👁️ Die Träume anderer sehen"
+            }
+          },
+          "animals": [
+            "horace",
+            "millard",
+            "jacob",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq1c",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Левітувати — ширяти над усім"
+            },
+            "en": {
+              "label": "🎈 Levitate — float above it all"
+            },
+            "es": {
+              "label": "🎈 Levitate — flota por encima de todo"
+            },
+            "de": {
+              "label": "🎈 Schwebe – über allem schweben"
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "horace",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq1d",
+          "i18n": {
+            "ua": {
+              "label": "🪆 Оживляти неживе"
+            },
+            "en": {
+              "label": "🪆 Bring the lifeless to life"
+            },
+            "es": {
+              "label": "🪆 Devuelve la vida a lo inerte"
+            },
+            "de": {
+              "label": "🪆 Erwecke das Leblose zum Leben"
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "emma",
+            "victor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq2",
+      "i18n": {
+        "ua": {
+          "text": "Як ти почуваєшся серед людей які тебе не розуміють?"
+        },
+        "en": {
+          "text": "How do you feel among people who don't understand you?"
+        },
+        "es": {
+          "text": "¿Cómo te sientes entre personas que no te entienden?"
+        },
+        "de": {
+          "text": "Wie fühlen Sie sich unter Menschen, die Sie nicht verstehen?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq2a",
+          "i18n": {
+            "ua": {
+              "label": "🧳 Шукаю де мені справді місце"
+            },
+            "en": {
+              "label": "🧳 Look for where I truly belong"
+            },
+            "es": {
+              "label": "🧳 Busca el lugar al que realmente pertenezco."
+            },
+            "de": {
+              "label": "🧳 Suche nach dem Ort, an den ich wirklich gehöre"
+            }
+          },
+          "animals": [
+            "jacob",
+            "olive",
+            "emma",
+            "ricky"
+          ]
+        },
+        {
+          "id": "pq2b",
+          "i18n": {
+            "ua": {
+              "label": "👁️ Тихо спостерігаю — не пояснюю"
+            },
+            "en": {
+              "label": "👁️ Quietly observe — don't explain"
+            },
+            "es": {
+              "label": "👁️ Observa en silencio, no expliques."
+            },
+            "de": {
+              "label": "👁️ Beobachte still – erkläre nicht."
+            }
+          },
+          "animals": [
+            "millard",
+            "enoch",
+            "horace",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq2c",
+          "i18n": {
+            "ua": {
+              "label": "💪 Доводжу своє через дії"
+            },
+            "en": {
+              "label": "💪 Prove myself through actions"
+            },
+            "es": {
+              "label": "💪 Demuéstralo con acciones"
+            },
+            "de": {
+              "label": "💪 Mich durch Taten beweisen"
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "miss_peregrine",
+            "emma",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq2d",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Мені все одно — я залишаюсь собою"
+            },
+            "en": {
+              "label": "🎈 I don't care — I stay myself"
+            },
+            "es": {
+              "label": "🎈 No me importa, sigo siendo yo misma."
+            },
+            "de": {
+              "label": "🎈 Ist mir egal – ich bleibe ich selbst."
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "horace",
+            "jules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq3",
+      "i18n": {
+        "ua": {
+          "text": "Що найбільше цінуєш у своєму домі?"
+        },
+        "en": {
+          "text": "What do you value most about your home?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más valoras de tu hogar?"
+        },
+        "de": {
+          "text": "Was schätzen Sie am meisten an Ihrem Zuhause?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq3a",
+          "i18n": {
+            "ua": {
+              "label": "🏠 Безпека і захист близьких"
+            },
+            "en": {
+              "label": "🏠 Safety and protecting loved ones"
+            },
+            "es": {
+              "label": "🏠 Seguridad y protección de los seres queridos"
+            },
+            "de": {
+              "label": "🏠 Sicherheit und Schutz der Liebsten"
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "bronwyn",
+            "emma",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq3b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Книги і тиша для роздумів"
+            },
+            "en": {
+              "label": "📚 Books and quiet for thinking"
+            },
+            "es": {
+              "label": "📚 Libros y tranquilidad para pensar"
+            },
+            "de": {
+              "label": "📚 Bücher und Ruhe zum Nachdenken"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "jacob",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq3c",
+          "i18n": {
+            "ua": {
+              "label": "😄 Сміх і спільні моменти"
+            },
+            "en": {
+              "label": "😄 Laughter and shared moments"
+            },
+            "es": {
+              "label": "😄 Risas y momentos compartidos"
+            },
+            "de": {
+              "label": "😄 Lachen und gemeinsame Momente"
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "bronwyn",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq3d",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Красу і порядок"
+            },
+            "en": {
+              "label": "🎨 Beauty and order"
+            },
+            "es": {
+              "label": "🎨 Belleza y orden"
+            },
+            "de": {
+              "label": "🎨 Schönheit und Ordnung"
+            }
+          },
+          "animals": [
+            "horace",
+            "enoch",
+            "miss_peregrine",
+            "fiona"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq4",
+      "i18n": {
+        "ua": {
+          "text": "Як ти ставишся до небезпеки?"
+        },
+        "en": {
+          "text": "How do you face danger?"
+        },
+        "es": {
+          "text": "¿Cómo afrontas el peligro?"
+        },
+        "de": {
+          "text": "Wie begegnet man Gefahren?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq4a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Захищаю інших першим"
+            },
+            "en": {
+              "label": "⚡ Protect others first"
+            },
+            "es": {
+              "label": "⚡ Protege primero a los demás"
+            },
+            "de": {
+              "label": "⚡ Schütze zuerst andere."
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "miss_peregrine",
+            "jacob",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq4b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Шукаю план — не паніка"
+            },
+            "en": {
+              "label": "🧠 Find a plan — no panic"
+            },
+            "es": {
+              "label": "🧠 Encuentra un plan — sin pánico"
+            },
+            "de": {
+              "label": "🧠 Finde einen Plan – keine Panik"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "miss_peregrine",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq4c",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Тримаюсь легко — паніка не допоможе"
+            },
+            "en": {
+              "label": "🎈 Stay light — panic won't help"
+            },
+            "es": {
+              "label": "🎈 Mantente ligero: el pánico no te ayudará."
+            },
+            "de": {
+              "label": "🎈 Bleib gelassen – Panik hilft nicht."
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq4d",
+          "i18n": {
+            "ua": {
+              "label": "🪆 Роблю те що потрібно — мовчки"
+            },
+            "en": {
+              "label": "🪆 Do what's needed — silently"
+            },
+            "es": {
+              "label": "🪆 Haz lo que sea necesario, en silencio."
+            },
+            "de": {
+              "label": "🪆 Tue, was nötig ist – im Stillen."
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "bronwyn",
+            "peculiar_twins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq5",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе найбільше вабить у минулому?"
+        },
+        "en": {
+          "text": "What draws you most to the past?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te atrae del pasado?"
+        },
+        "de": {
+          "text": "Was fasziniert Sie am meisten an der Vergangenheit?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq5a",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Люди яких вже немає поруч"
+            },
+            "en": {
+              "label": "❤️ People who are no longer there"
+            },
+            "es": {
+              "label": "❤️ Personas que ya no están allí"
+            },
+            "de": {
+              "label": "❤️ Menschen, die nicht mehr da sind"
+            }
+          },
+          "animals": [
+            "jacob",
+            "emma",
+            "enoch",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq5b",
+          "i18n": {
+            "ua": {
+              "label": "📖 Знання і традиції"
+            },
+            "en": {
+              "label": "📖 Knowledge and traditions"
+            },
+            "es": {
+              "label": "📖 Conocimientos y tradiciones"
+            },
+            "de": {
+              "label": "📖 Wissen und Traditionen"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "miss_peregrine",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq5c",
+          "i18n": {
+            "ua": {
+              "label": "🕰️ Відчуття коли все було простіше"
+            },
+            "en": {
+              "label": "🕰️ The feeling when everything was simpler"
+            },
+            "es": {
+              "label": "🕰️ La sensación cuando todo era más sencillo"
+            },
+            "de": {
+              "label": "🕰️ Das Gefühl, als alles einfacher war"
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "bronwyn",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq5d",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Краса і стиль тієї епохи"
+            },
+            "en": {
+              "label": "🎨 The beauty and style of that era"
+            },
+            "es": {
+              "label": "🎨 La belleza y el estilo de esa época"
+            },
+            "de": {
+              "label": "🎨 Die Schönheit und der Stil jener Ära"
+            }
+          },
+          "animals": [
+            "horace",
+            "enoch",
+            "miss_peregrine",
+            "abe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq6",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся коли хтось плаче?"
+        },
+        "en": {
+          "text": "How do you act when someone is crying?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas cuando alguien está llorando?"
+        },
+        "de": {
+          "text": "Wie verhält man sich, wenn jemand weint?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq6a",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Обіймаю і слухаю"
+            },
+            "en": {
+              "label": "🤗 Hug and listen"
+            },
+            "es": {
+              "label": "🤗 Abraza y escucha"
+            },
+            "de": {
+              "label": "🤗 Umarmung und Zuhören"
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "olive",
+            "emma",
+            "jacob",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq6b",
+          "i18n": {
+            "ua": {
+              "label": "🔧 Намагаюсь вирішити проблему"
+            },
+            "en": {
+              "label": "🔧 Try to solve the problem"
+            },
+            "es": {
+              "label": "🔧 Intenta resolver el problema"
+            },
+            "de": {
+              "label": "🔧 Versuche, das Problem zu lösen"
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "millard",
+            "horace",
+            "ricky"
+          ]
+        },
+        {
+          "id": "pq6c",
+          "i18n": {
+            "ua": {
+              "label": "😶 Незручно — не знаю що робити"
+            },
+            "en": {
+              "label": "😶 Uncomfortable — don't know what to do"
+            },
+            "es": {
+              "label": "😶 Incómodo/a, no sé qué hacer"
+            },
+            "de": {
+              "label": "😶 Unangenehm – ich weiß nicht, was ich tun soll"
+            }
+          },
+          "animals": [
+            "enoch",
+            "jacob",
+            "millard",
+            "peculiar_twins"
+          ]
+        },
+        {
+          "id": "pq6d",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Намагаюсь розвеселити"
+            },
+            "en": {
+              "label": "🎈 Try to cheer them up"
+            },
+            "es": {
+              "label": "🎈 Intenta animarlos"
+            },
+            "de": {
+              "label": "🎈 Versuche, sie aufzuheitern"
+            }
+          },
+          "animals": [
+            "olive",
+            "jacob",
+            "bronwyn",
+            "jules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq7",
+      "i18n": {
+        "ua": {
+          "text": "Яке місце відчуваєш своїм?"
+        },
+        "en": {
+          "text": "What kind of place feels like yours?"
+        },
+        "es": {
+          "text": "¿Qué tipo de lugar se parece al tuyo?"
+        },
+        "de": {
+          "text": "Welcher Ort fühlt sich für Sie wie Ihr Zuhause an?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq7a",
+          "i18n": {
+            "ua": {
+              "label": "🏡 Затишний дім де всі свої"
+            },
+            "en": {
+              "label": "🏡 A cozy home where everyone belongs"
+            },
+            "es": {
+              "label": "🏡 Un hogar acogedor donde todos pertenecen"
+            },
+            "de": {
+              "label": "🏡 Ein gemütliches Zuhause, in dem sich jeder zu Hause fühlt"
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "bronwyn",
+            "olive",
+            "emma",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq7b",
+          "i18n": {
+            "ua": {
+              "label": "📚 Бібліотека або старовинна кімната"
+            },
+            "en": {
+              "label": "📚 A library or old-fashioned room"
+            },
+            "es": {
+              "label": "📚 Una biblioteca o una habitación de estilo antiguo"
+            },
+            "de": {
+              "label": "📚 Eine Bibliothek oder ein altmodisches Zimmer"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "enoch",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq7c",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Відкритий простір — море або небо"
+            },
+            "en": {
+              "label": "🌊 Open space — sea or sky"
+            },
+            "es": {
+              "label": "🌊 Espacio abierto: mar o cielo"
+            },
+            "de": {
+              "label": "🌊 Offener Raum – Meer oder Himmel"
+            }
+          },
+          "animals": [
+            "olive",
+            "emma",
+            "jacob",
+            "fiona"
+          ]
+        },
+        {
+          "id": "pq7d",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Місце де мене не знайдуть"
+            },
+            "en": {
+              "label": "🌑 A place where nobody finds me"
+            },
+            "es": {
+              "label": "🌑 Un lugar donde nadie me encuentra"
+            },
+            "de": {
+              "label": "🌑 Ein Ort, an dem mich niemand findet"
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "jacob",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq8",
+      "i18n": {
+        "ua": {
+          "text": "Яке твоє ставлення до своєї «незвичності»?"
+        },
+        "en": {
+          "text": "How do you feel about your own strangeness?"
+        },
+        "es": {
+          "text": "¿Cómo te sientes respecto a tu propia rareza?"
+        },
+        "de": {
+          "text": "Wie stehst du zu deiner eigenen Andersartigkeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq8a",
+          "i18n": {
+            "ua": {
+              "label": "🌟 Це мій дар — пишаюсь"
+            },
+            "en": {
+              "label": "🌟 It's my gift — I'm proud"
+            },
+            "es": {
+              "label": "🌟 Es mi regalo, estoy orgulloso"
+            },
+            "de": {
+              "label": "🌟 Es ist meine Gabe – ich bin stolz"
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "olive",
+            "miss_peregrine",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq8b",
+          "i18n": {
+            "ua": {
+              "label": "🔍 Вивчаю і розумію це"
+            },
+            "en": {
+              "label": "🔍 I study and understand it"
+            },
+            "es": {
+              "label": "🔍 Lo estudio y lo entiendo"
+            },
+            "de": {
+              "label": "🔍 Ich studiere und verstehe es"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "jacob",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq8c",
+          "i18n": {
+            "ua": {
+              "label": "😔 Іноді хотів би бути простіше"
+            },
+            "en": {
+              "label": "😔 Sometimes wish I were simpler"
+            },
+            "es": {
+              "label": "😔 A veces desearía ser más simple"
+            },
+            "de": {
+              "label": "😔 Manchmal wünschte ich, ich wäre einfacher gestrickt."
+            }
+          },
+          "animals": [
+            "jacob",
+            "enoch",
+            "bronwyn",
+            "dogface"
+          ]
+        },
+        {
+          "id": "pq8d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Це моє — і не треба пояснювати"
+            },
+            "en": {
+              "label": "🖤 It's mine — no need to explain"
+            },
+            "es": {
+              "label": "🖤 ​​Es mío, no hace falta explicarlo."
+            },
+            "de": {
+              "label": "🖤 ​​Es gehört mir – keine Erklärung nötig"
+            }
+          },
+          "animals": [
+            "enoch",
+            "miss_peregrine",
+            "horace",
+            "peculiar_twins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq9",
+      "i18n": {
+        "ua": {
+          "text": "Як ти справляєшся з ностальгією?"
+        },
+        "en": {
+          "text": "How do you deal with nostalgia?"
+        },
+        "es": {
+          "text": "¿Cómo lidias con la nostalgia?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Nostalgie um?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq9a",
+          "i18n": {
+            "ua": {
+              "label": "📸 Зберігаю кожну дрібницю — фото, листи, спогади"
+            },
+            "en": {
+              "label": "📸 I keep every little thing — photos, letters, memories"
+            },
+            "es": {
+              "label": "📸 Guardo absolutamente todo: fotos, cartas, recuerdos."
+            },
+            "de": {
+              "label": "📸 Ich bewahre alles auf – Fotos, Briefe, Erinnerungen"
+            }
+          },
+          "animals": [
+            "horace",
+            "jacob",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq9b",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Згадую з теплом, але живу сьогодні"
+            },
+            "en": {
+              "label": "🔥 I remember with warmth, but live in the present"
+            },
+            "es": {
+              "label": "🔥 Recuerdo con cariño, pero vivo el presente."
+            },
+            "de": {
+              "label": "🔥 Ich erinnere mich mit Wärme, aber lebe in der Gegenwart."
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq9c",
+          "i18n": {
+            "ua": {
+              "label": "🫥 Намагаюсь не озиратись назад"
+            },
+            "en": {
+              "label": "🫥 I try not to look back"
+            },
+            "es": {
+              "label": "🫥 Intento no mirar atrás."
+            },
+            "de": {
+              "label": "🫥 Ich versuche, nicht zurückzublicken"
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "caul"
+          ]
+        },
+        {
+          "id": "pq9d",
+          "i18n": {
+            "ua": {
+              "label": "🕰️ Створюю ритуали, щоб минуле залишалось живим"
+            },
+            "en": {
+              "label": "🕰️ I create rituals to keep the past alive"
+            },
+            "es": {
+              "label": "🕰️ Creo rituales para mantener vivo el pasado."
+            },
+            "de": {
+              "label": "🕰️ Ich kreiere Rituale, um die Vergangenheit lebendig zu halten."
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "olive",
+            "perplexus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq10",
+      "i18n": {
+        "ua": {
+          "text": "Яку роль ти граєш у групі друзів?"
+        },
+        "en": {
+          "text": "What role do you play in a group of friends?"
+        },
+        "es": {
+          "text": "¿Qué papel desempeñas en un grupo de amigos?"
+        },
+        "de": {
+          "text": "Welche Rolle spielst du in einer Freundesgruppe?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq10a",
+          "i18n": {
+            "ua": {
+              "label": "🛡️ Захисник — стежу, щоб усі були в безпеці"
+            },
+            "en": {
+              "label": "🛡️ The protector — I make sure everyone is safe"
+            },
+            "es": {
+              "label": "🛡️ El protector: me aseguro de que todos estén a salvo."
+            },
+            "de": {
+              "label": "🛡️ Der Beschützer – ich sorge dafür, dass alle in Sicherheit sind."
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "miss_peregrine",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq10b",
+          "i18n": {
+            "ua": {
+              "label": "🔎 Спостерігач — помічаю те, що інші пропускають"
+            },
+            "en": {
+              "label": "🔎 The observer — I notice what others miss"
+            },
+            "es": {
+              "label": "🔎 El observador: me doy cuenta de lo que otros pasan por alto."
+            },
+            "de": {
+              "label": "🔎 Der Beobachter – Ich bemerke, was anderen entgeht."
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq10c",
+          "i18n": {
+            "ua": {
+              "label": "🌪️ Іскра — запалюю та надихаю"
+            },
+            "en": {
+              "label": "🌪️ The spark — I ignite and inspire"
+            },
+            "es": {
+              "label": "🌪️ La chispa: yo enciendo e inspiro."
+            },
+            "de": {
+              "label": "🌪️ Der Funke – ich entzünde und inspiriere"
+            }
+          },
+          "animals": [
+            "emma",
+            "olive",
+            "jules"
+          ]
+        },
+        {
+          "id": "pq10d",
+          "i18n": {
+            "ua": {
+              "label": "🆕 Новачок — приношу свіжий погляд"
+            },
+            "en": {
+              "label": "🆕 The newcomer — I bring a fresh perspective"
+            },
+            "es": {
+              "label": "🆕 El recién llegado: aporto una perspectiva fresca."
+            },
+            "de": {
+              "label": "🆕 Der Neuling – ich bringe eine frische Perspektive mit"
+            }
+          },
+          "animals": [
+            "jacob",
+            "enoch",
+            "noor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq11",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш, коли дізнаєшся про брехню?"
+        },
+        "en": {
+          "text": "How do you react when you discover a lie?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas cuando descubres una mentira?"
+        },
+        "de": {
+          "text": "Wie reagieren Sie, wenn Sie eine Lüge entdecken?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq11a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Вибухаю — брехня для мене неприйнятна"
+            },
+            "en": {
+              "label": "🔥 I explode — lies are unacceptable to me"
+            },
+            "es": {
+              "label": "🔥 Exploto: las mentiras son inaceptables para mí."
+            },
+            "de": {
+              "label": "🔥 Ich explodiere – Lügen sind für mich inakzeptabel."
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq11b",
+          "i18n": {
+            "ua": {
+              "label": "🧩 Аналізую — чому людина збрехала?"
+            },
+            "en": {
+              "label": "🧩 I analyze — why did the person lie?"
+            },
+            "es": {
+              "label": "🧩 Analizo: ¿por qué mintió la persona?"
+            },
+            "de": {
+              "label": "🧩 Ich analysiere – warum hat die Person gelogen?"
+            }
+          },
+          "animals": [
+            "millard",
+            "miss_peregrine",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq11c",
+          "i18n": {
+            "ua": {
+              "label": "💔 Мовчки ображаюсь і віддаляюсь"
+            },
+            "en": {
+              "label": "💔 I silently get hurt and distance myself"
+            },
+            "es": {
+              "label": "💔 Me lastimo en silencio y me distancio."
+            },
+            "de": {
+              "label": "💔 Ich werde im Stillen verletzt und ziehe mich zurück"
+            }
+          },
+          "animals": [
+            "jacob",
+            "horace",
+            "fiona"
+          ]
+        },
+        {
+          "id": "pq11d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Не дивуюсь — люди завжди брешуть"
+            },
+            "en": {
+              "label": "🖤 I'm not surprised — people always lie"
+            },
+            "es": {
+              "label": "🖤 ​​No me sorprende, la gente siempre miente."
+            },
+            "de": {
+              "label": "🖤 ​​Das überrascht mich nicht – die Leute lügen immer."
+            }
+          },
+          "animals": [
+            "enoch",
+            "olive",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq12",
+      "i18n": {
+        "ua": {
+          "text": "Що б ти врятував з палаючого дому?"
+        },
+        "en": {
+          "text": "What would you save from a burning house?"
+        },
+        "es": {
+          "text": "¿Qué salvarías de una casa en llamas?"
+        },
+        "de": {
+          "text": "Was würdest du aus einem brennenden Haus retten?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq12a",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧 Людей — все інше можна замінити"
+            },
+            "en": {
+              "label": "👨‍👩‍👧 The people — everything else is replaceable"
+            },
+            "es": {
+              "label": "👨‍👩‍👧 La gente: todo lo demás es reemplazable."
+            },
+            "de": {
+              "label": "👨‍👩‍👧 Die Menschen – alles andere ist ersetzbar"
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "jacob",
+            "dogface"
+          ]
+        },
+        {
+          "id": "pq12b",
+          "i18n": {
+            "ua": {
+              "label": "📖 Щоденник або книгу — там мої думки"
+            },
+            "en": {
+              "label": "📖 A journal or book — my thoughts live there"
+            },
+            "es": {
+              "label": "📖 Un diario o un libro: ahí residen mis pensamientos."
+            },
+            "de": {
+              "label": "📖 Ein Tagebuch oder Buch – darin leben meine Gedanken."
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq12c",
+          "i18n": {
+            "ua": {
+              "label": "🔑 Щось маленьке, але дуже дороге серцю"
+            },
+            "en": {
+              "label": "🔑 Something small but deeply precious to me"
+            },
+            "es": {
+              "label": "🔑 Algo pequeño pero profundamente valioso para mí"
+            },
+            "de": {
+              "label": "🔑 Etwas Kleines, aber mir unendlich wertvoll"
+            }
+          },
+          "animals": [
+            "olive",
+            "miss_peregrine",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq12d",
+          "i18n": {
+            "ua": {
+              "label": "🚪 Нічого — я просто піду далі"
+            },
+            "en": {
+              "label": "🚪 Nothing — I just move on"
+            },
+            "es": {
+              "label": "🚪 Nada, simplemente sigo adelante."
+            },
+            "de": {
+              "label": "🚪 Nichts – ich mache einfach weiter."
+            }
+          },
+          "animals": [
+            "enoch",
+            "emma",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq13",
+      "i18n": {
+        "ua": {
+          "text": "Як ти справляєшся з самотністю?"
+        },
+        "en": {
+          "text": "How do you deal with loneliness?"
+        },
+        "es": {
+          "text": "¿Cómo lidias con la soledad?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Einsamkeit um?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq13a",
+          "i18n": {
+            "ua": {
+              "label": "📚 Занурююсь у книги або дослідження"
+            },
+            "en": {
+              "label": "📚 I dive into books or research"
+            },
+            "es": {
+              "label": "📚 Me sumerjo en libros o investigaciones"
+            },
+            "de": {
+              "label": "📚 Ich tauche in Bücher oder Recherchen ein."
+            }
+          },
+          "animals": [
+            "millard",
+            "horace"
+          ]
+        },
+        {
+          "id": "pq13b",
+          "i18n": {
+            "ua": {
+              "label": "💪 Шукаю когось, кому потрібна допомога"
+            },
+            "en": {
+              "label": "💪 I look for someone who needs help"
+            },
+            "es": {
+              "label": "💪 Busco a alguien que necesite ayuda"
+            },
+            "de": {
+              "label": "💪 Ich suche jemanden, der Hilfe braucht."
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "miss_peregrine",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq13c",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Вдаю що мені байдуже, хоча всередині боляче"
+            },
+            "en": {
+              "label": "🎭 I pretend I don't care, though it hurts inside"
+            },
+            "es": {
+              "label": "🎭 Finjo que no me importa, aunque duele por dentro."
+            },
+            "de": {
+              "label": "🎭 Ich tue so, als ob es mich nicht kümmert, obwohl es innerlich schmerzt."
+            }
+          },
+          "animals": [
+            "enoch",
+            "jacob",
+            "ricky"
+          ]
+        },
+        {
+          "id": "pq13d",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Знаходжу радість у маленьких речах навколо"
+            },
+            "en": {
+              "label": "🎈 I find joy in small things around me"
+            },
+            "es": {
+              "label": "🎈 Encuentro alegría en las pequeñas cosas que me rodean."
+            },
+            "de": {
+              "label": "🎈 Ich finde Freude an den kleinen Dingen um mich herum"
+            }
+          },
+          "animals": [
+            "olive",
+            "emma",
+            "fiona"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq14",
+      "i18n": {
+        "ua": {
+          "text": "Яке твоє ставлення до невідомого?"
+        },
+        "en": {
+          "text": "What's your attitude toward the unknown?"
+        },
+        "es": {
+          "text": "¿Cuál es tu actitud ante lo desconocido?"
+        },
+        "de": {
+          "text": "Wie stehen Sie zum Unbekannten?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq14a",
+          "i18n": {
+            "ua": {
+              "label": "🚀 Невідоме тягне мене як магніт"
+            },
+            "en": {
+              "label": "🚀 The unknown pulls me like a magnet"
+            },
+            "es": {
+              "label": "🚀 Lo desconocido me atrae como un imán."
+            },
+            "de": {
+              "label": "🚀 Das Unbekannte zieht mich an wie ein Magnet."
+            }
+          },
+          "animals": [
+            "jacob",
+            "emma",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq14b",
+          "i18n": {
+            "ua": {
+              "label": "🧪 Хочу вивчити його перш ніж входити"
+            },
+            "en": {
+              "label": "🧪 I want to study it before stepping in"
+            },
+            "es": {
+              "label": "🧪 Quiero estudiarlo antes de entrar"
+            },
+            "de": {
+              "label": "🧪 Ich möchte es studieren, bevor ich es betrete."
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq14c",
+          "i18n": {
+            "ua": {
+              "label": "🏠 Волію відоме і безпечне"
+            },
+            "en": {
+              "label": "🏠 I prefer the known and safe"
+            },
+            "es": {
+              "label": "🏠 Prefiero lo conocido y seguro"
+            },
+            "de": {
+              "label": "🏠 Ich bevorzuge das Bekannte und Sichere."
+            }
+          },
+          "animals": [
+            "olive",
+            "miss_peregrine",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq14d",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Не боюсь — я вже бачив найгірше"
+            },
+            "en": {
+              "label": "⚡ I'm not afraid — I've seen the worst already"
+            },
+            "es": {
+              "label": "⚡ No tengo miedo, ya he visto lo peor."
+            },
+            "de": {
+              "label": "⚡ Ich habe keine Angst – ich habe das Schlimmste schon gesehen."
+            }
+          },
+          "animals": [
+            "enoch",
+            "bronwyn",
+            "noor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq15",
+      "i18n": {
+        "ua": {
+          "text": "Як ти показуєш любов?"
+        },
+        "en": {
+          "text": "How do you show love?"
+        },
+        "es": {
+          "text": "¿Cómo demuestras tu amor?"
+        },
+        "de": {
+          "text": "Wie zeigt man Liebe?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq15a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Палко і безкомпромісно"
+            },
+            "en": {
+              "label": "🔥 Fiercely and without compromise"
+            },
+            "es": {
+              "label": "🔥 Ferozmente y sin concesiones"
+            },
+            "de": {
+              "label": "🔥 Unerbittlich und kompromisslos"
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq15b",
+          "i18n": {
+            "ua": {
+              "label": "🤲 Тихими вчинками і турботою"
+            },
+            "en": {
+              "label": "🤲 Through quiet actions and care"
+            },
+            "es": {
+              "label": "🤲 A través de acciones silenciosas y cuidados"
+            },
+            "de": {
+              "label": "🤲 Durch stilles Handeln und Fürsorge"
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "jacob",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq15c",
+          "i18n": {
+            "ua": {
+              "label": "🎁 Несподіваними подарунками і сюрпризами"
+            },
+            "en": {
+              "label": "🎁 With unexpected gifts and surprises"
+            },
+            "es": {
+              "label": "🎁 Con regalos y sorpresas inesperadas"
+            },
+            "de": {
+              "label": "🎁 Mit unerwarteten Geschenken und Überraschungen"
+            }
+          },
+          "animals": [
+            "olive",
+            "horace",
+            "jules"
+          ]
+        },
+        {
+          "id": "pq15d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Мені важко це показувати, але я завжди поруч"
+            },
+            "en": {
+              "label": "🖤 It's hard for me to show, but I'm always there"
+            },
+            "es": {
+              "label": "🖤 ​​Me cuesta demostrarlo, pero siempre estoy ahí."
+            },
+            "de": {
+              "label": "🖤 ​​Es fällt mir schwer, es zu zeigen, aber ich bin immer da."
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "peculiar_twins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq16",
+      "i18n": {
+        "ua": {
+          "text": "Які у тебе стосунки з часом?"
+        },
+        "en": {
+          "text": "What's your relationship with time?"
+        },
+        "es": {
+          "text": "¿Cuál es tu relación con el tiempo?"
+        },
+        "de": {
+          "text": "Wie ist Ihr Verhältnis zur Zeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq16a",
+          "i18n": {
+            "ua": {
+              "label": "⏳ Час — це те, що треба берегти і контролювати"
+            },
+            "en": {
+              "label": "⏳ Time is something to protect and control"
+            },
+            "es": {
+              "label": "⏳ El tiempo es algo que hay que proteger y controlar."
+            },
+            "de": {
+              "label": "⏳ Zeit ist etwas, das es zu schützen und zu kontrollieren gilt."
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "horace",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq16b",
+          "i18n": {
+            "ua": {
+              "label": "🏃 Час тікає — треба встигнути все"
+            },
+            "en": {
+              "label": "🏃 Time is running — I must do everything"
+            },
+            "es": {
+              "label": "🏃 El tiempo corre: debo hacerlo todo"
+            },
+            "de": {
+              "label": "🏃 Die Zeit drängt – ich muss alles erledigen."
+            }
+          },
+          "animals": [
+            "emma",
+            "jacob",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq16c",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Час не має значення, коли ти щасливий"
+            },
+            "en": {
+              "label": "🎈 Time doesn't matter when you're happy"
+            },
+            "es": {
+              "label": "🎈 El tiempo no importa cuando eres feliz."
+            },
+            "de": {
+              "label": "🎈 Zeit spielt keine Rolle, wenn man glücklich ist."
+            }
+          },
+          "animals": [
+            "olive",
+            "bronwyn",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq16d",
+          "i18n": {
+            "ua": {
+              "label": "💀 Час — ілюзія, все одно все скінчиться"
+            },
+            "en": {
+              "label": "💀 Time is an illusion — everything ends anyway"
+            },
+            "es": {
+              "label": "💀 El tiempo es una ilusión; todo termina de todos modos."
+            },
+            "de": {
+              "label": "💀 Zeit ist eine Illusion – alles endet sowieso."
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq17",
+      "i18n": {
+        "ua": {
+          "text": "Як ти долаєш свої страхи?"
+        },
+        "en": {
+          "text": "How do you face your fears?"
+        },
+        "es": {
+          "text": "¿Cómo afrontas tus miedos?"
+        },
+        "de": {
+          "text": "Wie gehst du mit deinen Ängsten um?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq17a",
+          "i18n": {
+            "ua": {
+              "label": "⚔️ Біжу їм назустріч — хай що буде"
+            },
+            "en": {
+              "label": "⚔️ I run toward them — come what may"
+            },
+            "es": {
+              "label": "⚔️ Corro hacia ellos, pase lo que pase."
+            },
+            "de": {
+              "label": "⚔️ Ich renne auf sie zu – was auch immer geschehen mag"
+            }
+          },
+          "animals": [
+            "emma",
+            "jacob",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq17b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Розкладаю страх на частини і аналізую"
+            },
+            "en": {
+              "label": "🧠 I break fear into pieces and analyze it"
+            },
+            "es": {
+              "label": "🧠 Rompo el miedo en pedazos y lo analizo."
+            },
+            "de": {
+              "label": "🧠 Ich zerlege die Angst in Stücke und analysiere sie."
+            }
+          },
+          "animals": [
+            "millard",
+            "miss_peregrine"
+          ]
+        },
+        {
+          "id": "pq17c",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Мені легше з кимось поруч"
+            },
+            "en": {
+              "label": "🤝 It's easier with someone by my side"
+            },
+            "es": {
+              "label": "🤝 Es más fácil con alguien a mi lado"
+            },
+            "de": {
+              "label": "🤝 Mit jemandem an meiner Seite ist es einfacher."
+            }
+          },
+          "animals": [
+            "olive",
+            "bronwyn",
+            "dogface"
+          ]
+        },
+        {
+          "id": "pq17d",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Роблю вигляд, що мені не страшно"
+            },
+            "en": {
+              "label": "🌙 I pretend I'm not afraid"
+            },
+            "es": {
+              "label": "🌙 Finjo que no tengo miedo"
+            },
+            "de": {
+              "label": "🌙 Ich tue so, als hätte ich keine Angst."
+            }
+          },
+          "animals": [
+            "enoch",
+            "horace",
+            "ricky"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq18",
+      "i18n": {
+        "ua": {
+          "text": "Що ти робиш, коли ніхто не бачить?"
+        },
+        "en": {
+          "text": "What do you do when nobody's watching?"
+        },
+        "es": {
+          "text": "¿Qué haces cuando nadie te ve?"
+        },
+        "de": {
+          "text": "Was tust du, wenn dich niemand beobachtet?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq18a",
+          "i18n": {
+            "ua": {
+              "label": "👻 Спостерігаю за світом непомітно"
+            },
+            "en": {
+              "label": "👻 I observe the world unnoticed"
+            },
+            "es": {
+              "label": "👻 Observo el mundo sin ser notado"
+            },
+            "de": {
+              "label": "👻 Ich beobachte die Welt unbemerkt"
+            }
+          },
+          "animals": [
+            "millard",
+            "jacob",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq18b",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Малюю, мрію або створюю щось"
+            },
+            "en": {
+              "label": "🎨 I draw, dream, or create something"
+            },
+            "es": {
+              "label": "🎨 Dibujo, sueño o creo algo."
+            },
+            "de": {
+              "label": "🎨 Ich zeichne, träume oder erschaffe etwas"
+            }
+          },
+          "animals": [
+            "horace",
+            "olive",
+            "fiona"
+          ]
+        },
+        {
+          "id": "pq18c",
+          "i18n": {
+            "ua": {
+              "label": "🏋️ Тренуюсь і готуюсь до наступного виклику"
+            },
+            "en": {
+              "label": "🏋️ I train and prepare for the next challenge"
+            },
+            "es": {
+              "label": "🏋️ Entreno y me preparo para el próximo desafío."
+            },
+            "de": {
+              "label": "🏋️ Ich trainiere und bereite mich auf die nächste Herausforderung vor"
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "emma",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq18d",
+          "i18n": {
+            "ua": {
+              "label": "🕯️ Займаюсь своїми темними хобі"
+            },
+            "en": {
+              "label": "🕯️ I indulge in my dark hobbies"
+            },
+            "es": {
+              "label": "🕯️ Me entrego a mis pasatiempos oscuros"
+            },
+            "de": {
+              "label": "🕯️ Ich fröne meinen dunklen Hobbys"
+            }
+          },
+          "animals": [
+            "enoch",
+            "miss_peregrine",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq19",
+      "i18n": {
+        "ua": {
+          "text": "Як ти проведеш ідеальний дощовий день?"
+        },
+        "en": {
+          "text": "What's your ideal way to spend a rainy day?"
+        },
+        "es": {
+          "text": "¿Cuál es tu plan ideal para un día lluvioso?"
+        },
+        "de": {
+          "text": "Wie verbringen Sie am liebsten einen Regentag?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq19a",
+          "i18n": {
+            "ua": {
+              "label": "☕ Книга, чай і ковдра"
+            },
+            "en": {
+              "label": "☕ A book, tea, and a blanket"
+            },
+            "es": {
+              "label": "☕ Un libro, té y una manta"
+            },
+            "de": {
+              "label": "☕ Ein Buch, Tee und eine Decke"
+            }
+          },
+          "animals": [
+            "horace",
+            "millard",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq19b",
+          "i18n": {
+            "ua": {
+              "label": "🌧️ Вийду під дощ — відчути стихію"
+            },
+            "en": {
+              "label": "🌧️ I'll go out in the rain — to feel the elements"
+            },
+            "es": {
+              "label": "🌧️ Saldré bajo la lluvia para sentir los elementos."
+            },
+            "de": {
+              "label": "🌧️ Ich gehe im Regen hinaus – um die Elemente zu spüren."
+            }
+          },
+          "animals": [
+            "emma",
+            "jacob",
+            "fiona"
+          ]
+        },
+        {
+          "id": "pq19c",
+          "i18n": {
+            "ua": {
+              "label": "🧸 Проведу час з тими, кого люблю"
+            },
+            "en": {
+              "label": "🧸 I'll spend time with the people I love"
+            },
+            "es": {
+              "label": "🧸 Pasaré tiempo con la gente que amo"
+            },
+            "de": {
+              "label": "🧸 Ich werde Zeit mit den Menschen verbringen, die ich liebe."
+            }
+          },
+          "animals": [
+            "olive",
+            "bronwyn",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq19d",
+          "i18n": {
+            "ua": {
+              "label": "🗂️ Наведу порядок і сплную все"
+            },
+            "en": {
+              "label": "🗂️ I'll organize everything and make plans"
+            },
+            "es": {
+              "label": "🗂️ Yo organizaré todo y haré planes."
+            },
+            "de": {
+              "label": "🗂️ Ich werde alles organisieren und Pläne machen."
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "enoch",
+            "perplexus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq20",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на несправедливість?"
+        },
+        "en": {
+          "text": "How do you react to injustice?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas ante la injusticia?"
+        },
+        "de": {
+          "text": "Wie reagierst du auf Ungerechtigkeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq20a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Борюсь відкрито — мовчати неможливо"
+            },
+            "en": {
+              "label": "🔥 I fight openly — silence is not an option"
+            },
+            "es": {
+              "label": "🔥 Lucho abiertamente: el silencio no es una opción."
+            },
+            "de": {
+              "label": "🔥 Ich kämpfe offen – Schweigen ist keine Option"
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq20b",
+          "i18n": {
+            "ua": {
+              "label": "📝 Збираю факти і доводжу правду"
+            },
+            "en": {
+              "label": "📝 I gather facts and prove the truth"
+            },
+            "es": {
+              "label": "📝 Recopilo datos y demuestro la verdad."
+            },
+            "de": {
+              "label": "📝 Ich sammle Fakten und beweise die Wahrheit"
+            }
+          },
+          "animals": [
+            "millard",
+            "miss_peregrine",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq20c",
+          "i18n": {
+            "ua": {
+              "label": "😢 Переживаю глибоко, але не знаю як діяти"
+            },
+            "en": {
+              "label": "😢 I feel it deeply but don't know how to act"
+            },
+            "es": {
+              "label": "😢 Lo siento profundamente pero no sé cómo actuar."
+            },
+            "de": {
+              "label": "😢 Ich fühle es sehr, weiß aber nicht, wie ich mich verhalten soll."
+            }
+          },
+          "animals": [
+            "jacob",
+            "olive",
+            "dogface"
+          ]
+        },
+        {
+          "id": "pq20d",
+          "i18n": {
+            "ua": {
+              "label": "😏 Світ несправедливий — давно звик"
+            },
+            "en": {
+              "label": "😏 The world is unfair — I got used to it long ago"
+            },
+            "es": {
+              "label": "😏 El mundo es injusto; me acostumbré hace mucho tiempo."
+            },
+            "de": {
+              "label": "😏 Die Welt ist ungerecht – daran habe ich mich schon vor langer Zeit gewöhnt."
+            }
+          },
+          "animals": [
+            "enoch",
+            "horace",
+            "ricky"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq21",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе приваблює в людині?"
+        },
+        "en": {
+          "text": "What draws you to a person?"
+        },
+        "es": {
+          "text": "¿Qué es lo que te atrae de una persona?"
+        },
+        "de": {
+          "text": "Was zieht dich zu einem Menschen hin?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq21a",
+          "i18n": {
+            "ua": {
+              "label": "✨ Сміливість і внутрішній вогонь"
+            },
+            "en": {
+              "label": "✨ Courage and inner fire"
+            },
+            "es": {
+              "label": "✨ Coraje y fuego interior"
+            },
+            "de": {
+              "label": "✨ Mut und inneres Feuer"
+            }
+          },
+          "animals": [
+            "jacob",
+            "emma",
+            "abe"
+          ]
+        },
+        {
+          "id": "pq21b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Розум і глибина думок"
+            },
+            "en": {
+              "label": "🧠 Intelligence and depth of thought"
+            },
+            "es": {
+              "label": "🧠 Inteligencia y profundidad de pensamiento"
+            },
+            "de": {
+              "label": "🧠 Intelligenz und Denktiefe"
+            }
+          },
+          "animals": [
+            "millard",
+            "horace",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq21c",
+          "i18n": {
+            "ua": {
+              "label": "💛 Доброта і щирість"
+            },
+            "en": {
+              "label": "💛 Kindness and sincerity"
+            },
+            "es": {
+              "label": "💛 Amabilidad y sinceridad"
+            },
+            "de": {
+              "label": "💛 Freundlichkeit und Aufrichtigkeit"
+            }
+          },
+          "animals": [
+            "olive",
+            "bronwyn",
+            "claire"
+          ]
+        },
+        {
+          "id": "pq21d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Таємничість і незрозумілість"
+            },
+            "en": {
+              "label": "🖤 Mystery and being hard to read"
+            },
+            "es": {
+              "label": "🖤 ​​Misterio y dificultad para leer"
+            },
+            "de": {
+              "label": "🖤 ​​Geheimnisvoll und schwer zu lesen"
+            }
+          },
+          "animals": [
+            "enoch",
+            "miss_peregrine",
+            "peculiar_twins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq22",
+      "i18n": {
+        "ua": {
+          "text": "Як ти ставишся до відповідальності?"
+        },
+        "en": {
+          "text": "How do you handle responsibility?"
+        },
+        "es": {
+          "text": "¿Cómo manejas la responsabilidad?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Verantwortung um?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq22a",
+          "i18n": {
+            "ua": {
+              "label": "🦅 Беру на себе все — так надійніше"
+            },
+            "en": {
+              "label": "🦅 I take it all on — it's safer that way"
+            },
+            "es": {
+              "label": "🦅 Lo asumo todo; es más seguro así."
+            },
+            "de": {
+              "label": "🦅 Ich übernehme alles – so ist es sicherer."
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "emma"
+          ]
+        },
+        {
+          "id": "pq22b",
+          "i18n": {
+            "ua": {
+              "label": "💪 Готовий нести тягар заради інших"
+            },
+            "en": {
+              "label": "💪 I'm ready to carry the burden for others"
+            },
+            "es": {
+              "label": "💪 Estoy listo para cargar con la carga de los demás."
+            },
+            "de": {
+              "label": "💪 Ich bin bereit, die Last für andere zu tragen."
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "jacob",
+            "hugh"
+          ]
+        },
+        {
+          "id": "pq22c",
+          "i18n": {
+            "ua": {
+              "label": "😬 Це тисне на мене, але я стараюсь"
+            },
+            "en": {
+              "label": "😬 It weighs on me, but I try"
+            },
+            "es": {
+              "label": "😬 Me pesa, pero lo intento."
+            },
+            "de": {
+              "label": "😬 Es belastet mich, aber ich versuche es."
+            }
+          },
+          "animals": [
+            "horace",
+            "olive",
+            "fiona"
+          ]
+        },
+        {
+          "id": "pq22d",
+          "i18n": {
+            "ua": {
+              "label": "🚫 Уникаю її — не хочу щоб від мене залежали"
+            },
+            "en": {
+              "label": "🚫 I avoid it — I don't want people depending on me"
+            },
+            "es": {
+              "label": "🚫 Lo evito; no quiero que la gente dependa de mí."
+            },
+            "de": {
+              "label": "🚫 Ich vermeide es – ich möchte nicht, dass Menschen von mir abhängig sind."
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "jules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq23",
+      "i18n": {
+        "ua": {
+          "text": "Яке мистецтво тобі близьке?"
+        },
+        "en": {
+          "text": "What kind of art speaks to you?"
+        },
+        "es": {
+          "text": "¿Qué tipo de arte te atrae?"
+        },
+        "de": {
+          "text": "Welche Kunstrichtung spricht Sie an?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq23a",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Театр і перфоманс — живі емоції"
+            },
+            "en": {
+              "label": "🎭 Theater and performance — raw emotions"
+            },
+            "es": {
+              "label": "🎭 Teatro y performance: emociones puras"
+            },
+            "de": {
+              "label": "🎭 Theater und Performance – rohe Emotionen"
+            }
+          },
+          "animals": [
+            "emma",
+            "olive",
+            "jules"
+          ]
+        },
+        {
+          "id": "pq23b",
+          "i18n": {
+            "ua": {
+              "label": "🖋️ Література — слова мають силу"
+            },
+            "en": {
+              "label": "🖋️ Literature — words hold power"
+            },
+            "es": {
+              "label": "🖋️ Literatura: las palabras tienen poder"
+            },
+            "de": {
+              "label": "🖋️ Literatur – Worte haben Macht"
+            }
+          },
+          "animals": [
+            "millard",
+            "jacob",
+            "myron"
+          ]
+        },
+        {
+          "id": "pq23c",
+          "i18n": {
+            "ua": {
+              "label": "👔 Мода і стиль — зовнішність як висловлювання"
+            },
+            "en": {
+              "label": "👔 Fashion and style — appearance as expression"
+            },
+            "es": {
+              "label": "👔 Moda y estilo: la apariencia como expresión"
+            },
+            "de": {
+              "label": "👔 Mode und Stil – Erscheinungsbild als Ausdruck"
+            }
+          },
+          "animals": [
+            "horace",
+            "miss_peregrine",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq23d",
+          "i18n": {
+            "ua": {
+              "label": "🖤 Темне мистецтво — скульптура, тіні, таксидермія"
+            },
+            "en": {
+              "label": "🖤 Dark art — sculpture, shadows, taxidermy"
+            },
+            "es": {
+              "label": "🖤 ​​Arte oscuro: escultura, sombras, taxidermia"
+            },
+            "de": {
+              "label": "🖤 ​​Dunkle Kunst – Skulptur, Schatten, Tierpräparation"
+            }
+          },
+          "animals": [
+            "enoch",
+            "bronwyn",
+            "caul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq24",
+      "i18n": {
+        "ua": {
+          "text": "Про що ти мрієш?"
+        },
+        "en": {
+          "text": "What do you dream about?"
+        },
+        "es": {
+          "text": "¿Con qué sueñas?"
+        },
+        "de": {
+          "text": "Wovon träumst du?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq24a",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Бачу образи майбутнього — яскраві і дивні"
+            },
+            "en": {
+              "label": "🔮 I see visions of the future — vivid and strange"
+            },
+            "es": {
+              "label": "🔮 Veo visiones del futuro: vívidas y extrañas."
+            },
+            "de": {
+              "label": "🔮 Ich sehe Visionen der Zukunft – lebhaft und seltsam."
+            }
+          },
+          "animals": [
+            "horace",
+            "miss_peregrine",
+            "perplexus"
+          ]
+        },
+        {
+          "id": "pq24b",
+          "i18n": {
+            "ua": {
+              "label": "🏡 Про місце де я нарешті належу"
+            },
+            "en": {
+              "label": "🏡 About a place where I finally belong"
+            },
+            "es": {
+              "label": "🏡 Sobre un lugar al que finalmente pertenezco."
+            },
+            "de": {
+              "label": "🏡 Über einen Ort, an dem ich endlich dazugehöre"
+            }
+          },
+          "animals": [
+            "jacob",
+            "olive",
+            "ricky"
+          ]
+        },
+        {
+          "id": "pq24c",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Про пригоди і битви"
+            },
+            "en": {
+              "label": "⚡ About adventures and battles"
+            },
+            "es": {
+              "label": "⚡ Sobre aventuras y batallas"
+            },
+            "de": {
+              "label": "⚡ Über Abenteuer und Schlachten"
+            }
+          },
+          "animals": [
+            "emma",
+            "bronwyn",
+            "victor"
+          ]
+        },
+        {
+          "id": "pq24d",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Про речі, які краще не розповідати"
+            },
+            "en": {
+              "label": "🌑 About things better left untold"
+            },
+            "es": {
+              "label": "🌑 Sobre cosas que es mejor dejar sin contar."
+            },
+            "de": {
+              "label": "🌑 Über Dinge, die besser ungesagt bleiben."
+            }
+          },
+          "animals": [
+            "enoch",
+            "millard",
+            "peculiar_twins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pq25",
+      "i18n": {
+        "ua": {
+          "text": "Як ти прощаєшся?"
+        },
+        "en": {
+          "text": "How do you say goodbye?"
+        },
+        "es": {
+          "text": "¿Cómo te despides?"
+        },
+        "de": {
+          "text": "Wie verabschiedet man sich?"
+        }
+      },
+      "options": [
+        {
+          "id": "pq25a",
+          "i18n": {
+            "ua": {
+              "label": "🫂 Міцно обіймаю і не хочу відпускати"
+            },
+            "en": {
+              "label": "🫂 I hug tightly and don't want to let go"
+            },
+            "es": {
+              "label": "🫂 Abrazo fuerte y no quiero soltarte"
+            },
+            "de": {
+              "label": "🫂 Ich umarme fest und will nicht loslassen"
+            }
+          },
+          "animals": [
+            "bronwyn",
+            "olive",
+            "dogface"
+          ]
+        },
+        {
+          "id": "pq25b",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Кажу все що на серці — без недомовок"
+            },
+            "en": {
+              "label": "🔥 I say everything on my heart — no holding back"
+            },
+            "es": {
+              "label": "🔥 Digo todo lo que siento, sin reservas."
+            },
+            "de": {
+              "label": "🔥 Ich sage alles, was mir auf dem Herzen liegt – ohne mich zurückzuhalten"
+            }
+          },
+          "animals": [
+            "emma",
+            "jacob",
+            "noor"
+          ]
+        },
+        {
+          "id": "pq25c",
+          "i18n": {
+            "ua": {
+              "label": "🚶 Тихо зникаю — так простіше"
+            },
+            "en": {
+              "label": "🚶 I quietly disappear — it's easier that way"
+            },
+            "es": {
+              "label": "🚶 Desaparezco discretamente; es más fácil así."
+            },
+            "de": {
+              "label": "🚶 Ich verschwinde still und leise – so ist es einfacher."
+            }
+          },
+          "animals": [
+            "millard",
+            "enoch",
+            "althea"
+          ]
+        },
+        {
+          "id": "pq25d",
+          "i18n": {
+            "ua": {
+              "label": "🕊️ Кажу «до зустрічі» — бо прощань не буває"
+            },
+            "en": {
+              "label": "🕊️ I say 'see you' — because goodbyes don't exist"
+            },
+            "es": {
+              "label": "🕊️ Digo \"hasta luego\" — porque las despedidas no existen."
+            },
+            "de": {
+              "label": "🕊️ Ich sage „Bis dann“ – denn Abschiede gibt es nicht."
+            }
+          },
+          "animals": [
+            "miss_peregrine",
+            "horace",
+            "hugh"
+          ]
+        }
+      ]
+    }
+  ],
+  "animals": [
+    {
+      "id": "jacob",
+      "emoji": "🧳",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Джейкоб",
+          "description": "Ти звичайний — і саме тому особливий. Приходиш у дивний світ зі свіжим поглядом і виявляється, що твоя «звичайність» — це сила якої іншим бракує.",
+          "traits": [
+            "Відкритість",
+            "Сміливість",
+            "Серце"
+          ]
+        },
+        "en": {
+          "name": "Jacob",
+          "description": "You're ordinary — and that's exactly what makes you special. You enter a strange world with fresh eyes, and your 'ordinariness' turns out to be a strength others lack.",
+          "traits": [
+            "Openness",
+            "Bravery",
+            "Heart"
+          ]
+        },
+        "es": {
+          "name": "Jacob",
+          "description": "Eres una persona común y corriente, y eso es precisamente lo que te hace especial. Entras en un mundo desconocido con una mirada fresca, y tu \"normalidad\" resulta ser una fortaleza de la que carecen los demás.",
+          "traits": [
+            "Franqueza",
+            "Valentía",
+            "Corazón"
+          ]
+        },
+        "de": {
+          "name": "Jakob",
+          "description": "Du bist ganz normal – und genau das macht dich besonders. Du betrittst eine fremde Welt mit unvoreingenommenen Augen, und deine „Normalität“ erweist sich als Stärke, die anderen fehlt.",
+          "traits": [
+            "Offenheit",
+            "Tapferkeit",
+            "Herz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "emma",
+      "emoji": "🔥",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Емма",
+          "description": "Ти несеш тепло — буквально і фігурально. Пристрасна, захисна, і якщо когось любиш — готова на все. Твій вогонь може і зігріти, і спалити.",
+          "traits": [
+            "Пристрасть",
+            "Захист",
+            "Сила"
+          ]
+        },
+        "en": {
+          "name": "Emma",
+          "description": "You carry warmth — literally and figuratively. Passionate, protective, and if you love someone — ready for anything. Your fire can warm or burn.",
+          "traits": [
+            "Passion",
+            "Protection",
+            "Strength"
+          ]
+        },
+        "es": {
+          "name": "Emma",
+          "description": "Transmites calidez, tanto literal como figuradamente. Eres apasionado, protector y, si amas a alguien, estás dispuesto a todo. Tu fuego puede calentar o quemar.",
+          "traits": [
+            "Pasión",
+            "Protección",
+            "Fortaleza"
+          ]
+        },
+        "de": {
+          "name": "Emma",
+          "description": "Du strahlst Wärme aus – im wahrsten Sinne des Wortes. Leidenschaftlich, beschützend und, wenn du jemanden liebst, zu allem bereit. Dein Feuer kann wärmen oder verbrennen.",
+          "traits": [
+            "Hingabe",
+            "Schutz",
+            "Stärke"
+          ]
+        }
+      }
+    },
+    {
+      "id": "olive",
+      "emoji": "🎈",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Олів",
+          "description": "Ти легкий на підйом і завжди дивишся вгору. Оптимістичний, невагомий духом — підіймаєш настрій всім навколо. Але всередині є якір — ті, кого любиш.",
+          "traits": [
+            "Оптимізм",
+            "Легкість",
+            "Радість"
+          ]
+        },
+        "en": {
+          "name": "Olive",
+          "description": "You're easygoing and always look upward. Optimistic, light of spirit — you lift everyone's mood. But inside there's an anchor: those you love.",
+          "traits": [
+            "Optimism",
+            "Lightness",
+            "Joy"
+          ]
+        },
+        "es": {
+          "name": "Aceituna",
+          "description": "Eres una persona tranquila y siempre miras hacia arriba. Optimista y alegre, contagias tu entusiasmo a todos. Pero en tu interior hay un ancla: tus seres queridos.",
+          "traits": [
+            "Optimismo",
+            "Ligereza",
+            "Alegría"
+          ]
+        },
+        "de": {
+          "name": "Olive",
+          "description": "Du bist unkompliziert und blickst stets nach oben. Optimistisch, lebensfroh – du hebst die Stimmung aller. Doch tief in deinem Inneren gibt es einen Anker: die Menschen, die du liebst.",
+          "traits": [
+            "Optimismus",
+            "Leichtigkeit",
+            "Freude"
+          ]
+        }
+      }
+    },
+    {
+      "id": "enoch",
+      "emoji": "🪆",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Єнох",
+          "description": "Ти спостерігаєш більше ніж говориш. Дещо похмурий, дещо загадковий — але глибший ніж здається. Твій темний гумор — захисна реакція на дуже глибокі почуття.",
+          "traits": [
+            "Загадковість",
+            "Глибина",
+            "Незалежність"
+          ]
+        },
+        "en": {
+          "name": "Enoch",
+          "description": "You observe more than you speak. Somewhat dark, somewhat mysterious — but deeper than you seem. Your dark humor is a defense for very deep feelings.",
+          "traits": [
+            "Mystery",
+            "Depth",
+            "Independence"
+          ]
+        },
+        "es": {
+          "name": "Enoc",
+          "description": "Observas más de lo que hablas. Eres algo sombrío, algo misterioso, pero más profundo de lo que aparentas. Tu humor negro es una defensa para sentimientos muy profundos.",
+          "traits": [
+            "Misterio",
+            "Profundidad",
+            "Independencia"
+          ]
+        },
+        "de": {
+          "name": "Henoch",
+          "description": "Du beobachtest mehr, als du sprichst. Etwas düster, etwas geheimnisvoll – aber tiefgründiger, als du scheinst. Dein schwarzer Humor ist ein Schutzschild für sehr tiefe Gefühle.",
+          "traits": [
+            "Geheimnis",
+            "Tiefe",
+            "Unabhängigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "miss_peregrine",
+      "emoji": "🦅",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Міс Сапсан",
+          "description": "Ти захищаєш тих кого любиш будь-якою ціною. Строгий зовні, але кожне рішення продиктоване турботою. Несеш відповідальність — і несеш її добре.",
+          "traits": [
+            "Захист",
+            "Відповідальність",
+            "Сила"
+          ]
+        },
+        "en": {
+          "name": "Miss Peregrine",
+          "description": "You protect those you love at any cost. Strict outside, but every decision is driven by care. You carry responsibility — and carry it well.",
+          "traits": [
+            "Protection",
+            "Responsibility",
+            "Strength"
+          ]
+        },
+        "es": {
+          "name": "Señorita Peregrina",
+          "description": "Proteges a quienes amas a cualquier precio. Exigente en apariencia, pero cada decisión está motivada por el cuidado. Asumes la responsabilidad, y la cumples con creces.",
+          "traits": [
+            "Protección",
+            "Responsabilidad",
+            "Fortaleza"
+          ]
+        },
+        "de": {
+          "name": "Miss Peregrine",
+          "description": "Du beschützt deine Lieben um jeden Preis. Nach außen hin wirkst du streng, doch jede Entscheidung ist von Fürsorge geprägt. Du trägst Verantwortung – und trägst sie mit Bravour.",
+          "traits": [
+            "Schutz",
+            "Verantwortung",
+            "Stärke"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bronwyn",
+      "emoji": "💪",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Бронвін",
+          "description": "Ти сильніший ніж виглядаєш — і добріший ніж думають. Захищаєш слабших не тому що мусиш, а тому що так правильно. Ніжний велетень.",
+          "traits": [
+            "Сила",
+            "Доброта",
+            "Захист"
+          ]
+        },
+        "en": {
+          "name": "Bronwyn",
+          "description": "You're stronger than you look — and kinder than they think. You protect the weak not because you must, but because it's right. A gentle giant.",
+          "traits": [
+            "Strength",
+            "Kindness",
+            "Protection"
+          ]
+        },
+        "es": {
+          "name": "Bronwyn",
+          "description": "Eres más fuerte de lo que aparentas y más bondadoso de lo que creen. Proteges a los débiles no por obligación, sino porque es lo correcto. Un gigante gentil.",
+          "traits": [
+            "Fortaleza",
+            "Amabilidad",
+            "Protección"
+          ]
+        },
+        "de": {
+          "name": "Bronwyn",
+          "description": "Du bist stärker, als du aussiehst – und gütiger, als sie denken. Du beschützt die Schwachen nicht aus Pflichtgefühl, sondern aus Überzeugung. Ein sanfter Riese.",
+          "traits": [
+            "Stärke",
+            "Freundlichkeit",
+            "Schutz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "millard",
+      "emoji": "👁️",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Міллард",
+          "description": "Ти непомітний але всюдисущий. Спостерігаєш, запам'ятовуєш, знаєш більше за всіх. Твоя невидимість — не слабкість, а перевага.",
+          "traits": [
+            "Спостережливість",
+            "Знання",
+            "Тонкість"
+          ]
+        },
+        "en": {
+          "name": "Millard",
+          "description": "You're invisible but omnipresent. You observe, remember, know more than anyone. Your invisibility isn't a weakness — it's an advantage.",
+          "traits": [
+            "Observation",
+            "Knowledge",
+            "Subtlety"
+          ]
+        },
+        "es": {
+          "name": "Millard",
+          "description": "Eres invisible pero omnipresente. Observas, recuerdas, sabes más que nadie. Tu invisibilidad no es una debilidad, sino una ventaja.",
+          "traits": [
+            "Observación",
+            "Conocimiento",
+            "Sutileza"
+          ]
+        },
+        "de": {
+          "name": "Millard",
+          "description": "Du bist unsichtbar und doch allgegenwärtig. Du beobachtest, erinnerst dich, weißt mehr als jeder andere. Deine Unsichtbarkeit ist keine Schwäche – sie ist ein Vorteil.",
+          "traits": [
+            "Beobachtung",
+            "Wissen",
+            "Subtilität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "horace",
+      "emoji": "🎩",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Горас",
+          "description": "Ти елегантний і трохи старомодний — але з причини. Бачиш речі наперед і цінуєш красу у деталях. Твій стиль — це не марнославство, це мова.",
+          "traits": [
+            "Елегантність",
+            "Передбачення",
+            "Стиль"
+          ]
+        },
+        "en": {
+          "name": "Horace",
+          "description": "You're elegant and a little old-fashioned — for a reason. You see things ahead and appreciate beauty in details. Your style isn't vanity — it's a language.",
+          "traits": [
+            "Elegance",
+            "Foresight",
+            "Style"
+          ]
+        },
+        "es": {
+          "name": "Horacio",
+          "description": "Eres elegante y un poco anticuada, y con razón. Anticipas el futuro y aprecias la belleza en los detalles. Tu estilo no es vanidad, es un lenguaje.",
+          "traits": [
+            "Elegancia",
+            "Previsión",
+            "Estilo"
+          ]
+        },
+        "de": {
+          "name": "Horaz",
+          "description": "Du bist elegant und ein wenig altmodisch – und das aus gutem Grund. Du denkst voraus und hast ein Auge fürs Detail. Dein Stil ist keine Eitelkeit, sondern Ausdruck deiner Persönlichkeit.",
+          "traits": [
+            "Eleganz",
+            "Voraussicht",
+            "Stil"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hugh",
+      "emoji": "🐝",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Х'ю",
+          "description": "Ти тихий, але всередині тебе вирує ціле царство. Бджоли живуть у тобі — і ти живеш із ними в гармонії. Вірний природі і тим, кого любиш, ти ніколи не зрадиш свій рій.",
+          "traits": [
+            "Вірність",
+            "Тиша",
+            "Зв'язок з природою"
+          ]
+        },
+        "en": {
+          "name": "Hugh",
+          "description": "You're quiet, but an entire kingdom buzzes within you. Bees live inside you — and you live in harmony with them. Loyal to nature and those you love, you would never betray your swarm.",
+          "traits": [
+            "Loyalty",
+            "Quietness",
+            "Connection to nature"
+          ]
+        },
+        "es": {
+          "name": "Hugh",
+          "description": "Eres silencioso, pero todo un reino bulle en tu interior. Las abejas viven dentro de ti, y vives en armonía con ellas. Fiel a la naturaleza y a quienes amas, jamás traicionarías a tu enjambre.",
+          "traits": [
+            "Lealtad",
+            "Tranquilidad",
+            "Conexión con la naturaleza"
+          ]
+        },
+        "de": {
+          "name": "Hugh",
+          "description": "Du bist still, doch in dir summt ein ganzes Königreich. Bienen leben in dir – und du lebst in Harmonie mit ihnen. Treu der Natur und deinen Lieben, würdest du deinen Schwarm niemals verraten.",
+          "traits": [
+            "Loyalität",
+            "Ruhe",
+            "Verbindung zur Natur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fiona",
+      "emoji": "🌿",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Фіона",
+          "description": "Ти ростеш тихо, як ліана у тумані. Сором'язлива і земна, ти відчуваєш кожен корінь і кожну гілку. Там, де ти ступаєш — розквітає життя, навіть посеред руїн.",
+          "traits": [
+            "Зв'язок з землею",
+            "Сором'язливість",
+            "Тиха сила"
+          ]
+        },
+        "en": {
+          "name": "Fiona",
+          "description": "You grow quietly, like a vine in the mist. Shy and earthy, you feel every root and every branch. Where you step — life blooms, even amid the ruins.",
+          "traits": [
+            "Earthiness",
+            "Shyness",
+            "Quiet strength"
+          ]
+        },
+        "es": {
+          "name": "Fiona",
+          "description": "Creces silenciosamente, como una enredadera en la niebla. Tímida y terrosa, sientes cada raíz y cada rama. Donde pisas, la vida florece, incluso entre las ruinas.",
+          "traits": [
+            "Terroridad",
+            "Timidez",
+            "Fuerza silenciosa"
+          ]
+        },
+        "de": {
+          "name": "Fiona",
+          "description": "Du wächst still, wie eine Weinrebe im Nebel. Schüchtern und erdverbunden spürst du jede Wurzel und jeden Zweig. Wo du hintrittst – erblüht das Leben, selbst inmitten von Ruinen.",
+          "traits": [
+            "Erdverbundenheit",
+            "Schüchternheit",
+            "Stille Stärke"
+          ]
+        }
+      }
+    },
+    {
+      "id": "claire",
+      "emoji": "🎀",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Клер",
+          "description": "Ти солодка і невинна — але з секретом, прихованим ззаду. Твоя дитяча ніжність обеззброює, а рот на потилиці нагадує: навіть янголи бувають дивними.",
+          "traits": [
+            "Невинність",
+            "Солодкість",
+            "Прихований секрет"
+          ]
+        },
+        "en": {
+          "name": "Claire",
+          "description": "You're sweet and innocent — but with a secret hidden behind you. Your childlike tenderness disarms, while the mouth on the back of your head reminds us: even angels can be strange.",
+          "traits": [
+            "Innocence",
+            "Sweetness",
+            "Hidden secret"
+          ]
+        },
+        "es": {
+          "name": "Claire",
+          "description": "Eres dulce e inocente, pero escondes un secreto. Tu ternura infantil desarma, mientras que la boca en la nuca nos recuerda que incluso los ángeles pueden ser extraños.",
+          "traits": [
+            "Inocencia",
+            "Dulzura",
+            "secreto oculto"
+          ]
+        },
+        "de": {
+          "name": "Claire",
+          "description": "Du bist lieb und unschuldig – doch du verbirgst ein Geheimnis. Deine kindliche Zärtlichkeit entwaffnet, während der Mund an deinem Hinterkopf uns daran erinnert: Selbst Engel können seltsam sein.",
+          "traits": [
+            "Unschuld",
+            "Süße",
+            "Verborgenes Geheimnis"
+          ]
+        }
+      }
+    },
+    {
+      "id": "abe",
+      "emoji": "🎖️",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Ейб",
+          "description": "Ти той, хто пройшов крізь темряву і повернувся з історіями. Відважний авантюрист, дідусь-легенда — твої шрами розповідають більше, ніж будь-яка книга. Ти захищав дивних, навіть коли світ забув про них.",
+          "traits": [
+            "Відвага",
+            "Досвід",
+            "Оповідач"
+          ]
+        },
+        "en": {
+          "name": "Abe",
+          "description": "You're the one who walked through darkness and returned with stories. A brave adventurer, a legendary grandfather — your scars tell more than any book. You protected the peculiar, even when the world forgot them.",
+          "traits": [
+            "Bravery",
+            "Experience",
+            "Storyteller"
+          ]
+        },
+        "es": {
+          "name": "Abe",
+          "description": "Tú fuiste quien atravesó la oscuridad y regresó con historias. Un valiente aventurero, un abuelo legendario: tus cicatrices cuentan más que cualquier libro. Protegiste a los singulares, incluso cuando el mundo los olvidó.",
+          "traits": [
+            "Valentía",
+            "Experiencia",
+            "Cuentista"
+          ]
+        },
+        "de": {
+          "name": "Abe",
+          "description": "Du bist derjenige, der durch die Dunkelheit ging und mit Geschichten zurückkehrte. Ein mutiger Abenteurer, ein legendärer Großvater – deine Narben erzählen mehr als jedes Buch. Du hast die Besonderen beschützt, selbst als die Welt sie vergaß.",
+          "traits": [
+            "Tapferkeit",
+            "Erfahrung",
+            "Erzähler"
+          ]
+        }
+      }
+    },
+    {
+      "id": "caul",
+      "emoji": "🕷️",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Каул",
+          "description": "Ти бачиш світ як шахівницю, а людей — як фігури. Холодний, амбітний і безжальний, ти прагнеш влади не заради неї самої, а тому що вважаєш себе єдиним, хто гідний править.",
+          "traits": [
+            "Маніпулятивність",
+            "Амбіції",
+            "Холод"
+          ]
+        },
+        "en": {
+          "name": "Caul",
+          "description": "You see the world as a chessboard and people as pieces. Cold, ambitious, and ruthless, you crave power not for its own sake, but because you believe you're the only one worthy of ruling.",
+          "traits": [
+            "Manipulation",
+            "Ambition",
+            "Coldness"
+          ]
+        },
+        "es": {
+          "name": "Camiseta",
+          "description": "Ves el mundo como un tablero de ajedrez y a las personas como piezas. Frío, ambicioso y despiadado, ansías el poder no por el poder en sí mismo, sino porque crees que eres el único digno de gobernar.",
+          "traits": [
+            "Manipulación",
+            "Ambición",
+            "Frialdad"
+          ]
+        },
+        "de": {
+          "name": "Netz",
+          "description": "Du siehst die Welt als Schachbrett und die Menschen als Figuren. Kalt, ehrgeizig und rücksichtslos, strebst du nach Macht nicht um ihrer selbst willen, sondern weil du glaubst, nur du seist würdig zu herrschen.",
+          "traits": [
+            "Manipulation",
+            "Ehrgeiz",
+            "Kälte"
+          ]
+        }
+      }
+    },
+    {
+      "id": "noor",
+      "emoji": "💫",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Нур",
+          "description": "Ти — світло у темряві, буквально. Сучасна, сміливе і адаптивна, ти знаходиш шлях там, де інші здаються. Маніпулюєш світлом так само легко, як маніпулюєш ситуацією — завжди на крок попереду.",
+          "traits": [
+            "Сміливість",
+            "Адаптивність",
+            "Сяйво"
+          ]
+        },
+        "en": {
+          "name": "Noor",
+          "description": "You are light in the darkness, literally. Modern, brave, and adaptable, you find a way where others surrender. You manipulate light as easily as you navigate situations — always one step ahead.",
+          "traits": [
+            "Bravery",
+            "Adaptability",
+            "Radiance"
+          ]
+        },
+        "es": {
+          "name": "Noor",
+          "description": "Eres luz en la oscuridad, literalmente. Moderna, valiente y adaptable, encuentras una solución donde otros se rinden. Manipulas la luz con la misma facilidad con la que te desenvuelves en cualquier situación, siempre un paso por delante.",
+          "traits": [
+            "Valentía",
+            "Adaptabilidad",
+            "Resplandor"
+          ]
+        },
+        "de": {
+          "name": "Noor",
+          "description": "Du bist Licht in der Dunkelheit, im wahrsten Sinne des Wortes. Modern, mutig und anpassungsfähig findest du Wege, wo andere aufgeben. Du meisterst Licht so mühelos, wie du Situationen bewältigst – immer einen Schritt voraus.",
+          "traits": [
+            "Tapferkeit",
+            "Anpassungsfähigkeit",
+            "Glanz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "peculiar_twins",
+      "emoji": "👯",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Близнюки",
+          "description": "Ви мовчазні і нерозлучні — два серця, одна думка. У масках і тиші ви бачите світ інакше, ніж усі. Ваша телепатія — не трюк, а спосіб існування: слова зайві, коли хтось розуміє тебе без них.",
+          "traits": [
+            "Таємничість",
+            "Телепатія",
+            "Нерозлучність"
+          ]
+        },
+        "en": {
+          "name": "The Twins",
+          "description": "You're silent and inseparable — two hearts, one mind. Behind masks and silence, you see the world differently. Your telepathy isn't a trick — it's a way of being: words are unnecessary when someone understands you without them.",
+          "traits": [
+            "Mystery",
+            "Telepathy",
+            "Inseparability"
+          ]
+        },
+        "es": {
+          "name": "Los gemelos",
+          "description": "Sois silenciosos e inseparables: dos corazones, una mente. Tras máscaras y silencio, veis el mundo de otra manera. Vuestra telepatía no es un truco, es una forma de ser: las palabras son innecesarias cuando alguien os entiende sin ellas.",
+          "traits": [
+            "Misterio",
+            "Telepatía",
+            "Inseparabilidad"
+          ]
+        },
+        "de": {
+          "name": "Die Zwillinge",
+          "description": "Ihr seid still und unzertrennlich – zwei Herzen, ein Geist. Hinter Masken und Schweigen seht ihr die Welt anders. Eure Telepathie ist kein Trick – sie ist eine Art zu sein: Worte sind überflüssig, wenn jemand euch auch ohne sie versteht.",
+          "traits": [
+            "Geheimnis",
+            "Telepathie",
+            "Untrennbarkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ricky",
+      "emoji": "🔧",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Рікі",
+          "description": "Ти зі звичайного світу — і скептично ставишся до всього дивного. Вуличний розум замість магії, лояльність замість здібностей. Ти друг, який не вірить у чудеса, але прикриє спину без вагань.",
+          "traits": [
+            "Скептицизм",
+            "Вуличний розум",
+            "Вірність"
+          ]
+        },
+        "en": {
+          "name": "Ricky",
+          "description": "You're from the ordinary world — and skeptical of all things strange. Street smarts instead of magic, loyalty instead of peculiarities. You're the friend who doesn't believe in miracles but will have your back without hesitation.",
+          "traits": [
+            "Skepticism",
+            "Street smarts",
+            "Loyalty"
+          ]
+        },
+        "es": {
+          "name": "Ricky",
+          "description": "Eres una persona común y corriente, y desconfías de todo lo extraño. Prefieres la astucia callejera a la magia, la lealtad a las excentricidades. Eres ese amigo que no cree en los milagros, pero que te apoyará sin dudarlo.",
+          "traits": [
+            "Escepticismo",
+            "Inteligencia callejera",
+            "Lealtad"
+          ]
+        },
+        "de": {
+          "name": "Ricky",
+          "description": "Du kommst aus der normalen Welt – und bist allem Seltsamen gegenüber skeptisch. Lebenserfahrung statt Magie, Loyalität statt Exzentrik. Du bist der Freund, der nicht an Wunder glaubt, aber dir ohne Zögern den Rücken stärkt.",
+          "traits": [
+            "Skepsis",
+            "Straßenintelligenz",
+            "Loyalität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "althea",
+      "emoji": "🌬️",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Алтея",
+          "description": "Ти невидима — але не тому що ховаєшся, а тому що обираєш спостерігати. Ефірна і незалежна, ти ковзаєш крізь світ як вітер: всюди і ніде одночасно. Бачиш те, чого не бачить ніхто.",
+          "traits": [
+            "Незалежність",
+            "Спостережливість",
+            "Ефірність"
+          ]
+        },
+        "en": {
+          "name": "Althea",
+          "description": "You're invisible — not because you hide, but because you choose to observe. Ethereal and independent, you glide through the world like wind: everywhere and nowhere at once. You see what no one else can.",
+          "traits": [
+            "Independence",
+            "Observation",
+            "Ethereality"
+          ]
+        },
+        "es": {
+          "name": "Altea",
+          "description": "Eres invisible, no porque te escondas, sino porque eliges observar. Etérea e independiente, te deslizas por el mundo como el viento: en todas partes y en ninguna a la vez. Ves lo que nadie más puede.",
+          "traits": [
+            "Independencia",
+            "Observación",
+            "Etereidad"
+          ]
+        },
+        "de": {
+          "name": "Althea",
+          "description": "Du bist unsichtbar – nicht weil du dich versteckst, sondern weil du beobachtest. Ätherisch und unabhängig gleitest du wie der Wind durch die Welt: überall und nirgends zugleich. Du siehst, was sonst niemand sieht.",
+          "traits": [
+            "Unabhängigkeit",
+            "Beobachtung",
+            "Ätherische Realität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jules",
+      "emoji": "🎭",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Джулс",
+          "description": "Ти — тисяча облич в одному тілі. Перевтілюєшся легко і із задоволенням, бо справжній ти — це всі ці обличчя разом. Театральний, непередбачуваний і яскравий — з тобою ніколи не нудно.",
+          "traits": [
+            "Театральність",
+            "Непередбачуваність",
+            "Яскравість"
+          ]
+        },
+        "en": {
+          "name": "Jules",
+          "description": "You're a thousand faces in one body. You shapeshift with ease and delight, because the real you is all those faces combined. Theatrical, unpredictable, and dazzling — life is never boring around you.",
+          "traits": [
+            "Theatricality",
+            "Unpredictability",
+            "Brilliance"
+          ]
+        },
+        "es": {
+          "name": "Julio",
+          "description": "Eres mil caras en un solo cuerpo. Te transformas con facilidad y deleite, porque tu verdadero ser es la suma de todas esas caras. Teatral, impredecible y deslumbrante: la vida nunca es aburrida a tu alrededor.",
+          "traits": [
+            "Teatralidad",
+            "Imprevisibilidad",
+            "Brillantez"
+          ]
+        },
+        "de": {
+          "name": "Jules",
+          "description": "Du bist tausend Gesichter in einem Körper. Du wandelst dich mühelos und mit Freude, denn dein wahres Ich ist die Summe all dieser Facetten. Theatralisch, unberechenbar und umwerfend – mit dir wird es nie langweilig.",
+          "traits": [
+            "Theatralik",
+            "Unvorhersehbarkeit",
+            "Brillanz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dogface",
+      "emoji": "🐕",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Собакомордий",
+          "description": "Ти живеш інстинктами — і в цьому твоя чесність. Напівлюдина, напівпес, ти вірний до кістки і простий у своїх бажаннях. Нюх на небезпеку, відданість без умов — ти найчесніший з усіх дивних.",
+          "traits": [
+            "Вірність",
+            "Інстинкт",
+            "Простота"
+          ]
+        },
+        "en": {
+          "name": "Dogface",
+          "description": "You live by instinct — and that's your honesty. Half human, half dog, you're loyal to the bone and simple in your desires. A nose for danger, unconditional devotion — you're the most honest of all the peculiar.",
+          "traits": [
+            "Loyalty",
+            "Instinct",
+            "Simplicity"
+          ]
+        },
+        "es": {
+          "name": "Soldado de infantería",
+          "description": "Te guías por el instinto, y esa es tu honestidad. Mitad humano, mitad perro, eres leal hasta la médula y sencillo en tus deseos. Un olfato infalible para el peligro, una devoción incondicional: eres el más honesto de todos los peculiares.",
+          "traits": [
+            "Lealtad",
+            "Instinto",
+            "Sencillez"
+          ]
+        },
+        "de": {
+          "name": "Hundegesicht",
+          "description": "Du lebst nach Instinkt – und das ist deine Ehrlichkeit. Halb Mensch, halb Hund, bist du treu bis ins Mark und hast einfache Bedürfnisse. Ein Gespür für Gefahr, bedingungslose Hingabe – du bist der ehrlichste unter allen Sonderlingen.",
+          "traits": [
+            "Loyalität",
+            "Instinkt",
+            "Einfachheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "victor",
+      "emoji": "⚔️",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Віктор",
+          "description": "Ти — герой, якого більше немає. Брат Бронвін, сильний і трагічний — твоя відсутність говорить голосніше за присутність. Ти нагадуєш: навіть найсильніші можуть впасти, і саме це робить їхню сміливість справжньою.",
+          "traits": [
+            "Сила",
+            "Трагізм",
+            "Героїзм"
+          ]
+        },
+        "en": {
+          "name": "Victor",
+          "description": "You're the hero who is no more. Bronwyn's brother, strong and tragic — your absence speaks louder than presence. You remind us: even the strongest can fall, and that's what makes their courage real.",
+          "traits": [
+            "Strength",
+            "Tragedy",
+            "Heroism"
+          ]
+        },
+        "es": {
+          "name": "Vencedor",
+          "description": "Eres el héroe que ya no está. El hermano de Bronwyn, fuerte y trágico: tu ausencia resuena más que tu presencia. Nos recuerdas que incluso los más fuertes pueden caer, y eso es lo que hace que su valentía sea real.",
+          "traits": [
+            "Fortaleza",
+            "Tragedia",
+            "Heroísmo"
+          ]
+        },
+        "de": {
+          "name": "Sieger",
+          "description": "Du bist der Held, der nicht mehr ist. Bronwyns Bruder, stark und tragisch – deine Abwesenheit wiegt schwerer als deine Anwesenheit. Du erinnerst uns: Selbst die Stärksten können fallen, und genau das macht ihren Mut so wertvoll.",
+          "traits": [
+            "Stärke",
+            "Tragödie",
+            "Heldentum"
+          ]
+        }
+      }
+    },
+    {
+      "id": "perplexus",
+      "emoji": "🧭",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Перплексус",
+          "description": "Ти навігатор між світами і петлями часу. Старий і мудрий, ти знаєш шляхи, яких немає на жодній карті. Загадковий і неквапливий — ти ведеш інших крізь лабіринти, яких вони навіть не бачать.",
+          "traits": [
+            "Мудрість",
+            "Таємничість",
+            "Навігація"
+          ]
+        },
+        "en": {
+          "name": "Perplexus",
+          "description": "You're the navigator between worlds and time loops. Old and wise, you know paths that exist on no map. Mysterious and unhurried — you guide others through labyrinths they cannot even see.",
+          "traits": [
+            "Wisdom",
+            "Mystery",
+            "Navigation"
+          ]
+        },
+        "es": {
+          "name": "Perplejo",
+          "description": "Eres el guía entre mundos y bucles temporales. Viejo y sabio, conoces caminos que no existen en ningún mapa. Misterioso y pausado, guías a otros a través de laberintos que ni siquiera pueden ver.",
+          "traits": [
+            "Sabiduría",
+            "Misterio",
+            "Navegación"
+          ]
+        },
+        "de": {
+          "name": "Verwirrt",
+          "description": "Du bist der Navigator zwischen Welten und Zeitschleifen. Alt und weise kennst du Wege, die auf keiner Karte verzeichnet sind. Geheimnisvoll und gemächlich führst du andere durch Labyrinthe, die sie selbst nicht sehen können.",
+          "traits": [
+            "Weisheit",
+            "Geheimnis",
+            "Navigation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "myron",
+      "emoji": "📖",
+      "wiki": "Miss_Peregrine%27s_Home_for_Peculiar_Children",
+      "i18n": {
+        "ua": {
+          "name": "Майрон",
+          "description": "Ти — бібліотекар душ, хранитель знань, яких ніхто більше не пам'ятає. Тихий і інтелектуальний, ти збираєш історії як інші збирають метеликів — з обережністю і пошаною. Кожна сторінка для тебе — як жива істота.",
+          "traits": [
+            "Інтелект",
+            "Колекціонерство",
+            "Тиша"
+          ]
+        },
+        "en": {
+          "name": "Myron",
+          "description": "You're the librarian of souls, keeper of knowledge no one else remembers. Quiet and intellectual, you collect stories the way others collect butterflies — with care and reverence. Every page is a living thing to you.",
+          "traits": [
+            "Intellect",
+            "Collecting",
+            "Quietness"
+          ]
+        },
+        "es": {
+          "name": "Mirón",
+          "description": "Eres la bibliotecaria de las almas, la guardiana del conocimiento que nadie más recuerda. Tranquila e intelectual, coleccionas historias como otros coleccionan mariposas: con cuidado y reverencia. Cada página es un ser vivo para ti.",
+          "traits": [
+            "Intelecto",
+            "Coleccionar",
+            "Tranquilidad"
+          ]
+        },
+        "de": {
+          "name": "Myron",
+          "description": "Du bist die Bibliothekarin der Seelen, die Hüterin des Wissens, an das sich sonst niemand mehr erinnert. Still und intellektuell sammelst du Geschichten, wie andere Schmetterlinge sammeln – mit Sorgfalt und Ehrfurcht. Jede Seite ist für dich lebendig.",
+          "traits": [
+            "Intellekt",
+            "Sammeln",
+            "Ruhe"
+          ]
+        }
+      }
+    }
+  ]
+}

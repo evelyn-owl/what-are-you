@@ -1,0 +1,3705 @@
+{
+  "meta": {
+    "id": "food",
+    "questions_count": 8,
+    "i18n": {
+      "ua": {
+        "title": "Яка ти страва?",
+        "description": "Дай відповідь на кілька запитань і дізнайся, яка страва — це ти",
+        "start_btn": "Почати",
+        "result_title": "Ти — це",
+        "share_btn": "Поділитися",
+        "retry_btn": "Пройти ще раз",
+        "progress": "Питання {current} з {total}"
+      },
+      "en": {
+        "title": "Which dish are you?",
+        "description": "Answer a few questions and find out which dish you are",
+        "start_btn": "Start",
+        "result_title": "You are",
+        "share_btn": "Share",
+        "retry_btn": "Try again",
+        "progress": "Question {current} of {total}"
+      },
+      "es": {
+        "title": "¿Qué plato eres?",
+        "description": "Responde a unas preguntas y descubre qué plato eres.",
+        "start_btn": "Comenzar",
+        "result_title": "Eres",
+        "share_btn": "Compartir",
+        "retry_btn": "Intentar otra vez",
+        "progress": "Pregunta {actual} de {total}"
+      },
+      "de": {
+        "title": "Welches Gericht bist du?",
+        "description": "Beantworte ein paar Fragen und finde heraus, welches Gericht du bist.",
+        "start_btn": "Start",
+        "result_title": "Du bist",
+        "share_btn": "Aktie",
+        "retry_btn": "Versuchen Sie es erneut",
+        "progress": "Frage {aktuell} von {gesamt}"
+      }
+    }
+  },
+  "animals": [
+    {
+      "id": "borshch",
+      "emoji": "🍲",
+      "wiki": "Borscht",
+      "i18n": {
+        "ua": {
+          "name": "Борщ",
+          "description": "Ти — класика, перевірена часом. Теплий, насичений і багатошаровий. Тебе люблять усі, бо ти справжній.",
+          "traits": [
+            "Традиція",
+            "Глибина",
+            "Тепло"
+          ]
+        },
+        "en": {
+          "name": "Borscht",
+          "description": "You're a timeless classic. Warm, rich, and multi-layered. Everyone loves you because you're genuine.",
+          "traits": [
+            "Tradition",
+            "Depth",
+            "Warmth"
+          ]
+        },
+        "es": {
+          "name": "Sopa de remolacha",
+          "description": "Eres un clásico atemporal. Cálida, profunda y compleja. Todos te aman porque eres auténtica.",
+          "traits": [
+            "Tradición",
+            "Profundidad",
+            "Calor"
+          ]
+        },
+        "de": {
+          "name": "Borschtsch",
+          "description": "Du bist ein zeitloser Klassiker. Warmherzig, vielschichtig und facettenreich. Jeder liebt dich, weil du authentisch bist.",
+          "traits": [
+            "Tradition",
+            "Tiefe",
+            "Wärme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pizza",
+      "emoji": "🍕",
+      "wiki": "Pizza",
+      "i18n": {
+        "ua": {
+          "name": "Піца",
+          "description": "Ти — душа компанії. Універсальний, яскравий і завжди до місця. З тобою кожен вечір стає вечіркою.",
+          "traits": [
+            "Веселощі",
+            "Гнучкість",
+            "Популярність"
+          ]
+        },
+        "en": {
+          "name": "Pizza",
+          "description": "You're the life of the party. Versatile, vibrant, and always fitting. Every evening becomes a party with you.",
+          "traits": [
+            "Fun",
+            "Flexibility",
+            "Popularity"
+          ]
+        },
+        "es": {
+          "name": "Pizza",
+          "description": "Eres el alma de la fiesta. Versátil, vibrante y siempre acertada. Contigo, cada noche se convierte en una fiesta.",
+          "traits": [
+            "Divertido",
+            "Flexibilidad",
+            "Popularidad"
+          ]
+        },
+        "de": {
+          "name": "Pizza",
+          "description": "Du bist der Mittelpunkt jeder Party. Vielseitig, temperamentvoll und immer perfekt gekleidet. Mit dir wird jeder Abend zum Fest.",
+          "traits": [
+            "Spaß",
+            "Flexibilität",
+            "Popularität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sushi",
+      "emoji": "🍣",
+      "wiki": "Sushi",
+      "i18n": {
+        "ua": {
+          "name": "Суші",
+          "description": "Ти елегантний і точний. Простота ззовні, складність усередині. Ти цінуєш якість більше за кількість.",
+          "traits": [
+            "Елегантність",
+            "Баланс",
+            "Вишуканість"
+          ]
+        },
+        "en": {
+          "name": "Sushi",
+          "description": "You're elegant and precise. Simple on the outside, complex within. You value quality over quantity.",
+          "traits": [
+            "Elegance",
+            "Balance",
+            "Refinement"
+          ]
+        },
+        "es": {
+          "name": "Sushi",
+          "description": "Eres elegante y precisa. Sencilla por fuera, compleja por dentro. Valorás la calidad por encima de la cantidad.",
+          "traits": [
+            "Elegancia",
+            "Balance",
+            "Refinamiento"
+          ]
+        },
+        "de": {
+          "name": "Sushi",
+          "description": "Du bist elegant und präzise. Äußerlich schlicht, innerlich komplex. Du legst Wert auf Qualität statt Quantität.",
+          "traits": [
+            "Eleganz",
+            "Gleichgewicht",
+            "Verfeinerung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "varenyky",
+      "emoji": "🥟",
+      "wiki": "Varenyky",
+      "i18n": {
+        "ua": {
+          "name": "Вареники",
+          "description": "Ти — затишок у чистому вигляді. Ніжний, щирий і завжди нагадуєш про дім. Люди почуваються безпечно поруч із тобою.",
+          "traits": [
+            "Затишок",
+            "Щирість",
+            "Ніжність"
+          ]
+        },
+        "en": {
+          "name": "Varenyky",
+          "description": "You're pure comfort. Tender, sincere, and always reminding of home. People feel safe around you.",
+          "traits": [
+            "Comfort",
+            "Sincerity",
+            "Tenderness"
+          ]
+        },
+        "es": {
+          "name": "Varenyky",
+          "description": "Eres puro consuelo. Tierno, sincero y siempre me recuerdas a casa. La gente se siente segura a tu lado.",
+          "traits": [
+            "Comodidad",
+            "Sinceridad",
+            "Ternura"
+          ]
+        },
+        "de": {
+          "name": "Warenyky",
+          "description": "Du bist purer Trost. Zärtlich, aufrichtig und immer eine Erinnerung an Zuhause. In deiner Nähe fühlen sich die Menschen sicher.",
+          "traits": [
+            "Komfort",
+            "Aufrichtigkeit",
+            "Zärtlichkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ramen",
+      "emoji": "🍜",
+      "wiki": "Ramen",
+      "i18n": {
+        "ua": {
+          "name": "Рамен",
+          "description": "Ти складний і глибокий. Потрібен час, щоб тебе зрозуміти, але воно того варте. Ти зігріваєш зсередини.",
+          "traits": [
+            "Глибина",
+            "Складність",
+            "Душевність"
+          ]
+        },
+        "en": {
+          "name": "Ramen",
+          "description": "You're complex and deep. It takes time to understand you, but it's worth it. You warm from within.",
+          "traits": [
+            "Depth",
+            "Complexity",
+            "Soulfulness"
+          ]
+        },
+        "es": {
+          "name": "Ramen",
+          "description": "Eres complejo y profundo. Se necesita tiempo para comprenderte, pero vale la pena. Transmites calidez desde tu interior.",
+          "traits": [
+            "Profundidad",
+            "Complejidad",
+            "Conciencia"
+          ]
+        },
+        "de": {
+          "name": "Ramen",
+          "description": "Du bist vielschichtig und tiefgründig. Es braucht Zeit, dich zu verstehen, aber es lohnt sich. Du strahlst eine innere Wärme aus.",
+          "traits": [
+            "Tiefe",
+            "Komplexität",
+            "Seelenhaftigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "steak",
+      "emoji": "🥩",
+      "wiki": "Steak",
+      "i18n": {
+        "ua": {
+          "name": "Стейк",
+          "description": "Ти — впевненість і сила. Без зайвого, без прикрас — лише суть. Ти знаєш собі ціну і не розмінюєшся на дрібниці.",
+          "traits": [
+            "Впевненість",
+            "Сила",
+            "Прямота"
+          ]
+        },
+        "en": {
+          "name": "Steak",
+          "description": "You're confidence and strength. No extras, no decorations — just the essence. You know your worth.",
+          "traits": [
+            "Confidence",
+            "Strength",
+            "Directness"
+          ]
+        },
+        "es": {
+          "name": "Bife",
+          "description": "Eres confianza y fortaleza. Sin adornos, sin florituras, solo la esencia. Sabes lo que vales.",
+          "traits": [
+            "Confianza",
+            "Fortaleza",
+            "Franqueza"
+          ]
+        },
+        "de": {
+          "name": "Steak",
+          "description": "Du bist Selbstvertrauen und Stärke. Keine Extras, keine Verzierungen – nur das Wesentliche. Du kennst deinen Wert.",
+          "traits": [
+            "Vertrauen",
+            "Stärke",
+            "Direktheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "croissant",
+      "emoji": "🥐",
+      "wiki": "Croissant",
+      "i18n": {
+        "ua": {
+          "name": "Круасан",
+          "description": "Ти — естет до кінчиків пальців. Легкий, повітряний і трохи загадковий. Ти перетворюєш буденність на мистецтво.",
+          "traits": [
+            "Естетика",
+            "Легкість",
+            "Загадковість"
+          ]
+        },
+        "en": {
+          "name": "Croissant",
+          "description": "You're an aesthete to the core. Light, airy, and a little mysterious. You turn everyday life into art.",
+          "traits": [
+            "Aesthetics",
+            "Lightness",
+            "Mystery"
+          ]
+        },
+        "es": {
+          "name": "Cuerno",
+          "description": "Eres un esteta de corazón. Ligero, etéreo y un poco misterioso. Conviertes la vida cotidiana en arte.",
+          "traits": [
+            "Estética",
+            "Ligereza",
+            "Misterio"
+          ]
+        },
+        "de": {
+          "name": "Croissant",
+          "description": "Du bist durch und durch ein Ästhet. Leicht, luftig und ein wenig geheimnisvoll. Du verwandelst den Alltag in Kunst.",
+          "traits": [
+            "Ästhetik",
+            "Leichtigkeit",
+            "Geheimnis"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tacos",
+      "emoji": "🌮",
+      "wiki": "Taco",
+      "i18n": {
+        "ua": {
+          "name": "Такос",
+          "description": "Ти — суцільна енергія і спонтанність. Яскравий, гострий, непередбачуваний. З тобою ніколи не нудно.",
+          "traits": [
+            "Енергія",
+            "Спонтанність",
+            "Яскравість"
+          ]
+        },
+        "en": {
+          "name": "Tacos",
+          "description": "You're pure energy and spontaneity. Bright, spicy, unpredictable. It's never boring with you.",
+          "traits": [
+            "Energy",
+            "Spontaneity",
+            "Vibrancy"
+          ]
+        },
+        "es": {
+          "name": "Tacos",
+          "description": "Eres pura energía y espontaneidad. Brillante, vivaz, impredecible. Contigo nunca hay lugar para el aburrimiento.",
+          "traits": [
+            "Energía",
+            "Espontaneidad",
+            "Vibración"
+          ]
+        },
+        "de": {
+          "name": "Tacos",
+          "description": "Du bist pure Energie und Spontaneität. Strahlend, temperamentvoll, unberechenbar. Mit dir wird es nie langweilig.",
+          "traits": [
+            "Energie",
+            "Spontaneität",
+            "Lebendigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pad_thai",
+      "emoji": "🍜",
+      "wiki": "Pad_thai",
+      "i18n": {
+        "ua": {
+          "name": "Пад Тай",
+          "description": "Ти — гармонія у всьому. Збалансований, екзотичний, але доступний кожному. Ти поєднуєш протилежності з легкістю.",
+          "traits": [
+            "Баланс",
+            "Гармонія",
+            "Відкритість"
+          ]
+        },
+        "en": {
+          "name": "Pad Thai",
+          "description": "You're harmony in everything. Balanced, exotic yet approachable. You blend opposites with effortless grace.",
+          "traits": [
+            "Balance",
+            "Harmony",
+            "Openness"
+          ]
+        },
+        "es": {
+          "name": "Pad Thai",
+          "description": "Eres la armonía en todo. Equilibrada, exótica pero accesible. Combinas los opuestos con una gracia natural.",
+          "traits": [
+            "Balance",
+            "Armonía",
+            "Franqueza"
+          ]
+        },
+        "de": {
+          "name": "Pad Thai",
+          "description": "Du bist die Verkörperung von Harmonie in allem. Ausgeglichen, exotisch und doch nahbar. Du verbindest Gegensätze mit müheloser Anmut.",
+          "traits": [
+            "Gleichgewicht",
+            "Harmonie",
+            "Offenheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cheesecake",
+      "emoji": "🍰",
+      "wiki": "Cheesecake",
+      "i18n": {
+        "ua": {
+          "name": "Чізкейк",
+          "description": "Ти — насолода в чистому вигляді. Багатошаровий, солодкий і непереборний. Тебе неможливо забути після першої зустрічі.",
+          "traits": [
+            "Насолода",
+            "Багатошаровість",
+            "Чарівність"
+          ]
+        },
+        "en": {
+          "name": "Cheesecake",
+          "description": "You're pure indulgence. Layered, sweet, and irresistible. Impossible to forget after the first encounter.",
+          "traits": [
+            "Indulgence",
+            "Layers",
+            "Charm"
+          ]
+        },
+        "es": {
+          "name": "Tarta de queso",
+          "description": "Eres un auténtico placer. Complejo, dulce e irresistible. Imposible de olvidar tras el primer encuentro.",
+          "traits": [
+            "Indulgencia",
+            "Capas",
+            "Encanto"
+          ]
+        },
+        "de": {
+          "name": "Käsekuchen",
+          "description": "Du bist purer Genuss. Vielschichtig, süß und unwiderstehlich. Unvergesslich nach der ersten Begegnung.",
+          "traits": [
+            "Genuss",
+            "Schichten",
+            "Charme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hummus",
+      "emoji": "🫘",
+      "wiki": "Hummus",
+      "i18n": {
+        "ua": {
+          "name": "Хумус",
+          "description": "Ти — простота і щирість. Ти об'єднуєш людей навколо себе і даруєш відчуття спільності. Ти завжди готовий ділитися.",
+          "traits": [
+            "Простота",
+            "Щедрість",
+            "Спільність"
+          ]
+        },
+        "en": {
+          "name": "Hummus",
+          "description": "You're simplicity and sincerity. You bring people together and create a sense of community. Always ready to share.",
+          "traits": [
+            "Simplicity",
+            "Generosity",
+            "Community"
+          ]
+        },
+        "es": {
+          "name": "Hummus",
+          "description": "Eres sencilla y sincera. Unes a la gente y creas un sentido de comunidad. Siempre dispuesta a compartir.",
+          "traits": [
+            "Sencillez",
+            "Generosidad",
+            "Comunidad"
+          ]
+        },
+        "de": {
+          "name": "Hummus",
+          "description": "Du bist schlicht und aufrichtig. Du bringst Menschen zusammen und schaffst ein Gemeinschaftsgefühl. Immer bereit zu teilen.",
+          "traits": [
+            "Einfachheit",
+            "Großzügigkeit",
+            "Gemeinschaft"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pho",
+      "emoji": "🍲",
+      "wiki": "Pho",
+      "i18n": {
+        "ua": {
+          "name": "Фо",
+          "description": "Ти — зцілення і тепло. Терплячий, турботливий і глибокий. Ти зігріваєш душу і допомагаєш іншим відновитися.",
+          "traits": [
+            "Зцілення",
+            "Терпіння",
+            "Турбота"
+          ]
+        },
+        "en": {
+          "name": "Pho",
+          "description": "You're healing and warmth. Patient, nurturing, and deep. You warm the soul and help others recover.",
+          "traits": [
+            "Healing",
+            "Patience",
+            "Nurturing"
+          ]
+        },
+        "es": {
+          "name": "Pho",
+          "description": "Eres sanadora y cálida. Paciente, protectora y profunda. Calientas el alma y ayudas a los demás a recuperarse.",
+          "traits": [
+            "Cicatrización",
+            "Paciencia",
+            "Crianza"
+          ]
+        },
+        "de": {
+          "name": "Pho",
+          "description": "Du strahlst Heilung und Wärme aus. Geduldig, fürsorglich und tiefgründig. Du wärmst die Seele und hilfst anderen bei der Genesung.",
+          "traits": [
+            "Heilung",
+            "Geduld",
+            "Fürsorge"
+          ]
+        }
+      }
+    },
+    {
+      "id": "paella",
+      "emoji": "🥘",
+      "wiki": "Paella",
+      "i18n": {
+        "ua": {
+          "name": "Паелья",
+          "description": "Ти — свято в кожному моменті. Щедрий, яскравий і об'єднуючий. Ти перетворюєш звичайний обід на подію.",
+          "traits": [
+            "Щедрість",
+            "Святковість",
+            "Яскравість"
+          ]
+        },
+        "en": {
+          "name": "Paella",
+          "description": "You're a celebration in every moment. Generous, colorful, and unifying. You turn an ordinary meal into an event.",
+          "traits": [
+            "Generosity",
+            "Festivity",
+            "Vibrancy"
+          ]
+        },
+        "es": {
+          "name": "Paella",
+          "description": "Eres una celebración en cada momento. Generosa, colorida y unificadora. Conviertes una comida ordinaria en un acontecimiento.",
+          "traits": [
+            "Generosidad",
+            "Festividad",
+            "Vibración"
+          ]
+        },
+        "de": {
+          "name": "Paella",
+          "description": "Du bist in jedem Augenblick ein Fest. Großzügig, farbenfroh und verbindend. Du machst aus einer gewöhnlichen Mahlzeit ein Ereignis.",
+          "traits": [
+            "Großzügigkeit",
+            "Fest",
+            "Lebendigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "curry",
+      "emoji": "🍛",
+      "wiki": "Curry",
+      "i18n": {
+        "ua": {
+          "name": "Карі",
+          "description": "Ти — складність і сміливість. Багатошаровий, насичений і завжди з характером. Ти не боїшся бути яскравим.",
+          "traits": [
+            "Сміливість",
+            "Складність",
+            "Характер"
+          ]
+        },
+        "en": {
+          "name": "Curry",
+          "description": "You're complexity and boldness. Layered, rich, and always full of character. You're not afraid to stand out.",
+          "traits": [
+            "Boldness",
+            "Complexity",
+            "Character"
+          ]
+        },
+        "es": {
+          "name": "Curry",
+          "description": "Eres complejidad y audacia. Profunda, rica y siempre llena de carácter. No tienes miedo de destacar.",
+          "traits": [
+            "Audacia",
+            "Complejidad",
+            "Personaje"
+          ]
+        },
+        "de": {
+          "name": "Curry",
+          "description": "Du bist Komplexität und Kühnheit. Vielschichtig, reichhaltig und immer voller Charakter. Du hast keine Angst, aufzufallen.",
+          "traits": [
+            "Mut",
+            "Komplexität",
+            "Charakter"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gelato",
+      "emoji": "🍨",
+      "wiki": "Gelato",
+      "i18n": {
+        "ua": {
+          "name": "Джелато",
+          "description": "Ти — радість і легкість. Солодкий, витончений і завжди піднімаєш настрій. Ти робиш будь-який день яскравішим.",
+          "traits": [
+            "Радість",
+            "Легкість",
+            "Витонченість"
+          ]
+        },
+        "en": {
+          "name": "Gelato",
+          "description": "You're joy and lightness. Sweet, refined, and always lifting spirits. You make any day brighter.",
+          "traits": [
+            "Joy",
+            "Lightness",
+            "Refinement"
+          ]
+        },
+        "es": {
+          "name": "Helado",
+          "description": "Eres alegría y ligereza. Dulce, refinada y siempre levantando el ánimo. Iluminas cualquier día.",
+          "traits": [
+            "Alegría",
+            "Ligereza",
+            "Refinamiento"
+          ]
+        },
+        "de": {
+          "name": "Eiscreme",
+          "description": "Du bist Freude und Leichtigkeit. Liebenswert, kultiviert und immer eine Wohltat. Du erhellst jeden Tag.",
+          "traits": [
+            "Freude",
+            "Leichtigkeit",
+            "Verfeinerung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "burger",
+      "emoji": "🍔",
+      "wiki": "Hamburger",
+      "i18n": {
+        "ua": {
+          "name": "Бургер",
+          "description": "Ти — прямота і задоволення. Без претензій, без зайвого — просто чесно і смачно. Тебе люблять усі без винятку.",
+          "traits": [
+            "Прямота",
+            "Задоволення",
+            "Простота"
+          ]
+        },
+        "en": {
+          "name": "Burger",
+          "description": "You're straightforward and satisfying. No pretense, no fuss — just honest and delicious. A universal crowd-pleaser.",
+          "traits": [
+            "Directness",
+            "Satisfaction",
+            "Simplicity"
+          ]
+        },
+        "es": {
+          "name": "Hamburguesa",
+          "description": "Eres directo y satisfactorio. Sin pretensiones, sin complicaciones: simplemente honesto y delicioso. Gusta a todo el mundo.",
+          "traits": [
+            "Franqueza",
+            "Satisfacción",
+            "Sencillez"
+          ]
+        },
+        "de": {
+          "name": "Burger",
+          "description": "Du bist unkompliziert und sympathisch. Keine Allüren, kein Schnickschnack – einfach ehrlich und lecker. Ein echter Publikumsliebling.",
+          "traits": [
+            "Direktheit",
+            "Zufriedenheit",
+            "Einfachheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dim_sum",
+      "emoji": "🥟",
+      "wiki": "Dim_sum",
+      "i18n": {
+        "ua": {
+          "name": "Дім Сам",
+          "description": "Ти — різноманіття і витонченість. Ти любиш спілкування, цінуєш деталі і завжди маєш що запропонувати.",
+          "traits": [
+            "Різноманіття",
+            "Витонченість",
+            "Товариськість"
+          ]
+        },
+        "en": {
+          "name": "Dim Sum",
+          "description": "You're variety and delicacy. You love socializing, value details, and always have something to offer.",
+          "traits": [
+            "Variety",
+            "Delicacy",
+            "Sociability"
+          ]
+        },
+        "es": {
+          "name": "Dim Sum",
+          "description": "Eres versátil y delicada. Te encanta socializar, valoras los detalles y siempre tienes algo que ofrecer.",
+          "traits": [
+            "Variedad",
+            "Delicadeza",
+            "Sociabilidad"
+          ]
+        },
+        "de": {
+          "name": "Dim Sum",
+          "description": "Du bist Vielfalt und Feingefühl. Du liebst Geselligkeit, legst Wert auf Details und hast immer etwas zu bieten.",
+          "traits": [
+            "Vielfalt",
+            "Delikatesse",
+            "Geselligkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pancakes",
+      "emoji": "🥞",
+      "wiki": "Pancake",
+      "i18n": {
+        "ua": {
+          "name": "Панкейки",
+          "description": "Ти — затишок і ностальгія. Теплий, солодкий і завжди нагадуєш про найкращі моменти. Ти — ранковий промінь щастя.",
+          "traits": [
+            "Затишок",
+            "Ностальгія",
+            "Солодкість"
+          ]
+        },
+        "en": {
+          "name": "Pancakes",
+          "description": "You're coziness and nostalgia. Warm, sweet, and always reminding of the best moments. You're a morning ray of happiness.",
+          "traits": [
+            "Coziness",
+            "Nostalgia",
+            "Sweetness"
+          ]
+        },
+        "es": {
+          "name": "Panqueques",
+          "description": "Eres calidez y nostalgia. Cálida, dulce y siempre evocando los mejores momentos. Eres un rayo de felicidad matutino.",
+          "traits": [
+            "Comodidad",
+            "Nostalgia",
+            "Dulzura"
+          ]
+        },
+        "de": {
+          "name": "Pfannkuchen",
+          "description": "Du bist Gemütlichkeit und Nostalgie. Warm, süß und immer eine Erinnerung an die schönsten Momente. Du bist ein morgendlicher Glücksstrahl.",
+          "traits": [
+            "Gemütlichkeit",
+            "Nostalgie",
+            "Süße"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ceviche",
+      "emoji": "🐟",
+      "wiki": "Ceviche",
+      "i18n": {
+        "ua": {
+          "name": "Севіче",
+          "description": "Ти — свіжість і сміливість. Сучасний, дерзкий і завжди на крок попереду. Ти не боїшся експериментувати.",
+          "traits": [
+            "Свіжість",
+            "Сміливість",
+            "Сучасність"
+          ]
+        },
+        "en": {
+          "name": "Ceviche",
+          "description": "You're freshness and daring. Modern, bold, and always a step ahead. You're not afraid to experiment.",
+          "traits": [
+            "Freshness",
+            "Daring",
+            "Modernity"
+          ]
+        },
+        "es": {
+          "name": "Ceviche",
+          "description": "Eres fresca y atrevida. Moderna, audaz y siempre un paso por delante. No tienes miedo de experimentar.",
+          "traits": [
+            "Frescura",
+            "Atrevido",
+            "Modernidad"
+          ]
+        },
+        "de": {
+          "name": "Ceviche",
+          "description": "Du bist frisch und wagemutig. Modern, kühn und immer einen Schritt voraus. Du hast keine Angst vor Experimenten.",
+          "traits": [
+            "Frische",
+            "Wagemutig",
+            "Modernität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shawarma",
+      "emoji": "🌯",
+      "wiki": "Shawarma",
+      "i18n": {
+        "ua": {
+          "name": "Шаурма",
+          "description": "Ти — вуличний розум і енергія. Швидкий, яскравий і завжди задовольняєш. Ти знаєш, як зробити максимум з мінімуму.",
+          "traits": [
+            "Спритність",
+            "Енергія",
+            "Яскравість"
+          ]
+        },
+        "en": {
+          "name": "Shawarma",
+          "description": "You're street-smart and energetic. Quick, bold, and always satisfying. You know how to make the most of everything.",
+          "traits": [
+            "Street-smarts",
+            "Energy",
+            "Boldness"
+          ]
+        },
+        "es": {
+          "name": "Shawarma",
+          "description": "Eres astuto y enérgico. Rápido, audaz y siempre satisfactorio. Sabes cómo sacarle el máximo provecho a todo.",
+          "traits": [
+            "Inteligencia callejera",
+            "Energía",
+            "Audacia"
+          ]
+        },
+        "de": {
+          "name": "Shawarma",
+          "description": "Du bist clever und energiegeladen. Schnell, mutig und immer zufriedenstellend. Du weißt, wie man aus allem das Beste macht.",
+          "traits": [
+            "Straßenintelligenz",
+            "Energie",
+            "Mut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fondue",
+      "emoji": "🫕",
+      "wiki": "Fondue",
+      "i18n": {
+        "ua": {
+          "name": "Фондю",
+          "description": "Ти — тепло і спільність. Романтичний, товариський і завжди об'єднуєш людей. Поруч із тобою кожен відчуває себе особливим.",
+          "traits": [
+            "Тепло",
+            "Романтика",
+            "Спільність"
+          ]
+        },
+        "en": {
+          "name": "Fondue",
+          "description": "You're warmth and togetherness. Romantic, social, and always bringing people together. Everyone feels special around you.",
+          "traits": [
+            "Warmth",
+            "Romance",
+            "Togetherness"
+          ]
+        },
+        "es": {
+          "name": "Fondue",
+          "description": "Eres una persona cálida y que fomenta la unión. Romántico/a, sociable y siempre logras reunir a la gente. Todos se sienten especiales a tu alrededor.",
+          "traits": [
+            "Calor",
+            "romance",
+            "Unión"
+          ]
+        },
+        "de": {
+          "name": "Fondue",
+          "description": "Du strahlst Wärme und Zusammengehörigkeit aus. Romantisch, gesellig und immer darauf bedacht, Menschen zusammenzubringen. Jeder fühlt sich in deiner Nähe besonders.",
+          "traits": [
+            "Wärme",
+            "Romantik",
+            "Zusammengehörigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "matcha",
+      "emoji": "🍵",
+      "wiki": "Matcha",
+      "i18n": {
+        "ua": {
+          "name": "Матча",
+          "description": "Ти — усвідомленість і спокій. Естетичний, збалансований і завжди в гармонії. Ти знаходиш красу в простоті.",
+          "traits": [
+            "Усвідомленість",
+            "Спокій",
+            "Естетика"
+          ]
+        },
+        "en": {
+          "name": "Matcha",
+          "description": "You're mindfulness and calm. Aesthetic, balanced, and always in harmony. You find beauty in simplicity.",
+          "traits": [
+            "Mindfulness",
+            "Calm",
+            "Aesthetics"
+          ]
+        },
+        "es": {
+          "name": "Matcha",
+          "description": "Eres una persona consciente y tranquila. Estética, equilibrada y siempre en armonía. Encuentras la belleza en la simplicidad.",
+          "traits": [
+            "Consciencia",
+            "Calma",
+            "Estética"
+          ]
+        },
+        "de": {
+          "name": "Matcha",
+          "description": "Du bist achtsam und gelassen. Ästhetisch, ausgeglichen und stets in Harmonie. Du findest Schönheit in der Einfachheit.",
+          "traits": [
+            "Achtsamkeit",
+            "Ruhig",
+            "Ästhetik"
+          ]
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "fq1",
+      "i18n": {
+        "ua": {
+          "text": "Який ранок тебе найбільше тішить?"
+        },
+        "en": {
+          "text": "What kind of morning makes you happiest?"
+        },
+        "es": {
+          "text": "¿Qué tipo de mañana te hace más feliz?"
+        },
+        "de": {
+          "text": "Welche Art von Morgen macht dich am glücklichsten?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq1a",
+          "i18n": {
+            "ua": {
+              "label": "☕ Кава, тиша і повільний ранок"
+            },
+            "en": {
+              "label": "☕ Coffee, silence, and a slow morning"
+            },
+            "es": {
+              "label": "☕ Café, silencio y una mañana tranquila"
+            },
+            "de": {
+              "label": "☕ Kaffee, Stille und ein gemütlicher Morgen"
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "ramen",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq1b",
+          "i18n": {
+            "ua": {
+              "label": "🍳 Великий сніданок з родиною"
+            },
+            "en": {
+              "label": "🍳 Big breakfast with family"
+            },
+            "es": {
+              "label": "🍳 Gran desayuno en familia"
+            },
+            "de": {
+              "label": "🍳 Großes Frühstück mit der Familie"
+            }
+          },
+          "animals": [
+            "borshch",
+            "varenyky",
+            "pizza",
+            "pancakes"
+          ]
+        },
+        {
+          "id": "fq1c",
+          "i18n": {
+            "ua": {
+              "label": "🏃 Швидкий перекус і за справи"
+            },
+            "en": {
+              "label": "🏃 Quick snack and off to work"
+            },
+            "es": {
+              "label": "🏃 Un tentempié rápido y a trabajar"
+            },
+            "de": {
+              "label": "🏃 Schnell einen Snack und ab zur Arbeit"
+            }
+          },
+          "animals": [
+            "steak",
+            "tacos",
+            "shawarma",
+            "burger"
+          ]
+        },
+        {
+          "id": "fq1d",
+          "i18n": {
+            "ua": {
+              "label": "🎶 Музика, танці, сніданок на ходу"
+            },
+            "en": {
+              "label": "🎶 Music, dancing, breakfast on the go"
+            },
+            "es": {
+              "label": "🎶 Música, baile, desayuno para llevar"
+            },
+            "de": {
+              "label": "🎶 Musik, Tanzen, Frühstück für unterwegs"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "croissant",
+            "gelato"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq2",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся в новій компанії?"
+        },
+        "en": {
+          "text": "How do you behave in a new group?"
+        },
+        "es": {
+          "text": "¿Cómo te comportas en un grupo nuevo?"
+        },
+        "de": {
+          "text": "Wie verhält man sich in einer neuen Gruppe?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq2a",
+          "i18n": {
+            "ua": {
+              "label": "🌟 Відразу стаю центром уваги"
+            },
+            "en": {
+              "label": "🌟 I immediately become the center of attention"
+            },
+            "es": {
+              "label": "🌟 Inmediatamente me convierto en el centro de atención."
+            },
+            "de": {
+              "label": "🌟 Ich stehe sofort im Mittelpunkt der Aufmerksamkeit"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "steak",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq2b",
+          "i18n": {
+            "ua": {
+              "label": "😊 Тихо знайомлюсь з кожним"
+            },
+            "en": {
+              "label": "😊 Quietly get to know everyone"
+            },
+            "es": {
+              "label": "😊 Conoce a todos en silencio"
+            },
+            "de": {
+              "label": "😊 Lerne alle ganz unauffällig kennen."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "ramen",
+            "borshch",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq2c",
+          "i18n": {
+            "ua": {
+              "label": "🎩 Справляю враження стилем"
+            },
+            "en": {
+              "label": "🎩 Make an impression with style"
+            },
+            "es": {
+              "label": "🎩 Causa sensación con estilo"
+            },
+            "de": {
+              "label": "🎩 Mit Stil Eindruck machen"
+            }
+          },
+          "animals": [
+            "sushi",
+            "croissant",
+            "steak",
+            "ceviche"
+          ]
+        },
+        {
+          "id": "fq2d",
+          "i18n": {
+            "ua": {
+              "label": "🤷 Залежить від настрою"
+            },
+            "en": {
+              "label": "🤷 Depends on my mood"
+            },
+            "es": {
+              "label": "🤷 Depende de mi estado de ánimo"
+            },
+            "de": {
+              "label": "🤷 Kommt auf meine Stimmung an."
+            }
+          },
+          "animals": [
+            "croissant",
+            "tacos",
+            "borshch",
+            "pad_thai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq3",
+      "i18n": {
+        "ua": {
+          "text": "Що ти цінуєш у дружбі найбільше?"
+        },
+        "en": {
+          "text": "What do you value most in friendship?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más valoras en la amistad?"
+        },
+        "de": {
+          "text": "Was schätzt du am meisten an Freundschaften?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq3a",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Надійність і чесність"
+            },
+            "en": {
+              "label": "🤝 Reliability and honesty"
+            },
+            "es": {
+              "label": "🤝 Fiabilidad y honestidad"
+            },
+            "de": {
+              "label": "🤝 Zuverlässigkeit und Ehrlichkeit"
+            }
+          },
+          "animals": [
+            "borshch",
+            "steak",
+            "varenyky",
+            "burger"
+          ]
+        },
+        {
+          "id": "fq3b",
+          "i18n": {
+            "ua": {
+              "label": "😂 Веселощі та спільні пригоди"
+            },
+            "en": {
+              "label": "😂 Fun and shared adventures"
+            },
+            "es": {
+              "label": "😂 Aventuras divertidas y compartidas"
+            },
+            "de": {
+              "label": "😂 Lustige und gemeinsame Abenteuer"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "ramen",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq3c",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Глибокі розмови та розуміння"
+            },
+            "en": {
+              "label": "🎭 Deep conversations and understanding"
+            },
+            "es": {
+              "label": "🎭 Conversaciones profundas y comprensión"
+            },
+            "de": {
+              "label": "🎭 Tiefgründige Gespräche und Verständnis"
+            }
+          },
+          "animals": [
+            "ramen",
+            "sushi",
+            "croissant",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq3d",
+          "i18n": {
+            "ua": {
+              "label": "🏠 Затишок і спокій поруч"
+            },
+            "en": {
+              "label": "🏠 Coziness and peace together"
+            },
+            "es": {
+              "label": "🏠 Comodidad y paz juntas"
+            },
+            "de": {
+              "label": "🏠 Gemütlichkeit und Ruhe vereint"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "croissant",
+            "borshch",
+            "pancakes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq4",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на стрес?"
+        },
+        "en": {
+          "text": "How do you handle stress?"
+        },
+        "es": {
+          "text": "¿Cómo manejas el estrés?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Stress um?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq4a",
+          "i18n": {
+            "ua": {
+              "label": "💪 Збираюсь і дію"
+            },
+            "en": {
+              "label": "💪 Pull myself together and act"
+            },
+            "es": {
+              "label": "💪 Me recompongo y actúo"
+            },
+            "de": {
+              "label": "💪 Mich zusammenreißen und handeln"
+            }
+          },
+          "animals": [
+            "steak",
+            "borshch",
+            "ramen",
+            "burger"
+          ]
+        },
+        {
+          "id": "fq4b",
+          "i18n": {
+            "ua": {
+              "label": "🛀 Відпочиваю і відновлююсь"
+            },
+            "en": {
+              "label": "🛀 Rest and recover"
+            },
+            "es": {
+              "label": "🛀 Descansa y recupérate"
+            },
+            "de": {
+              "label": "🛀 Ausruhen und erholen"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "croissant",
+            "sushi",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq4c",
+          "i18n": {
+            "ua": {
+              "label": "🎉 Шукаю позитив і відволікаюсь"
+            },
+            "en": {
+              "label": "🎉 Look for positive vibes and distract myself"
+            },
+            "es": {
+              "label": "🎉 Busco vibraciones positivas y me distraigo."
+            },
+            "de": {
+              "label": "🎉 Ich suche nach positiven Vibes und lenke mich ab."
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "croissant",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq4d",
+          "i18n": {
+            "ua": {
+              "label": "📝 Аналізую причини і планую"
+            },
+            "en": {
+              "label": "📝 Analyze causes and make a plan"
+            },
+            "es": {
+              "label": "📝 Analiza las causas y elabora un plan."
+            },
+            "de": {
+              "label": "📝 Ursachen analysieren und einen Plan erstellen"
+            }
+          },
+          "animals": [
+            "sushi",
+            "ramen",
+            "steak",
+            "pad_thai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq5",
+      "i18n": {
+        "ua": {
+          "text": "Обери ідеальний вечір:"
+        },
+        "en": {
+          "text": "Choose your perfect evening:"
+        },
+        "es": {
+          "text": "Elige tu velada perfecta:"
+        },
+        "de": {
+          "text": "Gestalte deinen perfekten Abend:"
+        }
+      },
+      "options": [
+        {
+          "id": "fq5a",
+          "i18n": {
+            "ua": {
+              "label": "🕯️ Книга, свічки, тиша"
+            },
+            "en": {
+              "label": "🕯️ Book, candles, silence"
+            },
+            "es": {
+              "label": "🕯️ Libro, velas, silencio"
+            },
+            "de": {
+              "label": "🕯️ Buch, Kerzen, Stille"
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "ramen",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq5b",
+          "i18n": {
+            "ua": {
+              "label": "🎬 Фільм із друзями та закуски"
+            },
+            "en": {
+              "label": "🎬 Movie with friends and snacks"
+            },
+            "es": {
+              "label": "🎬 Película con amigos y aperitivos"
+            },
+            "de": {
+              "label": "🎬 Filmabend mit Freunden und Snacks"
+            }
+          },
+          "animals": [
+            "pizza",
+            "varenyky",
+            "borshch",
+            "hummus"
+          ]
+        },
+        {
+          "id": "fq5c",
+          "i18n": {
+            "ua": {
+              "label": "🎤 Караоке або клуб"
+            },
+            "en": {
+              "label": "🎤 Karaoke or a club"
+            },
+            "es": {
+              "label": "🎤 Karaoke o un club"
+            },
+            "de": {
+              "label": "🎤 Karaoke oder ein Club"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "steak",
+            "shawarma"
+          ]
+        },
+        {
+          "id": "fq5d",
+          "i18n": {
+            "ua": {
+              "label": "🍽️ Вишукана вечеря при свічках"
+            },
+            "en": {
+              "label": "🍽️ Fancy candlelit dinner"
+            },
+            "es": {
+              "label": "🍽️ Cena elegante a la luz de las velas"
+            },
+            "de": {
+              "label": "🍽️ Elegantes Abendessen bei Kerzenschein"
+            }
+          },
+          "animals": [
+            "sushi",
+            "steak",
+            "croissant",
+            "fondue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq6",
+      "i18n": {
+        "ua": {
+          "text": "Яка суперсила тобі ближча?"
+        },
+        "en": {
+          "text": "Which superpower is closest to you?"
+        },
+        "es": {
+          "text": "¿Qué superpoder se asemeja más a ti?"
+        },
+        "de": {
+          "text": "Welche Superkraft ist Ihnen am nächsten?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq6a",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Читати думки"
+            },
+            "en": {
+              "label": "🔮 Read minds"
+            },
+            "es": {
+              "label": "🔮 Lee la mente"
+            },
+            "de": {
+              "label": "🔮 Gedanken lesen"
+            }
+          },
+          "animals": [
+            "ramen",
+            "sushi",
+            "borshch",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq6b",
+          "i18n": {
+            "ua": {
+              "label": "⏱️ Зупиняти час"
+            },
+            "en": {
+              "label": "⏱️ Stop time"
+            },
+            "es": {
+              "label": "⏱️ Detener el tiempo"
+            },
+            "de": {
+              "label": "⏱️ Zeit anhalten"
+            }
+          },
+          "animals": [
+            "croissant",
+            "varenyky",
+            "sushi"
+          ]
+        },
+        {
+          "id": "fq6c",
+          "i18n": {
+            "ua": {
+              "label": "🦸 Суперсила"
+            },
+            "en": {
+              "label": "🦸 Super strength"
+            },
+            "es": {
+              "label": "🦸 Súper fuerza"
+            },
+            "de": {
+              "label": "🦸 Superstärke"
+            }
+          },
+          "animals": [
+            "steak",
+            "borshch",
+            "tacos",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq6d",
+          "i18n": {
+            "ua": {
+              "label": "✈️ Телепортація"
+            },
+            "en": {
+              "label": "✈️ Teleportation"
+            },
+            "es": {
+              "label": "✈️ Teletransportación"
+            },
+            "de": {
+              "label": "✈️ Teleportation"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "ramen",
+            "ceviche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq7",
+      "i18n": {
+        "ua": {
+          "text": "Як тебе описують друзі?"
+        },
+        "en": {
+          "text": "How do your friends describe you?"
+        },
+        "es": {
+          "text": "¿Cómo te describen tus amigos?"
+        },
+        "de": {
+          "text": "Wie beschreiben dich deine Freunde?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq7a",
+          "i18n": {
+            "ua": {
+              "label": "🧸 Теплий і турботливий"
+            },
+            "en": {
+              "label": "🧸 Warm and caring"
+            },
+            "es": {
+              "label": "🧸 Cálido y cariñoso"
+            },
+            "de": {
+              "label": "🧸 Herzlich und fürsorglich"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "ramen",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq7b",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Запальний і яскравий"
+            },
+            "en": {
+              "label": "🔥 Fiery and bright"
+            },
+            "es": {
+              "label": "🔥 Ardiente y brillante"
+            },
+            "de": {
+              "label": "🔥 Feurig und strahlend"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "steak",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq7c",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Творчий і незвичайний"
+            },
+            "en": {
+              "label": "🎨 Creative and unusual"
+            },
+            "es": {
+              "label": "🎨 Creativo e inusual"
+            },
+            "de": {
+              "label": "🎨 Kreativ und ungewöhnlich"
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "ramen",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq7d",
+          "i18n": {
+            "ua": {
+              "label": "🏋️ Сильний і надійний"
+            },
+            "en": {
+              "label": "🏋️ Strong and reliable"
+            },
+            "es": {
+              "label": "🏋️ Fuerte y confiable"
+            },
+            "de": {
+              "label": "🏋️ Stark und zuverlässig"
+            }
+          },
+          "animals": [
+            "steak",
+            "borshch",
+            "varenyky",
+            "burger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq8",
+      "i18n": {
+        "ua": {
+          "text": "Який стиль подорожі тобі пасує?"
+        },
+        "en": {
+          "text": "What travel style suits you?"
+        },
+        "es": {
+          "text": "¿Qué estilo de viaje te conviene?"
+        },
+        "de": {
+          "text": "Welcher Reisestil passt zu Ihnen?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq8a",
+          "i18n": {
+            "ua": {
+              "label": "🏛️ Культура, музеї, архітектура"
+            },
+            "en": {
+              "label": "🏛️ Culture, museums, architecture"
+            },
+            "es": {
+              "label": "🏛️ Cultura, museos, arquitectura"
+            },
+            "de": {
+              "label": "🏛️ Kultur, Museen, Architektur"
+            }
+          },
+          "animals": [
+            "sushi",
+            "croissant",
+            "ramen",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq8b",
+          "i18n": {
+            "ua": {
+              "label": "🏖️ Пляж, коктейлі, відпочинок"
+            },
+            "en": {
+              "label": "🏖️ Beach, cocktails, relaxation"
+            },
+            "es": {
+              "label": "🏖️ Playa, cócteles, relax"
+            },
+            "de": {
+              "label": "🏖️ Strand, Cocktails, Entspannung"
+            }
+          },
+          "animals": [
+            "pizza",
+            "varenyky",
+            "croissant",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq8c",
+          "i18n": {
+            "ua": {
+              "label": "🎒 Пригоди, походи, екстрім"
+            },
+            "en": {
+              "label": "🎒 Adventures, hiking, extreme"
+            },
+            "es": {
+              "label": "🎒 Aventuras, senderismo, extremo"
+            },
+            "de": {
+              "label": "🎒 Abenteuer, Wandern, Extremsport"
+            }
+          },
+          "animals": [
+            "tacos",
+            "steak",
+            "borshch",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq8d",
+          "i18n": {
+            "ua": {
+              "label": "🏡 Залишитись вдома — найкраща подорож"
+            },
+            "en": {
+              "label": "🏡 Staying home — the best trip"
+            },
+            "es": {
+              "label": "🏡 Quedarse en casa: el mejor viaje"
+            },
+            "de": {
+              "label": "🏡 Zuhause bleiben – die beste Reise"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "ramen",
+            "pancakes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq9",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе мотивує найбільше?"
+        },
+        "en": {
+          "text": "What motivates you the most?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te motiva?"
+        },
+        "de": {
+          "text": "Was motiviert Sie am meisten?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq9a",
+          "i18n": {
+            "ua": {
+              "label": "🏆 Визнання і успіх"
+            },
+            "en": {
+              "label": "🏆 Recognition and success"
+            },
+            "es": {
+              "label": "🏆 Reconocimiento y éxito"
+            },
+            "de": {
+              "label": "🏆 Anerkennung und Erfolg"
+            }
+          },
+          "animals": [
+            "steak",
+            "sushi",
+            "pizza",
+            "ceviche"
+          ]
+        },
+        {
+          "id": "fq9b",
+          "i18n": {
+            "ua": {
+              "label": "💡 Ідеї і натхнення"
+            },
+            "en": {
+              "label": "💡 Ideas and inspiration"
+            },
+            "es": {
+              "label": "💡 Ideas e inspiración"
+            },
+            "de": {
+              "label": "💡 Ideen und Inspiration"
+            }
+          },
+          "animals": [
+            "croissant",
+            "ramen",
+            "tacos",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq9c",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧‍👦 Сім'я і близькі"
+            },
+            "en": {
+              "label": "👨‍👩‍👧‍👦 Family and loved ones"
+            },
+            "es": {
+              "label": "👨‍👩‍👧‍👦 Familiares y seres queridos"
+            },
+            "de": {
+              "label": "👨‍👩‍👧‍👦 Familie und Angehörige"
+            }
+          },
+          "animals": [
+            "borshch",
+            "varenyky",
+            "pizza",
+            "fondue"
+          ]
+        },
+        {
+          "id": "fq9d",
+          "i18n": {
+            "ua": {
+              "label": "🌍 Пізнання нового"
+            },
+            "en": {
+              "label": "🌍 Discovering new things"
+            },
+            "es": {
+              "label": "🌍 Descubriendo cosas nuevas"
+            },
+            "de": {
+              "label": "🌍 Neues entdecken"
+            }
+          },
+          "animals": [
+            "ramen",
+            "tacos",
+            "sushi",
+            "pad_thai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq10",
+      "i18n": {
+        "ua": {
+          "text": "Обери колір, який тебе описує:"
+        },
+        "en": {
+          "text": "Choose a color that describes you:"
+        },
+        "es": {
+          "text": "Elige un color que te describa:"
+        },
+        "de": {
+          "text": "Wähle eine Farbe, die dich beschreibt:"
+        }
+      },
+      "options": [
+        {
+          "id": "fq10a",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Червоний — пристрасть"
+            },
+            "en": {
+              "label": "❤️ Red — passion"
+            },
+            "es": {
+              "label": "❤️ Rojo — pasión"
+            },
+            "de": {
+              "label": "❤️ Rot — Leidenschaft"
+            }
+          },
+          "animals": [
+            "borshch",
+            "tacos",
+            "steak",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq10b",
+          "i18n": {
+            "ua": {
+              "label": "💛 Жовтий — радість"
+            },
+            "en": {
+              "label": "💛 Yellow — joy"
+            },
+            "es": {
+              "label": "💛 Amarillo — alegría"
+            },
+            "de": {
+              "label": "💛 Gelb – Freude"
+            }
+          },
+          "animals": [
+            "pizza",
+            "croissant",
+            "varenyky",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq10c",
+          "i18n": {
+            "ua": {
+              "label": "💙 Синій — спокій"
+            },
+            "en": {
+              "label": "💙 Blue — calm"
+            },
+            "es": {
+              "label": "💙 Azul — calma"
+            },
+            "de": {
+              "label": "💙 Blau — Ruhe"
+            }
+          },
+          "animals": [
+            "sushi",
+            "ramen",
+            "varenyky"
+          ]
+        },
+        {
+          "id": "fq10d",
+          "i18n": {
+            "ua": {
+              "label": "💜 Фіолетовий — таємничість"
+            },
+            "en": {
+              "label": "💜 Purple — mystery"
+            },
+            "es": {
+              "label": "💜 Morado — misterio"
+            },
+            "de": {
+              "label": "💜 Lila – geheimnisvoll"
+            }
+          },
+          "animals": [
+            "ramen",
+            "croissant",
+            "sushi",
+            "ceviche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq11",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся в ресторані?"
+        },
+        "en": {
+          "text": "How do you act at a restaurant?"
+        },
+        "es": {
+          "text": "¿Cómo te comportas en un restaurante?"
+        },
+        "de": {
+          "text": "Wie verhält man sich in einem Restaurant?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq11a",
+          "i18n": {
+            "ua": {
+              "label": "📖 Вивчаю все меню від початку до кінця"
+            },
+            "en": {
+              "label": "📖 I study the entire menu from start to finish"
+            },
+            "es": {
+              "label": "📖 Estudio todo el menú de principio a fin."
+            },
+            "de": {
+              "label": "📖 Ich studiere die gesamte Speisekarte von Anfang bis Ende."
+            }
+          },
+          "animals": [
+            "sushi",
+            "ramen",
+            "dim_sum"
+          ]
+        },
+        {
+          "id": "fq11b",
+          "i18n": {
+            "ua": {
+              "label": "🎉 Замовляю все підряд — спробуємо все!"
+            },
+            "en": {
+              "label": "🎉 I order everything — let's try it all!"
+            },
+            "es": {
+              "label": "🎉 ¡Lo pido todo! ¡Vamos a probarlo todo!"
+            },
+            "de": {
+              "label": "🎉 Ich bestelle alles – lasst uns alles probieren!"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq11c",
+          "i18n": {
+            "ua": {
+              "label": "🏠 Беру перевірену улюблену страву"
+            },
+            "en": {
+              "label": "🏠 I go with my tried-and-true favorite"
+            },
+            "es": {
+              "label": "🏠 Me decanto por mi favorito de siempre."
+            },
+            "de": {
+              "label": "🏠 Ich bleibe bei meinem bewährten Favoriten."
+            }
+          },
+          "animals": [
+            "borshch",
+            "varenyky",
+            "pancakes"
+          ]
+        },
+        {
+          "id": "fq11d",
+          "i18n": {
+            "ua": {
+              "label": "💪 Одразу знаю, що хочу — без вагань"
+            },
+            "en": {
+              "label": "💪 I know exactly what I want — no hesitation"
+            },
+            "es": {
+              "label": "💪 Sé exactamente lo que quiero, sin dudarlo."
+            },
+            "de": {
+              "label": "💪 Ich weiß genau, was ich will – ohne zu zögern"
+            }
+          },
+          "animals": [
+            "steak",
+            "croissant",
+            "burger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq12",
+      "i18n": {
+        "ua": {
+          "text": "Який твій підхід до подарунків?"
+        },
+        "en": {
+          "text": "What's your approach to gift-giving?"
+        },
+        "es": {
+          "text": "¿Cuál es tu enfoque a la hora de dar regalos?"
+        },
+        "de": {
+          "text": "Wie gehst du beim Schenken vor?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq12a",
+          "i18n": {
+            "ua": {
+              "label": "🎁 Роблю щось своїми руками — з душею"
+            },
+            "en": {
+              "label": "🎁 I make something handmade — with soul"
+            },
+            "es": {
+              "label": "🎁 Hago algo hecho a mano, con alma."
+            },
+            "de": {
+              "label": "🎁 Ich fertige etwas Handgemachtes an – mit Seele"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "hummus"
+          ]
+        },
+        {
+          "id": "fq12b",
+          "i18n": {
+            "ua": {
+              "label": "🎯 Обираю ідеальний подарунок, навіть якщо шукаю місяць"
+            },
+            "en": {
+              "label": "🎯 I find the perfect gift, even if it takes a month"
+            },
+            "es": {
+              "label": "🎯 Encuentro el regalo perfecto, aunque me lleve un mes."
+            },
+            "de": {
+              "label": "🎯 Ich finde das perfekte Geschenk, auch wenn es einen Monat dauert."
+            }
+          },
+          "animals": [
+            "sushi",
+            "ramen",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq12c",
+          "i18n": {
+            "ua": {
+              "label": "🎈 Головне — емоції! Влаштовую сюрприз-вечірку"
+            },
+            "en": {
+              "label": "🎈 It's all about emotions! I throw a surprise party"
+            },
+            "es": {
+              "label": "🎈 ¡Todo se trata de emociones! Organizo una fiesta sorpresa."
+            },
+            "de": {
+              "label": "🎈 Es dreht sich alles um Emotionen! Ich veranstalte eine Überraschungsparty"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq12d",
+          "i18n": {
+            "ua": {
+              "label": "✨ Дарую щось вишукане й стильне"
+            },
+            "en": {
+              "label": "✨ I give something elegant and stylish"
+            },
+            "es": {
+              "label": "✨ Regalo algo elegante y con estilo."
+            },
+            "de": {
+              "label": "✨ Ich schenke etwas Elegantes und Stilvolles."
+            }
+          },
+          "animals": [
+            "croissant",
+            "steak",
+            "cheesecake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq13",
+      "i18n": {
+        "ua": {
+          "text": "Як ти витрачаєш гроші?"
+        },
+        "en": {
+          "text": "How do you spend money?"
+        },
+        "es": {
+          "text": "¿Cómo gastas el dinero?"
+        },
+        "de": {
+          "text": "Wie gibst du dein Geld aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq13a",
+          "i18n": {
+            "ua": {
+              "label": "💰 Відкладаю й планую — стабільність понад усе"
+            },
+            "en": {
+              "label": "💰 I save and plan — stability above all"
+            },
+            "es": {
+              "label": "💰 Ahorro y planifico: la estabilidad ante todo."
+            },
+            "de": {
+              "label": "💰 Ich spare und plane – Stabilität steht an erster Stelle."
+            }
+          },
+          "animals": [
+            "borshch",
+            "varenyky",
+            "hummus"
+          ]
+        },
+        {
+          "id": "fq13b",
+          "i18n": {
+            "ua": {
+              "label": "🛍️ На враження та розваги з друзями"
+            },
+            "en": {
+              "label": "🛍️ On experiences and fun with friends"
+            },
+            "es": {
+              "label": "🛍️ Sobre experiencias y diversión con amigos"
+            },
+            "de": {
+              "label": "🛍️ Über Erlebnisse und Spaß mit Freunden"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "dim_sum"
+          ]
+        },
+        {
+          "id": "fq13c",
+          "i18n": {
+            "ua": {
+              "label": "🖼️ На красиві речі та естетику"
+            },
+            "en": {
+              "label": "🖼️ On beautiful things and aesthetics"
+            },
+            "es": {
+              "label": "🖼️ Sobre cosas bellas y estética"
+            },
+            "de": {
+              "label": "🖼️ Über schöne Dinge und Ästhetik"
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "cheesecake"
+          ]
+        },
+        {
+          "id": "fq13d",
+          "i18n": {
+            "ua": {
+              "label": "🥩 На якісне — менше, але краще"
+            },
+            "en": {
+              "label": "🥩 On quality — less but better"
+            },
+            "es": {
+              "label": "🥩 En cuanto a la calidad: menos, pero mejor."
+            },
+            "de": {
+              "label": "🥩 Was die Qualität angeht – weniger ist mehr"
+            }
+          },
+          "animals": [
+            "steak",
+            "ramen",
+            "matcha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq14",
+      "i18n": {
+        "ua": {
+          "text": "Який у тебе стиль у соцмережах?"
+        },
+        "en": {
+          "text": "What's your social media style?"
+        },
+        "es": {
+          "text": "¿Cuál es tu estilo en las redes sociales?"
+        },
+        "de": {
+          "text": "Welchen Social-Media-Stil verfolgst du?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq14a",
+          "i18n": {
+            "ua": {
+              "label": "📸 Естетична стрічка — кожне фото як витвір мистецтва"
+            },
+            "en": {
+              "label": "📸 Aesthetic feed — every photo is a work of art"
+            },
+            "es": {
+              "label": "📸 Un feed estético: cada foto es una obra de arte."
+            },
+            "de": {
+              "label": "📸 Ästhetischer Feed – jedes Foto ist ein Kunstwerk"
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq14b",
+          "i18n": {
+            "ua": {
+              "label": "🤪 Мемчики, сторіз і хаотичні пости"
+            },
+            "en": {
+              "label": "🤪 Memes, stories, and chaotic posts"
+            },
+            "es": {
+              "label": "🤪 Memes, historias y publicaciones caóticas"
+            },
+            "de": {
+              "label": "🤪 Memes, Geschichten und chaotische Beiträge"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "shawarma"
+          ]
+        },
+        {
+          "id": "fq14c",
+          "i18n": {
+            "ua": {
+              "label": "🔒 Рідко постю — я тут спостерігаю"
+            },
+            "en": {
+              "label": "🔒 I rarely post — I'm here to observe"
+            },
+            "es": {
+              "label": "🔒 Rara vez publico; estoy aquí para observar."
+            },
+            "de": {
+              "label": "🔒 Ich poste selten – ich bin hier, um zu beobachten."
+            }
+          },
+          "animals": [
+            "ramen",
+            "steak",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq14d",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧 Фото з рідними, рецепти, затишні моменти"
+            },
+            "en": {
+              "label": "👨‍👩‍👧 Family photos, recipes, cozy moments"
+            },
+            "es": {
+              "label": "👨‍👩‍👧 Fotos familiares, recetas, momentos acogedores"
+            },
+            "de": {
+              "label": "👨‍👩‍👧 Familienfotos, Rezepte, gemütliche Momente"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "pancakes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq15",
+      "i18n": {
+        "ua": {
+          "text": "Що ти робиш, коли тобі нудно?"
+        },
+        "en": {
+          "text": "How do you deal with boredom?"
+        },
+        "es": {
+          "text": "¿Cómo lidias con el aburrimiento?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Langeweile um?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq15a",
+          "i18n": {
+            "ua": {
+              "label": "🧪 Починаю новий незвичний проєкт"
+            },
+            "en": {
+              "label": "🧪 I start a new unusual project"
+            },
+            "es": {
+              "label": "🧪 Comienzo un nuevo proyecto inusual"
+            },
+            "de": {
+              "label": "🧪 Ich beginne ein neues, ungewöhnliches Projekt"
+            }
+          },
+          "animals": [
+            "ramen",
+            "tacos",
+            "ceviche"
+          ]
+        },
+        {
+          "id": "fq15b",
+          "i18n": {
+            "ua": {
+              "label": "📞 Дзвоню друзям — збираю компанію"
+            },
+            "en": {
+              "label": "📞 I call friends — gather the crew"
+            },
+            "es": {
+              "label": "📞 Llamo a mis amigos: reúnan al equipo."
+            },
+            "de": {
+              "label": "📞 Ich rufe Freunde an – trommelt die Crew zusammen"
+            }
+          },
+          "animals": [
+            "pizza",
+            "borshch",
+            "fondue"
+          ]
+        },
+        {
+          "id": "fq15c",
+          "i18n": {
+            "ua": {
+              "label": "🛋️ Загортаюся в плед і дивлюся серіал"
+            },
+            "en": {
+              "label": "🛋️ I wrap up in a blanket and binge a show"
+            },
+            "es": {
+              "label": "🛋️ Me envuelvo en una manta y me doy un atracón de series."
+            },
+            "de": {
+              "label": "🛋️ Ich kuschele mich in eine Decke und schaue eine Serie im Marathon."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "croissant",
+            "pancakes"
+          ]
+        },
+        {
+          "id": "fq15d",
+          "i18n": {
+            "ua": {
+              "label": "🏋️ Іду тренуватися або робити щось корисне"
+            },
+            "en": {
+              "label": "🏋️ I go work out or do something productive"
+            },
+            "es": {
+              "label": "🏋️ Voy a hacer ejercicio o a hacer algo productivo."
+            },
+            "de": {
+              "label": "🏋️ Ich gehe trainieren oder mache etwas Produktives."
+            }
+          },
+          "animals": [
+            "steak",
+            "sushi",
+            "burger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq16",
+      "i18n": {
+        "ua": {
+          "text": "Який у тебе стиль одягу?"
+        },
+        "en": {
+          "text": "What's your fashion style?"
+        },
+        "es": {
+          "text": "¿Cuál es tu estilo de moda?"
+        },
+        "de": {
+          "text": "Was ist dein Modestil?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq16a",
+          "i18n": {
+            "ua": {
+              "label": "🧥 Класика й елегантність — завжди бездоганно"
+            },
+            "en": {
+              "label": "🧥 Classic and elegant — always impeccable"
+            },
+            "es": {
+              "label": "🧥 Clásico y elegante: siempre impecable"
+            },
+            "de": {
+              "label": "🧥 Klassisch und elegant – immer makellos"
+            }
+          },
+          "animals": [
+            "sushi",
+            "steak",
+            "cheesecake"
+          ]
+        },
+        {
+          "id": "fq16b",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Яскраво й сміливо — мода це самовираження"
+            },
+            "en": {
+              "label": "🎨 Bold and bright — fashion is self-expression"
+            },
+            "es": {
+              "label": "🎨 Atrevida y brillante: la moda es autoexpresión."
+            },
+            "de": {
+              "label": "🎨 Mutig und farbenfroh – Mode ist Selbstausdruck"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq16c",
+          "i18n": {
+            "ua": {
+              "label": "🥐 Повітряно й витончено — французький шик"
+            },
+            "en": {
+              "label": "🥐 Airy and refined — French chic"
+            },
+            "es": {
+              "label": "🥐 Ligero y refinado: estilo chic francés."
+            },
+            "de": {
+              "label": "🥐 Luftig und raffiniert – französischer Chic"
+            }
+          },
+          "animals": [
+            "croissant",
+            "ramen",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq16d",
+          "i18n": {
+            "ua": {
+              "label": "👕 Зручно й затишно — головне комфорт"
+            },
+            "en": {
+              "label": "👕 Comfy and cozy — comfort is key"
+            },
+            "es": {
+              "label": "👕 Cómodo y acogedor: la comodidad es clave."
+            },
+            "de": {
+              "label": "👕 Gemütlich und komfortabel – Komfort steht an erster Stelle."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "pancakes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq17",
+      "i18n": {
+        "ua": {
+          "text": "Як виглядає твоя кімната?"
+        },
+        "en": {
+          "text": "How do you organize your room?"
+        },
+        "es": {
+          "text": "¿Cómo organizas tu habitación?"
+        },
+        "de": {
+          "text": "Wie organisierst du dein Zimmer?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq17a",
+          "i18n": {
+            "ua": {
+              "label": "✨ Все по місцях — мінімалізм і порядок"
+            },
+            "en": {
+              "label": "✨ Everything in its place — minimalism and order"
+            },
+            "es": {
+              "label": "✨ Todo en su lugar: minimalismo y orden."
+            },
+            "de": {
+              "label": "✨ Alles an seinem Platz – Minimalismus und Ordnung"
+            }
+          },
+          "animals": [
+            "sushi",
+            "steak",
+            "pad_thai"
+          ]
+        },
+        {
+          "id": "fq17b",
+          "i18n": {
+            "ua": {
+              "label": "🎪 Творчий хаос — але я знаю де що лежить!"
+            },
+            "en": {
+              "label": "🎪 Creative chaos — but I know where everything is!"
+            },
+            "es": {
+              "label": "🎪 Caos creativo, ¡pero sé dónde está todo!"
+            },
+            "de": {
+              "label": "🎪 Kreatives Chaos – aber ich weiß, wo alles ist!"
+            }
+          },
+          "animals": [
+            "tacos",
+            "ramen",
+            "shawarma"
+          ]
+        },
+        {
+          "id": "fq17c",
+          "i18n": {
+            "ua": {
+              "label": "🕯️ Свічки, пледи, фото — затишне гніздечко"
+            },
+            "en": {
+              "label": "🕯️ Candles, blankets, photos — a cozy nest"
+            },
+            "es": {
+              "label": "🕯️ Velas, mantas, fotos: un nido acogedor"
+            },
+            "de": {
+              "label": "🕯️ Kerzen, Decken, Fotos – ein gemütliches Nest"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "fondue"
+          ]
+        },
+        {
+          "id": "fq17d",
+          "i18n": {
+            "ua": {
+              "label": "🖼️ Стильний декор і продумана естетика"
+            },
+            "en": {
+              "label": "🖼️ Stylish decor and curated aesthetics"
+            },
+            "es": {
+              "label": "🖼️ Decoración elegante y estética cuidada"
+            },
+            "de": {
+              "label": "🖼️ Stilvolle Einrichtung und kuratierte Ästhetik"
+            }
+          },
+          "animals": [
+            "croissant",
+            "pizza"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq18",
+      "i18n": {
+        "ua": {
+          "text": "Як ти ставишся до традицій?"
+        },
+        "en": {
+          "text": "What's your attitude to traditions?"
+        },
+        "es": {
+          "text": "¿Cuál es tu actitud hacia las tradiciones?"
+        },
+        "de": {
+          "text": "Wie stehen Sie zu Traditionen?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq18a",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Обожнюю! Сімейні ритуали — це святе"
+            },
+            "en": {
+              "label": "❤️ I love them! Family rituals are sacred"
+            },
+            "es": {
+              "label": "❤️ ¡Me encantan! Los rituales familiares son sagrados."
+            },
+            "de": {
+              "label": "❤️ Ich liebe sie! Familienrituale sind heilig."
+            }
+          },
+          "animals": [
+            "borshch",
+            "varenyky",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq18b",
+          "i18n": {
+            "ua": {
+              "label": "🔄 Беру найкраще зі старого й додаю своє"
+            },
+            "en": {
+              "label": "🔄 I take the best of the old and add my own twist"
+            },
+            "es": {
+              "label": "🔄 Tomo lo mejor de lo antiguo y le doy mi toque personal."
+            },
+            "de": {
+              "label": "🔄 Ich nehme das Beste aus dem Alten und füge meine eigene Note hinzu."
+            }
+          },
+          "animals": [
+            "ramen",
+            "pizza",
+            "pad_thai"
+          ]
+        },
+        {
+          "id": "fq18c",
+          "i18n": {
+            "ua": {
+              "label": "🚀 Створюю власні традиції — нове покоління!"
+            },
+            "en": {
+              "label": "🚀 I create my own traditions — new generation!"
+            },
+            "es": {
+              "label": "🚀 ¡Creo mis propias tradiciones para la nueva generación!"
+            },
+            "de": {
+              "label": "🚀 Ich schaffe meine eigenen Traditionen – neue Generation!"
+            }
+          },
+          "animals": [
+            "tacos",
+            "croissant",
+            "ceviche"
+          ]
+        },
+        {
+          "id": "fq18d",
+          "i18n": {
+            "ua": {
+              "label": "🤷 Традиції? Я живу моментом"
+            },
+            "en": {
+              "label": "🤷 Traditions? I live in the moment"
+            },
+            "es": {
+              "label": "🤷 ¿Tradiciones? Vivo el momento."
+            },
+            "de": {
+              "label": "🤷 Traditionen? Ich lebe im Moment."
+            }
+          },
+          "animals": [
+            "steak",
+            "sushi",
+            "shawarma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq19",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся, коли дуже радієш?"
+        },
+        "en": {
+          "text": "How do you act when you're excited?"
+        },
+        "es": {
+          "text": "¿Cómo actúas cuando estás emocionado?"
+        },
+        "de": {
+          "text": "Wie verhältst du dich, wenn du aufgeregt bist?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq19a",
+          "i18n": {
+            "ua": {
+              "label": "🗣️ Розказую ВСІМ — не можу мовчати!"
+            },
+            "en": {
+              "label": "🗣️ I tell EVERYONE — I can't keep it in!"
+            },
+            "es": {
+              "label": "🗣️ ¡Se lo digo a TODO EL MUNDO: no puedo contenerme!"
+            },
+            "de": {
+              "label": "🗣️ Ich erzähle es JEDEM – ich kann es nicht für mich behalten!"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq19b",
+          "i18n": {
+            "ua": {
+              "label": "😊 Тихо посміхаюся — насолоджуюсь всередині"
+            },
+            "en": {
+              "label": "😊 I smile quietly — savoring it inside"
+            },
+            "es": {
+              "label": "😊 Sonrío en silencio, saboreándolo por dentro."
+            },
+            "de": {
+              "label": "😊 Ich lächle leise – und genieße es innerlich."
+            }
+          },
+          "animals": [
+            "ramen",
+            "sushi",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq19c",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Обіймаю всіх навколо!"
+            },
+            "en": {
+              "label": "🤗 I hug everyone around me!"
+            },
+            "es": {
+              "label": "🤗 ¡Abrazo a todos los que me rodean!"
+            },
+            "de": {
+              "label": "🤗 Ich umarme alle um mich herum!"
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "fondue"
+          ]
+        },
+        {
+          "id": "fq19d",
+          "i18n": {
+            "ua": {
+              "label": "💃 Влаштовую міні-свято — торт і шампанське!"
+            },
+            "en": {
+              "label": "💃 I throw a mini celebration — cake and champagne!"
+            },
+            "es": {
+              "label": "💃 ¡Organizo una pequeña celebración: pastel y champán!"
+            },
+            "de": {
+              "label": "💃 Ich veranstalte eine kleine Feier – Kuchen und Champagner!"
+            }
+          },
+          "animals": [
+            "croissant",
+            "steak",
+            "cheesecake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq20",
+      "i18n": {
+        "ua": {
+          "text": "Як у тебе з пунктуальністю?"
+        },
+        "en": {
+          "text": "What's your relationship with time/punctuality?"
+        },
+        "es": {
+          "text": "¿Cuál es tu relación con el tiempo/la puntualidad?"
+        },
+        "de": {
+          "text": "Wie ist Ihr Verhältnis zu Zeit/Pünktlichkeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq20a",
+          "i18n": {
+            "ua": {
+              "label": "⏰ Завжди вчасно — це питання поваги"
+            },
+            "en": {
+              "label": "⏰ Always on time — it's a matter of respect"
+            },
+            "es": {
+              "label": "⏰ Siempre puntual: es una cuestión de respeto."
+            },
+            "de": {
+              "label": "⏰ Immer pünktlich – das ist eine Frage des Respekts."
+            }
+          },
+          "animals": [
+            "steak",
+            "borshch",
+            "burger"
+          ]
+        },
+        {
+          "id": "fq20b",
+          "i18n": {
+            "ua": {
+              "label": "😅 Вічно спізнююся — але з красивою історією чому"
+            },
+            "en": {
+              "label": "😅 Always late — but with a great story why"
+            },
+            "es": {
+              "label": "😅 Siempre llega tarde, pero con una gran historia del por qué."
+            },
+            "de": {
+              "label": "😅 Immer zu spät – aber mit einer tollen Geschichte, warum"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "shawarma"
+          ]
+        },
+        {
+          "id": "fq20c",
+          "i18n": {
+            "ua": {
+              "label": "📐 Приходжу за 5 хвилин до — все розраховано"
+            },
+            "en": {
+              "label": "📐 I arrive 5 minutes early — everything calculated"
+            },
+            "es": {
+              "label": "📐 Llego 5 minutos antes; todo está calculado."
+            },
+            "de": {
+              "label": "📐 Ich komme 5 Minuten zu früh an – alles berechnet"
+            }
+          },
+          "animals": [
+            "sushi",
+            "ramen",
+            "pad_thai"
+          ]
+        },
+        {
+          "id": "fq20d",
+          "i18n": {
+            "ua": {
+              "label": "🌸 Як настрій підкаже — час це відносне"
+            },
+            "en": {
+              "label": "🌸 Whenever the mood strikes — time is relative"
+            },
+            "es": {
+              "label": "🌸 Cuando te apetezca, el tiempo es relativo."
+            },
+            "de": {
+              "label": "🌸 Wann immer mich die Lust packt – Zeit ist relativ"
+            }
+          },
+          "animals": [
+            "croissant",
+            "varenyky",
+            "gelato"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq21",
+      "i18n": {
+        "ua": {
+          "text": "Як ти обираєш фільм для перегляду?"
+        },
+        "en": {
+          "text": "How do you choose a movie to watch?"
+        },
+        "es": {
+          "text": "¿Cómo eliges una película para ver?"
+        },
+        "de": {
+          "text": "Wie wählt man einen Film zum Ansehen aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq21a",
+          "i18n": {
+            "ua": {
+              "label": "⭐ Тільки високий рейтинг і рецензії критиків"
+            },
+            "en": {
+              "label": "⭐ Only high ratings and critic reviews"
+            },
+            "es": {
+              "label": "⭐ Solo valoraciones altas y reseñas de críticos"
+            },
+            "de": {
+              "label": "⭐ Nur Top-Bewertungen und positive Kritiken"
+            }
+          },
+          "animals": [
+            "sushi",
+            "steak",
+            "pad_thai"
+          ]
+        },
+        {
+          "id": "fq21b",
+          "i18n": {
+            "ua": {
+              "label": "🍿 Що друзі порадять — дивлюся разом!"
+            },
+            "en": {
+              "label": "🍿 Whatever friends recommend — watching together!"
+            },
+            "es": {
+              "label": "🍿 ¡Lo que sea que te recomienden tus amigos, lo veremos juntos!"
+            },
+            "de": {
+              "label": "🍿 Was auch immer Freunde empfehlen – wir schauen es uns gemeinsam an!"
+            }
+          },
+          "animals": [
+            "pizza",
+            "varenyky",
+            "hummus"
+          ]
+        },
+        {
+          "id": "fq21c",
+          "i18n": {
+            "ua": {
+              "label": "🎲 Навмання! Натискаю на перше, що зацікавило"
+            },
+            "en": {
+              "label": "🎲 Randomly! I click the first thing that catches my eye"
+            },
+            "es": {
+              "label": "🎲 ¡Al azar! Hago clic en lo primero que me llama la atención."
+            },
+            "de": {
+              "label": "🎲 Ganz zufällig! Ich klicke einfach auf das erste, was mir ins Auge fällt."
+            }
+          },
+          "animals": [
+            "tacos",
+            "croissant",
+            "ceviche"
+          ]
+        },
+        {
+          "id": "fq21d",
+          "i18n": {
+            "ua": {
+              "label": "🎬 Обираю глибокі фільми з сенсом"
+            },
+            "en": {
+              "label": "🎬 I pick deep, meaningful films"
+            },
+            "es": {
+              "label": "🎬 Elijo películas profundas y significativas."
+            },
+            "de": {
+              "label": "🎬 Ich wähle tiefgründige, bedeutungsvolle Filme aus."
+            }
+          },
+          "animals": [
+            "ramen",
+            "borshch",
+            "pho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq22",
+      "i18n": {
+        "ua": {
+          "text": "Який твій підхід до хобі?"
+        },
+        "en": {
+          "text": "What's your approach to hobbies?"
+        },
+        "es": {
+          "text": "¿Cuál es tu enfoque respecto a los pasatiempos?"
+        },
+        "de": {
+          "text": "Wie gehst du an deine Hobbys heran?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq22a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Занурююся з головою — і стаю експертом"
+            },
+            "en": {
+              "label": "🔥 I dive in deep — and become an expert"
+            },
+            "es": {
+              "label": "🔥 Me sumerjo profundamente y me convierto en un experto."
+            },
+            "de": {
+              "label": "🔥 Ich tauche tief ein – und werde zum Experten"
+            }
+          },
+          "animals": [
+            "ramen",
+            "steak",
+            "curry"
+          ]
+        },
+        {
+          "id": "fq22b",
+          "i18n": {
+            "ua": {
+              "label": "🦋 Пробую все потроху — життя коротке!"
+            },
+            "en": {
+              "label": "🦋 I try a bit of everything — life is short!"
+            },
+            "es": {
+              "label": "🦋 ¡Pruebo un poco de todo, la vida es corta!"
+            },
+            "de": {
+              "label": "🦋 Ich probiere von allem etwas aus – das Leben ist kurz!"
+            }
+          },
+          "animals": [
+            "tacos",
+            "pizza",
+            "dim_sum"
+          ]
+        },
+        {
+          "id": "fq22c",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Обираю щось творче й естетичне"
+            },
+            "en": {
+              "label": "🎨 I choose something creative and aesthetic"
+            },
+            "es": {
+              "label": "🎨 Elijo algo creativo y estético."
+            },
+            "de": {
+              "label": "🎨 Ich wähle etwas Kreatives und Ästhetisches."
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "gelato"
+          ]
+        },
+        {
+          "id": "fq22d",
+          "i18n": {
+            "ua": {
+              "label": "👨‍👩‍👧 Моє хобі — це час з близькими"
+            },
+            "en": {
+              "label": "👨‍👩‍👧 My hobby is spending time with loved ones"
+            },
+            "es": {
+              "label": "👨‍👩‍👧 Mi pasatiempo es pasar tiempo con mis seres queridos."
+            },
+            "de": {
+              "label": "👨‍👩‍👧 Mein Hobby ist es, Zeit mit meinen Lieben zu verbringen."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "borshch",
+            "fondue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq23",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на компліменти?"
+        },
+        "en": {
+          "text": "How do you react to compliments?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas ante los halagos?"
+        },
+        "de": {
+          "text": "Wie reagierst du auf Komplimente?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq23a",
+          "i18n": {
+            "ua": {
+              "label": "😳 Червонію і не знаю куди дітися"
+            },
+            "en": {
+              "label": "😳 I blush and don't know where to hide"
+            },
+            "es": {
+              "label": "😳 Me sonrojo y no sé dónde esconderme."
+            },
+            "de": {
+              "label": "😳 Ich werde rot und weiß nicht, wo ich mich verstecken soll."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "ramen",
+            "pancakes"
+          ]
+        },
+        {
+          "id": "fq23b",
+          "i18n": {
+            "ua": {
+              "label": "😎 Дякую! Я знаю, що я класний/класна"
+            },
+            "en": {
+              "label": "😎 Thanks! I know I'm awesome"
+            },
+            "es": {
+              "label": "😎 ¡Gracias! Sé que soy genial."
+            },
+            "de": {
+              "label": "😎 Danke! Ich weiß, ich bin super."
+            }
+          },
+          "animals": [
+            "steak",
+            "pizza",
+            "burger"
+          ]
+        },
+        {
+          "id": "fq23c",
+          "i18n": {
+            "ua": {
+              "label": "🥰 Розтаюю й обіймаю у відповідь"
+            },
+            "en": {
+              "label": "🥰 I melt and hug back"
+            },
+            "es": {
+              "label": "🥰 Me derrito y te devuelvo el abrazo."
+            },
+            "de": {
+              "label": "🥰 Ich schmelze dahin und umarme dich zurück."
+            }
+          },
+          "animals": [
+            "borshch",
+            "tacos"
+          ]
+        },
+        {
+          "id": "fq23d",
+          "i18n": {
+            "ua": {
+              "label": "💅 Елегантно приймаю — як і належить"
+            },
+            "en": {
+              "label": "💅 I accept gracefully — as one should"
+            },
+            "es": {
+              "label": "💅 Acepto con gracia, como debe ser."
+            },
+            "de": {
+              "label": "💅 Ich nehme es anmutig an – so wie man es tun sollte."
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "cheesecake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq24",
+      "i18n": {
+        "ua": {
+          "text": "Яка твоя енергія на вечірці?"
+        },
+        "en": {
+          "text": "What's your energy like at a party?"
+        },
+        "es": {
+          "text": "¿Qué energía tienes en una fiesta?"
+        },
+        "de": {
+          "text": "Wie ist deine Stimmung auf einer Party?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq24a",
+          "i18n": {
+            "ua": {
+              "label": "🎤 Я — душа компанії, всі навколо мене!"
+            },
+            "en": {
+              "label": "🎤 I'm the life of the party — everyone's around me!"
+            },
+            "es": {
+              "label": "🎤 ¡Soy el alma de la fiesta, todos están a mi alrededor!"
+            },
+            "de": {
+              "label": "🎤 Ich bin der Mittelpunkt jeder Party – alle sind um mich herum!"
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "paella"
+          ]
+        },
+        {
+          "id": "fq24b",
+          "i18n": {
+            "ua": {
+              "label": "🗨️ Веду глибокі розмови в тихому куточку"
+            },
+            "en": {
+              "label": "🗨️ I have deep conversations in a quiet corner"
+            },
+            "es": {
+              "label": "🗨️ Tengo conversaciones profundas en un rincón tranquilo"
+            },
+            "de": {
+              "label": "🗨️ Ich führe tiefgründige Gespräche in einer ruhigen Ecke"
+            }
+          },
+          "animals": [
+            "ramen",
+            "borshch",
+            "pho"
+          ]
+        },
+        {
+          "id": "fq24c",
+          "i18n": {
+            "ua": {
+              "label": "🍷 Елегантно спілкуюся, тримаючи келих"
+            },
+            "en": {
+              "label": "🍷 I mingle elegantly, holding a glass"
+            },
+            "es": {
+              "label": "🍷 Me relaciono con elegancia, sosteniendo una copa."
+            },
+            "de": {
+              "label": "🍷 Ich mische mich elegant unter die Leute und halte ein Glas in der Hand."
+            }
+          },
+          "animals": [
+            "croissant",
+            "sushi",
+            "dim_sum"
+          ]
+        },
+        {
+          "id": "fq24d",
+          "i18n": {
+            "ua": {
+              "label": "🫂 Поруч із найближчими — мені більше не треба"
+            },
+            "en": {
+              "label": "🫂 Next to my closest people — I don't need more"
+            },
+            "es": {
+              "label": "🫂 Junto a mis seres queridos, no necesito más."
+            },
+            "de": {
+              "label": "🫂 Neben meinen engsten Vertrauten – mehr brauche ich nicht."
+            }
+          },
+          "animals": [
+            "varenyky",
+            "steak",
+            "fondue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fq25",
+      "i18n": {
+        "ua": {
+          "text": "Як ти завершуєш свій день?"
+        },
+        "en": {
+          "text": "How do you end your day?"
+        },
+        "es": {
+          "text": "¿Cómo terminas tu día?"
+        },
+        "de": {
+          "text": "Wie beendest du deinen Tag?"
+        }
+      },
+      "options": [
+        {
+          "id": "fq25a",
+          "i18n": {
+            "ua": {
+              "label": "📓 Планую завтрашній день і аналізую сьогоднішній"
+            },
+            "en": {
+              "label": "📓 I plan tomorrow and reflect on today"
+            },
+            "es": {
+              "label": "📓 Planifico el mañana y reflexiono sobre el hoy."
+            },
+            "de": {
+              "label": "📓 Ich plane morgen und reflektiere über heute."
+            }
+          },
+          "animals": [
+            "sushi",
+            "steak",
+            "pad_thai"
+          ]
+        },
+        {
+          "id": "fq25b",
+          "i18n": {
+            "ua": {
+              "label": "🌙 Чай, книга, тиша — ідеальний фінал"
+            },
+            "en": {
+              "label": "🌙 Tea, a book, silence — the perfect ending"
+            },
+            "es": {
+              "label": "🌙 Té, un libro, silencio: el final perfecto."
+            },
+            "de": {
+              "label": "🌙 Tee, ein Buch, Stille – das perfekte Ende"
+            }
+          },
+          "animals": [
+            "ramen",
+            "varenyky",
+            "matcha"
+          ]
+        },
+        {
+          "id": "fq25c",
+          "i18n": {
+            "ua": {
+              "label": "📱 Переписуюся з друзями до 3 ночі"
+            },
+            "en": {
+              "label": "📱 I text friends until 3 AM"
+            },
+            "es": {
+              "label": "📱 Me comunico con mis amigos por mensaje de texto hasta las 3 de la mañana."
+            },
+            "de": {
+              "label": "📱 Ich schreibe meinen Freunden bis 3 Uhr morgens."
+            }
+          },
+          "animals": [
+            "pizza",
+            "tacos",
+            "dim_sum"
+          ]
+        },
+        {
+          "id": "fq25d",
+          "i18n": {
+            "ua": {
+              "label": "🛁 Ванна з бомбочкою, маска, ароматерапія"
+            },
+            "en": {
+              "label": "🛁 Bath bomb, face mask, aromatherapy"
+            },
+            "es": {
+              "label": "🛁 Bomba de baño, mascarilla facial, aromaterapia"
+            },
+            "de": {
+              "label": "🛁 Badebombe, Gesichtsmaske, Aromatherapie"
+            }
+          },
+          "animals": [
+            "croissant",
+            "borshch",
+            "cheesecake"
+          ]
+        }
+      ]
+    }
+  ]
+}

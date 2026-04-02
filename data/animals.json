@@ -1,0 +1,4316 @@
+{
+  "meta": {
+    "id": "animals",
+    "questions_count": 8,
+    "i18n": {
+      "ua": {
+        "title": "Яка ти тварина?",
+        "description": "Дай відповідь на кілька запитань і дізнайся, яка тварина живе всередині тебе",
+        "start_btn": "Почати",
+        "result_title": "Ти — це",
+        "share_btn": "Поділитися",
+        "retry_btn": "Пройти ще раз",
+        "progress": "Питання {current} з {total}"
+      },
+      "en": {
+        "title": "What animal are you?",
+        "description": "Answer a few questions and find out which animal lives inside you",
+        "start_btn": "Start",
+        "result_title": "You are a",
+        "share_btn": "Share",
+        "retry_btn": "Try again",
+        "progress": "Question {current} of {total}"
+      },
+      "es": {
+        "title": "¿Qué animal eres?",
+        "description": "Responde a unas preguntas y descubre qué animal vive dentro de ti.",
+        "start_btn": "Comenzar",
+        "result_title": "Eres un",
+        "share_btn": "Compartir",
+        "retry_btn": "Intentar otra vez",
+        "progress": "Pregunta {actual} de {total}"
+      },
+      "de": {
+        "title": "Welches Tier bist du?",
+        "description": "Beantworte ein paar Fragen und finde heraus, welches Tier in dir wohnt.",
+        "start_btn": "Start",
+        "result_title": "Du bist ein",
+        "share_btn": "Aktie",
+        "retry_btn": "Versuchen Sie es erneut",
+        "progress": "Frage {aktuell} von {gesamt}"
+      }
+    }
+  },
+  "animals": [
+    {
+      "id": "lion",
+      "emoji": "🦁",
+      "i18n": {
+        "ua": {
+          "name": "Лев",
+          "description": "Ти народжений вести за собою. Впевнений, рішучий і захищаєш тих, хто поруч. Люди відчувають твою силу і тягнуться до тебе.",
+          "traits": [
+            "Лідерство",
+            "Сміливість",
+            "Гордість"
+          ]
+        },
+        "en": {
+          "name": "Lion",
+          "description": "You were born to lead. Confident, decisive, and protective of those around you. People feel your strength and are drawn to you.",
+          "traits": [
+            "Leadership",
+            "Courage",
+            "Pride"
+          ]
+        },
+        "es": {
+          "name": "León",
+          "description": "Naciste para liderar. Eres seguro de ti mismo, decidido y protector con quienes te rodean. La gente percibe tu fortaleza y se siente atraída hacia ti.",
+          "traits": [
+            "Liderazgo",
+            "Coraje",
+            "Orgullo"
+          ]
+        },
+        "de": {
+          "name": "Löwe",
+          "description": "Du bist eine geborene Führungspersönlichkeit. Selbstbewusst, entschlossen und beschützend gegenüber deinen Mitmenschen. Die Menschen spüren deine Stärke und fühlen sich zu dir hingezogen.",
+          "traits": [
+            "Führung",
+            "Mut",
+            "Stolz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fox",
+      "emoji": "🦊",
+      "i18n": {
+        "ua": {
+          "name": "Лисиця",
+          "description": "Ти завжди на крок попереду. Знаходиш вихід там, де інші бачать глухий кут. Чарівний і непередбачуваний.",
+          "traits": [
+            "Хитрість",
+            "Харизма",
+            "Адаптивність"
+          ]
+        },
+        "en": {
+          "name": "Fox",
+          "description": "You're always one step ahead. You find a way where others see a dead end. Charming and unpredictable.",
+          "traits": [
+            "Cleverness",
+            "Charisma",
+            "Adaptability"
+          ]
+        },
+        "es": {
+          "name": "Zorro",
+          "description": "Siempre vas un paso por delante. Encuentras una solución donde otros ven un callejón sin salida. Encantador e impredecible.",
+          "traits": [
+            "Astucia",
+            "Carisma",
+            "Adaptabilidad"
+          ]
+        },
+        "de": {
+          "name": "Fuchs",
+          "description": "Du bist immer einen Schritt voraus. Du findest einen Weg, wo andere nur eine Sackgasse sehen. Charmant und unberechenbar.",
+          "traits": [
+            "Klugheit",
+            "Charisma",
+            "Anpassungsfähigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "wolf",
+      "emoji": "🐺",
+      "i18n": {
+        "ua": {
+          "name": "Вовк",
+          "description": "Ти цінуєш зграю більше за все. Мовчазний, але надійний — на тебе завжди можна покластись у найтяжчу мить.",
+          "traits": [
+            "Вірність",
+            "Інстинкт",
+            "Сила духу"
+          ]
+        },
+        "en": {
+          "name": "Wolf",
+          "description": "You value your pack above all. Silent but reliable — people can always count on you in the hardest moments.",
+          "traits": [
+            "Loyalty",
+            "Instinct",
+            "Resilience"
+          ]
+        },
+        "es": {
+          "name": "Lobo",
+          "description": "Valoras a tu manada por encima de todo. Silencioso pero confiable: la gente siempre puede contar contigo en los momentos más difíciles.",
+          "traits": [
+            "Lealtad",
+            "Instinto",
+            "Resiliencia"
+          ]
+        },
+        "de": {
+          "name": "Wolf",
+          "description": "Deine Familie steht für dich an erster Stelle. Du bist still, aber verlässlich – in den schwierigsten Momenten können sich die Menschen immer auf dich verlassen.",
+          "traits": [
+            "Loyalität",
+            "Instinkt",
+            "Widerstandsfähigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "owl",
+      "emoji": "🦉",
+      "i18n": {
+        "ua": {
+          "name": "Сова",
+          "description": "Ти думаєш, перш ніж діяти. Бачиш те, що інші пропускають. Твоя порада завжди влучна і зважена.",
+          "traits": [
+            "Мудрість",
+            "Спостережливість",
+            "Терпіння"
+          ]
+        },
+        "en": {
+          "name": "Owl",
+          "description": "You think before you act. You see what others miss. Your advice is always precise and well-considered.",
+          "traits": [
+            "Wisdom",
+            "Observation",
+            "Patience"
+          ]
+        },
+        "es": {
+          "name": "Búho",
+          "description": "Piensas antes de actuar. Ves lo que otros pasan por alto. Tus consejos siempre son precisos y bien meditados.",
+          "traits": [
+            "Sabiduría",
+            "Observación",
+            "Paciencia"
+          ]
+        },
+        "de": {
+          "name": "Eule",
+          "description": "Du denkst nach, bevor du handelst. Du siehst, was anderen entgeht. Deine Ratschläge sind stets präzise und wohlüberlegt.",
+          "traits": [
+            "Weisheit",
+            "Beobachtung",
+            "Geduld"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dolphin",
+      "emoji": "🐬",
+      "i18n": {
+        "ua": {
+          "name": "Дельфін",
+          "description": "Ти заряджаєш всіх навколо позитивом. Легко знаходиш спільну мову з будь-ким і робиш світ трохи кращим.",
+          "traits": [
+            "Радість",
+            "Емпатія",
+            "Грайливість"
+          ]
+        },
+        "en": {
+          "name": "Dolphin",
+          "description": "You energize everyone around you with positivity. You connect easily with anyone and make the world a little better.",
+          "traits": [
+            "Joy",
+            "Empathy",
+            "Playfulness"
+          ]
+        },
+        "es": {
+          "name": "Delfín",
+          "description": "Transmites energía positiva a todos los que te rodean. Conectas fácilmente con cualquier persona y haces del mundo un lugar un poco mejor.",
+          "traits": [
+            "Alegría",
+            "Empatía",
+            "Alegría"
+          ]
+        },
+        "de": {
+          "name": "Delphin",
+          "description": "Du steckst alle um dich herum mit deiner positiven Energie in ihren Bann. Du knüpfst mühelos Kontakte zu jedem und trägst dazu bei, die Welt ein Stückchen besser zu machen.",
+          "traits": [
+            "Freude",
+            "Empathie",
+            "Verspieltheit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "eagle",
+      "emoji": "🦅",
+      "i18n": {
+        "ua": {
+          "name": "Орел",
+          "description": "Ти бачиш картину цілком і ніколи не розмінюєшся на дрібниці. Незалежний і амбітний — небо для тебе замало.",
+          "traits": [
+            "Свобода",
+            "Гострий зір",
+            "Незалежність"
+          ]
+        },
+        "en": {
+          "name": "Eagle",
+          "description": "You see the big picture and never sweat the small stuff. Independent and ambitious — even the sky isn't enough for you.",
+          "traits": [
+            "Freedom",
+            "Vision",
+            "Independence"
+          ]
+        },
+        "es": {
+          "name": "Águila",
+          "description": "Ves el panorama general y no te preocupas por las pequeñeces. Independiente y ambiciosa: ni siquiera el cielo te basta.",
+          "traits": [
+            "Libertad",
+            "Visión",
+            "Independencia"
+          ]
+        },
+        "de": {
+          "name": "Adler",
+          "description": "Du behältst den Überblick und lässt dich von Kleinigkeiten nicht beirren. Unabhängig und ehrgeizig – selbst der Himmel ist dir nicht genug.",
+          "traits": [
+            "Freiheit",
+            "Vision",
+            "Unabhängigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bear",
+      "emoji": "🐻",
+      "i18n": {
+        "ua": {
+          "name": "Ведмідь",
+          "description": "Ти — скеля для близьких. Не кричиш, але всі знають: за тобою надійно. Добродушний, але не слід переходити межу.",
+          "traits": [
+            "Надійність",
+            "Спокій",
+            "Захист"
+          ]
+        },
+        "en": {
+          "name": "Bear",
+          "description": "You're a rock for those close to you. You don't shout, but everyone knows they're safe with you. Good-natured, but don't cross the line.",
+          "traits": [
+            "Reliability",
+            "Calm",
+            "Protection"
+          ]
+        },
+        "es": {
+          "name": "Oso",
+          "description": "Eres un pilar para tus seres queridos. No gritas, pero todos saben que están a salvo contigo. De buen carácter, pero no te pases de la raya.",
+          "traits": [
+            "Fiabilidad",
+            "Calma",
+            "Protección"
+          ]
+        },
+        "de": {
+          "name": "Tragen",
+          "description": "Du bist ein Fels in der Brandung für deine Lieben. Du bist nicht laut, aber jeder weiß, dass er sich bei dir sicher fühlt. Gutmütig, aber überschreite niemals die Grenze.",
+          "traits": [
+            "Zuverlässigkeit",
+            "Ruhig",
+            "Schutz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cat",
+      "emoji": "🐱",
+      "i18n": {
+        "ua": {
+          "name": "Кіт",
+          "description": "Ти живеш за своїми правилами. Мила зовні, але ніхто не знає, що у тебе на думці. Граціозний і трохи таємничий.",
+          "traits": [
+            "Незалежність",
+            "Елегантність",
+            "Цікавість"
+          ]
+        },
+        "en": {
+          "name": "Cat",
+          "description": "You live by your own rules. Cute on the outside, but nobody knows what's on your mind. Graceful and a little mysterious.",
+          "traits": [
+            "Independence",
+            "Elegance",
+            "Curiosity"
+          ]
+        },
+        "es": {
+          "name": "Gato",
+          "description": "Vives según tus propias reglas. Eres encantadora por fuera, pero nadie sabe lo que piensas. Elegante y un tanto misteriosa.",
+          "traits": [
+            "Independencia",
+            "Elegancia",
+            "Curiosidad"
+          ]
+        },
+        "de": {
+          "name": "Katze",
+          "description": "Du lebst nach deinen eigenen Regeln. Äußerlich lieblich, doch niemand ahnt, was in dir vorgeht. Anmutig und ein wenig geheimnisvoll.",
+          "traits": [
+            "Unabhängigkeit",
+            "Eleganz",
+            "Neugier"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dog",
+      "emoji": "🐶",
+      "i18n": {
+        "ua": {
+          "name": "Собака",
+          "description": "Ти — найкращий друг. Щирий, відданий і завжди поруч. Твоя енергія і любов заряджають всіх навколо.",
+          "traits": [
+            "Відданість",
+            "Щирість",
+            "Ентузіазм"
+          ]
+        },
+        "en": {
+          "name": "Dog",
+          "description": "You're the best friend anyone could have. Sincere, loyal, and always there. Your energy and love charge everyone around.",
+          "traits": [
+            "Loyalty",
+            "Sincerity",
+            "Enthusiasm"
+          ]
+        },
+        "es": {
+          "name": "Perro",
+          "description": "Eres el mejor amigo que cualquiera podría tener. Sincero, leal y siempre presente. Tu energía y tu cariño contagian a todos a tu alrededor.",
+          "traits": [
+            "Lealtad",
+            "Sinceridad",
+            "Entusiasmo"
+          ]
+        },
+        "de": {
+          "name": "Hund",
+          "description": "Du bist die beste Freundin, die man sich wünschen kann. Aufrichtig, loyal und immer für einen da. Deine Energie und Liebe stecken alle um dich herum an.",
+          "traits": [
+            "Loyalität",
+            "Aufrichtigkeit",
+            "Begeisterung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "elephant",
+      "emoji": "🐘",
+      "i18n": {
+        "ua": {
+          "name": "Слон",
+          "description": "Ти пам'ятаєш усе і дбаєш про кожного. Спокійний велетень з великим серцем — твоя присутність заспокоює.",
+          "traits": [
+            "Пам'ять",
+            "Мудрість",
+            "Турбота"
+          ]
+        },
+        "en": {
+          "name": "Elephant",
+          "description": "You remember everything and care for everyone. A calm giant with a big heart — your presence is soothing.",
+          "traits": [
+            "Memory",
+            "Wisdom",
+            "Care"
+          ]
+        },
+        "es": {
+          "name": "Elefante",
+          "description": "Lo recuerdas todo y te preocupas por todos. Un gigante sereno con un gran corazón: tu presencia es reconfortante.",
+          "traits": [
+            "Memoria",
+            "Sabiduría",
+            "Cuidado"
+          ]
+        },
+        "de": {
+          "name": "Elefant",
+          "description": "Du erinnerst dich an alles und kümmerst dich um alle. Ein ruhiger Riese mit einem großen Herzen – deine Anwesenheit ist wohltuend.",
+          "traits": [
+            "Erinnerung",
+            "Weisheit",
+            "Pflege"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cheetah",
+      "emoji": "🐆",
+      "i18n": {
+        "ua": {
+          "name": "Гепард",
+          "description": "Ти дієш блискавично. Коли маєш ціль — ніщо не зупинить. Живеш у моменті й насолоджуєшся швидкістю.",
+          "traits": [
+            "Швидкість",
+            "Фокус",
+            "Рішучість"
+          ]
+        },
+        "en": {
+          "name": "Cheetah",
+          "description": "You act in a flash. When you have a goal — nothing can stop you. You live in the moment and love the speed.",
+          "traits": [
+            "Speed",
+            "Focus",
+            "Decisiveness"
+          ]
+        },
+        "es": {
+          "name": "Guepardo",
+          "description": "Actúas con rapidez. Cuando tienes un objetivo, nada te detiene. Vives el momento y te encanta la velocidad.",
+          "traits": [
+            "Velocidad",
+            "Enfocar",
+            "Decisión"
+          ]
+        },
+        "de": {
+          "name": "Gepard",
+          "description": "Du handelst blitzschnell. Wenn du ein Ziel hast, kann dich nichts aufhalten. Du lebst im Augenblick und liebst die Geschwindigkeit.",
+          "traits": [
+            "Geschwindigkeit",
+            "Fokus",
+            "Entschlusskraft"
+          ]
+        }
+      }
+    },
+    {
+      "id": "penguin",
+      "emoji": "🐧",
+      "i18n": {
+        "ua": {
+          "name": "Пінгвін",
+          "description": "Ти смішний, але серйозний там де треба. Піклуєшся про близьких і ніколи не кидаєш команду в скрутну хвилину.",
+          "traits": [
+            "Відданість",
+            "Командність",
+            "Гумор"
+          ]
+        },
+        "en": {
+          "name": "Penguin",
+          "description": "Funny but serious when needed. You care for those close to you and never abandon your team in a tough moment.",
+          "traits": [
+            "Loyalty",
+            "Teamwork",
+            "Humor"
+          ]
+        },
+        "es": {
+          "name": "Pingüino",
+          "description": "Divertido pero serio cuando es necesario. Te preocupas por tus seres queridos y nunca abandonas a tu equipo en los momentos difíciles.",
+          "traits": [
+            "Lealtad",
+            "Trabajo en equipo",
+            "Humor"
+          ]
+        },
+        "de": {
+          "name": "Pinguin",
+          "description": "Humorvoll, aber bei Bedarf auch ernst. Du kümmerst dich um deine Lieben und lässt dein Team in schwierigen Zeiten nie im Stich.",
+          "traits": [
+            "Loyalität",
+            "Teamarbeit",
+            "Humor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "octopus",
+      "emoji": "🐙",
+      "i18n": {
+        "ua": {
+          "name": "Восьминіг",
+          "description": "Ти одночасно думаєш у кількох напрямках. Нестандартний підхід — твоя суперсила. Ніколи не дієш за шаблоном.",
+          "traits": [
+            "Інтелект",
+            "Гнучкість",
+            "Творчість"
+          ]
+        },
+        "en": {
+          "name": "Octopus",
+          "description": "You think in multiple directions at once. An unconventional approach is your superpower. You never follow a template.",
+          "traits": [
+            "Intelligence",
+            "Flexibility",
+            "Creativity"
+          ]
+        },
+        "es": {
+          "name": "Pulpo",
+          "description": "Piensas en múltiples direcciones a la vez. Tu superpoder es un enfoque poco convencional. Nunca sigues un modelo preestablecido.",
+          "traits": [
+            "Inteligencia",
+            "Flexibilidad",
+            "Creatividad"
+          ]
+        },
+        "de": {
+          "name": "Oktopus",
+          "description": "Sie denken in mehrere Richtungen gleichzeitig. Ihre Stärke liegt in Ihrer unkonventionellen Herangehensweise. Sie folgen niemals einer Vorlage.",
+          "traits": [
+            "Intelligenz",
+            "Flexibilität",
+            "Kreativität"
+          ]
+        }
+      }
+    },
+    {
+      "id": "butterfly",
+      "emoji": "🦋",
+      "i18n": {
+        "ua": {
+          "name": "Метелик",
+          "description": "Ти постійно змінюєшся і стаєш кращою версією себе. Твоя присутність надихає і приносить радість.",
+          "traits": [
+            "Трансформація",
+            "Краса",
+            "Легкість"
+          ]
+        },
+        "en": {
+          "name": "Butterfly",
+          "description": "You're constantly changing and becoming a better version of yourself. Your presence inspires and brings joy.",
+          "traits": [
+            "Transformation",
+            "Beauty",
+            "Lightness"
+          ]
+        },
+        "es": {
+          "name": "Mariposa",
+          "description": "Estás en constante evolución y te conviertes en una mejor versión de ti mismo. Tu presencia inspira y trae alegría.",
+          "traits": [
+            "Transformación",
+            "Belleza",
+            "Ligereza"
+          ]
+        },
+        "de": {
+          "name": "Schmetterling",
+          "description": "Du veränderst dich ständig und wirst zu einer besseren Version deiner selbst. Deine Anwesenheit inspiriert und schenkt Freude.",
+          "traits": [
+            "Transformation",
+            "Schönheit",
+            "Leichtigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "parrot",
+      "emoji": "🦜",
+      "i18n": {
+        "ua": {
+          "name": "Папуга",
+          "description": "Ти ніколи не мовчиш і заповнюєш кімнату кольорами. Товариський, яскравий і завжди в центрі уваги.",
+          "traits": [
+            "Комунікація",
+            "Яскравість",
+            "Соціальність"
+          ]
+        },
+        "en": {
+          "name": "Parrot",
+          "description": "You're never silent and fill any room with color. Social, vibrant, and always at the center of attention.",
+          "traits": [
+            "Communication",
+            "Vibrancy",
+            "Sociability"
+          ]
+        },
+        "es": {
+          "name": "Loro",
+          "description": "Nunca te quedas callada y llenas cualquier lugar de color. Sociable, vibrante y siempre en el centro de atención.",
+          "traits": [
+            "Comunicación",
+            "Vibración",
+            "Sociabilidad"
+          ]
+        },
+        "de": {
+          "name": "Papagei",
+          "description": "Du bist nie still und erfüllst jeden Raum mit Farbe. Gesellig, lebhaft und immer im Mittelpunkt der Aufmerksamkeit.",
+          "traits": [
+            "Kommunikation",
+            "Lebendigkeit",
+            "Geselligkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "turtle",
+      "emoji": "🐢",
+      "i18n": {
+        "ua": {
+          "name": "Черепаха",
+          "description": "Ти не поспішаєш, але завжди досягаєш мети. Твоя повільна і впевнена хода веде далі, ніж будь-який спринт.",
+          "traits": [
+            "Мудрість",
+            "Терпіння",
+            "Стійкість"
+          ]
+        },
+        "en": {
+          "name": "Turtle",
+          "description": "You don't rush, but you always reach your goal. Your slow and steady pace takes you further than any sprint.",
+          "traits": [
+            "Wisdom",
+            "Patience",
+            "Steadiness"
+          ]
+        },
+        "es": {
+          "name": "Tortuga",
+          "description": "No te apresuras, pero siempre alcanzas tu meta. Tu ritmo lento y constante te lleva más lejos que cualquier carrera de velocidad.",
+          "traits": [
+            "Sabiduría",
+            "Paciencia",
+            "Firmeza"
+          ]
+        },
+        "de": {
+          "name": "Schildkröte",
+          "description": "Du eilst nicht, erreichst aber immer dein Ziel. Dein langsames und stetiges Tempo bringt dich weiter als jeder Sprint.",
+          "traits": [
+            "Weisheit",
+            "Geduld",
+            "Gleichmäßigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "horse",
+      "emoji": "🐴",
+      "i18n": {
+        "ua": {
+          "name": "Кінь",
+          "description": "Ти не терпиш клітки. Сильний, вільний і пристрасний — тебе неможливо зупинити, коли ти мчиш до мрії.",
+          "traits": [
+            "Свобода",
+            "Гордість",
+            "Сила"
+          ]
+        },
+        "en": {
+          "name": "Horse",
+          "description": "You can't stand being caged. Strong, free, and passionate — nothing can stop you when you're racing toward your dream.",
+          "traits": [
+            "Freedom",
+            "Pride",
+            "Strength"
+          ]
+        },
+        "es": {
+          "name": "Caballo",
+          "description": "No soportas sentirte enjaulado. Fuerte, libre y apasionado: nada puede detenerte cuando corres hacia tu sueño.",
+          "traits": [
+            "Libertad",
+            "Orgullo",
+            "Fortaleza"
+          ]
+        },
+        "de": {
+          "name": "Pferd",
+          "description": "Du kannst es nicht ertragen, eingesperrt zu sein. Stark, frei und leidenschaftlich – nichts kann dich aufhalten, wenn du deinem Traum entgegenstrebst.",
+          "traits": [
+            "Freiheit",
+            "Stolz",
+            "Stärke"
+          ]
+        }
+      }
+    },
+    {
+      "id": "peacock",
+      "emoji": "🦚",
+      "i18n": {
+        "ua": {
+          "name": "Павич",
+          "description": "Ти не боїшся виділятись. Знаєш собі ціну і не соромишся це показувати. Твій стиль — це твоє послання світу.",
+          "traits": [
+            "Самовираження",
+            "Краса",
+            "Впевненість"
+          ]
+        },
+        "en": {
+          "name": "Peacock",
+          "description": "You're not afraid to stand out. You know your worth and aren't shy about showing it. Your style is your message to the world.",
+          "traits": [
+            "Self-expression",
+            "Beauty",
+            "Confidence"
+          ]
+        },
+        "es": {
+          "name": "Pavo real",
+          "description": "No tienes miedo de destacar. Conoces tu valía y no te da vergüenza demostrarlo. Tu estilo es tu mensaje al mundo.",
+          "traits": [
+            "Autoexpresión",
+            "Belleza",
+            "Confianza"
+          ]
+        },
+        "de": {
+          "name": "Pfau",
+          "description": "Du hast keine Angst, aufzufallen. Du kennst deinen Wert und zeigst ihn selbstbewusst. Dein Stil ist deine Botschaft an die Welt.",
+          "traits": [
+            "Selbstausdruck",
+            "Schönheit",
+            "Vertrauen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rabbit",
+      "emoji": "🐰",
+      "i18n": {
+        "ua": {
+          "name": "Кролик",
+          "description": "Ти чуйний і уважний до деталей. Швидко реагуєш, добре слухаєш і цінуєш затишок і близьких людей.",
+          "traits": [
+            "Швидкість",
+            "Ніжність",
+            "Обережність"
+          ]
+        },
+        "en": {
+          "name": "Rabbit",
+          "description": "You're sensitive and attentive to detail. Quick to react, a good listener, and you treasure comfort and the people close to you.",
+          "traits": [
+            "Quickness",
+            "Gentleness",
+            "Caution"
+          ]
+        },
+        "es": {
+          "name": "Conejo",
+          "description": "Eres sensible y atento a los detalles. Reaccionas con rapidez, sabes escuchar y valoras la comodidad y a las personas cercanas a ti.",
+          "traits": [
+            "Rapidez",
+            "Dulzura",
+            "Precaución"
+          ]
+        },
+        "de": {
+          "name": "Kaninchen",
+          "description": "Du bist einfühlsam und achtest auf Details. Du reagierst schnell, bist ein guter Zuhörer und legst Wert auf Geborgenheit und die Menschen, die dir nahestehen.",
+          "traits": [
+            "Schnelligkeit",
+            "Sanftmut",
+            "Vorsicht"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tiger",
+      "emoji": "🐯",
+      "i18n": {
+        "ua": {
+          "name": "Тигр",
+          "description": "Ти поєднуєш красу і небезпеку. Пристрасний і непередбачуваний — дієш на інстинкті і завжди виграєш.",
+          "traits": [
+            "Пристрасть",
+            "Сила",
+            "Незалежність"
+          ]
+        },
+        "en": {
+          "name": "Tiger",
+          "description": "You combine beauty and danger. Passionate and unpredictable — you act on instinct and always win.",
+          "traits": [
+            "Passion",
+            "Strength",
+            "Independence"
+          ]
+        },
+        "es": {
+          "name": "Tigre",
+          "description": "Combinas belleza y peligro. Apasionada e impredecible, actúas por instinto y siempre ganas.",
+          "traits": [
+            "Pasión",
+            "Fortaleza",
+            "Independencia"
+          ]
+        },
+        "de": {
+          "name": "Tiger",
+          "description": "Du vereinest Schönheit und Gefahr. Leidenschaftlich und unberechenbar – du handelst instinktiv und gewinnst immer.",
+          "traits": [
+            "Hingabe",
+            "Stärke",
+            "Unabhängigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "monkey",
+      "emoji": "🐒",
+      "i18n": {
+        "ua": {
+          "name": "Мавпа",
+          "description": "Тобі нудно сидіти на місці. Вічно допитливий, веселий і спритний — ти той, хто оживляє будь-яку компанію.",
+          "traits": [
+            "Допитливість",
+            "Гумор",
+            "Спритність"
+          ]
+        },
+        "en": {
+          "name": "Monkey",
+          "description": "Sitting still bores you. Forever curious, funny, and nimble — you're the one who brings any gathering to life.",
+          "traits": [
+            "Curiosity",
+            "Humor",
+            "Agility"
+          ]
+        },
+        "es": {
+          "name": "Mono",
+          "description": "Te aburre estar quieto. Siempre curioso, divertido y ágil, eres quien anima cualquier reunión.",
+          "traits": [
+            "Curiosidad",
+            "Humor",
+            "Agilidad"
+          ]
+        },
+        "de": {
+          "name": "Affe",
+          "description": "Stillsitzen langweilt dich. Du bist stets neugierig, humorvoll und agil – und genau das bringt du in jede Gesellschaft Leben.",
+          "traits": [
+            "Neugier",
+            "Humor",
+            "Beweglichkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "flamingo",
+      "emoji": "🦩",
+      "i18n": {
+        "ua": {
+          "name": "Фламінго",
+          "description": "Ти стоїш на своєму, навіть коли це незручно. Витончений і особливий — ти не такий, як всі, і пишаєшся цим.",
+          "traits": [
+            "Витонченість",
+            "Баланс",
+            "Унікальність"
+          ]
+        },
+        "en": {
+          "name": "Flamingo",
+          "description": "You stand your ground even when it's uncomfortable. Elegant and unique — you're not like everyone else, and you're proud of it.",
+          "traits": [
+            "Elegance",
+            "Balance",
+            "Uniqueness"
+          ]
+        },
+        "es": {
+          "name": "Flamenco",
+          "description": "Te mantienes firme incluso en las situaciones más incómodas. Elegante y única, no eres como las demás, y estás orgullosa de ello.",
+          "traits": [
+            "Elegancia",
+            "Balance",
+            "Unicidad"
+          ]
+        },
+        "de": {
+          "name": "Flamingo",
+          "description": "Du bleibst standhaft, auch wenn es unangenehm ist. Elegant und einzigartig – du bist nicht wie alle anderen, und darauf bist du stolz.",
+          "traits": [
+            "Eleganz",
+            "Gleichgewicht",
+            "Einzigartigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shark",
+      "emoji": "🦈",
+      "i18n": {
+        "ua": {
+          "name": "Акула",
+          "description": "Ти ніколи не зупиняєшся. Цілеспрямований і холоднокровний у досягненні мети — тебе не збити з курсу.",
+          "traits": [
+            "Рішучість",
+            "Фокус",
+            "Амбіції"
+          ]
+        },
+        "en": {
+          "name": "Shark",
+          "description": "You never stop moving. Goal-driven and cool-headed — nothing can throw you off course.",
+          "traits": [
+            "Decisiveness",
+            "Focus",
+            "Ambition"
+          ]
+        },
+        "es": {
+          "name": "Tiburón",
+          "description": "Nunca dejas de moverte. Orientado a objetivos y con la cabeza fría: nada puede desviarte de tu camino.",
+          "traits": [
+            "Decisión",
+            "Enfocar",
+            "Ambición"
+          ]
+        },
+        "de": {
+          "name": "Hai",
+          "description": "Du bist immer in Bewegung. Zielstrebig und besonnen – nichts kann dich vom Kurs abbringen.",
+          "traits": [
+            "Entschlusskraft",
+            "Fokus",
+            "Ehrgeiz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "deer",
+      "emoji": "🦌",
+      "i18n": {
+        "ua": {
+          "name": "Олень",
+          "description": "Ти відчуваєш настрій кімнати до того як увійти. Ніжний і уважний — поруч з тобою завжди спокійно.",
+          "traits": [
+            "Граційність",
+            "Чутливість",
+            "Інтуїція"
+          ]
+        },
+        "en": {
+          "name": "Deer",
+          "description": "You sense the mood of a room before you even enter. Gentle and attentive — people always feel calm around you.",
+          "traits": [
+            "Grace",
+            "Sensitivity",
+            "Intuition"
+          ]
+        },
+        "es": {
+          "name": "Ciervo",
+          "description": "Percibes el ambiente de una habitación incluso antes de entrar. Amable y atento: la gente siempre se siente tranquila a tu alrededor.",
+          "traits": [
+            "Gracia",
+            "Sensibilidad",
+            "Intuición"
+          ]
+        },
+        "de": {
+          "name": "Reh",
+          "description": "Du spürst die Atmosphäre eines Raumes, noch bevor du ihn betrittst. Sanft und aufmerksam – die Menschen fühlen sich in deiner Nähe stets wohl.",
+          "traits": [
+            "Anmut",
+            "Empfindlichkeit",
+            "Intuition"
+          ]
+        }
+      }
+    },
+    {
+      "id": "crow",
+      "emoji": "🐦‍⬛",
+      "i18n": {
+        "ua": {
+          "name": "Ворона",
+          "description": "Ти бачиш більше, ніж показуєш. Гострий розум і пам'ять на деталі роблять тебе непереможним стратегом.",
+          "traits": [
+            "Інтелект",
+            "Спостережливість",
+            "Хитрість"
+          ]
+        },
+        "en": {
+          "name": "Crow",
+          "description": "You see more than you show. A sharp mind and memory for detail make you an unbeatable strategist.",
+          "traits": [
+            "Intelligence",
+            "Observation",
+            "Cunning"
+          ]
+        },
+        "es": {
+          "name": "Cuervo",
+          "description": "Ves más de lo que muestras. Una mente aguda y una memoria prodigiosa para los detalles te convierten en un estratega imbatible.",
+          "traits": [
+            "Inteligencia",
+            "Observación",
+            "Astuto"
+          ]
+        },
+        "de": {
+          "name": "Krähe",
+          "description": "Du siehst mehr, als du zeigst. Ein scharfer Verstand und ein ausgeprägtes Gedächtnis für Details machen dich zu einem unschlagbaren Strategen.",
+          "traits": [
+            "Intelligenz",
+            "Beobachtung",
+            "Listig"
+          ]
+        }
+      }
+    },
+    {
+      "id": "otter",
+      "emoji": "🦦",
+      "i18n": {
+        "ua": {
+          "name": "Видра",
+          "description": "Ти перетворюєш буденність на пригоду. Завжди у гарному настрої, любиш близьких і береш від життя максимум.",
+          "traits": [
+            "Грайливість",
+            "Тепло",
+            "Допитливість"
+          ]
+        },
+        "en": {
+          "name": "Otter",
+          "description": "You turn the everyday into an adventure. Always in a good mood, loving to those close to you, and squeezing the most out of life.",
+          "traits": [
+            "Playfulness",
+            "Warmth",
+            "Curiosity"
+          ]
+        },
+        "es": {
+          "name": "Nutria",
+          "description": "Conviertes lo cotidiano en una aventura. Siempre de buen humor, cariñoso con tus seres queridos y disfrutando al máximo de la vida.",
+          "traits": [
+            "Alegría",
+            "Calor",
+            "Curiosidad"
+          ]
+        },
+        "de": {
+          "name": "Otter",
+          "description": "Du machst aus jedem Tag ein Abenteuer. Du bist immer gut gelaunt, liebevoll zu deinen Lieben und genießt das Leben in vollen Zügen.",
+          "traits": [
+            "Verspieltheit",
+            "Wärme",
+            "Neugier"
+          ]
+        }
+      }
+    },
+    {
+      "id": "snow_leopard",
+      "emoji": "🐈‍⬛",
+      "i18n": {
+        "ua": {
+          "name": "Сніговий барс",
+          "description": "Ти рідко показуєш себе повністю. Загадковий і самодостатній — ті, хто тебе знає справді, вважають це привілеєм.",
+          "traits": [
+            "Таємничість",
+            "Самодостатність",
+            "Грація"
+          ]
+        },
+        "en": {
+          "name": "Snow Leopard",
+          "description": "You rarely show yourself fully. Mysterious and self-sufficient — those who truly know you consider it a privilege.",
+          "traits": [
+            "Mystery",
+            "Self-sufficiency",
+            "Grace"
+          ]
+        },
+        "es": {
+          "name": "Onza",
+          "description": "Rara vez te muestras por completo. Misterioso y autosuficiente: quienes te conocen de verdad lo consideran un privilegio.",
+          "traits": [
+            "Misterio",
+            "Autosuficiencia",
+            "Gracia"
+          ]
+        },
+        "de": {
+          "name": "Schneeleopard",
+          "description": "Du zeigst dich selten ganz. Geheimnisvoll und in sich gekehrt – diejenigen, die dich wirklich kennen, betrachten es als ein Privileg.",
+          "traits": [
+            "Geheimnis",
+            "Selbstversorgung",
+            "Anmut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "panda",
+      "emoji": "🐼",
+      "i18n": {
+        "ua": {
+          "name": "Панда",
+          "description": "Ти випромінюєш спокій і гармонію. Ніжний і врівноважений — поруч з тобою все стає простіше і тепліше.",
+          "traits": [
+            "Спокій",
+            "Доброта",
+            "Баланс"
+          ]
+        },
+        "en": {
+          "name": "Panda",
+          "description": "You radiate calm and harmony. Gentle and balanced — everything feels simpler and warmer when you're around.",
+          "traits": [
+            "Calm",
+            "Kindness",
+            "Balance"
+          ]
+        },
+        "es": {
+          "name": "Panda",
+          "description": "Transmites calma y armonía. Eres amable y equilibrada; todo se siente más sencillo y cálido cuando estás cerca.",
+          "traits": [
+            "Calma",
+            "Amabilidad",
+            "Balance"
+          ]
+        },
+        "de": {
+          "name": "Panda",
+          "description": "Du strahlst Ruhe und Harmonie aus. Sanft und ausgeglichen – alles fühlt sich einfacher und wärmer an, wenn du da bist.",
+          "traits": [
+            "Ruhig",
+            "Freundlichkeit",
+            "Gleichgewicht"
+          ]
+        }
+      }
+    },
+    {
+      "id": "chameleon",
+      "emoji": "🦎",
+      "i18n": {
+        "ua": {
+          "name": "Хамелеон",
+          "description": "Ти адаптуєшся до будь-якої ситуації. Спостережливий і гнучкий — ти бачиш те, що інші не помічають, і завжди знаходиш своє місце.",
+          "traits": [
+            "Адаптивність",
+            "Спостережливість",
+            "Універсальність"
+          ]
+        },
+        "en": {
+          "name": "Chameleon",
+          "description": "You adapt to any situation. Observant and versatile — you see what others miss and always find your place.",
+          "traits": [
+            "Adaptability",
+            "Observation",
+            "Versatility"
+          ]
+        },
+        "es": {
+          "name": "Camaleón",
+          "description": "Te adaptas a cualquier situación. Eres observador y versátil: ves lo que otros pasan por alto y siempre encuentras tu lugar.",
+          "traits": [
+            "Adaptabilidad",
+            "Observación",
+            "Versatilidad"
+          ]
+        },
+        "de": {
+          "name": "Chamäleon",
+          "description": "Du passt dich jeder Situation an. Aufmerksam und vielseitig – du siehst, was anderen entgeht, und findest immer deinen Platz.",
+          "traits": [
+            "Anpassungsfähigkeit",
+            "Beobachtung",
+            "Vielseitigkeit"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hedgehog",
+      "emoji": "🦔",
+      "i18n": {
+        "ua": {
+          "name": "Їжак",
+          "description": "Ти колючий ззовні, але теплий всередині. Обережний з новими людьми, але для близьких — найзатишніша душа.",
+          "traits": [
+            "Затишність",
+            "Обережність",
+            "Теплота"
+          ]
+        },
+        "en": {
+          "name": "Hedgehog",
+          "description": "You're prickly on the outside but warm on the inside. Cautious with new people, but the coziest soul for those close to you.",
+          "traits": [
+            "Coziness",
+            "Caution",
+            "Warmth"
+          ]
+        },
+        "es": {
+          "name": "Erizo",
+          "description": "Eres arisca por fuera, pero cálida por dentro. Cauto con la gente nueva, pero la persona más acogedora para tus seres queridos.",
+          "traits": [
+            "Comodidad",
+            "Precaución",
+            "Calor"
+          ]
+        },
+        "de": {
+          "name": "Igel",
+          "description": "Du wirkst nach außen hin abweisend, bist aber im Inneren warmherzig. Fremden gegenüber bist du vorsichtig, doch für deine Liebsten bist du überaus herzlich.",
+          "traits": [
+            "Gemütlichkeit",
+            "Vorsicht",
+            "Wärme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "swan",
+      "emoji": "🦢",
+      "i18n": {
+        "ua": {
+          "name": "Лебідь",
+          "description": "Ти граційний і елегантний у всьому. Вірний у коханні і здатний на глибокі перетворення — твоя краса йде зсередини.",
+          "traits": [
+            "Грація",
+            "Вірність",
+            "Елегантність"
+          ]
+        },
+        "en": {
+          "name": "Swan",
+          "description": "You're graceful and elegant in everything you do. Loyal in love and capable of deep transformation — your beauty comes from within.",
+          "traits": [
+            "Grace",
+            "Loyalty",
+            "Elegance"
+          ]
+        },
+        "es": {
+          "name": "Cisne",
+          "description": "Eres elegante y refinada en todo lo que haces. Leal en el amor y capaz de una profunda transformación: tu belleza emana de tu interior.",
+          "traits": [
+            "Gracia",
+            "Lealtad",
+            "Elegancia"
+          ]
+        },
+        "de": {
+          "name": "Schwan",
+          "description": "Du bist anmutig und elegant in allem, was du tust. Treu in der Liebe und fähig zu tiefgreifender Wandlung – deine Schönheit kommt von innen.",
+          "traits": [
+            "Anmut",
+            "Loyalität",
+            "Eleganz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "koala",
+      "emoji": "🐨",
+      "i18n": {
+        "ua": {
+          "name": "Коала",
+          "description": "Ти знаєш, як насолоджуватись життям. Розслаблений і безтурботний — ти цінуєш комфорт і не ускладнюєш речі.",
+          "traits": [
+            "Розслабленість",
+            "Комфорт",
+            "Безтурботність"
+          ]
+        },
+        "en": {
+          "name": "Koala",
+          "description": "You know how to enjoy life. Relaxed and easygoing — you value comfort and don't overcomplicate things.",
+          "traits": [
+            "Relaxation",
+            "Comfort",
+            "Easygoing"
+          ]
+        },
+        "es": {
+          "name": "Coala",
+          "description": "Sabes disfrutar de la vida. Eres relajado y tranquilo; valoras la comodidad y no te complicas la vida.",
+          "traits": [
+            "Relajación",
+            "Comodidad",
+            "De trato fácil"
+          ]
+        },
+        "de": {
+          "name": "Koala",
+          "description": "Du weißt, wie man das Leben genießt. Entspannt und unkompliziert – du legst Wert auf Komfort und machst die Dinge nicht unnötig kompliziert.",
+          "traits": [
+            "Entspannung",
+            "Komfort",
+            "Unbeschwerte"
+          ]
+        }
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "i18n": {
+        "ua": {
+          "text": "Як ти почуваєшся на великій вечірці?"
+        },
+        "en": {
+          "text": "How do you feel at a big party?"
+        },
+        "es": {
+          "text": "¿Cómo te sientes en una gran fiesta?"
+        },
+        "de": {
+          "text": "Wie fühlst du dich auf einer großen Party?"
+        }
+      },
+      "options": [
+        {
+          "id": "q1a",
+          "i18n": {
+            "ua": {
+              "label": "🎤 В центрі уваги — це моя стихія"
+            },
+            "en": {
+              "label": "🎤 In the spotlight — that's my element"
+            },
+            "es": {
+              "label": "🎤 Estar en el centro de atención: ese es mi elemento."
+            },
+            "de": {
+              "label": "🎤 Im Rampenlicht stehen – das ist mein Element"
+            }
+          },
+          "animals": [
+            "lion",
+            "parrot",
+            "peacock",
+            "dolphin",
+            "monkey"
+          ]
+        },
+        {
+          "id": "q1b",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Спілкуюсь з кількома близькими"
+            },
+            "en": {
+              "label": "🤝 Chatting with a few close people"
+            },
+            "es": {
+              "label": "🤝 Charlando con algunas personas cercanas"
+            },
+            "de": {
+              "label": "🤝 Ich unterhalte mich mit ein paar engen Freunden"
+            }
+          },
+          "animals": [
+            "wolf",
+            "dog",
+            "penguin",
+            "deer",
+            "otter",
+            "panda",
+            "koala"
+          ]
+        },
+        {
+          "id": "q1c",
+          "i18n": {
+            "ua": {
+              "label": "👀 Спостерігаю і вивчаю людей"
+            },
+            "en": {
+              "label": "👀 Observing and studying people"
+            },
+            "es": {
+              "label": "👀 Observar y estudiar a las personas"
+            },
+            "de": {
+              "label": "👀 Menschen beobachten und studieren"
+            }
+          },
+          "animals": [
+            "owl",
+            "fox",
+            "crow",
+            "cat",
+            "snow_leopard",
+            "chameleon"
+          ]
+        },
+        {
+          "id": "q1d",
+          "i18n": {
+            "ua": {
+              "label": "🚪 Шукаю привід піти раніше"
+            },
+            "en": {
+              "label": "🚪 Looking for an excuse to leave early"
+            },
+            "es": {
+              "label": "🚪 Buscando una excusa para irme temprano"
+            },
+            "de": {
+              "label": "🚪 Suche nach einer Ausrede, um früh gehen zu können"
+            }
+          },
+          "animals": [
+            "turtle",
+            "bear",
+            "eagle",
+            "rabbit",
+            "tiger",
+            "hedgehog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "i18n": {
+        "ua": {
+          "text": "Перед важливим рішенням ти..."
+        },
+        "en": {
+          "text": "Before an important decision, you..."
+        },
+        "es": {
+          "text": "Antes de tomar una decisión importante, usted..."
+        },
+        "de": {
+          "text": "Vor einer wichtigen Entscheidung sollten Sie..."
+        }
+      },
+      "options": [
+        {
+          "id": "q2a",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Дієш одразу — інстинкт не підводить"
+            },
+            "en": {
+              "label": "⚡ Act immediately — instinct never fails"
+            },
+            "es": {
+              "label": "⚡ Actúa de inmediato: el instinto nunca falla."
+            },
+            "de": {
+              "label": "⚡ Handle sofort – dein Instinkt trügt dich nie."
+            }
+          },
+          "animals": [
+            "cheetah",
+            "tiger",
+            "shark",
+            "eagle",
+            "fox"
+          ]
+        },
+        {
+          "id": "q2b",
+          "i18n": {
+            "ua": {
+              "label": "🧠 Довго аналізую всі варіанти"
+            },
+            "en": {
+              "label": "🧠 Analyze all options for a long time"
+            },
+            "es": {
+              "label": "🧠 Analizar todas las opciones durante mucho tiempo"
+            },
+            "de": {
+              "label": "🧠 Analysiere alle Optionen lange Zeit"
+            }
+          },
+          "animals": [
+            "owl",
+            "crow",
+            "octopus",
+            "elephant",
+            "turtle",
+            "panda"
+          ]
+        },
+        {
+          "id": "q2c",
+          "i18n": {
+            "ua": {
+              "label": "💬 Раджусь з тими, кому довіряю"
+            },
+            "en": {
+              "label": "💬 Consult with people I trust"
+            },
+            "es": {
+              "label": "💬 Consulta con personas de mi confianza."
+            },
+            "de": {
+              "label": "💬 Ich berate mich mit Personen, denen ich vertraue."
+            }
+          },
+          "animals": [
+            "dog",
+            "wolf",
+            "penguin",
+            "dolphin",
+            "bear"
+          ]
+        },
+        {
+          "id": "q2d",
+          "i18n": {
+            "ua": {
+              "label": "🎲 Покладаюсь на відчуття моменту"
+            },
+            "en": {
+              "label": "🎲 Go with the feeling of the moment"
+            },
+            "es": {
+              "label": "🎲 Déjate llevar por la sensación del momento."
+            },
+            "de": {
+              "label": "🎲 Folge deinem Gefühl des Augenblicks"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "monkey",
+            "parrot",
+            "otter",
+            "flamingo",
+            "chameleon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "i18n": {
+        "ua": {
+          "text": "Що тебе найбільше надихає?"
+        },
+        "en": {
+          "text": "What inspires you the most?"
+        },
+        "es": {
+          "text": "¿Qué es lo que más te inspira?"
+        },
+        "de": {
+          "text": "Was inspiriert dich am meisten?"
+        }
+      },
+      "options": [
+        {
+          "id": "q3a",
+          "i18n": {
+            "ua": {
+              "label": "🏔️ Нові виклики і перемоги"
+            },
+            "en": {
+              "label": "🏔️ New challenges and victories"
+            },
+            "es": {
+              "label": "🏔️ Nuevos retos y victorias"
+            },
+            "de": {
+              "label": "🏔️ Neue Herausforderungen und Siege"
+            }
+          },
+          "animals": [
+            "lion",
+            "shark",
+            "eagle",
+            "cheetah",
+            "tiger"
+          ]
+        },
+        {
+          "id": "q3b",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Природа, тиша, простір"
+            },
+            "en": {
+              "label": "🌿 Nature, silence, open space"
+            },
+            "es": {
+              "label": "🌿 Naturaleza, silencio, espacio abierto"
+            },
+            "de": {
+              "label": "🌿 Natur, Stille, Weite"
+            }
+          },
+          "animals": [
+            "deer",
+            "horse",
+            "bear",
+            "turtle",
+            "snow_leopard",
+            "panda"
+          ]
+        },
+        {
+          "id": "q3c",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Творчість і самовираження"
+            },
+            "en": {
+              "label": "🎨 Creativity and self-expression"
+            },
+            "es": {
+              "label": "🎨 Creatividad y autoexpresión"
+            },
+            "de": {
+              "label": "🎨 Kreativität und Selbstausdruck"
+            }
+          },
+          "animals": [
+            "peacock",
+            "octopus",
+            "butterfly",
+            "flamingo",
+            "parrot",
+            "swan"
+          ]
+        },
+        {
+          "id": "q3d",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Люди та стосунки навколо"
+            },
+            "en": {
+              "label": "❤️ People and relationships around you"
+            },
+            "es": {
+              "label": "❤️ Las personas y las relaciones que te rodean"
+            },
+            "de": {
+              "label": "❤️ Menschen und Beziehungen um dich herum"
+            }
+          },
+          "animals": [
+            "dolphin",
+            "dog",
+            "otter",
+            "rabbit",
+            "penguin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "i18n": {
+        "ua": {
+          "text": "Як ти реагуєш на конфлікт?"
+        },
+        "en": {
+          "text": "How do you react to conflict?"
+        },
+        "es": {
+          "text": "¿Cómo reaccionas ante un conflicto?"
+        },
+        "de": {
+          "text": "Wie reagieren Sie auf Konflikte?"
+        }
+      },
+      "options": [
+        {
+          "id": "q4a",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Відстоюю свою позицію до кінця"
+            },
+            "en": {
+              "label": "🔥 Stand my ground to the end"
+            },
+            "es": {
+              "label": "🔥 Me mantendré firme hasta el final."
+            },
+            "de": {
+              "label": "🔥 Ich bleibe bis zum Schluss standhaft."
+            }
+          },
+          "animals": [
+            "lion",
+            "tiger",
+            "wolf",
+            "shark",
+            "horse"
+          ]
+        },
+        {
+          "id": "q4b",
+          "i18n": {
+            "ua": {
+              "label": "🧩 Шукаю компроміс і рішення"
+            },
+            "en": {
+              "label": "🧩 Look for compromise and solutions"
+            },
+            "es": {
+              "label": "🧩 Busque soluciones y compromisos."
+            },
+            "de": {
+              "label": "🧩 Nach Kompromissen und Lösungen suchen"
+            }
+          },
+          "animals": [
+            "dolphin",
+            "elephant",
+            "owl",
+            "penguin",
+            "bear",
+            "panda"
+          ]
+        },
+        {
+          "id": "q4c",
+          "i18n": {
+            "ua": {
+              "label": "🌀 Уникаю і чекаю доки вляжеться"
+            },
+            "en": {
+              "label": "🌀 Avoid it and wait for it to settle"
+            },
+            "es": {
+              "label": "🌀 Evítalo y espera a que se asiente."
+            },
+            "de": {
+              "label": "🌀 Vermeide es und warte, bis es sich beruhigt hat."
+            }
+          },
+          "animals": [
+            "rabbit",
+            "deer",
+            "turtle",
+            "cat",
+            "snow_leopard",
+            "hedgehog"
+          ]
+        },
+        {
+          "id": "q4d",
+          "i18n": {
+            "ua": {
+              "label": "😄 Розряджаю гумором"
+            },
+            "en": {
+              "label": "😄 Defuse it with humor"
+            },
+            "es": {
+              "label": "😄 Desactívalo con humor"
+            },
+            "de": {
+              "label": "😄 Entschärfe die Situation mit Humor."
+            }
+          },
+          "animals": [
+            "monkey",
+            "otter",
+            "parrot",
+            "dog",
+            "fox"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "i18n": {
+        "ua": {
+          "text": "Який твій ідеальний відпочинок?"
+        },
+        "en": {
+          "text": "What's your ideal rest?"
+        },
+        "es": {
+          "text": "¿Cuál es tu descanso ideal?"
+        },
+        "de": {
+          "text": "Wie sieht Ihre ideale Erholung aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "q5a",
+          "i18n": {
+            "ua": {
+              "label": "🏕️ Похід, природа, фізична активність"
+            },
+            "en": {
+              "label": "🏕️ Hiking, nature, physical activity"
+            },
+            "es": {
+              "label": "🏕️ Senderismo, naturaleza, actividad física"
+            },
+            "de": {
+              "label": "🏕️ Wandern, Natur, körperliche Aktivität"
+            }
+          },
+          "animals": [
+            "wolf",
+            "horse",
+            "eagle",
+            "cheetah",
+            "bear"
+          ]
+        },
+        {
+          "id": "q5b",
+          "i18n": {
+            "ua": {
+              "label": "🎉 Гулянка, друзі, нові знайомства"
+            },
+            "en": {
+              "label": "🎉 Party, friends, new people"
+            },
+            "es": {
+              "label": "🎉 Fiesta, amigos, gente nueva"
+            },
+            "de": {
+              "label": "🎉 Party, Freunde, neue Leute"
+            }
+          },
+          "animals": [
+            "dolphin",
+            "monkey",
+            "parrot",
+            "dog",
+            "otter"
+          ]
+        },
+        {
+          "id": "q5c",
+          "i18n": {
+            "ua": {
+              "label": "📚 Книга, серіал, тиша вдома"
+            },
+            "en": {
+              "label": "📚 Book, series, quiet at home"
+            },
+            "es": {
+              "label": "📚 Libro, serie, tranquilidad en casa"
+            },
+            "de": {
+              "label": "📚 Buch, Serie, Ruhe zu Hause"
+            }
+          },
+          "animals": [
+            "cat",
+            "owl",
+            "turtle",
+            "crow",
+            "snow_leopard",
+            "hedgehog",
+            "koala"
+          ]
+        },
+        {
+          "id": "q5d",
+          "i18n": {
+            "ua": {
+              "label": "✈️ Подорож у нове місце"
+            },
+            "en": {
+              "label": "✈️ Traveling somewhere new"
+            },
+            "es": {
+              "label": "✈️ Viajar a un lugar nuevo"
+            },
+            "de": {
+              "label": "✈️ Reisen an einen neuen Ort"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "flamingo",
+            "fox",
+            "peacock",
+            "octopus",
+            "chameleon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "i18n": {
+        "ua": {
+          "text": "Що про тебе кажуть друзі?"
+        },
+        "en": {
+          "text": "What do your friends say about you?"
+        },
+        "es": {
+          "text": "¿Qué dicen tus amigos de ti?"
+        },
+        "de": {
+          "text": "Was sagen deine Freunde über dich?"
+        }
+      },
+      "options": [
+        {
+          "id": "q6a",
+          "i18n": {
+            "ua": {
+              "label": "💪 Надійний і завжди поруч"
+            },
+            "en": {
+              "label": "💪 Reliable and always there"
+            },
+            "es": {
+              "label": "💪 Confiable y siempre disponible"
+            },
+            "de": {
+              "label": "💪 Zuverlässig und immer da"
+            }
+          },
+          "animals": [
+            "dog",
+            "wolf",
+            "bear",
+            "elephant",
+            "penguin"
+          ]
+        },
+        {
+          "id": "q6b",
+          "i18n": {
+            "ua": {
+              "label": "😂 Найвеселіший у компанії"
+            },
+            "en": {
+              "label": "😂 The funniest in the group"
+            },
+            "es": {
+              "label": "😂 El más gracioso del grupo"
+            },
+            "de": {
+              "label": "😂 Der Lustigste in der Gruppe"
+            }
+          },
+          "animals": [
+            "monkey",
+            "otter",
+            "parrot",
+            "dolphin",
+            "rabbit"
+          ]
+        },
+        {
+          "id": "q6c",
+          "i18n": {
+            "ua": {
+              "label": "🌟 Впевнений і надихаючий"
+            },
+            "en": {
+              "label": "🌟 Confident and inspiring"
+            },
+            "es": {
+              "label": "🌟 Confiado e inspirador"
+            },
+            "de": {
+              "label": "🌟 Selbstbewusst und inspirierend"
+            }
+          },
+          "animals": [
+            "lion",
+            "eagle",
+            "peacock",
+            "cheetah",
+            "tiger",
+            "swan"
+          ]
+        },
+        {
+          "id": "q6d",
+          "i18n": {
+            "ua": {
+              "label": "🔮 Загадковий і неочікуваний"
+            },
+            "en": {
+              "label": "🔮 Mysterious and unpredictable"
+            },
+            "es": {
+              "label": "🔮 Misterioso e impredecible"
+            },
+            "de": {
+              "label": "🔮 Geheimnisvoll und unberechenbar"
+            }
+          },
+          "animals": [
+            "fox",
+            "cat",
+            "octopus",
+            "crow",
+            "snow_leopard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "i18n": {
+        "ua": {
+          "text": "Як ти ставишся до змін у житті?"
+        },
+        "en": {
+          "text": "How do you feel about changes in life?"
+        },
+        "es": {
+          "text": "¿Cómo te sientes ante los cambios en la vida?"
+        },
+        "de": {
+          "text": "Wie stehst du zu Veränderungen im Leben?"
+        }
+      },
+      "options": [
+        {
+          "id": "q7a",
+          "i18n": {
+            "ua": {
+              "label": "🚀 Обожнюю — це нові можливості"
+            },
+            "en": {
+              "label": "🚀 Love them — new opportunities!"
+            },
+            "es": {
+              "label": "🚀 ¡Me encantan! ¡Nuevas oportunidades!"
+            },
+            "de": {
+              "label": "🚀 Ich liebe sie – neue Möglichkeiten!"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "cheetah",
+            "dolphin",
+            "monkey",
+            "fox"
+          ]
+        },
+        {
+          "id": "q7b",
+          "i18n": {
+            "ua": {
+              "label": "📋 Планую і готуюсь заздалегідь"
+            },
+            "en": {
+              "label": "📋 Plan and prepare in advance"
+            },
+            "es": {
+              "label": "📋 Planifica y prepárate con antelación"
+            },
+            "de": {
+              "label": "📋 Planen und vorbereiten Sie im Voraus"
+            }
+          },
+          "animals": [
+            "owl",
+            "elephant",
+            "shark",
+            "crow",
+            "penguin"
+          ]
+        },
+        {
+          "id": "q7c",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Пливу за течією, адаптуюсь"
+            },
+            "en": {
+              "label": "🌊 Go with the flow, adapt"
+            },
+            "es": {
+              "label": "🌊 Déjate llevar, adáptate"
+            },
+            "de": {
+              "label": "🌊 Lass dich treiben, passe dich an"
+            }
+          },
+          "animals": [
+            "otter",
+            "deer",
+            "flamingo",
+            "cat",
+            "octopus",
+            "chameleon",
+            "koala"
+          ]
+        },
+        {
+          "id": "q7d",
+          "i18n": {
+            "ua": {
+              "label": "🛡️ Надаю перевагу стабільності"
+            },
+            "en": {
+              "label": "🛡️ Prefer stability"
+            },
+            "es": {
+              "label": "🛡️ Prefiero la estabilidad"
+            },
+            "de": {
+              "label": "🛡️ Bevorzugen Sie Stabilität"
+            }
+          },
+          "animals": [
+            "bear",
+            "turtle",
+            "wolf",
+            "horse",
+            "rabbit",
+            "panda",
+            "hedgehog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "i18n": {
+        "ua": {
+          "text": "Як ти поводишся, коли тебе просять про допомогу?"
+        },
+        "en": {
+          "text": "How do you behave when someone asks for your help?"
+        },
+        "es": {
+          "text": "¿Cómo te comportas cuando alguien te pide ayuda?"
+        },
+        "de": {
+          "text": "Wie verhalten Sie sich, wenn Sie jemand um Hilfe bittet?"
+        }
+      },
+      "options": [
+        {
+          "id": "q8a",
+          "i18n": {
+            "ua": {
+              "label": "🦸 Кидаю все і біжу рятувати"
+            },
+            "en": {
+              "label": "🦸 Drop everything and rush to help"
+            },
+            "es": {
+              "label": "🦸 Deja todo y corre a ayudar"
+            },
+            "de": {
+              "label": "🦸 Lass alles stehen und liegen und eile zu Hilfe!"
+            }
+          },
+          "animals": [
+            "dog",
+            "lion",
+            "wolf",
+            "bear",
+            "penguin"
+          ]
+        },
+        {
+          "id": "q8b",
+          "i18n": {
+            "ua": {
+              "label": "🗺️ Спочатку розбираюсь у проблемі"
+            },
+            "en": {
+              "label": "🗺️ First understand the problem"
+            },
+            "es": {
+              "label": "🗺️ Primero, comprende el problema."
+            },
+            "de": {
+              "label": "🗺️ Zuerst das Problem verstehen"
+            }
+          },
+          "animals": [
+            "owl",
+            "elephant",
+            "crow",
+            "octopus",
+            "fox"
+          ]
+        },
+        {
+          "id": "q8c",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Підтримую морально, вислуховую"
+            },
+            "en": {
+              "label": "🤗 Give emotional support, listen"
+            },
+            "es": {
+              "label": "🤗 Brinda apoyo emocional, escucha."
+            },
+            "de": {
+              "label": "🤗 Biete emotionale Unterstützung, höre zu"
+            }
+          },
+          "animals": [
+            "dolphin",
+            "deer",
+            "otter",
+            "rabbit",
+            "cat",
+            "swan"
+          ]
+        },
+        {
+          "id": "q8d",
+          "i18n": {
+            "ua": {
+              "label": "💡 Пропоную нестандартне рішення"
+            },
+            "en": {
+              "label": "💡 Suggest an unconventional solution"
+            },
+            "es": {
+              "label": "💡 Sugiera una solución no convencional"
+            },
+            "de": {
+              "label": "💡 Schlagen Sie eine unkonventionelle Lösung vor."
+            }
+          },
+          "animals": [
+            "monkey",
+            "cheetah",
+            "flamingo",
+            "peacock",
+            "butterfly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "i18n": {
+        "ua": {
+          "text": "Яке твоє ставлення до правил?"
+        },
+        "en": {
+          "text": "What's your attitude toward rules?"
+        },
+        "es": {
+          "text": "¿Cuál es tu actitud hacia las reglas?"
+        },
+        "de": {
+          "text": "Wie stehst du zu Regeln?"
+        }
+      },
+      "options": [
+        {
+          "id": "q9a",
+          "i18n": {
+            "ua": {
+              "label": "📏 Правила існують з причини — дотримуюсь"
+            },
+            "en": {
+              "label": "📏 Rules exist for a reason — I follow them"
+            },
+            "es": {
+              "label": "📏 Las reglas existen por algo; yo las sigo."
+            },
+            "de": {
+              "label": "📏 Regeln haben ihren Sinn – ich halte mich an sie."
+            }
+          },
+          "animals": [
+            "penguin",
+            "elephant",
+            "owl",
+            "bear",
+            "turtle"
+          ]
+        },
+        {
+          "id": "q9b",
+          "i18n": {
+            "ua": {
+              "label": "🔓 Правила для тих, хто не вміє думати"
+            },
+            "en": {
+              "label": "🔓 Rules are for those who can't think"
+            },
+            "es": {
+              "label": "🔓 Las reglas son para los que no pueden pensar."
+            },
+            "de": {
+              "label": "🔓 Regeln sind für diejenigen, die nicht denken können."
+            }
+          },
+          "animals": [
+            "cat",
+            "fox",
+            "tiger",
+            "eagle",
+            "snow_leopard"
+          ]
+        },
+        {
+          "id": "q9c",
+          "i18n": {
+            "ua": {
+              "label": "⚖️ Залежить від ситуації"
+            },
+            "en": {
+              "label": "⚖️ Depends on the situation"
+            },
+            "es": {
+              "label": "⚖️ Depende de la situación"
+            },
+            "de": {
+              "label": "⚖️ Hängt von der Situation ab"
+            }
+          },
+          "animals": [
+            "wolf",
+            "dolphin",
+            "deer",
+            "crow",
+            "octopus",
+            "chameleon"
+          ]
+        },
+        {
+          "id": "q9d",
+          "i18n": {
+            "ua": {
+              "label": "🎪 Правила — це нудно, ламаю їх з посмішкою"
+            },
+            "en": {
+              "label": "🎪 Rules are boring, I break them with a smile"
+            },
+            "es": {
+              "label": "🎪 Las reglas son aburridas, yo las rompo con una sonrisa."
+            },
+            "de": {
+              "label": "🎪 Regeln sind langweilig, ich breche sie mit einem Lächeln"
+            }
+          },
+          "animals": [
+            "monkey",
+            "parrot",
+            "flamingo",
+            "cheetah",
+            "otter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "i18n": {
+        "ua": {
+          "text": "Що ти робиш, коли тобі сумно?"
+        },
+        "en": {
+          "text": "What do you do when you're feeling down?"
+        },
+        "es": {
+          "text": "¿Qué haces cuando te sientes deprimido?"
+        },
+        "de": {
+          "text": "Was tust du, wenn du dich niedergeschlagen fühlst?"
+        }
+      },
+      "options": [
+        {
+          "id": "q10a",
+          "i18n": {
+            "ua": {
+              "label": "🚶 Іду на самоту — мені потрібен час"
+            },
+            "en": {
+              "label": "🚶 Go somewhere alone — I need time"
+            },
+            "es": {
+              "label": "🚶 Vete a algún sitio a solas; necesito tiempo."
+            },
+            "de": {
+              "label": "🚶 Allein irgendwohin fahren – ich brauche Zeit"
+            }
+          },
+          "animals": [
+            "cat",
+            "snow_leopard",
+            "eagle",
+            "tiger",
+            "horse",
+            "hedgehog"
+          ]
+        },
+        {
+          "id": "q10b",
+          "i18n": {
+            "ua": {
+              "label": "📞 Телефоную другу — разом краще"
+            },
+            "en": {
+              "label": "📞 Call a friend — better together"
+            },
+            "es": {
+              "label": "📞 Llama a un amigo: juntos somos mejores."
+            },
+            "de": {
+              "label": "📞 Ruf einen Freund an – gemeinsam sind wir stärker"
+            }
+          },
+          "animals": [
+            "dog",
+            "dolphin",
+            "penguin",
+            "parrot",
+            "otter"
+          ]
+        },
+        {
+          "id": "q10c",
+          "i18n": {
+            "ua": {
+              "label": "🎵 Музика, їжа, улюблений серіал"
+            },
+            "en": {
+              "label": "🎵 Music, food, favorite show"
+            },
+            "es": {
+              "label": "🎵 Música, comida, programa favorito"
+            },
+            "de": {
+              "label": "🎵 Musik, Essen, Lieblingssendung"
+            }
+          },
+          "animals": [
+            "bear",
+            "rabbit",
+            "turtle",
+            "monkey",
+            "deer",
+            "panda",
+            "koala"
+          ]
+        },
+        {
+          "id": "q10d",
+          "i18n": {
+            "ua": {
+              "label": "💪 Йду в дію — робота лікує"
+            },
+            "en": {
+              "label": "💪 Jump into action — work heals"
+            },
+            "es": {
+              "label": "💪 ¡Ponte en acción! El trabajo sana."
+            },
+            "de": {
+              "label": "💪 Jetzt handeln – Arbeit heilt."
+            }
+          },
+          "animals": [
+            "lion",
+            "shark",
+            "wolf",
+            "cheetah",
+            "crow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "i18n": {
+        "ua": {
+          "text": "Як ти обираєш, куди піти у вихідний?"
+        },
+        "en": {
+          "text": "How do you decide where to go on a day off?"
+        },
+        "es": {
+          "text": "¿Cómo decides adónde ir en tu día libre?"
+        },
+        "de": {
+          "text": "Wie entscheidest du, wohin du an einem freien Tag gehst?"
+        }
+      },
+      "options": [
+        {
+          "id": "q11a",
+          "i18n": {
+            "ua": {
+              "label": "📍 Є улюблені місця — іду туди"
+            },
+            "en": {
+              "label": "📍 I have favorite spots — I go there"
+            },
+            "es": {
+              "label": "📍 Tengo lugares favoritos; voy allí."
+            },
+            "de": {
+              "label": "📍 Ich habe Lieblingsplätze – dort gehe ich hin."
+            }
+          },
+          "animals": [
+            "bear",
+            "turtle",
+            "cat",
+            "elephant",
+            "penguin",
+            "koala"
+          ]
+        },
+        {
+          "id": "q11b",
+          "i18n": {
+            "ua": {
+              "label": "🎯 Шукаю щось нове і незвідане"
+            },
+            "en": {
+              "label": "🎯 Look for something new and unexplored"
+            },
+            "es": {
+              "label": "🎯 Busca algo nuevo e inexplorado"
+            },
+            "de": {
+              "label": "🎯 Suche nach etwas Neuem und Unerforschtem"
+            }
+          },
+          "animals": [
+            "fox",
+            "monkey",
+            "otter",
+            "butterfly",
+            "octopus",
+            "chameleon"
+          ]
+        },
+        {
+          "id": "q11c",
+          "i18n": {
+            "ua": {
+              "label": "👥 Куди скажуть друзі — туди й піду"
+            },
+            "en": {
+              "label": "👥 Wherever friends suggest — I'm in"
+            },
+            "es": {
+              "label": "👥 Donde sea que mis amigos sugieran, estoy allí."
+            },
+            "de": {
+              "label": "👥 Wo immer Freunde es vorschlagen – ich bin dabei"
+            }
+          },
+          "animals": [
+            "dog",
+            "dolphin",
+            "parrot",
+            "rabbit",
+            "deer"
+          ]
+        },
+        {
+          "id": "q11d",
+          "i18n": {
+            "ua": {
+              "label": "🌄 Туди де є простір і краєвид"
+            },
+            "en": {
+              "label": "🌄 Somewhere with open space and views"
+            },
+            "es": {
+              "label": "🌄 Un lugar con espacio abierto y vistas"
+            },
+            "de": {
+              "label": "🌄 Irgendwo mit viel Freiraum und Aussicht"
+            }
+          },
+          "animals": [
+            "eagle",
+            "horse",
+            "wolf",
+            "flamingo",
+            "snow_leopard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "i18n": {
+        "ua": {
+          "text": "Як ти сприймаєш критику?"
+        },
+        "en": {
+          "text": "How do you take criticism?"
+        },
+        "es": {
+          "text": "¿Cómo afrontas las críticas?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Kritik um?"
+        }
+      },
+      "options": [
+        {
+          "id": "q12a",
+          "i18n": {
+            "ua": {
+              "label": "🙏 Дякую — це допомагає рости"
+            },
+            "en": {
+              "label": "🙏 Thank you — it helps me grow"
+            },
+            "es": {
+              "label": "🙏 Gracias, me ayuda a crecer."
+            },
+            "de": {
+              "label": "🙏 Danke – das hilft mir beim Wachsen."
+            }
+          },
+          "animals": [
+            "elephant",
+            "owl",
+            "dolphin",
+            "turtle",
+            "penguin",
+            "swan"
+          ]
+        },
+        {
+          "id": "q12b",
+          "i18n": {
+            "ua": {
+              "label": "🔥 Захищаюсь — я знаю що роблю"
+            },
+            "en": {
+              "label": "🔥 Defend myself — I know what I'm doing"
+            },
+            "es": {
+              "label": "🔥 Me defiendo — sé lo que estoy haciendo"
+            },
+            "de": {
+              "label": "🔥 Mich verteidigen – ich weiß, was ich tue"
+            }
+          },
+          "animals": [
+            "lion",
+            "tiger",
+            "horse",
+            "shark",
+            "peacock"
+          ]
+        },
+        {
+          "id": "q12c",
+          "i18n": {
+            "ua": {
+              "label": "🤔 Обмірковую наодинці пізніше"
+            },
+            "en": {
+              "label": "🤔 Think it over alone later"
+            },
+            "es": {
+              "label": "🤔 Piénsalo a solas más tarde."
+            },
+            "de": {
+              "label": "🤔 Denk später allein darüber nach."
+            }
+          },
+          "animals": [
+            "cat",
+            "crow",
+            "fox",
+            "snow_leopard",
+            "bear",
+            "hedgehog"
+          ]
+        },
+        {
+          "id": "q12d",
+          "i18n": {
+            "ua": {
+              "label": "😅 Жартую і перемикаюсь"
+            },
+            "en": {
+              "label": "😅 Laugh it off and move on"
+            },
+            "es": {
+              "label": "😅 Ríete y sigue adelante."
+            },
+            "de": {
+              "label": "😅 Einfach drüber lachen und weitermachen"
+            }
+          },
+          "animals": [
+            "monkey",
+            "otter",
+            "parrot",
+            "rabbit",
+            "butterfly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "i18n": {
+        "ua": {
+          "text": "Що для тебе означає успіх?"
+        },
+        "en": {
+          "text": "What does success mean to you?"
+        },
+        "es": {
+          "text": "¿Qué significa el éxito para ti?"
+        },
+        "de": {
+          "text": "Was bedeutet Erfolg für Sie?"
+        }
+      },
+      "options": [
+        {
+          "id": "q13a",
+          "i18n": {
+            "ua": {
+              "label": "🏆 Досягти більшого ніж інші"
+            },
+            "en": {
+              "label": "🏆 Achieve more than others"
+            },
+            "es": {
+              "label": "🏆 Logra más que los demás"
+            },
+            "de": {
+              "label": "🏆 Erreiche mehr als andere"
+            }
+          },
+          "animals": [
+            "lion",
+            "shark",
+            "eagle",
+            "cheetah",
+            "tiger"
+          ]
+        },
+        {
+          "id": "q13b",
+          "i18n": {
+            "ua": {
+              "label": "❤️ Щасливі близькі люди поруч"
+            },
+            "en": {
+              "label": "❤️ Happy loved ones around me"
+            },
+            "es": {
+              "label": "❤️ Seres queridos felices a mi alrededor"
+            },
+            "de": {
+              "label": "❤️ Glückliche, geliebte Menschen um mich herum"
+            }
+          },
+          "animals": [
+            "dog",
+            "elephant",
+            "penguin",
+            "dolphin",
+            "bear",
+            "swan"
+          ]
+        },
+        {
+          "id": "q13c",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Робити те, що люблю щодня"
+            },
+            "en": {
+              "label": "🎨 Do what I love every day"
+            },
+            "es": {
+              "label": "🎨 Hago lo que me gusta todos los días"
+            },
+            "de": {
+              "label": "🎨 Jeden Tag das tun, was ich liebe"
+            }
+          },
+          "animals": [
+            "peacock",
+            "butterfly",
+            "flamingo",
+            "octopus",
+            "otter",
+            "koala"
+          ]
+        },
+        {
+          "id": "q13d",
+          "i18n": {
+            "ua": {
+              "label": "🌿 Свобода і спокій у душі"
+            },
+            "en": {
+              "label": "🌿 Freedom and inner peace"
+            },
+            "es": {
+              "label": "🌿 Libertad y paz interior"
+            },
+            "de": {
+              "label": "🌿 Freiheit und innerer Frieden"
+            }
+          },
+          "animals": [
+            "horse",
+            "deer",
+            "wolf",
+            "turtle",
+            "snow_leopard",
+            "panda"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "i18n": {
+        "ua": {
+          "text": "Яку роль ти зазвичай граєш у команді?"
+        },
+        "en": {
+          "text": "What role do you usually play in a team?"
+        },
+        "es": {
+          "text": "¿Qué rol sueles desempeñar en un equipo?"
+        },
+        "de": {
+          "text": "Welche Rolle spielst du üblicherweise in einem Team?"
+        }
+      },
+      "options": [
+        {
+          "id": "q14a",
+          "i18n": {
+            "ua": {
+              "label": "👑 Беру ініціативу і веду"
+            },
+            "en": {
+              "label": "👑 Take initiative and lead"
+            },
+            "es": {
+              "label": "👑 Toma la iniciativa y lidera."
+            },
+            "de": {
+              "label": "👑 Ergreife die Initiative und führe die Führung!"
+            }
+          },
+          "animals": [
+            "lion",
+            "wolf",
+            "eagle",
+            "shark",
+            "cheetah"
+          ]
+        },
+        {
+          "id": "q14b",
+          "i18n": {
+            "ua": {
+              "label": "🔧 Роблю свою частину якісно і тихо"
+            },
+            "en": {
+              "label": "🔧 Do my part well and quietly"
+            },
+            "es": {
+              "label": "🔧 Cumplir bien mi parte y en silencio"
+            },
+            "de": {
+              "label": "🔧 Meine Aufgabe gut und leise erledigen"
+            }
+          },
+          "animals": [
+            "bear",
+            "turtle",
+            "elephant",
+            "crow",
+            "cat"
+          ]
+        },
+        {
+          "id": "q14c",
+          "i18n": {
+            "ua": {
+              "label": "🌈 Підтримую і мотивую інших"
+            },
+            "en": {
+              "label": "🌈 Support and motivate others"
+            },
+            "es": {
+              "label": "🌈 Apoya y motiva a los demás"
+            },
+            "de": {
+              "label": "🌈 Andere unterstützen und motivieren"
+            }
+          },
+          "animals": [
+            "dog",
+            "dolphin",
+            "penguin",
+            "otter",
+            "rabbit"
+          ]
+        },
+        {
+          "id": "q14d",
+          "i18n": {
+            "ua": {
+              "label": "💡 Генерую ідеї і нестандартні рішення"
+            },
+            "en": {
+              "label": "💡 Generate ideas and unconventional solutions"
+            },
+            "es": {
+              "label": "💡 Generar ideas y soluciones no convencionales"
+            },
+            "de": {
+              "label": "💡 Ideen und unkonventionelle Lösungen entwickeln"
+            }
+          },
+          "animals": [
+            "octopus",
+            "monkey",
+            "fox",
+            "flamingo",
+            "parrot",
+            "chameleon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "i18n": {
+        "ua": {
+          "text": "Що б ти зробив(ла) з машиною часу?"
+        },
+        "en": {
+          "text": "What would you do with a time machine?"
+        },
+        "es": {
+          "text": "¿Qué harías con una máquina del tiempo?"
+        },
+        "de": {
+          "text": "Was würdest du mit einer Zeitmaschine anstellen?"
+        }
+      },
+      "options": [
+        {
+          "id": "q15a",
+          "i18n": {
+            "ua": {
+              "label": "🏛️ Побачити великі події минулого"
+            },
+            "en": {
+              "label": "🏛️ Witness great events of the past"
+            },
+            "es": {
+              "label": "🏛️ Sé testigo de grandes acontecimientos del pasado."
+            },
+            "de": {
+              "label": "🏛️ Erleben Sie großartige Ereignisse der Vergangenheit"
+            }
+          },
+          "animals": [
+            "owl",
+            "elephant",
+            "crow",
+            "turtle",
+            "deer"
+          ]
+        },
+        {
+          "id": "q15b",
+          "i18n": {
+            "ua": {
+              "label": "🚀 Полетіти в майбутнє подивитись що там"
+            },
+            "en": {
+              "label": "🚀 Fly to the future to see what's there"
+            },
+            "es": {
+              "label": "🚀 Vuela al futuro para ver qué hay allí."
+            },
+            "de": {
+              "label": "🚀 Fliege in die Zukunft und sieh, was dort ist"
+            }
+          },
+          "animals": [
+            "eagle",
+            "cheetah",
+            "fox",
+            "octopus",
+            "shark"
+          ]
+        },
+        {
+          "id": "q15c",
+          "i18n": {
+            "ua": {
+              "label": "🔄 Виправити свої помилки"
+            },
+            "en": {
+              "label": "🔄 Fix my past mistakes"
+            },
+            "es": {
+              "label": "🔄 Corrige mis errores del pasado"
+            },
+            "de": {
+              "label": "🔄 Meine Fehler der Vergangenheit korrigieren"
+            }
+          },
+          "animals": [
+            "dog",
+            "penguin",
+            "rabbit",
+            "bear",
+            "horse"
+          ]
+        },
+        {
+          "id": "q15d",
+          "i18n": {
+            "ua": {
+              "label": "🎪 Просто подорожувати і розважатись"
+            },
+            "en": {
+              "label": "🎪 Just travel around and have fun"
+            },
+            "es": {
+              "label": "🎪 Simplemente viaja y diviértete."
+            },
+            "de": {
+              "label": "🎪 Einfach herumreisen und Spaß haben"
+            }
+          },
+          "animals": [
+            "monkey",
+            "otter",
+            "parrot",
+            "dolphin",
+            "butterfly",
+            "koala"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "i18n": {
+        "ua": {
+          "text": "Як ти вивчаєш нове?"
+        },
+        "en": {
+          "text": "How do you learn new things?"
+        },
+        "es": {
+          "text": "¿Cómo aprendes cosas nuevas?"
+        },
+        "de": {
+          "text": "Wie lernt man neue Dinge?"
+        }
+      },
+      "options": [
+        {
+          "id": "q16a",
+          "i18n": {
+            "ua": {
+              "label": "📚 Читаю, досліджую, аналізую"
+            },
+            "en": {
+              "label": "📚 Read, research, analyze"
+            },
+            "es": {
+              "label": "📚 Lee, investiga, analiza"
+            },
+            "de": {
+              "label": "📚 Lesen, recherchieren, analysieren"
+            }
+          },
+          "animals": [
+            "owl",
+            "crow",
+            "octopus",
+            "cat",
+            "turtle"
+          ]
+        },
+        {
+          "id": "q16b",
+          "i18n": {
+            "ua": {
+              "label": "🤸 Пробую на практиці одразу"
+            },
+            "en": {
+              "label": "🤸 Try it hands-on right away"
+            },
+            "es": {
+              "label": "🤸 Pruébalo ahora mismo"
+            },
+            "de": {
+              "label": "🤸 Probieren Sie es gleich selbst aus!"
+            }
+          },
+          "animals": [
+            "monkey",
+            "cheetah",
+            "fox",
+            "otter",
+            "wolf",
+            "chameleon"
+          ]
+        },
+        {
+          "id": "q16c",
+          "i18n": {
+            "ua": {
+              "label": "👥 Навчаюсь від інших людей"
+            },
+            "en": {
+              "label": "👥 Learn from other people"
+            },
+            "es": {
+              "label": "👥 Aprende de otras personas"
+            },
+            "de": {
+              "label": "👥 Lerne von anderen Menschen"
+            }
+          },
+          "animals": [
+            "dog",
+            "dolphin",
+            "penguin",
+            "parrot",
+            "elephant"
+          ]
+        },
+        {
+          "id": "q16d",
+          "i18n": {
+            "ua": {
+              "label": "🎨 Шукаю натхнення і власний шлях"
+            },
+            "en": {
+              "label": "🎨 Seek inspiration and my own path"
+            },
+            "es": {
+              "label": "🎨 Busco inspiración y mi propio camino"
+            },
+            "de": {
+              "label": "🎨 Inspiration suchen und meinen eigenen Weg gehen"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "flamingo",
+            "peacock",
+            "snow_leopard",
+            "deer",
+            "swan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "i18n": {
+        "ua": {
+          "text": "Яка музика підходить під твій настрій?"
+        },
+        "en": {
+          "text": "What kind of music fits your mood?"
+        },
+        "es": {
+          "text": "¿Qué tipo de música se ajusta a tu estado de ánimo?"
+        },
+        "de": {
+          "text": "Welche Musik passt zu deiner Stimmung?"
+        }
+      },
+      "options": [
+        {
+          "id": "q17a",
+          "i18n": {
+            "ua": {
+              "label": "🎸 Рок чи метал — потужно і голосно"
+            },
+            "en": {
+              "label": "🎸 Rock or metal — powerful and loud"
+            },
+            "es": {
+              "label": "🎸 Rock o metal: potente y ruidoso."
+            },
+            "de": {
+              "label": "🎸 Rock oder Metal – kraftvoll und laut"
+            }
+          },
+          "animals": [
+            "lion",
+            "tiger",
+            "wolf",
+            "shark",
+            "eagle"
+          ]
+        },
+        {
+          "id": "q17b",
+          "i18n": {
+            "ua": {
+              "label": "🎶 Поп чи танцювальна — весела і легка"
+            },
+            "en": {
+              "label": "🎶 Pop or dance — cheerful and light"
+            },
+            "es": {
+              "label": "🎶 Pop o dance: alegre y ligero."
+            },
+            "de": {
+              "label": "🎶 Pop oder Dance – fröhlich und unbeschwert"
+            }
+          },
+          "animals": [
+            "parrot",
+            "monkey",
+            "flamingo",
+            "dolphin",
+            "otter"
+          ]
+        },
+        {
+          "id": "q17c",
+          "i18n": {
+            "ua": {
+              "label": "🎹 Класика чи джаз — глибока і елегантна"
+            },
+            "en": {
+              "label": "🎹 Classical or jazz — deep and elegant"
+            },
+            "es": {
+              "label": "🎹 Música clásica o jazz: profunda y elegante."
+            },
+            "de": {
+              "label": "🎹 Klassik oder Jazz – tiefgründig und elegant"
+            }
+          },
+          "animals": [
+            "owl",
+            "peacock",
+            "cat",
+            "snow_leopard",
+            "horse",
+            "swan"
+          ]
+        },
+        {
+          "id": "q17d",
+          "i18n": {
+            "ua": {
+              "label": "🌧️ Лоу-фай чи ембієнт — тиха і мрійлива"
+            },
+            "en": {
+              "label": "🌧️ Lo-fi or ambient — quiet and dreamy"
+            },
+            "es": {
+              "label": "🌧️ Lo-fi o ambiental: tranquilo y onírico."
+            },
+            "de": {
+              "label": "🌧️ Lo-Fi oder Ambient – ​​ruhig und verträumt"
+            }
+          },
+          "animals": [
+            "deer",
+            "turtle",
+            "rabbit",
+            "butterfly",
+            "bear",
+            "panda"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "i18n": {
+        "ua": {
+          "text": "Як ти святкуєш свої досягнення?"
+        },
+        "en": {
+          "text": "How do you celebrate achievements?"
+        },
+        "es": {
+          "text": "¿Cómo celebras tus logros?"
+        },
+        "de": {
+          "text": "Wie feiern Sie Erfolge?"
+        }
+      },
+      "options": [
+        {
+          "id": "q18a",
+          "i18n": {
+            "ua": {
+              "label": "🥳 Гучна вечірка з друзями!"
+            },
+            "en": {
+              "label": "🥳 Big party with friends!"
+            },
+            "es": {
+              "label": "🥳 ¡Gran fiesta con amigos!"
+            },
+            "de": {
+              "label": "🥳 Große Party mit Freunden!"
+            }
+          },
+          "animals": [
+            "monkey",
+            "parrot",
+            "dolphin",
+            "dog",
+            "flamingo"
+          ]
+        },
+        {
+          "id": "q18b",
+          "i18n": {
+            "ua": {
+              "label": "🏅 Ставлю собі нову мету одразу"
+            },
+            "en": {
+              "label": "🏅 Set a new goal right away"
+            },
+            "es": {
+              "label": "🏅 Establece una nueva meta de inmediato"
+            },
+            "de": {
+              "label": "🏅 Setz dir sofort ein neues Ziel"
+            }
+          },
+          "animals": [
+            "cheetah",
+            "eagle",
+            "shark",
+            "tiger",
+            "wolf"
+          ]
+        },
+        {
+          "id": "q18c",
+          "i18n": {
+            "ua": {
+              "label": "🍫 Тихо балую себе чимось приємним"
+            },
+            "en": {
+              "label": "🍫 Quietly treat myself to something nice"
+            },
+            "es": {
+              "label": "🍫 Darme un capricho en silencio"
+            },
+            "de": {
+              "label": "🍫 Mir in aller Stille etwas Schönes gönnen"
+            }
+          },
+          "animals": [
+            "cat",
+            "bear",
+            "otter",
+            "rabbit",
+            "turtle",
+            "hedgehog",
+            "koala"
+          ]
+        },
+        {
+          "id": "q18d",
+          "i18n": {
+            "ua": {
+              "label": "✨ Ділюся радістю, надихаю інших"
+            },
+            "en": {
+              "label": "✨ Share the joy, inspire others"
+            },
+            "es": {
+              "label": "✨ Comparte la alegría, inspira a los demás"
+            },
+            "de": {
+              "label": "✨ Teile die Freude, inspiriere andere"
+            }
+          },
+          "animals": [
+            "elephant",
+            "penguin",
+            "peacock",
+            "horse",
+            "butterfly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "i18n": {
+        "ua": {
+          "text": "Які у тебе стосунки з природою?"
+        },
+        "en": {
+          "text": "What's your relationship with nature?"
+        },
+        "es": {
+          "text": "¿Cuál es tu relación con la naturaleza?"
+        },
+        "de": {
+          "text": "Wie ist Ihre Beziehung zur Natur?"
+        }
+      },
+      "options": [
+        {
+          "id": "q19a",
+          "i18n": {
+            "ua": {
+              "label": "🌲 Я почуваюсь у лісі як вдома"
+            },
+            "en": {
+              "label": "🌲 The forest feels like home to me"
+            },
+            "es": {
+              "label": "🌲 El bosque me hace sentir como en casa."
+            },
+            "de": {
+              "label": "🌲 Der Wald fühlt sich für mich wie ein Zuhause an"
+            }
+          },
+          "animals": [
+            "wolf",
+            "bear",
+            "deer",
+            "fox",
+            "owl"
+          ]
+        },
+        {
+          "id": "q19b",
+          "i18n": {
+            "ua": {
+              "label": "🌊 Мене тягне до води і океану"
+            },
+            "en": {
+              "label": "🌊 I'm drawn to water and the ocean"
+            },
+            "es": {
+              "label": "🌊 Me atraen el agua y el océano."
+            },
+            "de": {
+              "label": "🌊 Ich fühle mich zum Wasser und zum Meer hingezogen."
+            }
+          },
+          "animals": [
+            "dolphin",
+            "shark",
+            "otter",
+            "penguin",
+            "octopus"
+          ]
+        },
+        {
+          "id": "q19c",
+          "i18n": {
+            "ua": {
+              "label": "☀️ Люблю сонце, квіти і відкритий простір"
+            },
+            "en": {
+              "label": "☀️ I love sun, flowers, and open spaces"
+            },
+            "es": {
+              "label": "☀️ Me encanta el sol, las flores y los espacios abiertos."
+            },
+            "de": {
+              "label": "☀️ Ich liebe Sonne, Blumen und weite Flächen"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "flamingo",
+            "horse",
+            "peacock",
+            "rabbit",
+            "swan"
+          ]
+        },
+        {
+          "id": "q19d",
+          "i18n": {
+            "ua": {
+              "label": "🏙️ Я більше міська людина, чесно"
+            },
+            "en": {
+              "label": "🏙️ I'm more of a city person, honestly"
+            },
+            "es": {
+              "label": "🏙️ Sinceramente, soy más de ciudad."
+            },
+            "de": {
+              "label": "🏙️ Ehrlich gesagt bin ich eher ein Stadtmensch."
+            }
+          },
+          "animals": [
+            "cat",
+            "crow",
+            "monkey",
+            "parrot",
+            "cheetah"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "i18n": {
+        "ua": {
+          "text": "Як ти переносиш очікування?"
+        },
+        "en": {
+          "text": "How do you handle waiting?"
+        },
+        "es": {
+          "text": "¿Cómo llevas la espera?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Wartezeiten um?"
+        }
+      },
+      "options": [
+        {
+          "id": "q20a",
+          "i18n": {
+            "ua": {
+              "label": "😤 Дуже нетерпляче — час іде повільно!"
+            },
+            "en": {
+              "label": "😤 Very impatiently — time drags!"
+            },
+            "es": {
+              "label": "😤 ¡Con mucha impaciencia, el tiempo pasa muy lento!"
+            },
+            "de": {
+              "label": "😤 Sehr ungeduldig – die Zeit zieht sich endlos hin!"
+            }
+          },
+          "animals": [
+            "cheetah",
+            "tiger",
+            "shark",
+            "lion",
+            "monkey"
+          ]
+        },
+        {
+          "id": "q20b",
+          "i18n": {
+            "ua": {
+              "label": "🧘 Спокійно — все приходить у свій час"
+            },
+            "en": {
+              "label": "🧘 Calmly — everything comes in its time"
+            },
+            "es": {
+              "label": "🧘 Con calma: todo llega a su debido tiempo."
+            },
+            "de": {
+              "label": "🧘 Ganz ruhig – alles kommt zu seiner Zeit"
+            }
+          },
+          "animals": [
+            "turtle",
+            "elephant",
+            "deer",
+            "bear",
+            "snow_leopard",
+            "panda",
+            "koala"
+          ]
+        },
+        {
+          "id": "q20c",
+          "i18n": {
+            "ua": {
+              "label": "📱 Знаходжу чим себе зайняти"
+            },
+            "en": {
+              "label": "📱 Find something to keep myself busy"
+            },
+            "es": {
+              "label": "📱 Encontrar algo para mantenerme ocupado"
+            },
+            "de": {
+              "label": "📱 Etwas finden, um mich zu beschäftigen"
+            }
+          },
+          "animals": [
+            "octopus",
+            "fox",
+            "crow",
+            "otter",
+            "cat",
+            "chameleon"
+          ]
+        },
+        {
+          "id": "q20d",
+          "i18n": {
+            "ua": {
+              "label": "💬 Базікаю з ким-небудь поруч"
+            },
+            "en": {
+              "label": "💬 Chat with whoever is nearby"
+            },
+            "es": {
+              "label": "💬 Chatea con quien esté cerca"
+            },
+            "de": {
+              "label": "💬 Chatte mit Leuten in deiner Nähe"
+            }
+          },
+          "animals": [
+            "parrot",
+            "dog",
+            "dolphin",
+            "penguin",
+            "rabbit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "i18n": {
+        "ua": {
+          "text": "Як ти ставишся до секретів?"
+        },
+        "en": {
+          "text": "What's your approach to secrets?"
+        },
+        "es": {
+          "text": "¿Cuál es tu enfoque respecto a los secretos?"
+        },
+        "de": {
+          "text": "Wie gehst du mit Geheimnissen um?"
+        }
+      },
+      "options": [
+        {
+          "id": "q21a",
+          "i18n": {
+            "ua": {
+              "label": "🤐 Ніколи не видаю — могила"
+            },
+            "en": {
+              "label": "🤐 Never tell — take them to the grave"
+            },
+            "es": {
+              "label": "🤐 Nunca lo cuentes, llévatelos a la tumba."
+            },
+            "de": {
+              "label": "🤐 Erzähle es niemals weiter – nimm sie mit ins Grab"
+            }
+          },
+          "animals": [
+            "snow_leopard",
+            "turtle",
+            "cat",
+            "bear",
+            "wolf",
+            "hedgehog"
+          ]
+        },
+        {
+          "id": "q21b",
+          "i18n": {
+            "ua": {
+              "label": "🫣 Намагаюсь, але іноді проговорююсь"
+            },
+            "en": {
+              "label": "🫣 I try but sometimes slip up"
+            },
+            "es": {
+              "label": "🫣 Lo intento, pero a veces fallo."
+            },
+            "de": {
+              "label": "🫣 Ich versuche es, aber manchmal mache ich einen Fehler."
+            }
+          },
+          "animals": [
+            "dog",
+            "rabbit",
+            "otter",
+            "penguin",
+            "horse"
+          ]
+        },
+        {
+          "id": "q21c",
+          "i18n": {
+            "ua": {
+              "label": "🕵️ Люблю дізнаватись чужі секрети"
+            },
+            "en": {
+              "label": "🕵️ Love finding out others' secrets"
+            },
+            "es": {
+              "label": "🕵️ Me encanta descubrir los secretos de los demás."
+            },
+            "de": {
+              "label": "🕵️ Ich liebe es, die Geheimnisse anderer herauszufinden"
+            }
+          },
+          "animals": [
+            "fox",
+            "crow",
+            "owl",
+            "octopus",
+            "monkey"
+          ]
+        },
+        {
+          "id": "q21d",
+          "i18n": {
+            "ua": {
+              "label": "🤷 Не люблю секрети — краще відкрито"
+            },
+            "en": {
+              "label": "🤷 Don't like secrets — prefer openness"
+            },
+            "es": {
+              "label": "🤷 No me gustan los secretos, prefiero la franqueza."
+            },
+            "de": {
+              "label": "🤷 Ich mag keine Geheimnisse – ich bevorzuge Offenheit."
+            }
+          },
+          "animals": [
+            "lion",
+            "eagle",
+            "parrot",
+            "dolphin",
+            "elephant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "i18n": {
+        "ua": {
+          "text": "Яка погода відповідає твоєму характеру?"
+        },
+        "en": {
+          "text": "What kind of weather matches your personality?"
+        },
+        "es": {
+          "text": "¿Qué tipo de clima se adapta mejor a tu personalidad?"
+        },
+        "de": {
+          "text": "Welches Wetter passt zu Ihrer Persönlichkeit?"
+        }
+      },
+      "options": [
+        {
+          "id": "q22a",
+          "i18n": {
+            "ua": {
+              "label": "⛈️ Гроза — потужна і непередбачувана"
+            },
+            "en": {
+              "label": "⛈️ Thunderstorm — powerful and unpredictable"
+            },
+            "es": {
+              "label": "⛈️ Tormenta eléctrica: potente e impredecible"
+            },
+            "de": {
+              "label": "⛈️ Gewitter – heftig und unberechenbar"
+            }
+          },
+          "animals": [
+            "tiger",
+            "shark",
+            "eagle",
+            "lion",
+            "wolf"
+          ]
+        },
+        {
+          "id": "q22b",
+          "i18n": {
+            "ua": {
+              "label": "☀️ Сонячний день — теплий і яскравий"
+            },
+            "en": {
+              "label": "☀️ Sunny day — warm and bright"
+            },
+            "es": {
+              "label": "☀️ Día soleado: cálido y luminoso."
+            },
+            "de": {
+              "label": "☀️ Sonniger Tag – warm und hell"
+            }
+          },
+          "animals": [
+            "flamingo",
+            "butterfly",
+            "parrot",
+            "peacock",
+            "dog",
+            "swan"
+          ]
+        },
+        {
+          "id": "q22c",
+          "i18n": {
+            "ua": {
+              "label": "❄️ Сніг — тихий, красивий і таємничий"
+            },
+            "en": {
+              "label": "❄️ Snow — quiet, beautiful, and mysterious"
+            },
+            "es": {
+              "label": "❄️ Nieve: tranquila, hermosa y misteriosa."
+            },
+            "de": {
+              "label": "❄️ Schnee – still, schön und geheimnisvoll"
+            }
+          },
+          "animals": [
+            "snow_leopard",
+            "owl",
+            "deer",
+            "cat",
+            "penguin"
+          ]
+        },
+        {
+          "id": "q22d",
+          "i18n": {
+            "ua": {
+              "label": "🌦️ Весняний дощ — свіжий і мінливий"
+            },
+            "en": {
+              "label": "🌦️ Spring rain — fresh and changeable"
+            },
+            "es": {
+              "label": "🌦️ Lluvias de primavera: frescas y cambiantes"
+            },
+            "de": {
+              "label": "🌦️ Frühlingsregen – frisch und wechselhaft"
+            }
+          },
+          "animals": [
+            "fox",
+            "otter",
+            "monkey",
+            "octopus",
+            "rabbit",
+            "chameleon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "i18n": {
+        "ua": {
+          "text": "Як ти починаєш новий проєкт?"
+        },
+        "en": {
+          "text": "How do you start a new project?"
+        },
+        "es": {
+          "text": "¿Cómo se inicia un nuevo proyecto?"
+        },
+        "de": {
+          "text": "Wie startet man ein neues Projekt?"
+        }
+      },
+      "options": [
+        {
+          "id": "q23a",
+          "i18n": {
+            "ua": {
+              "label": "📋 Детальний план від А до Я"
+            },
+            "en": {
+              "label": "📋 Detailed plan from A to Z"
+            },
+            "es": {
+              "label": "📋 Plan detallado de la A a la Z"
+            },
+            "de": {
+              "label": "📋 Detaillierter Plan von A bis Z"
+            }
+          },
+          "animals": [
+            "owl",
+            "elephant",
+            "turtle",
+            "crow",
+            "bear"
+          ]
+        },
+        {
+          "id": "q23b",
+          "i18n": {
+            "ua": {
+              "label": "⚡ Одразу беруся — потім розберемось"
+            },
+            "en": {
+              "label": "⚡ Jump right in — figure it out later"
+            },
+            "es": {
+              "label": "⚡ ¡Sumérgete de lleno! Ya lo resolverás después."
+            },
+            "de": {
+              "label": "⚡ Einfach loslegen – den Rest klären wir später."
+            }
+          },
+          "animals": [
+            "cheetah",
+            "tiger",
+            "monkey",
+            "shark",
+            "horse"
+          ]
+        },
+        {
+          "id": "q23c",
+          "i18n": {
+            "ua": {
+              "label": "💭 Мрію, малюю, шукаю ідеї"
+            },
+            "en": {
+              "label": "💭 Dream, sketch, search for ideas"
+            },
+            "es": {
+              "label": "💭 Sueña, dibuja, busca ideas"
+            },
+            "de": {
+              "label": "💭 Träume, skizziere, suche nach Ideen"
+            }
+          },
+          "animals": [
+            "butterfly",
+            "flamingo",
+            "peacock",
+            "octopus",
+            "deer"
+          ]
+        },
+        {
+          "id": "q23d",
+          "i18n": {
+            "ua": {
+              "label": "🤝 Збираю команду однодумців"
+            },
+            "en": {
+              "label": "🤝 Gather a team of like-minded people"
+            },
+            "es": {
+              "label": "🤝 Reúne un equipo de personas con ideas afines."
+            },
+            "de": {
+              "label": "🤝 Stelle ein Team aus Gleichgesinnten zusammen"
+            }
+          },
+          "animals": [
+            "wolf",
+            "dog",
+            "dolphin",
+            "penguin",
+            "lion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "i18n": {
+        "ua": {
+          "text": "Який у тебе ранковий ритуал?"
+        },
+        "en": {
+          "text": "What's your morning routine?"
+        },
+        "es": {
+          "text": "¿Cuál es tu rutina matutina?"
+        },
+        "de": {
+          "text": "Wie sieht deine Morgenroutine aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "q24a",
+          "i18n": {
+            "ua": {
+              "label": "🌅 Встаю рано — день чекає!"
+            },
+            "en": {
+              "label": "🌅 Up early — the day awaits!"
+            },
+            "es": {
+              "label": "🌅 ¡Levántate temprano, el día te espera!"
+            },
+            "de": {
+              "label": "🌅 Früh aufstehen – der Tag wartet!"
+            }
+          },
+          "animals": [
+            "eagle",
+            "horse",
+            "cheetah",
+            "lion",
+            "dog"
+          ]
+        },
+        {
+          "id": "q24b",
+          "i18n": {
+            "ua": {
+              "label": "😴 Ще пʼять хвилинок... і ще пʼять"
+            },
+            "en": {
+              "label": "😴 Five more minutes... and five more"
+            },
+            "es": {
+              "label": "😴 Cinco minutos más... y cinco más"
+            },
+            "de": {
+              "label": "😴 Noch fünf Minuten... und noch fünf weitere"
+            }
+          },
+          "animals": [
+            "cat",
+            "bear",
+            "turtle",
+            "rabbit",
+            "otter",
+            "hedgehog",
+            "koala"
+          ]
+        },
+        {
+          "id": "q24c",
+          "i18n": {
+            "ua": {
+              "label": "🎵 Музика, душ, танці перед дзеркалом"
+            },
+            "en": {
+              "label": "🎵 Music, shower, dancing in the mirror"
+            },
+            "es": {
+              "label": "🎵 Música, ducha, baile frente al espejo"
+            },
+            "de": {
+              "label": "🎵 Musik, Dusche, Tanzen vor dem Spiegel"
+            }
+          },
+          "animals": [
+            "flamingo",
+            "parrot",
+            "monkey",
+            "peacock",
+            "dolphin"
+          ]
+        },
+        {
+          "id": "q24d",
+          "i18n": {
+            "ua": {
+              "label": "🌑 Я нічна людина — ранок мій ворог"
+            },
+            "en": {
+              "label": "🌑 I'm a night person — mornings are my enemy"
+            },
+            "es": {
+              "label": "🌑 Soy una persona nocturna; las mañanas son mi enemiga."
+            },
+            "de": {
+              "label": "🌑 Ich bin ein Nachtmensch – Morgen sind mein Feind."
+            }
+          },
+          "animals": [
+            "owl",
+            "wolf",
+            "snow_leopard",
+            "crow",
+            "fox"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "i18n": {
+        "ua": {
+          "text": "Як ти виражаєш свої почуття?"
+        },
+        "en": {
+          "text": "How do you express your feelings?"
+        },
+        "es": {
+          "text": "¿Cómo expresas tus sentimientos?"
+        },
+        "de": {
+          "text": "Wie drückst du deine Gefühle aus?"
+        }
+      },
+      "options": [
+        {
+          "id": "q25a",
+          "i18n": {
+            "ua": {
+              "label": "🗣️ Говорю прямо що відчуваю"
+            },
+            "en": {
+              "label": "🗣️ Say directly what I feel"
+            },
+            "es": {
+              "label": "🗣️ Di directamente lo que siento"
+            },
+            "de": {
+              "label": "🗣️ Sag direkt, was ich fühle"
+            }
+          },
+          "animals": [
+            "lion",
+            "horse",
+            "eagle",
+            "tiger",
+            "elephant"
+          ]
+        },
+        {
+          "id": "q25b",
+          "i18n": {
+            "ua": {
+              "label": "🎭 Через творчість — малюю, пишу, граю"
+            },
+            "en": {
+              "label": "🎭 Through creativity — draw, write, play"
+            },
+            "es": {
+              "label": "🎭 A través de la creatividad: dibuja, escribe, juega."
+            },
+            "de": {
+              "label": "🎭 Durch Kreativität – zeichnen, schreiben, spielen"
+            }
+          },
+          "animals": [
+            "octopus",
+            "butterfly",
+            "peacock",
+            "flamingo",
+            "snow_leopard",
+            "swan"
+          ]
+        },
+        {
+          "id": "q25c",
+          "i18n": {
+            "ua": {
+              "label": "🤗 Обіймаю, допомагаю, дарую подарунки"
+            },
+            "en": {
+              "label": "🤗 Hug, help, give gifts"
+            },
+            "es": {
+              "label": "🤗 Abraza, ayuda, da regalos"
+            },
+            "de": {
+              "label": "🤗 Umarmungen, Hilfe, Geschenke"
+            }
+          },
+          "animals": [
+            "dog",
+            "penguin",
+            "dolphin",
+            "rabbit",
+            "otter"
+          ]
+        },
+        {
+          "id": "q25d",
+          "i18n": {
+            "ua": {
+              "label": "🙃 Ховаю всередині — не люблю показувати"
+            },
+            "en": {
+              "label": "🙃 Keep it inside — don't like to show"
+            },
+            "es": {
+              "label": "🙃 Guárdalo dentro; no me gusta mostrarlo."
+            },
+            "de": {
+              "label": "🙃 Behalte es für dich – zeige es nicht gern."
+            }
+          },
+          "animals": [
+            "cat",
+            "deer",
+            "fox",
+            "crow",
+            "wolf",
+            "hedgehog"
+          ]
+        }
+      ]
+    }
+  ]
+}
