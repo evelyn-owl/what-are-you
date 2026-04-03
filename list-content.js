@@ -5,7 +5,28 @@ const names = { animals: 'Тварини', hp: 'Гаррі Поттер', peculi
 // WIKI mapping — same as in index.html
 const WIKI = {"lion":"Lion","fox":"Red_fox","wolf":"Wolf","owl":"Owl","dolphin":"Common_bottlenose_dolphin","eagle":"Bald_eagle","bear":"Brown_bear","cat":"Cat","dog":"Dog","elephant":"African_bush_elephant","cheetah":"Cheetah","penguin":"Emperor_penguin","octopus":"Octopus","butterfly":"Monarch_butterfly","parrot":"Macaw","turtle":"Sea_turtle","horse":"Horse","peacock":"Indian_peafowl","rabbit":"European_rabbit","tiger":"Tiger","monkey":"Mandrill","flamingo":"Flamingo","shark":"Great_white_shark","deer":"White-tailed_deer","crow":"Carrion_crow","otter":"Sea_otter","snow_leopard":"Snow_leopard","panda":"Giant_panda","chameleon":"Chameleon","hedgehog":"Hedgehog","swan":"Swan","koala":"Koala","harry":"Harry_Potter_(character)","hermione":"Hermione_Granger","ron":"Ron_Weasley","luna":"Luna_Lovegood","neville":"Neville_Longbottom","dumbledore":"Albus_Dumbledore","snape":"Severus_Snape","draco":"Draco_Malfoy","ginny":"Ginny_Weasley","fred_george":"Fred_and_George_Weasley","hagrid":"Rubeus_Hagrid","mcgonagall":"Minerva_McGonagall","sirius":"Sirius_Black","lupin":"Remus_Lupin","tonks":"Nymphadora_Tonks","dobby":"Dobby_(Harry_Potter)","cedric":"Cedric_Diggory","bellatrix":"Bellatrix_Lestrange","voldemort":"Lord_Voldemort","moody":"Alastor_Moody","molly_weasley":"Molly_Weasley","arthur_weasley":"Arthur_Weasley","borshch":"Borscht","pizza":"Pizza","sushi":"Sushi","varenyky":"Varenyky","ramen":"Ramen","steak":"Steak","croissant":"Croissant","tacos":"Taco","pad_thai":"Pad_thai","cheesecake":"Cheesecake","hummus":"Hummus","pho":"Pho","paella":"Paella","curry":"Curry","gelato":"Gelato","burger":"Hamburger","dim_sum":"Dim_sum","pancakes":"Pancake","ceviche":"Ceviche","shawarma":"Shawarma","fondue":"Fondue","matcha":"Matcha","dragon":"Dragon","phoenix":"Phoenix_(mythology)","unicorn":"Unicorn","griffin":"Griffin","mermaid":"Mermaid","werewolf":"Werewolf","fairy":"Fairy","kraken":"Kraken","centaur":"Centaur","hydra":"Lernaean_Hydra","sphinx":"Sphinx","pegasus":"Pegasus","elf":"Elf_(mythology)","basilisk":"Basilisk","yeti":"Yeti","chimera":"Chimera_(mythology)","minotaur":"Minotaur","selkie":"Selkie","djinn":"Jinn","valkyrie":"Valkyrie","kitsune":"Kitsune","golem":"Golem"};
 const PECULIAR_PHOTOS = {"jacob":"teenager boy adventure portrait","emma":"girl fire portrait fantasy","olive":"girl floating balloons portrait","enoch":"boy dark mysterious portrait","miss_peregrine":"woman elegant birds portrait","bronwyn":"strong girl portrait","millard":"invisible person silhouette art","horace":"elegant boy vintage hat portrait"};
-const DIRECT_PHOTOS = {"tonks":"https://static.wikia.nocookie.net/characters/images/0/0c/Nymphadora.jpg/revision/latest?cb=20250724110734","dobby":"https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg/revision/latest?cb=20230712061949","moody":"https://upload.wikimedia.org/wikipedia/uk/d/d0/%D0%90%D0%BB%D0%B0%D1%81%D1%82%D0%BE%D1%80_%D0%9C%D1%83%D0%B4%D1%96.jpg","cedric":"https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest/scale-to-width-down/1000?cb=20161123045136","arthur_weasley":"https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155118","molly_weasley":"https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155116"};
+const DIRECT_PHOTOS = {
+  "tonks":"https://static.wikia.nocookie.net/characters/images/0/0c/Nymphadora.jpg/revision/latest?cb=20250724110734",
+  "dobby":"https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg/revision/latest?cb=20230712061949",
+  "moody":"https://upload.wikimedia.org/wikipedia/uk/d/d0/%D0%90%D0%BB%D0%B0%D1%81%D1%82%D0%BE%D1%80_%D0%9C%D1%83%D0%B4%D1%96.jpg",
+  "cedric":"https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest/scale-to-width-down/1000?cb=20161123045136",
+  "arthur_weasley":"https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155118",
+  "molly_weasley":"https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155116",
+  "emma":"https://image.tmdb.org/t/p/original/4ti7dwgxDgRftoUqLEizfWGvqGY.jpg",
+  "enoch":"https://image.tmdb.org/t/p/original/gHzMQAJPtrY7uvVbOllzIteA8sv.jpg",
+  "horace":"https://image.tmdb.org/t/p/original/9Wl3sq4CeKNBQSZ8oUn8ghA2hod.jpg",
+  "peculiar_twins":"https://image.tmdb.org/t/p/original/awtv1HPEZ2e4eB9xUn2RBSyuzwd.jpg",
+  "millard":"https://image.tmdb.org/t/p/original/vSRCjZA81jYJeZip1Ayfj3AtMKA.jpg",
+  "fiona":"https://image.tmdb.org/t/p/original/4odAtoIOmI3psqqekYXdg6P1e3I.jpg",
+  "bronwyn":"https://image.tmdb.org/t/p/original/7dX4nSvatpSpiRbR1Jzosk5Pk2F.jpg",
+  "claire":"https://image.tmdb.org/t/p/original/gajDqExAwVfOn4UbyNpk9nMJ3CX.jpg",
+  "jacob":"https://image.tmdb.org/t/p/original/urvL2wvNVSfeX3dxggS6TCxzJiR.jpg",
+  "miss_peregrine":"https://image.tmdb.org/t/p/original/rGzpPCTc9pQfVBsGUejM3LHxpiB.jpg",
+  "olive":"https://image.tmdb.org/t/p/original/jdPyOhfpRVDjxw1lgzwXaHK02ua.jpg",
+  "hugh":"https://static.wikia.nocookie.net/enfants-particuliers/images/c/cf/Hugh_Apiston.jpg/revision/latest?cb=20230901141842&path-prefix=fr",
+  "abe":"https://media.themoviedb.org/t/p/w400/ept9urkuhPbGndVXkERw39R9oid.jpg",
+  "victor":"https://static.wikia.nocookie.net/timburton/images/d/d3/Victor_Bruntley.jpg/revision/latest?cb=20230120171137"
+};
 
 const withPhotos = process.argv.includes('--photos');
 
