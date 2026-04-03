@@ -1,4 +1,4 @@
-const CACHE = 'htoty-v1';
+const CACHE = 'htoty-v2';
 const ASSETS = [
   './',
   './index.html',
