@@ -176,9 +176,11 @@ const UI = {
 
 const WIKI = {"lion": "Lion", "fox": "Red_fox", "wolf": "Wolf", "owl": "Owl", "dolphin": "Common_bottlenose_dolphin", "eagle": "Bald_eagle", "bear": "Brown_bear", "cat": "Cat", "dog": "Dog", "elephant": "African_bush_elephant", "cheetah": "Cheetah", "penguin": "Emperor_penguin", "octopus": "Octopus", "butterfly": "Monarch_butterfly", "parrot": "Macaw", "turtle": "Sea_turtle", "horse": "Horse", "peacock": "Indian_peafowl", "rabbit": "European_rabbit", "tiger": "Tiger", "monkey": "Mandrill", "flamingo": "Flamingo", "shark": "Great_white_shark", "deer": "White-tailed_deer", "crow": "Carrion_crow", "otter": "Sea_otter", "snow_leopard": "Snow_leopard", "panda": "Giant_panda", "chameleon": "Chameleon", "hedgehog": "Hedgehog", "swan": "Swan", "koala": "Koala", "harry": "Harry_Potter_(character)", "hermione": "Hermione_Granger", "ron": "Ron_Weasley", "luna": "Luna_Lovegood", "neville": "Neville_Longbottom", "dumbledore": "Albus_Dumbledore", "snape": "Severus_Snape", "draco": "Draco_Malfoy", "ginny": "Ginny_Weasley", "fred_george": "Fred_and_George_Weasley", "hagrid": "Rubeus_Hagrid", "mcgonagall": "Minerva_McGonagall", "sirius": "Sirius_Black", "lupin": "Remus_Lupin", "tonks": "Nymphadora_Tonks", "dobby": "Dobby_(Harry_Potter)", "cedric": "Cedric_Diggory", "bellatrix": "Bellatrix_Lestrange", "voldemort": "Lord_Voldemort", "moody": "Alastor_Moody", "molly_weasley": "Molly_Weasley", "arthur_weasley": "Arthur_Weasley", "borshch": "Borscht", "pizza": "Pizza", "sushi": "Sushi", "varenyky": "Varenyky", "ramen": "Ramen", "steak": "Steak", "croissant": "Croissant", "tacos": "Taco", "pad_thai": "Pad_thai", "cheesecake": "Cheesecake", "hummus": "Hummus", "pho": "Pho", "paella": "Paella", "curry": "Curry", "gelato": "Gelato", "burger": "Hamburger", "dim_sum": "Dim_sum", "pancakes": "Pancake", "ceviche": "Ceviche", "shawarma": "Shawarma", "fondue": "Fondue", "matcha": "Matcha", "dragon": "Dragon", "phoenix": "Phoenix_(mythology)", "unicorn": "Unicorn", "griffin": "Griffin", "mermaid": "Mermaid", "werewolf": "Werewolf", "fairy": "Fairy", "kraken": "Kraken", "centaur": "Centaur", "hydra": "Lernaean_Hydra", "sphinx": "Sphinx", "pegasus": "Pegasus", "elf": "Elf_(mythology)", "basilisk": "Basilisk", "yeti": "Yeti", "chimera": "Chimera_(mythology)", "minotaur": "Minotaur", "selkie": "Selkie", "djinn": "Jinn", "valkyrie": "Valkyrie", "kitsune": "Kitsune", "golem": "Golem"};
 const PECULIAR_PHOTOS = {"jacob": "teenager boy adventure portrait", "emma": "girl fire portrait fantasy", "olive": "girl floating balloons portrait", "enoch": "boy dark mysterious portrait", "miss_peregrine": "woman elegant birds portrait", "bronwyn": "strong girl portrait", "millard": "invisible person silhouette art", "horace": "elegant boy vintage hat portrait"};
+const DIRECT_PHOTOS = {"tonks": "https://static.wikia.nocookie.net/characters/images/0/0c/Nymphadora.jpg/revision/latest?cb=20250724110734", "dobby": "https://static.wikia.nocookie.net/harrypotter/images/8/82/Dobby.jpg/revision/latest?cb=20230712061949", "moody": "https://upload.wikimedia.org/wikipedia/uk/d/d0/%D0%90%D0%BB%D0%B0%D1%81%D1%82%D0%BE%D1%80_%D0%9C%D1%83%D0%B4%D1%96.jpg", "cedric": "https://static.wikia.nocookie.net/harrypotter/images/9/90/Cedric_Diggory_Profile.png/revision/latest/scale-to-width-down/1000?cb=20161123045136", "arthur_weasley": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155118", "molly_weasley": "https://static.wikia.nocookie.net/harrypotter/images/3/3c/Molly_Weasley_Deathly_Hallows.jpg/revision/latest/scale-to-width-down/1000?cb=20150828155116"};
 
 async function fetchPhoto(id, quizId) {
   try {
+    if (DIRECT_PHOTOS[id]) return DIRECT_PHOTOS[id];
     if (quizId === 'peculiar') {
       const q = PECULIAR_PHOTOS[id] || id;
       const res = await fetch(`https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&prop=pageimages&piprop=thumbnail&pithumbsize=400&format=json&origin=*&gsrlimit=1`);
@@ -188,11 +190,20 @@ async function fetchPhoto(id, quizId) {
     }
     const wiki = WIKI[id];
     if (!wiki) return null;
-    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`);
-    if (!res.ok) return null;
-    const data = await res.json();
-    const src = data?.thumbnail?.source;
-    return src ? src.replace(/\/\d+px-/, '/400px-') : null;
+    const wikiName = wiki.replace(/_/g, ' ').replace(/\(.*\)/, '').trim().toLowerCase();
+    const wikiLangs = ['en', 'uk', 'de', 'es', 'fr', 'ru', 'ja'];
+    for (const wl of wikiLangs) {
+      try {
+        const res = await fetch(`https://${wl}.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`);
+        if (!res.ok) continue;
+        const data = await res.json();
+        const title = (data?.title || '').toLowerCase();
+        if (!title.includes(wikiName.split(' ')[0])) continue;
+        const src = data?.thumbnail?.source;
+        if (src) return src.replace(/\/\d+px-/, '/400px-');
+      } catch {}
+    }
+    return null;
   } catch (e) { return null; }
 }
 
