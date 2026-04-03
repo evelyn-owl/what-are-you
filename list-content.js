@@ -81,7 +81,7 @@ async function main() {
 body{font-family:sans-serif;background:#0a0818;color:#ede8ff;max-width:900px;margin:0 auto;padding:20px;}
 h2{color:#f0c060;border-bottom:1px solid #333;padding-bottom:8px;margin-top:40px;}
 .hero{display:flex;gap:16px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #1e1540;}
-.hero img{width:100px;height:100px;object-fit:cover;border-radius:50%;border:2px solid #f0c060;flex-shrink:0;background:#1e1540;}
+.hero img{width:100px;height:100px;object-fit:cover;object-position:top;border-radius:50%;border:2px solid #f0c060;flex-shrink:0;background:#1e1540;}
 .hero .no-photo{width:100px;height:100px;border-radius:50%;border:2px solid #333;display:flex;align-items:center;justify-content:center;font-size:40px;flex-shrink:0;background:#1e1540;}
 .hero-info{flex:1;}
 .hero-id{font-size:11px;color:#8a7fb0;font-family:monospace;}
