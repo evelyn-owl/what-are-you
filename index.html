@@ -306,7 +306,7 @@ function getDiscoveredCount(quizId) {
   return getDiscovered(quizId).length;
 }
 function getTotalCount(quizId) {
-  return QUIZ_DATA[quizId]?.animals?.length || 0;
+  return QUIZ_DATA[quizId]?.animals?.filter(a => !a.hidden)?.length || 0;
 }
 
 function shuffle(arr) {
@@ -397,7 +397,8 @@ function selectAndAdvance(btn, opt) {
 
 function calcResult() {
   const scores = {};
-  answers.forEach(opt => { opt.animals.forEach(a => { scores[a] = (scores[a] || 0) + 1; }); });
+  const hiddenIds = new Set(currentQuiz.data.animals.filter(a => a.hidden).map(a => a.id));
+  answers.forEach(opt => { opt.animals.forEach(a => { if (!hiddenIds.has(a)) scores[a] = (scores[a] || 0) + 1; }); });
   const winner = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
   return currentQuiz.data.animals.find(a => a.id === winner);
 }

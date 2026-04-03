@@ -77,9 +77,10 @@ async function main() {
       });
     });
 
-    heroes += `\n=== ${title} (${data.animals.length} результатів) ===\n`;
-    for (let i = 0; i < data.animals.length; i++) {
-      const a = data.animals[i];
+    const visibleAnimals = data.animals.filter(a => !a.hidden);
+    heroes += `\n=== ${title} (${visibleAnimals.length} результатів) ===\n`;
+    for (let i = 0; i < visibleAnimals.length; i++) {
+      const a = visibleAnimals[i];
       let photoLine = '';
       if (withPhotos) {
         const url = await fetchPhoto(a.id, id);
@@ -114,9 +115,10 @@ h2{color:#f0c060;border-bottom:1px solid #333;padding-bottom:8px;margin-top:40px
     for (const id of quizzes) {
       const data = JSON.parse(fs.readFileSync(`data/${id}.json`, 'utf8'));
       const title = names[id];
-      html += `<h2>${title} (${data.animals.length})</h2>\n`;
-      for (let i = 0; i < data.animals.length; i++) {
-        const a = data.animals[i];
+      const visAnimals = data.animals.filter(a => !a.hidden);
+      html += `<h2>${title} (${visAnimals.length})</h2>\n`;
+      for (let i = 0; i < visAnimals.length; i++) {
+        const a = visAnimals[i];
         const url = photoCache[`${id}:${a.id}`] || null;
         const imgTag = url
           ? `<img src="${url}" alt="${a.i18n.ua.name}" loading="lazy">`
