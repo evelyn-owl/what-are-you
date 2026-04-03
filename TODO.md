@@ -28,6 +28,10 @@
 - [ ] Додати meta description для SEO
 - [ ] Перевірити та покращити accessibility (a11y): ARIA-атрибути, контрастність, навігація клавіатурою
 
+## Авторство зображень
+- [ ] Додати сторінку/файл з attribution для зображень з ліцензіями (CC BY тощо)
+  - Elf: "Elves leave Middle-earth" by Araniart, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=30526766
+
 ## Контент
 - [ ] Додати більше питань до кожного квізу для варіативності
 - [ ] Переглянути та вичитати тексти (UA/EN) на помилки
