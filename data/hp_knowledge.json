@@ -21,6 +21,370 @@
         "title": "HP-Wissen",
         "description": "Wie gut kennst du die Welt von Harry Potter?"
       }
+    },
+    "mentors": [
+      {
+        "rangeMin": 80,
+        "i18n": {
+          "ua": [
+            {
+              "emoji": "⚡",
+              "name": "Гаррі",
+              "message": "Ти б впорався на 5-му курсі"
+            },
+            {
+              "emoji": "📚",
+              "name": "Герміона",
+              "message": "Ти читав Історію Гоґвортсу?"
+            },
+            {
+              "emoji": "🧙",
+              "name": "Дамблдор",
+              "message": "Наші вибори показують нас набагато краще, ніж наші здібності"
+            }
+          ],
+          "en": [
+            {
+              "emoji": "⚡",
+              "name": "Harry",
+              "message": "You'd handle your 5th year just fine"
+            },
+            {
+              "emoji": "📚",
+              "name": "Hermione",
+              "message": "Have you read Hogwarts: A History?"
+            },
+            {
+              "emoji": "🧙",
+              "name": "Dumbledore",
+              "message": "It is our choices that show what we truly are, far more than our abilities"
+            }
+          ],
+          "es": [
+            {
+              "emoji": "⚡",
+              "name": "Harry",
+              "message": "Sobrevivirías al 5º curso sin problemas"
+            },
+            {
+              "emoji": "📚",
+              "name": "Hermione",
+              "message": "¿Has leído Historia de Hogwarts?"
+            },
+            {
+              "emoji": "🧙",
+              "name": "Dumbledore",
+              "message": "Son nuestras decisiones las que muestran lo que realmente somos"
+            }
+          ],
+          "de": [
+            {
+              "emoji": "⚡",
+              "name": "Harry",
+              "message": "Du würdest dein 5. Jahr problemlos meistern"
+            },
+            {
+              "emoji": "📚",
+              "name": "Hermine",
+              "message": "Hast du Geschichte Hogwarts gelesen?"
+            },
+            {
+              "emoji": "🧙",
+              "name": "Dumbledore",
+              "message": "Unsere Entscheidungen zeigen, wer wir wirklich sind"
+            }
+          ]
+        }
+      },
+      {
+        "rangeMin": 60,
+        "rangeMax": 79,
+        "i18n": {
+          "ua": [
+            {
+              "emoji": "🦁",
+              "name": "Макґонеґел",
+              "message": "Непогано для учня 3-го курсу"
+            },
+            {
+              "emoji": "🧣",
+              "name": "Рон",
+              "message": "Краще ніж я вчив заклинання"
+            }
+          ],
+          "en": [
+            {
+              "emoji": "🦁",
+              "name": "McGonagall",
+              "message": "Not bad for a 3rd-year student"
+            },
+            {
+              "emoji": "🧣",
+              "name": "Ron",
+              "message": "Better than me learning spells"
+            }
+          ],
+          "es": [
+            {
+              "emoji": "🦁",
+              "name": "McGonagall",
+              "message": "Nada mal para un alumno de 3º año"
+            },
+            {
+              "emoji": "🧣",
+              "name": "Ron",
+              "message": "Mejor que yo aprendiendo hechizos"
+            }
+          ],
+          "de": [
+            {
+              "emoji": "🦁",
+              "name": "McGonagall",
+              "message": "Nicht schlecht für einen Drittklässler"
+            },
+            {
+              "emoji": "🧣",
+              "name": "Ron",
+              "message": "Besser als ich beim Zauberlernen"
+            }
+          ]
+        }
+      },
+      {
+        "rangeMin": 40,
+        "rangeMax": 59,
+        "i18n": {
+          "ua": [
+            {
+              "emoji": "🎩",
+              "name": "Сортувальний Капелюх",
+              "message": "Тобі ще рости..."
+            },
+            {
+              "emoji": "🧙‍♀️",
+              "name": "Моллі Візлі",
+              "message": "Треба більше часу проводити за книжками"
+            }
+          ],
+          "en": [
+            {
+              "emoji": "🎩",
+              "name": "Sorting Hat",
+              "message": "You have room to grow..."
+            },
+            {
+              "emoji": "🧙‍♀️",
+              "name": "Molly Weasley",
+              "message": "Spend more time with books, dear"
+            }
+          ],
+          "es": [
+            {
+              "emoji": "🎩",
+              "name": "Sombrero Seleccionador",
+              "message": "Tienes espacio para crecer..."
+            },
+            {
+              "emoji": "🧙‍♀️",
+              "name": "Molly Weasley",
+              "message": "Pasa más tiempo con los libros, querido"
+            }
+          ],
+          "de": [
+            {
+              "emoji": "🎩",
+              "name": "Sprechender Hut",
+              "message": "Du hast noch Luft nach oben..."
+            },
+            {
+              "emoji": "🧙‍♀️",
+              "name": "Molly Weasley",
+              "message": "Verbringe mehr Zeit mit Büchern, Liebling"
+            }
+          ]
+        }
+      },
+      {
+        "rangeMin": 20,
+        "rangeMax": 39,
+        "i18n": {
+          "ua": [
+            {
+              "emoji": "🪄",
+              "name": "Геґрід",
+              "message": "Не журися, не всі народжуються чарівниками"
+            },
+            {
+              "emoji": "😅",
+              "name": "Невіл",
+              "message": "І я колись був розгубленим..."
+            }
+          ],
+          "en": [
+            {
+              "emoji": "🪄",
+              "name": "Hagrid",
+              "message": "Don't worry, not everyone's born a wizard"
+            },
+            {
+              "emoji": "😅",
+              "name": "Neville",
+              "message": "I used to feel lost too..."
+            }
+          ],
+          "es": [
+            {
+              "emoji": "🪄",
+              "name": "Hagrid",
+              "message": "No te preocupes, no todos nacen magos"
+            },
+            {
+              "emoji": "😅",
+              "name": "Neville",
+              "message": "Yo también me sentía perdido antes..."
+            }
+          ],
+          "de": [
+            {
+              "emoji": "🪄",
+              "name": "Hagrid",
+              "message": "Mach dir nix draus, nicht jeder wird als Zauberer geboren"
+            },
+            {
+              "emoji": "😅",
+              "name": "Neville",
+              "message": "Ich war auch mal verloren..."
+            }
+          ]
+        }
+      },
+      {
+        "rangeMax": 19,
+        "i18n": {
+          "ua": [
+            {
+              "emoji": "🐀",
+              "name": "Скеберс",
+              "message": "Ти точно читав ту ж книгу що й я?"
+            },
+            {
+              "emoji": "🕷️",
+              "name": "Араґоґ",
+              "message": "Рушай назад до маґлів, дитя"
+            }
+          ],
+          "en": [
+            {
+              "emoji": "🐀",
+              "name": "Scabbers",
+              "message": "Are you sure you read the same book as me?"
+            },
+            {
+              "emoji": "🕷️",
+              "name": "Aragog",
+              "message": "Go back to the Muggles, child"
+            }
+          ],
+          "es": [
+            {
+              "emoji": "🐀",
+              "name": "Scabbers",
+              "message": "¿Seguro leíste el mismo libro que yo?"
+            },
+            {
+              "emoji": "🕷️",
+              "name": "Aragog",
+              "message": "Vuelve con los muggles, niño"
+            }
+          ],
+          "de": [
+            {
+              "emoji": "🐀",
+              "name": "Krätze",
+              "message": "Sicher, dass du dasselbe Buch gelesen hast?"
+            },
+            {
+              "emoji": "🕷️",
+              "name": "Aragog",
+              "message": "Kehre zu den Muggeln zurück, Kind"
+            }
+          ]
+        }
+      }
+    ],
+    "facts": {
+      "ua": [
+        "Гедвіга — полярна сова, названа на честь католицької святої з Середньовіччя",
+        "Сова Рона, Левконія (Лев) — крихітна сова, яку йому подарував Сіріус",
+        "У квідич грають 7 гравців у команді — і це не випадково, 7 — магічне число у серії",
+        "Ловець — найменший і найшвидший гравець, бо мусить ловити золотий снітч",
+        "Алохомора — це заклинання з Західної Африки, яке означає \"сприятливий для злодіїв\"",
+        "Експекто Патронум приходить з латини: \"Я очікую захисника\"",
+        "Авада Кедавра схожа на слово \"абракадабра\" — одна з версій походження",
+        "Вінгардіум Левіоса — комбінація латини та слова \"levis\" (легкий)",
+        "Діагон-алея прихована за стіною пабу \"Діркотлий Котел\" у Лондоні",
+        "Вхід на платформу 9¾ — лише для чарівників: маґли бачать лише стіну",
+        "Гоґвортс був заснований понад 1000 років тому чотирма великими чарівниками",
+        "У Гоґвортсі не можна являтися — чарівна магія блокує це",
+        "Хогсмід — єдине село в Британії, де живуть тільки чарівники",
+        "Джоан Роулінг написала першу книгу в 1990 році, ідея прийшла їй у поїзді",
+        "Перший тираж \"Філософського каменю\" був лише 500 примірників у 1997 році",
+        "Усі 7 книг разом займають понад 4000 сторінок"
+      ],
+      "en": [
+        "Hedwig is a snowy owl, named after a medieval Catholic saint",
+        "Ron's owl Pigwidgeon (Pig) — a tiny owl gifted by Sirius",
+        "Quidditch teams have 7 players — 7 is a magical number throughout the series",
+        "The Seeker is the smallest and fastest player, chasing the golden snitch",
+        "Alohomora comes from West African dialect meaning \"favourable to thieves\"",
+        "Expecto Patronum comes from Latin: \"I await a protector\"",
+        "Avada Kedavra is similar to \"abracadabra\" — one theory of its origin",
+        "Wingardium Leviosa combines Latin roots with \"levis\" (light)",
+        "Diagon Alley is hidden behind the wall of The Leaky Cauldron pub in London",
+        "The entrance to Platform 9¾ — for wizards only: Muggles just see a wall",
+        "Hogwarts was founded over 1000 years ago by four great wizards",
+        "You cannot Apparate inside Hogwarts — magic blocks it",
+        "Hogsmeade is the only all-wizard village in Britain",
+        "J.K. Rowling started writing in 1990, the idea came on a train",
+        "The first print run of Philosopher's Stone was just 500 copies in 1997",
+        "All 7 books together are over 4000 pages long"
+      ],
+      "es": [
+        "Hedwig es una lechuza blanca, nombrada por una santa católica medieval",
+        "Pigwidgeon (Pig) — la pequeña lechuza de Ron, regalo de Sirius",
+        "Los equipos de Quidditch tienen 7 jugadores — el 7 es un número mágico en la saga",
+        "El Buscador es el jugador más pequeño y rápido, persigue la snitch dorada",
+        "Alohomora viene de un dialecto africano: \"favorable a los ladrones\"",
+        "Expecto Patronum viene del latín: \"espero un protector\"",
+        "Avada Kedavra se parece a \"abracadabra\" — una teoría sobre su origen",
+        "Wingardium Leviosa combina raíces latinas con \"levis\" (ligero)",
+        "El Callejón Diagon está escondido tras el muro del Caldero Chorreante en Londres",
+        "La entrada al Andén 9¾ — solo para magos: los muggles solo ven un muro",
+        "Hogwarts fue fundado hace más de 1000 años por cuatro grandes magos",
+        "No puedes aparecerte dentro de Hogwarts — la magia lo bloquea",
+        "Hogsmeade es el único pueblo habitado solo por magos en Gran Bretaña",
+        "J.K. Rowling empezó a escribir en 1990, la idea le vino en un tren",
+        "La primera edición de la Piedra Filosofal fue solo de 500 copias en 1997",
+        "Los 7 libros juntos tienen más de 4000 páginas"
+      ],
+      "de": [
+        "Hedwig ist eine Schneeeule, benannt nach einer katholischen Heiligen aus dem Mittelalter",
+        "Pigwidgeon (Pig) — Rons winzige Eule, ein Geschenk von Sirius",
+        "Quidditch-Teams haben 7 Spieler — die 7 ist eine magische Zahl in der Serie",
+        "Der Sucher ist der kleinste und schnellste Spieler, er jagt den Goldenen Schnatz",
+        "Alohomora stammt aus einem westafrikanischen Dialekt: \"günstig für Diebe\"",
+        "Expecto Patronum kommt aus dem Lateinischen: \"Ich erwarte einen Beschützer\"",
+        "Avada Kedavra ähnelt \"Abrakadabra\" — eine Theorie zum Ursprung",
+        "Wingardium Leviosa kombiniert lateinische Wurzeln mit \"levis\" (leicht)",
+        "Die Winkelgasse ist hinter der Mauer des Tropfenden Kessels in London verborgen",
+        "Der Eingang zu Gleis 9¾ — nur für Zauberer: Muggel sehen nur eine Mauer",
+        "Hogwarts wurde vor über 1000 Jahren von vier großen Zauberern gegründet",
+        "Man kann nicht nach Hogwarts apparieren — Magie blockiert es",
+        "Hogsmeade ist das einzige reine Zauberer-Dorf in Großbritannien",
+        "J.K. Rowling begann 1990 zu schreiben, die Idee kam ihr im Zug",
+        "Die Erstauflage des Steins der Weisen waren nur 500 Exemplare im Jahr 1997",
+        "Alle 7 Bücher zusammen haben über 4000 Seiten"
+      ]
     }
   },
   "animals": [],
@@ -28,226 +392,1366 @@
     {
       "id": "hk1",
       "i18n": {
-        "ua": { "text": "Який факультет обрав би Сортувальний Капелюх для тебе за замовчуванням, якщо у ньому є всі чотири?" },
-        "en": { "text": "How many Hogwarts houses are there?" },
-        "es": { "text": "¿Cuántas casas de Hogwarts hay?" },
-        "de": { "text": "Wie viele Häuser gibt es in Hogwarts?" }
+        "ua": {
+          "text": "Скільки факультетів у Гоґвортсі?"
+        },
+        "en": {
+          "text": "How many Hogwarts houses are there?"
+        },
+        "es": {
+          "text": "¿Cuántas casas de Hogwarts hay?"
+        },
+        "de": {
+          "text": "Wie viele Häuser gibt es in Hogwarts?"
+        }
       },
       "options": [
-        { "id": "hk1a", "i18n": { "ua": { "label": "3" }, "en": { "label": "3" }, "es": { "label": "3" }, "de": { "label": "3" } }, "correct": false },
-        { "id": "hk1b", "i18n": { "ua": { "label": "4" }, "en": { "label": "4" }, "es": { "label": "4" }, "de": { "label": "4" } }, "correct": true },
-        { "id": "hk1c", "i18n": { "ua": { "label": "5" }, "en": { "label": "5" }, "es": { "label": "5" }, "de": { "label": "5" } }, "correct": false },
-        { "id": "hk1d", "i18n": { "ua": { "label": "7" }, "en": { "label": "7" }, "es": { "label": "7" }, "de": { "label": "7" } }, "correct": false }
+        {
+          "id": "hk1a",
+          "i18n": {
+            "ua": {
+              "label": "3"
+            },
+            "en": {
+              "label": "3"
+            },
+            "es": {
+              "label": "3"
+            },
+            "de": {
+              "label": "3"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk1b",
+          "i18n": {
+            "ua": {
+              "label": "4"
+            },
+            "en": {
+              "label": "4"
+            },
+            "es": {
+              "label": "4"
+            },
+            "de": {
+              "label": "4"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk1c",
+          "i18n": {
+            "ua": {
+              "label": "5"
+            },
+            "en": {
+              "label": "5"
+            },
+            "es": {
+              "label": "5"
+            },
+            "de": {
+              "label": "5"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk1d",
+          "i18n": {
+            "ua": {
+              "label": "7"
+            },
+            "en": {
+              "label": "7"
+            },
+            "es": {
+              "label": "7"
+            },
+            "de": {
+              "label": "7"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk2",
       "i18n": {
-        "ua": { "text": "Як звати сову Гаррі Поттера?" },
-        "en": { "text": "What is the name of Harry Potter's owl?" },
-        "es": { "text": "¿Cómo se llama la lechuza de Harry Potter?" },
-        "de": { "text": "Wie heißt Harry Potters Eule?" }
+        "ua": {
+          "text": "Як звати сову Гаррі Поттера?"
+        },
+        "en": {
+          "text": "What is the name of Harry Potter's owl?"
+        },
+        "es": {
+          "text": "¿Cómo se llama la lechuza de Harry Potter?"
+        },
+        "de": {
+          "text": "Wie heißt Harry Potters Eule?"
+        }
       },
       "options": [
-        { "id": "hk2a", "i18n": { "ua": { "label": "🦉 Гедвіга" }, "en": { "label": "🦉 Hedwig" }, "es": { "label": "🦉 Hedwig" }, "de": { "label": "🦉 Hedwig" } }, "correct": true },
-        { "id": "hk2b", "i18n": { "ua": { "label": "🦉 Еррол" }, "en": { "label": "🦉 Errol" }, "es": { "label": "🦉 Errol" }, "de": { "label": "🦉 Errol" } }, "correct": false },
-        { "id": "hk2c", "i18n": { "ua": { "label": "🦉 Пігвіджон" }, "en": { "label": "🦉 Pigwidgeon" }, "es": { "label": "🦉 Pigwidgeon" }, "de": { "label": "🦉 Pigwidgeon" } }, "correct": false },
-        { "id": "hk2d", "i18n": { "ua": { "label": "🦉 Фоукс" }, "en": { "label": "🦉 Fawkes" }, "es": { "label": "🦉 Fawkes" }, "de": { "label": "🦉 Fawkes" } }, "correct": false }
+        {
+          "id": "hk2a",
+          "i18n": {
+            "ua": {
+              "label": "🦉 Гедвіга"
+            },
+            "en": {
+              "label": "🦉 Hedwig"
+            },
+            "es": {
+              "label": "🦉 Hedwig"
+            },
+            "de": {
+              "label": "🦉 Hedwig"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk2b",
+          "i18n": {
+            "ua": {
+              "label": "🦉 Еррол"
+            },
+            "en": {
+              "label": "🦉 Errol"
+            },
+            "es": {
+              "label": "🦉 Errol"
+            },
+            "de": {
+              "label": "🦉 Errol"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk2c",
+          "i18n": {
+            "ua": {
+              "label": "🦉 Пігвіджон"
+            },
+            "en": {
+              "label": "🦉 Pigwidgeon"
+            },
+            "es": {
+              "label": "🦉 Pigwidgeon"
+            },
+            "de": {
+              "label": "🦉 Pigwidgeon"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk2d",
+          "i18n": {
+            "ua": {
+              "label": "🦉 Фоукс"
+            },
+            "en": {
+              "label": "🦉 Fawkes"
+            },
+            "es": {
+              "label": "🦉 Fawkes"
+            },
+            "de": {
+              "label": "🦉 Fawkes"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk3",
       "i18n": {
-        "ua": { "text": "Яке заклинання дозволяє левітувати предмети?" },
-        "en": { "text": "Which spell makes objects levitate?" },
-        "es": { "text": "¿Qué hechizo hace levitar objetos?" },
-        "de": { "text": "Welcher Zauber lässt Gegenstände schweben?" }
+        "ua": {
+          "text": "Яке заклинання дозволяє левітувати предмети?"
+        },
+        "en": {
+          "text": "Which spell makes objects levitate?"
+        },
+        "es": {
+          "text": "¿Qué hechizo hace levitar objetos?"
+        },
+        "de": {
+          "text": "Welcher Zauber lässt Gegenstände schweben?"
+        }
       },
       "options": [
-        { "id": "hk3a", "i18n": { "ua": { "label": "Експеліармус" }, "en": { "label": "Expelliarmus" }, "es": { "label": "Expelliarmus" }, "de": { "label": "Expelliarmus" } }, "correct": false },
-        { "id": "hk3b", "i18n": { "ua": { "label": "Вінгардіум Левіоса" }, "en": { "label": "Wingardium Leviosa" }, "es": { "label": "Wingardium Leviosa" }, "de": { "label": "Wingardium Leviosa" } }, "correct": true },
-        { "id": "hk3c", "i18n": { "ua": { "label": "Алохомора" }, "en": { "label": "Alohomora" }, "es": { "label": "Alohomora" }, "de": { "label": "Alohomora" } }, "correct": false },
-        { "id": "hk3d", "i18n": { "ua": { "label": "Люмос" }, "en": { "label": "Lumos" }, "es": { "label": "Lumos" }, "de": { "label": "Lumos" } }, "correct": false }
+        {
+          "id": "hk3a",
+          "i18n": {
+            "ua": {
+              "label": "Експеліармус"
+            },
+            "en": {
+              "label": "Expelliarmus"
+            },
+            "es": {
+              "label": "Expelliarmus"
+            },
+            "de": {
+              "label": "Expelliarmus"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk3b",
+          "i18n": {
+            "ua": {
+              "label": "Вінгардіум Левіоса"
+            },
+            "en": {
+              "label": "Wingardium Leviosa"
+            },
+            "es": {
+              "label": "Wingardium Leviosa"
+            },
+            "de": {
+              "label": "Wingardium Leviosa"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk3c",
+          "i18n": {
+            "ua": {
+              "label": "Алохомора"
+            },
+            "en": {
+              "label": "Alohomora"
+            },
+            "es": {
+              "label": "Alohomora"
+            },
+            "de": {
+              "label": "Alohomora"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk3d",
+          "i18n": {
+            "ua": {
+              "label": "Люмос"
+            },
+            "en": {
+              "label": "Lumos"
+            },
+            "es": {
+              "label": "Lumos"
+            },
+            "de": {
+              "label": "Lumos"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk4",
       "i18n": {
-        "ua": { "text": "Як називається місце, де учні купують шкільне приладдя?" },
-        "en": { "text": "Where do students buy their school supplies?" },
-        "es": { "text": "¿Dónde compran los estudiantes sus útiles escolares?" },
-        "de": { "text": "Wo kaufen die Schüler ihre Schulsachen?" }
+        "ua": {
+          "text": "Як називається місце, де учні купують шкільне приладдя?"
+        },
+        "en": {
+          "text": "Where do students buy their school supplies?"
+        },
+        "es": {
+          "text": "¿Dónde compran los estudiantes sus útiles escolares?"
+        },
+        "de": {
+          "text": "Wo kaufen die Schüler ihre Schulsachen?"
+        }
       },
       "options": [
-        { "id": "hk4a", "i18n": { "ua": { "label": "Хогсмід" }, "en": { "label": "Hogsmeade" }, "es": { "label": "Hogsmeade" }, "de": { "label": "Hogsmeade" } }, "correct": false },
-        { "id": "hk4b", "i18n": { "ua": { "label": "Діагон-алея" }, "en": { "label": "Diagon Alley" }, "es": { "label": "Callejón Diagon" }, "de": { "label": "Winkelgasse" } }, "correct": true },
-        { "id": "hk4c", "i18n": { "ua": { "label": "Нокттурн-алея" }, "en": { "label": "Knockturn Alley" }, "es": { "label": "Callejón Knockturn" }, "de": { "label": "Nokturngasse" } }, "correct": false },
-        { "id": "hk4d", "i18n": { "ua": { "label": "Міністерство магії" }, "en": { "label": "Ministry of Magic" }, "es": { "label": "Ministerio de Magia" }, "de": { "label": "Zaubereiministerium" } }, "correct": false }
+        {
+          "id": "hk4a",
+          "i18n": {
+            "ua": {
+              "label": "Хогсмід"
+            },
+            "en": {
+              "label": "Hogsmeade"
+            },
+            "es": {
+              "label": "Hogsmeade"
+            },
+            "de": {
+              "label": "Hogsmeade"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk4b",
+          "i18n": {
+            "ua": {
+              "label": "Діагон-алея"
+            },
+            "en": {
+              "label": "Diagon Alley"
+            },
+            "es": {
+              "label": "Callejón Diagon"
+            },
+            "de": {
+              "label": "Winkelgasse"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk4c",
+          "i18n": {
+            "ua": {
+              "label": "Нокттурн-алея"
+            },
+            "en": {
+              "label": "Knockturn Alley"
+            },
+            "es": {
+              "label": "Callejón Knockturn"
+            },
+            "de": {
+              "label": "Nokturngasse"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk4d",
+          "i18n": {
+            "ua": {
+              "label": "Міністерство магії"
+            },
+            "en": {
+              "label": "Ministry of Magic"
+            },
+            "es": {
+              "label": "Ministerio de Magia"
+            },
+            "de": {
+              "label": "Zaubereiministerium"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk5",
       "i18n": {
-        "ua": { "text": "Хто є хрещеним батьком Гаррі Поттера?" },
-        "en": { "text": "Who is Harry Potter's godfather?" },
-        "es": { "text": "¿Quién es el padrino de Harry Potter?" },
-        "de": { "text": "Wer ist Harry Potters Pate?" }
+        "ua": {
+          "text": "Хто є хрещеним батьком Гаррі Поттера?"
+        },
+        "en": {
+          "text": "Who is Harry Potter's godfather?"
+        },
+        "es": {
+          "text": "¿Quién es el padrino de Harry Potter?"
+        },
+        "de": {
+          "text": "Wer ist Harry Potters Pate?"
+        }
       },
       "options": [
-        { "id": "hk5a", "i18n": { "ua": { "label": "Ремус Люпин" }, "en": { "label": "Remus Lupin" }, "es": { "label": "Remus Lupin" }, "de": { "label": "Remus Lupin" } }, "correct": false },
-        { "id": "hk5b", "i18n": { "ua": { "label": "Сіріус Блек" }, "en": { "label": "Sirius Black" }, "es": { "label": "Sirius Black" }, "de": { "label": "Sirius Black" } }, "correct": true },
-        { "id": "hk5c", "i18n": { "ua": { "label": "Гагрід" }, "en": { "label": "Hagrid" }, "es": { "label": "Hagrid" }, "de": { "label": "Hagrid" } }, "correct": false },
-        { "id": "hk5d", "i18n": { "ua": { "label": "Дамблдор" }, "en": { "label": "Dumbledore" }, "es": { "label": "Dumbledore" }, "de": { "label": "Dumbledore" } }, "correct": false }
+        {
+          "id": "hk5a",
+          "i18n": {
+            "ua": {
+              "label": "Ремус Люпин"
+            },
+            "en": {
+              "label": "Remus Lupin"
+            },
+            "es": {
+              "label": "Remus Lupin"
+            },
+            "de": {
+              "label": "Remus Lupin"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk5b",
+          "i18n": {
+            "ua": {
+              "label": "Сіріус Блек"
+            },
+            "en": {
+              "label": "Sirius Black"
+            },
+            "es": {
+              "label": "Sirius Black"
+            },
+            "de": {
+              "label": "Sirius Black"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk5c",
+          "i18n": {
+            "ua": {
+              "label": "Гагрід"
+            },
+            "en": {
+              "label": "Hagrid"
+            },
+            "es": {
+              "label": "Hagrid"
+            },
+            "de": {
+              "label": "Hagrid"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk5d",
+          "i18n": {
+            "ua": {
+              "label": "Дамблдор"
+            },
+            "en": {
+              "label": "Dumbledore"
+            },
+            "es": {
+              "label": "Dumbledore"
+            },
+            "de": {
+              "label": "Dumbledore"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk6",
       "i18n": {
-        "ua": { "text": "Який факультет Драко Малфоя?" },
-        "en": { "text": "Which house is Draco Malfoy in?" },
-        "es": { "text": "¿En qué casa está Draco Malfoy?" },
-        "de": { "text": "In welchem Haus ist Draco Malfoy?" }
+        "ua": {
+          "text": "Який факультет Драко Малфоя?"
+        },
+        "en": {
+          "text": "Which house is Draco Malfoy in?"
+        },
+        "es": {
+          "text": "¿En qué casa está Draco Malfoy?"
+        },
+        "de": {
+          "text": "In welchem Haus ist Draco Malfoy?"
+        }
       },
       "options": [
-        { "id": "hk6a", "i18n": { "ua": { "label": "🦁 Ґрифіндор" }, "en": { "label": "🦁 Gryffindor" }, "es": { "label": "🦁 Gryffindor" }, "de": { "label": "🦁 Gryffindor" } }, "correct": false },
-        { "id": "hk6b", "i18n": { "ua": { "label": "🦡 Гафелпаф" }, "en": { "label": "🦡 Hufflepuff" }, "es": { "label": "🦡 Hufflepuff" }, "de": { "label": "🦡 Hufflepuff" } }, "correct": false },
-        { "id": "hk6c", "i18n": { "ua": { "label": "🦅 Рейвенклов" }, "en": { "label": "🦅 Ravenclaw" }, "es": { "label": "🦅 Ravenclaw" }, "de": { "label": "🦅 Ravenclaw" } }, "correct": false },
-        { "id": "hk6d", "i18n": { "ua": { "label": "🐍 Слизерин" }, "en": { "label": "🐍 Slytherin" }, "es": { "label": "🐍 Slytherin" }, "de": { "label": "🐍 Slytherin" } }, "correct": true }
+        {
+          "id": "hk6a",
+          "i18n": {
+            "ua": {
+              "label": "🦁 Ґрифіндор"
+            },
+            "en": {
+              "label": "🦁 Gryffindor"
+            },
+            "es": {
+              "label": "🦁 Gryffindor"
+            },
+            "de": {
+              "label": "🦁 Gryffindor"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk6b",
+          "i18n": {
+            "ua": {
+              "label": "🦡 Гафелпаф"
+            },
+            "en": {
+              "label": "🦡 Hufflepuff"
+            },
+            "es": {
+              "label": "🦡 Hufflepuff"
+            },
+            "de": {
+              "label": "🦡 Hufflepuff"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk6c",
+          "i18n": {
+            "ua": {
+              "label": "🦅 Рейвенклов"
+            },
+            "en": {
+              "label": "🦅 Ravenclaw"
+            },
+            "es": {
+              "label": "🦅 Ravenclaw"
+            },
+            "de": {
+              "label": "🦅 Ravenclaw"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk6d",
+          "i18n": {
+            "ua": {
+              "label": "🐍 Слизерин"
+            },
+            "en": {
+              "label": "🐍 Slytherin"
+            },
+            "es": {
+              "label": "🐍 Slytherin"
+            },
+            "de": {
+              "label": "🐍 Slytherin"
+            }
+          },
+          "correct": true
+        }
       ]
     },
     {
       "id": "hk7",
       "i18n": {
-        "ua": { "text": "Як називається школа магії, де навчається Гаррі?" },
-        "en": { "text": "What is the name of the school where Harry studies?" },
-        "es": { "text": "¿Cómo se llama la escuela donde estudia Harry?" },
-        "de": { "text": "Wie heißt die Schule, in der Harry lernt?" }
+        "ua": {
+          "text": "Як називається школа магії, де навчається Гаррі?"
+        },
+        "en": {
+          "text": "What is the name of the school where Harry studies?"
+        },
+        "es": {
+          "text": "¿Cómo se llama la escuela donde estudia Harry?"
+        },
+        "de": {
+          "text": "Wie heißt die Schule, in der Harry lernt?"
+        }
       },
       "options": [
-        { "id": "hk7a", "i18n": { "ua": { "label": "Дурмстранг" }, "en": { "label": "Durmstrang" }, "es": { "label": "Durmstrang" }, "de": { "label": "Durmstrang" } }, "correct": false },
-        { "id": "hk7b", "i18n": { "ua": { "label": "Бобатон" }, "en": { "label": "Beauxbatons" }, "es": { "label": "Beauxbatons" }, "de": { "label": "Beauxbatons" } }, "correct": false },
-        { "id": "hk7c", "i18n": { "ua": { "label": "Гоґвортс" }, "en": { "label": "Hogwarts" }, "es": { "label": "Hogwarts" }, "de": { "label": "Hogwarts" } }, "correct": true },
-        { "id": "hk7d", "i18n": { "ua": { "label": "Ільвермортні" }, "en": { "label": "Ilvermorny" }, "es": { "label": "Ilvermorny" }, "de": { "label": "Ilvermorny" } }, "correct": false }
+        {
+          "id": "hk7a",
+          "i18n": {
+            "ua": {
+              "label": "Дурмстранг"
+            },
+            "en": {
+              "label": "Durmstrang"
+            },
+            "es": {
+              "label": "Durmstrang"
+            },
+            "de": {
+              "label": "Durmstrang"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk7b",
+          "i18n": {
+            "ua": {
+              "label": "Бобатон"
+            },
+            "en": {
+              "label": "Beauxbatons"
+            },
+            "es": {
+              "label": "Beauxbatons"
+            },
+            "de": {
+              "label": "Beauxbatons"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk7c",
+          "i18n": {
+            "ua": {
+              "label": "Гоґвортс"
+            },
+            "en": {
+              "label": "Hogwarts"
+            },
+            "es": {
+              "label": "Hogwarts"
+            },
+            "de": {
+              "label": "Hogwarts"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk7d",
+          "i18n": {
+            "ua": {
+              "label": "Ільвермортні"
+            },
+            "en": {
+              "label": "Ilvermorny"
+            },
+            "es": {
+              "label": "Ilvermorny"
+            },
+            "de": {
+              "label": "Ilvermorny"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk8",
       "i18n": {
-        "ua": { "text": "Яка позиція у Гаррі в квідичі?" },
-        "en": { "text": "What is Harry's position in Quidditch?" },
-        "es": { "text": "¿Cuál es la posición de Harry en Quidditch?" },
-        "de": { "text": "Welche Position spielt Harry beim Quidditch?" }
+        "ua": {
+          "text": "Яка позиція у Гаррі в квідичі?"
+        },
+        "en": {
+          "text": "What is Harry's position in Quidditch?"
+        },
+        "es": {
+          "text": "¿Cuál es la posición de Harry en Quidditch?"
+        },
+        "de": {
+          "text": "Welche Position spielt Harry beim Quidditch?"
+        }
       },
       "options": [
-        { "id": "hk8a", "i18n": { "ua": { "label": "Воротар" }, "en": { "label": "Keeper" }, "es": { "label": "Guardián" }, "de": { "label": "Hüter" } }, "correct": false },
-        { "id": "hk8b", "i18n": { "ua": { "label": "Ловець" }, "en": { "label": "Seeker" }, "es": { "label": "Buscador" }, "de": { "label": "Sucher" } }, "correct": true },
-        { "id": "hk8c", "i18n": { "ua": { "label": "Загоничка" }, "en": { "label": "Chaser" }, "es": { "label": "Cazador" }, "de": { "label": "Jäger" } }, "correct": false },
-        { "id": "hk8d", "i18n": { "ua": { "label": "Відбивач" }, "en": { "label": "Beater" }, "es": { "label": "Golpeador" }, "de": { "label": "Treiber" } }, "correct": false }
+        {
+          "id": "hk8a",
+          "i18n": {
+            "ua": {
+              "label": "Воротар"
+            },
+            "en": {
+              "label": "Keeper"
+            },
+            "es": {
+              "label": "Guardián"
+            },
+            "de": {
+              "label": "Hüter"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk8b",
+          "i18n": {
+            "ua": {
+              "label": "Ловець"
+            },
+            "en": {
+              "label": "Seeker"
+            },
+            "es": {
+              "label": "Buscador"
+            },
+            "de": {
+              "label": "Sucher"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk8c",
+          "i18n": {
+            "ua": {
+              "label": "Загонич"
+            },
+            "en": {
+              "label": "Chaser"
+            },
+            "es": {
+              "label": "Cazador"
+            },
+            "de": {
+              "label": "Jäger"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk8d",
+          "i18n": {
+            "ua": {
+              "label": "Відбивач"
+            },
+            "en": {
+              "label": "Beater"
+            },
+            "es": {
+              "label": "Golpeador"
+            },
+            "de": {
+              "label": "Treiber"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk9",
       "i18n": {
-        "ua": { "text": "Як звати директора Гоґвортсу у перших книжках?" },
-        "en": { "text": "Who is the headmaster of Hogwarts in the first books?" },
-        "es": { "text": "¿Quién es el director de Hogwarts en los primeros libros?" },
-        "de": { "text": "Wer ist der Schulleiter von Hogwarts in den ersten Büchern?" }
+        "ua": {
+          "text": "Як звуть директора Гоґвортсу?"
+        },
+        "en": {
+          "text": "What is the name of the Hogwarts headmaster?"
+        },
+        "es": {
+          "text": "¿Cómo se llama el director de Hogwarts?"
+        },
+        "de": {
+          "text": "Wie heißt der Schulleiter von Hogwarts?"
+        }
       },
       "options": [
-        { "id": "hk9a", "i18n": { "ua": { "label": "Северус Снейп" }, "en": { "label": "Severus Snape" }, "es": { "label": "Severus Snape" }, "de": { "label": "Severus Snape" } }, "correct": false },
-        { "id": "hk9b", "i18n": { "ua": { "label": "Мінерва Макґонеґел" }, "en": { "label": "Minerva McGonagall" }, "es": { "label": "Minerva McGonagall" }, "de": { "label": "Minerva McGonagall" } }, "correct": false },
-        { "id": "hk9c", "i18n": { "ua": { "label": "Албус Дамблдор" }, "en": { "label": "Albus Dumbledore" }, "es": { "label": "Albus Dumbledore" }, "de": { "label": "Albus Dumbledore" } }, "correct": true },
-        { "id": "hk9d", "i18n": { "ua": { "label": "Долорес Амбридж" }, "en": { "label": "Dolores Umbridge" }, "es": { "label": "Dolores Umbridge" }, "de": { "label": "Dolores Umbridge" } }, "correct": false }
+        {
+          "id": "hk9f",
+          "correct": false,
+          "i18n": {
+            "ua": {
+              "label": "Горацій Слизоріг"
+            },
+            "en": {
+              "label": "Horace Slughorn"
+            },
+            "es": {
+              "label": "Horace Slughorn"
+            },
+            "de": {
+              "label": "Horace Slughorn"
+            }
+          }
+        },
+        {
+          "id": "hk9e",
+          "correct": false,
+          "i18n": {
+            "ua": {
+              "label": "Рубеус Геґрід"
+            },
+            "en": {
+              "label": "Rubeus Hagrid"
+            },
+            "es": {
+              "label": "Rubeus Hagrid"
+            },
+            "de": {
+              "label": "Rubeus Hagrid"
+            }
+          }
+        },
+        {
+          "id": "hk9c",
+          "i18n": {
+            "ua": {
+              "label": "Албус Дамблдор"
+            },
+            "en": {
+              "label": "Albus Dumbledore"
+            },
+            "es": {
+              "label": "Albus Dumbledore"
+            },
+            "de": {
+              "label": "Albus Dumbledore"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk9d",
+          "i18n": {
+            "ua": {
+              "label": "Долорес Амбридж"
+            },
+            "en": {
+              "label": "Dolores Umbridge"
+            },
+            "es": {
+              "label": "Dolores Umbridge"
+            },
+            "de": {
+              "label": "Dolores Umbridge"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk10",
       "i18n": {
-        "ua": { "text": "Яка тварина-патронус у Гаррі?" },
-        "en": { "text": "What is Harry's Patronus?" },
-        "es": { "text": "¿Cuál es el Patronus de Harry?" },
-        "de": { "text": "Was ist Harrys Patronus?" }
+        "ua": {
+          "text": "Яка тварина-патронус у Гаррі?"
+        },
+        "en": {
+          "text": "What is Harry's Patronus?"
+        },
+        "es": {
+          "text": "¿Cuál es el Patronus de Harry?"
+        },
+        "de": {
+          "text": "Was ist Harrys Patronus?"
+        }
       },
       "options": [
-        { "id": "hk10a", "i18n": { "ua": { "label": "🦌 Олень" }, "en": { "label": "🦌 Stag" }, "es": { "label": "🦌 Ciervo" }, "de": { "label": "🦌 Hirsch" } }, "correct": true },
-        { "id": "hk10b", "i18n": { "ua": { "label": "🐺 Вовк" }, "en": { "label": "🐺 Wolf" }, "es": { "label": "🐺 Lobo" }, "de": { "label": "🐺 Wolf" } }, "correct": false },
-        { "id": "hk10c", "i18n": { "ua": { "label": "🦅 Орел" }, "en": { "label": "🦅 Eagle" }, "es": { "label": "🦅 Águila" }, "de": { "label": "🦅 Adler" } }, "correct": false },
-        { "id": "hk10d", "i18n": { "ua": { "label": "🐴 Кінь" }, "en": { "label": "🐴 Horse" }, "es": { "label": "🐴 Caballo" }, "de": { "label": "🐴 Pferd" } }, "correct": false }
+        {
+          "id": "hk10a",
+          "i18n": {
+            "ua": {
+              "label": "🦌 Олень"
+            },
+            "en": {
+              "label": "🦌 Stag"
+            },
+            "es": {
+              "label": "🦌 Ciervo"
+            },
+            "de": {
+              "label": "🦌 Hirsch"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk10b",
+          "i18n": {
+            "ua": {
+              "label": "🐺 Вовк"
+            },
+            "en": {
+              "label": "🐺 Wolf"
+            },
+            "es": {
+              "label": "🐺 Lobo"
+            },
+            "de": {
+              "label": "🐺 Wolf"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk10c",
+          "i18n": {
+            "ua": {
+              "label": "🦅 Орел"
+            },
+            "en": {
+              "label": "🦅 Eagle"
+            },
+            "es": {
+              "label": "🦅 Águila"
+            },
+            "de": {
+              "label": "🦅 Adler"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk10d",
+          "i18n": {
+            "ua": {
+              "label": "🐴 Кінь"
+            },
+            "en": {
+              "label": "🐴 Horse"
+            },
+            "es": {
+              "label": "🐴 Caballo"
+            },
+            "de": {
+              "label": "🐴 Pferd"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk11",
       "i18n": {
-        "ua": { "text": "Як називається темна банда послідовників Волдеморта?" },
-        "en": { "text": "What are Voldemort's followers called?" },
-        "es": { "text": "¿Cómo se llaman los seguidores de Voldemort?" },
-        "de": { "text": "Wie werden Voldemorts Anhänger genannt?" }
+        "ua": {
+          "text": "Як називається темна банда послідовників Волдеморта?"
+        },
+        "en": {
+          "text": "What are Voldemort's followers called?"
+        },
+        "es": {
+          "text": "¿Cómo se llaman los seguidores de Voldemort?"
+        },
+        "de": {
+          "text": "Wie werden Voldemorts Anhänger genannt?"
+        }
       },
       "options": [
-        { "id": "hk11a", "i18n": { "ua": { "label": "Орден Фенікса" }, "en": { "label": "Order of the Phoenix" }, "es": { "label": "Orden del Fénix" }, "de": { "label": "Orden des Phönix" } }, "correct": false },
-        { "id": "hk11b", "i18n": { "ua": { "label": "Смертежери" }, "en": { "label": "Death Eaters" }, "es": { "label": "Mortífagos" }, "de": { "label": "Todesser" } }, "correct": true },
-        { "id": "hk11c", "i18n": { "ua": { "label": "Аврори" }, "en": { "label": "Aurors" }, "es": { "label": "Aurores" }, "de": { "label": "Auroren" } }, "correct": false },
-        { "id": "hk11d", "i18n": { "ua": { "label": "Смертеборці" }, "en": { "label": "Dark Wizards" }, "es": { "label": "Magos Oscuros" }, "de": { "label": "Dunkle Zauberer" } }, "correct": false }
+        {
+          "id": "hk11a",
+          "i18n": {
+            "ua": {
+              "label": "Орден Фенікса"
+            },
+            "en": {
+              "label": "Order of the Phoenix"
+            },
+            "es": {
+              "label": "Orden del Fénix"
+            },
+            "de": {
+              "label": "Orden des Phönix"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk11b",
+          "i18n": {
+            "ua": {
+              "label": "Смертежери"
+            },
+            "en": {
+              "label": "Death Eaters"
+            },
+            "es": {
+              "label": "Mortífagos"
+            },
+            "de": {
+              "label": "Todesser"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk11c",
+          "i18n": {
+            "ua": {
+              "label": "Аврори"
+            },
+            "en": {
+              "label": "Aurors"
+            },
+            "es": {
+              "label": "Aurores"
+            },
+            "de": {
+              "label": "Auroren"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk11d",
+          "i18n": {
+            "ua": {
+              "label": "Смертеборці"
+            },
+            "en": {
+              "label": "Dark Wizards"
+            },
+            "es": {
+              "label": "Magos Oscuros"
+            },
+            "de": {
+              "label": "Dunkle Zauberer"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk12",
       "i18n": {
-        "ua": { "text": "Скільки всього книг у серії про Гаррі Поттера?" },
-        "en": { "text": "How many books are in the Harry Potter series?" },
-        "es": { "text": "¿Cuántos libros hay en la serie de Harry Potter?" },
-        "de": { "text": "Wie viele Bücher gibt es in der Harry-Potter-Reihe?" }
+        "ua": {
+          "text": "Скільки всього книг у серії про Гаррі Поттера?"
+        },
+        "en": {
+          "text": "How many books are in the Harry Potter series?"
+        },
+        "es": {
+          "text": "¿Cuántos libros hay en la serie de Harry Potter?"
+        },
+        "de": {
+          "text": "Wie viele Bücher gibt es in der Harry-Potter-Reihe?"
+        }
       },
       "options": [
-        { "id": "hk12a", "i18n": { "ua": { "label": "5" }, "en": { "label": "5" }, "es": { "label": "5" }, "de": { "label": "5" } }, "correct": false },
-        { "id": "hk12b", "i18n": { "ua": { "label": "6" }, "en": { "label": "6" }, "es": { "label": "6" }, "de": { "label": "6" } }, "correct": false },
-        { "id": "hk12c", "i18n": { "ua": { "label": "7" }, "en": { "label": "7" }, "es": { "label": "7" }, "de": { "label": "7" } }, "correct": true },
-        { "id": "hk12d", "i18n": { "ua": { "label": "8" }, "en": { "label": "8" }, "es": { "label": "8" }, "de": { "label": "8" } }, "correct": false }
+        {
+          "id": "hk12a",
+          "i18n": {
+            "ua": {
+              "label": "5"
+            },
+            "en": {
+              "label": "5"
+            },
+            "es": {
+              "label": "5"
+            },
+            "de": {
+              "label": "5"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk12b",
+          "i18n": {
+            "ua": {
+              "label": "6"
+            },
+            "en": {
+              "label": "6"
+            },
+            "es": {
+              "label": "6"
+            },
+            "de": {
+              "label": "6"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk12c",
+          "i18n": {
+            "ua": {
+              "label": "7"
+            },
+            "en": {
+              "label": "7"
+            },
+            "es": {
+              "label": "7"
+            },
+            "de": {
+              "label": "7"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk12d",
+          "i18n": {
+            "ua": {
+              "label": "8"
+            },
+            "en": {
+              "label": "8"
+            },
+            "es": {
+              "label": "8"
+            },
+            "de": {
+              "label": "8"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk13",
       "i18n": {
-        "ua": { "text": "Як називається батько Рона Візлі?" },
-        "en": { "text": "What is Ron Weasley's father's name?" },
-        "es": { "text": "¿Cómo se llama el padre de Ron Weasley?" },
-        "de": { "text": "Wie heißt Ron Weasleys Vater?" }
+        "ua": {
+          "text": "Як звуть батька Рона Візлі?"
+        },
+        "en": {
+          "text": "What is Ron Weasley's father's name?"
+        },
+        "es": {
+          "text": "¿Cómo se llama el padre de Ron Weasley?"
+        },
+        "de": {
+          "text": "Wie heißt Ron Weasleys Vater?"
+        }
       },
       "options": [
-        { "id": "hk13a", "i18n": { "ua": { "label": "Персі" }, "en": { "label": "Percy" }, "es": { "label": "Percy" }, "de": { "label": "Percy" } }, "correct": false },
-        { "id": "hk13b", "i18n": { "ua": { "label": "Артур" }, "en": { "label": "Arthur" }, "es": { "label": "Arthur" }, "de": { "label": "Arthur" } }, "correct": true },
-        { "id": "hk13c", "i18n": { "ua": { "label": "Білл" }, "en": { "label": "Bill" }, "es": { "label": "Bill" }, "de": { "label": "Bill" } }, "correct": false },
-        { "id": "hk13d", "i18n": { "ua": { "label": "Чарлі" }, "en": { "label": "Charlie" }, "es": { "label": "Charlie" }, "de": { "label": "Charlie" } }, "correct": false }
+        {
+          "id": "hk13a",
+          "i18n": {
+            "ua": {
+              "label": "Персі"
+            },
+            "en": {
+              "label": "Percy"
+            },
+            "es": {
+              "label": "Percy"
+            },
+            "de": {
+              "label": "Percy"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk13b",
+          "i18n": {
+            "ua": {
+              "label": "Артур"
+            },
+            "en": {
+              "label": "Arthur"
+            },
+            "es": {
+              "label": "Arthur"
+            },
+            "de": {
+              "label": "Arthur"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk13c",
+          "i18n": {
+            "ua": {
+              "label": "Білл"
+            },
+            "en": {
+              "label": "Bill"
+            },
+            "es": {
+              "label": "Bill"
+            },
+            "de": {
+              "label": "Bill"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk13d",
+          "i18n": {
+            "ua": {
+              "label": "Чарлі"
+            },
+            "en": {
+              "label": "Charlie"
+            },
+            "es": {
+              "label": "Charlie"
+            },
+            "de": {
+              "label": "Charlie"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk14",
       "i18n": {
-        "ua": { "text": "Заклинання проти дементорів:" },
-        "en": { "text": "Spell to defend against Dementors:" },
-        "es": { "text": "Hechizo contra los Dementores:" },
-        "de": { "text": "Zauber gegen Dementoren:" }
+        "ua": {
+          "text": "Заклинання проти дементорів:"
+        },
+        "en": {
+          "text": "Spell to defend against Dementors:"
+        },
+        "es": {
+          "text": "Hechizo contra los Dementores:"
+        },
+        "de": {
+          "text": "Zauber gegen Dementoren:"
+        }
       },
       "options": [
-        { "id": "hk14a", "i18n": { "ua": { "label": "Експекто Патронум" }, "en": { "label": "Expecto Patronum" }, "es": { "label": "Expecto Patronum" }, "de": { "label": "Expecto Patronum" } }, "correct": true },
-        { "id": "hk14b", "i18n": { "ua": { "label": "Авада Кедавра" }, "en": { "label": "Avada Kedavra" }, "es": { "label": "Avada Kedavra" }, "de": { "label": "Avada Kedavra" } }, "correct": false },
-        { "id": "hk14c", "i18n": { "ua": { "label": "Сектумсемпра" }, "en": { "label": "Sectumsempra" }, "es": { "label": "Sectumsempra" }, "de": { "label": "Sectumsempra" } }, "correct": false },
-        { "id": "hk14d", "i18n": { "ua": { "label": "Круціо" }, "en": { "label": "Crucio" }, "es": { "label": "Crucio" }, "de": { "label": "Crucio" } }, "correct": false }
+        {
+          "id": "hk14a",
+          "i18n": {
+            "ua": {
+              "label": "Експекто Патронум"
+            },
+            "en": {
+              "label": "Expecto Patronum"
+            },
+            "es": {
+              "label": "Expecto Patronum"
+            },
+            "de": {
+              "label": "Expecto Patronum"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk14b",
+          "i18n": {
+            "ua": {
+              "label": "Авада Кедавра"
+            },
+            "en": {
+              "label": "Avada Kedavra"
+            },
+            "es": {
+              "label": "Avada Kedavra"
+            },
+            "de": {
+              "label": "Avada Kedavra"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk14c",
+          "i18n": {
+            "ua": {
+              "label": "Сектумсемпра"
+            },
+            "en": {
+              "label": "Sectumsempra"
+            },
+            "es": {
+              "label": "Sectumsempra"
+            },
+            "de": {
+              "label": "Sectumsempra"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk14d",
+          "i18n": {
+            "ua": {
+              "label": "Круціо"
+            },
+            "en": {
+              "label": "Crucio"
+            },
+            "es": {
+              "label": "Crucio"
+            },
+            "de": {
+              "label": "Crucio"
+            }
+          },
+          "correct": false
+        }
       ]
     },
     {
       "id": "hk15",
       "i18n": {
-        "ua": { "text": "Який колір мантії в Ґрифіндорі?" },
-        "en": { "text": "What color are Gryffindor robes?" },
-        "es": { "text": "¿De qué color son las túnicas de Gryffindor?" },
-        "de": { "text": "Welche Farbe haben die Gryffindor-Roben?" }
+        "ua": {
+          "text": "Який колір мантії в Ґрифіндорі?"
+        },
+        "en": {
+          "text": "What color are Gryffindor robes?"
+        },
+        "es": {
+          "text": "¿De qué color son las túnicas de Gryffindor?"
+        },
+        "de": {
+          "text": "Welche Farbe haben die Gryffindor-Roben?"
+        }
       },
       "options": [
-        { "id": "hk15a", "i18n": { "ua": { "label": "Зелено-срібний" }, "en": { "label": "Green and silver" }, "es": { "label": "Verde y plata" }, "de": { "label": "Grün und Silber" } }, "correct": false },
-        { "id": "hk15b", "i18n": { "ua": { "label": "Червоно-золотий" }, "en": { "label": "Red and gold" }, "es": { "label": "Rojo y oro" }, "de": { "label": "Rot und Gold" } }, "correct": true },
-        { "id": "hk15c", "i18n": { "ua": { "label": "Синьо-бронзовий" }, "en": { "label": "Blue and bronze" }, "es": { "label": "Azul y bronce" }, "de": { "label": "Blau und Bronze" } }, "correct": false },
-        { "id": "hk15d", "i18n": { "ua": { "label": "Жовто-чорний" }, "en": { "label": "Yellow and black" }, "es": { "label": "Amarillo y negro" }, "de": { "label": "Gelb und Schwarz" } }, "correct": false }
+        {
+          "id": "hk15a",
+          "i18n": {
+            "ua": {
+              "label": "Зелено-срібний"
+            },
+            "en": {
+              "label": "Green and silver"
+            },
+            "es": {
+              "label": "Verde y plata"
+            },
+            "de": {
+              "label": "Grün und Silber"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk15b",
+          "i18n": {
+            "ua": {
+              "label": "Червоно-золотий"
+            },
+            "en": {
+              "label": "Red and gold"
+            },
+            "es": {
+              "label": "Rojo y oro"
+            },
+            "de": {
+              "label": "Rot und Gold"
+            }
+          },
+          "correct": true
+        },
+        {
+          "id": "hk15c",
+          "i18n": {
+            "ua": {
+              "label": "Синьо-бронзовий"
+            },
+            "en": {
+              "label": "Blue and bronze"
+            },
+            "es": {
+              "label": "Azul y bronce"
+            },
+            "de": {
+              "label": "Blau und Bronze"
+            }
+          },
+          "correct": false
+        },
+        {
+          "id": "hk15d",
+          "i18n": {
+            "ua": {
+              "label": "Жовто-чорний"
+            },
+            "en": {
+              "label": "Yellow and black"
+            },
+            "es": {
+              "label": "Amarillo y negro"
+            },
+            "de": {
+              "label": "Gelb und Schwarz"
+            }
+          },
+          "correct": false
+        }
       ]
     }
   ]

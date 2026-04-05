@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_ron",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Роном", "description": "Чи знаєш ти найкращого друга Гаррі?" },
+      "en": { "title": "Know Ron", "description": "Do you know Harry's best friend?" },
+      "es": { "title": "Conoce a Ron", "description": "¿Conoces al mejor amigo de Harry?" },
+      "de": { "title": "Kenne Ron", "description": "Kennst du Harrys besten Freund?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "🧣", "name": "Рон", "message": "Ого, ти знаєш мене як власну сім'ю!" }],
+        "en": [{ "emoji": "🧣", "name": "Ron", "message": "Wow, you know me like family!" }],
+        "es": [{ "emoji": "🧣", "name": "Ron", "message": "¡Vaya, me conoces como familia!" }],
+        "de": [{ "emoji": "🧣", "name": "Ron", "message": "Wow, du kennst mich wie Familie!" }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🍗", "name": "Моллі Візлі", "message": "Непогано, сідай вечеряти" }],
+        "en": [{ "emoji": "🍗", "name": "Molly Weasley", "message": "Not bad, come have dinner" }],
+        "es": [{ "emoji": "🍗", "name": "Molly Weasley", "message": "Nada mal, ven a cenar" }],
+        "de": [{ "emoji": "🍗", "name": "Molly Weasley", "message": "Nicht schlecht, komm zum Abendessen" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "🍫", "name": "Шоколадна жаба", "message": "Ти навіть Рона не знаєш?" }],
+        "en": [{ "emoji": "🍫", "name": "Chocolate Frog", "message": "You don't even know Ron?" }],
+        "es": [{ "emoji": "🍫", "name": "Rana de Chocolate", "message": "¿Ni a Ron conoces?" }],
+        "de": [{ "emoji": "🍫", "name": "Schokofrosch", "message": "Du kennst nicht mal Ron?" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Рон народився 1 березня 1980 року",
+        "Він шостий син у сім'ї Візлі",
+        "Патронус Рона — Джек-Рассел-тер'єр",
+        "Його паличка довгий час була 'вживана' — дісталася від брата Чарлі",
+        "Рон страшенно боїться павуків"
+      ],
+      "en": [
+        "Ron was born on March 1, 1980",
+        "He is the sixth son in the Weasley family",
+        "Ron's Patronus is a Jack Russell Terrier",
+        "His wand was long a hand-me-down from brother Charlie",
+        "Ron is terrified of spiders"
+      ],
+      "es": [
+        "Ron nació el 1 de marzo de 1980",
+        "Es el sexto hijo de la familia Weasley",
+        "El Patronus de Ron es un Jack Russell Terrier",
+        "Su varita fue por mucho tiempo usada — de su hermano Charlie",
+        "Ron le tiene miedo a las arañas"
+      ],
+      "de": [
+        "Ron wurde am 1. März 1980 geboren",
+        "Er ist der sechste Sohn der Familie Weasley",
+        "Rons Patronus ist ein Jack Russell Terrier",
+        "Sein Zauberstab war lange gebraucht — vom Bruder Charlie",
+        "Ron hat schreckliche Angst vor Spinnen"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "rn1", "i18n": { "ua":{"text":"Скільки у Рона братів і сестер?"}, "en":{"text":"How many siblings does Ron have?"}, "es":{"text":"¿Cuántos hermanos tiene Ron?"}, "de":{"text":"Wie viele Geschwister hat Ron?"} },
+      "options": [
+        { "id": "rn1a", "correct": false, "i18n": { "ua":{"label":"5"}, "en":{"label":"5"}, "es":{"label":"5"}, "de":{"label":"5"} } },
+        { "id": "rn1b", "correct": true, "i18n": { "ua":{"label":"6"}, "en":{"label":"6"}, "es":{"label":"6"}, "de":{"label":"6"} } },
+        { "id": "rn1c", "correct": false, "i18n": { "ua":{"label":"7"}, "en":{"label":"7"}, "es":{"label":"7"}, "de":{"label":"7"} } },
+        { "id": "rn1d", "correct": false, "i18n": { "ua":{"label":"4"}, "en":{"label":"4"}, "es":{"label":"4"}, "de":{"label":"4"} } }
+      ] },
+    { "id": "rn2", "i18n": { "ua":{"text":"Чого найбільше боїться Рон?"}, "en":{"text":"What does Ron fear most?"}, "es":{"text":"¿A qué le teme más Ron?"}, "de":{"text":"Wovor hat Ron am meisten Angst?"} },
+      "options": [
+        { "id": "rn2a", "correct": true, "i18n": { "ua":{"label":"Павуків"}, "en":{"label":"Spiders"}, "es":{"label":"Arañas"}, "de":{"label":"Spinnen"} } },
+        { "id": "rn2b", "correct": false, "i18n": { "ua":{"label":"Висоти"}, "en":{"label":"Heights"}, "es":{"label":"Alturas"}, "de":{"label":"Höhen"} } },
+        { "id": "rn2c", "correct": false, "i18n": { "ua":{"label":"Темряви"}, "en":{"label":"Dark"}, "es":{"label":"Oscuridad"}, "de":{"label":"Dunkelheit"} } },
+        { "id": "rn2d", "correct": false, "i18n": { "ua":{"label":"Моря"}, "en":{"label":"Sea"}, "es":{"label":"Mar"}, "de":{"label":"Meer"} } }
+      ] },
+    { "id": "rn3", "i18n": { "ua":{"text":"Як звати улюблену команду Рона з квідичу?"}, "en":{"text":"What is Ron's favourite Quidditch team?"}, "es":{"text":"¿Cuál es el equipo favorito de Ron?"}, "de":{"text":"Was ist Rons Lieblings-Quidditch-Team?"} },
+      "options": [
+        { "id": "rn3a", "correct": true, "i18n": { "ua":{"label":"Чадлі Кенонс"}, "en":{"label":"Chudley Cannons"}, "es":{"label":"Chudley Cannons"}, "de":{"label":"Chudley Cannons"} } },
+        { "id": "rn3b", "correct": false, "i18n": { "ua":{"label":"Татшил Торнадос"}, "en":{"label":"Tutshill Tornados"}, "es":{"label":"Tutshill Tornados"}, "de":{"label":"Tutshill Tornados"} } },
+        { "id": "rn3c", "correct": false, "i18n": { "ua":{"label":"Голігед Гарпіз"}, "en":{"label":"Holyhead Harpies"}, "es":{"label":"Holyhead Harpies"}, "de":{"label":"Holyhead Harpies"} } },
+        { "id": "rn3d", "correct": false, "i18n": { "ua":{"label":"Пуддлмір Юнайтед"}, "en":{"label":"Puddlemere United"}, "es":{"label":"Puddlemere United"}, "de":{"label":"Puddlemere United"} } }
+      ] },
+    { "id": "rn4", "i18n": { "ua":{"text":"Яка позиція Рона в квідичі?"}, "en":{"text":"What is Ron's Quidditch position?"}, "es":{"text":"¿Cuál es la posición de Ron en Quidditch?"}, "de":{"text":"Welche Position hat Ron beim Quidditch?"} },
+      "options": [
+        { "id": "rn4a", "correct": true, "i18n": { "ua":{"label":"Воротар"}, "en":{"label":"Keeper"}, "es":{"label":"Guardián"}, "de":{"label":"Hüter"} } },
+        { "id": "rn4b", "correct": false, "i18n": { "ua":{"label":"Ловець"}, "en":{"label":"Seeker"}, "es":{"label":"Buscador"}, "de":{"label":"Sucher"} } },
+        { "id": "rn4c", "correct": false, "i18n": { "ua":{"label":"Загонич"}, "en":{"label":"Chaser"}, "es":{"label":"Cazador"}, "de":{"label":"Jäger"} } },
+        { "id": "rn4d", "correct": false, "i18n": { "ua":{"label":"Відбивач"}, "en":{"label":"Beater"}, "es":{"label":"Golpeador"}, "de":{"label":"Treiber"} } }
+      ] },
+    { "id": "rn5", "i18n": { "ua":{"text":"Як звали домашнього щура Рона?"}, "en":{"text":"What was Ron's pet rat called?"}, "es":{"text":"¿Cómo se llamaba la rata de Ron?"}, "de":{"text":"Wie hieß Rons Hausratte?"} },
+      "options": [
+        { "id": "rn5a", "correct": true, "i18n": { "ua":{"label":"Скеберс"}, "en":{"label":"Scabbers"}, "es":{"label":"Scabbers"}, "de":{"label":"Krätze"} } },
+        { "id": "rn5b", "correct": false, "i18n": { "ua":{"label":"Вусик"}, "en":{"label":"Whiskers"}, "es":{"label":"Bigotes"}, "de":{"label":"Schnurrbart"} } },
+        { "id": "rn5c", "correct": false, "i18n": { "ua":{"label":"Тедді"}, "en":{"label":"Teddy"}, "es":{"label":"Teddy"}, "de":{"label":"Teddy"} } },
+        { "id": "rn5d", "correct": false, "i18n": { "ua":{"label":"Пухнастик"}, "en":{"label":"Fluffy"}, "es":{"label":"Pelusa"}, "de":{"label":"Fluffy"} } }
+      ] },
+    { "id": "rn6", "i18n": { "ua":{"text":"Як звати сестру Рона?"}, "en":{"text":"What is Ron's sister's name?"}, "es":{"text":"¿Cómo se llama la hermana de Ron?"}, "de":{"text":"Wie heißt Rons Schwester?"} },
+      "options": [
+        { "id": "rn6a", "correct": false, "i18n": { "ua":{"label":"Флер"}, "en":{"label":"Fleur"}, "es":{"label":"Fleur"}, "de":{"label":"Fleur"} } },
+        { "id": "rn6b", "correct": true, "i18n": { "ua":{"label":"Джіні"}, "en":{"label":"Ginny"}, "es":{"label":"Ginny"}, "de":{"label":"Ginny"} } },
+        { "id": "rn6c", "correct": false, "i18n": { "ua":{"label":"Петтія"}, "en":{"label":"Petunia"}, "es":{"label":"Petunia"}, "de":{"label":"Petunia"} } },
+        { "id": "rn6d", "correct": false, "i18n": { "ua":{"label":"Парваті"}, "en":{"label":"Parvati"}, "es":{"label":"Parvati"}, "de":{"label":"Parvati"} } }
+      ] },
+    { "id": "rn7", "i18n": { "ua":{"text":"У якому будинку живе сім'я Рона?"}, "en":{"text":"What is Ron's family home called?"}, "es":{"text":"¿Cómo se llama la casa de los Weasley?"}, "de":{"text":"Wie heißt das Zuhause der Weasleys?"} },
+      "options": [
+        { "id": "rn7a", "correct": true, "i18n": { "ua":{"label":"Барліг"}, "en":{"label":"The Burrow"}, "es":{"label":"La Madriguera"}, "de":{"label":"Der Fuchsbau"} } },
+        { "id": "rn7b", "correct": false, "i18n": { "ua":{"label":"Ракушечна хата"}, "en":{"label":"Shell Cottage"}, "es":{"label":"La Casa de la Concha"}, "de":{"label":"Muschelhaus"} } },
+        { "id": "rn7c", "correct": false, "i18n": { "ua":{"label":"Ґрімолд-плейс"}, "en":{"label":"Grimmauld Place"}, "es":{"label":"Grimmauld Place"}, "de":{"label":"Grimmauldplatz"} } },
+        { "id": "rn7d", "correct": false, "i18n": { "ua":{"label":"Притулок"}, "en":{"label":"The Refuge"}, "es":{"label":"El Refugio"}, "de":{"label":"Das Refugium"} } }
+      ] },
+    { "id": "rn8", "i18n": { "ua":{"text":"Який колір волосся у Рона?"}, "en":{"text":"What colour is Ron's hair?"}, "es":{"text":"¿De qué color es el pelo de Ron?"}, "de":{"text":"Welche Haarfarbe hat Ron?"} },
+      "options": [
+        { "id": "rn8a", "correct": true, "i18n": { "ua":{"label":"Рудий"}, "en":{"label":"Red"}, "es":{"label":"Pelirrojo"}, "de":{"label":"Rot"} } },
+        { "id": "rn8b", "correct": false, "i18n": { "ua":{"label":"Чорний"}, "en":{"label":"Black"}, "es":{"label":"Negro"}, "de":{"label":"Schwarz"} } },
+        { "id": "rn8c", "correct": false, "i18n": { "ua":{"label":"Русявий"}, "en":{"label":"Blonde"}, "es":{"label":"Rubio"}, "de":{"label":"Blond"} } },
+        { "id": "rn8d", "correct": false, "i18n": { "ua":{"label":"Темно-коричневий"}, "en":{"label":"Dark brown"}, "es":{"label":"Castaño oscuro"}, "de":{"label":"Dunkelbraun"} } }
+      ] },
+    { "id": "rn9", "i18n": { "ua":{"text":"Хто близнюки серед братів Рона?"}, "en":{"text":"Which of Ron's brothers are twins?"}, "es":{"text":"¿Quiénes son los gemelos hermanos de Ron?"}, "de":{"text":"Welche von Rons Brüdern sind Zwillinge?"} },
+      "options": [
+        { "id": "rn9a", "correct": true, "i18n": { "ua":{"label":"Фред і Джордж"}, "en":{"label":"Fred and George"}, "es":{"label":"Fred y George"}, "de":{"label":"Fred und George"} } },
+        { "id": "rn9b", "correct": false, "i18n": { "ua":{"label":"Білл і Чарлі"}, "en":{"label":"Bill and Charlie"}, "es":{"label":"Bill y Charlie"}, "de":{"label":"Bill und Charlie"} } },
+        { "id": "rn9c", "correct": false, "i18n": { "ua":{"label":"Персі і Джордж"}, "en":{"label":"Percy and George"}, "es":{"label":"Percy y George"}, "de":{"label":"Percy und George"} } },
+        { "id": "rn9d", "correct": false, "i18n": { "ua":{"label":"Рон і Білл"}, "en":{"label":"Ron and Bill"}, "es":{"label":"Ron y Bill"}, "de":{"label":"Ron und Bill"} } }
+      ] },
+    { "id": "rn10", "i18n": { "ua":{"text":"Який Патронус у Рона?"}, "en":{"text":"What is Ron's Patronus?"}, "es":{"text":"¿Cuál es el Patronus de Ron?"}, "de":{"text":"Was ist Rons Patronus?"} },
+      "options": [
+        { "id": "rn10a", "correct": true, "i18n": { "ua":{"label":"Джек-Рассел-тер'єр"}, "en":{"label":"Jack Russell Terrier"}, "es":{"label":"Jack Russell Terrier"}, "de":{"label":"Jack Russell Terrier"} } },
+        { "id": "rn10b", "correct": false, "i18n": { "ua":{"label":"Вовк"}, "en":{"label":"Wolf"}, "es":{"label":"Lobo"}, "de":{"label":"Wolf"} } },
+        { "id": "rn10c", "correct": false, "i18n": { "ua":{"label":"Лис"}, "en":{"label":"Fox"}, "es":{"label":"Zorro"}, "de":{"label":"Fuchs"} } },
+        { "id": "rn10d", "correct": false, "i18n": { "ua":{"label":"Їжак"}, "en":{"label":"Hedgehog"}, "es":{"label":"Erizo"}, "de":{"label":"Igel"} } }
+      ] }
+  ]
+}

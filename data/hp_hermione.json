@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_hermione",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Герміоною", "description": "Чи знаєш ти найрозумнішу відьму свого віку?" },
+      "en": { "title": "Know Hermione", "description": "Do you know the brightest witch of her age?" },
+      "es": { "title": "Conoce a Hermione", "description": "¿Conoces a la bruja más inteligente?" },
+      "de": { "title": "Kenne Hermine", "description": "Kennst du die klügste Hexe ihres Alters?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "📚", "name": "Герміона", "message": "Бачу, ти теж любиш бібліотеку" }],
+        "en": [{ "emoji": "📚", "name": "Hermione", "message": "I see you love the library too" }],
+        "es": [{ "emoji": "📚", "name": "Hermione", "message": "Veo que también amas la biblioteca" }],
+        "de": [{ "emoji": "📚", "name": "Hermine", "message": "Du liebst die Bibliothek auch" }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🐱", "name": "Криволапик", "message": "Мур-р, непогано" }],
+        "en": [{ "emoji": "🐱", "name": "Crookshanks", "message": "Purr, not bad" }],
+        "es": [{ "emoji": "🐱", "name": "Crookshanks", "message": "Prrr, no está mal" }],
+        "de": [{ "emoji": "🐱", "name": "Krummbein", "message": "Schnurr, gar nicht schlecht" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "📖", "name": "Історія Гоґвортсу", "message": "Варто було б мене прочитати" }],
+        "en": [{ "emoji": "📖", "name": "Hogwarts: A History", "message": "You should have read me" }],
+        "es": [{ "emoji": "📖", "name": "Historia de Hogwarts", "message": "Deberías haberme leído" }],
+        "de": [{ "emoji": "📖", "name": "Geschichte Hogwarts", "message": "Du hättest mich lesen sollen" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Герміона народилась 19 вересня 1979 року",
+        "Її батьки — дантисти-маґли",
+        "Її паличка — з виноградної лози, з волосом із серця дракона",
+        "Патронус Герміони — видра",
+        "Вона заснувала ГАДЮК — Гурток Активного Дотримання Ульоту Колишніх"
+      ],
+      "en": [
+        "Hermione was born on September 19, 1979",
+        "Her parents are Muggle dentists",
+        "Her wand is vine wood with dragon heartstring",
+        "Hermione's Patronus is an otter",
+        "She founded S.P.E.W. — Society for the Promotion of Elvish Welfare"
+      ],
+      "es": [
+        "Hermione nació el 19 de septiembre de 1979",
+        "Sus padres son dentistas muggles",
+        "Su varita es de vid con núcleo de fibra de dragón",
+        "El Patronus de Hermione es una nutria",
+        "Fundó la P.E.D.D.O. para defender a los elfos domésticos"
+      ],
+      "de": [
+        "Hermine wurde am 19. September 1979 geboren",
+        "Ihre Eltern sind Muggel-Zahnärzte",
+        "Ihr Zauberstab ist aus Weinranke mit Drachenherzfaser",
+        "Hermines Patronus ist ein Otter",
+        "Sie gründete B.ELFE.R für die Rechte der Hauselfen"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "hr1", "i18n": { "ua":{"text":"Як повне ім'я Герміони?"}, "en":{"text":"What is Hermione's full name?"}, "es":{"text":"¿Cuál es el nombre completo de Hermione?"}, "de":{"text":"Wie lautet Hermines voller Name?"} },
+      "options": [
+        { "id": "hr1a", "correct": true, "i18n": { "ua":{"label":"Герміона Джин Ґрейнджер"}, "en":{"label":"Hermione Jean Granger"}, "es":{"label":"Hermione Jean Granger"}, "de":{"label":"Hermine Jean Granger"} } },
+        { "id": "hr1b", "correct": false, "i18n": { "ua":{"label":"Герміона Роуз Ґрейнджер"}, "en":{"label":"Hermione Rose Granger"}, "es":{"label":"Hermione Rose Granger"}, "de":{"label":"Hermine Rose Granger"} } },
+        { "id": "hr1c", "correct": false, "i18n": { "ua":{"label":"Герміона Анна Ґрейнджер"}, "en":{"label":"Hermione Anna Granger"}, "es":{"label":"Hermione Anna Granger"}, "de":{"label":"Hermine Anna Granger"} } },
+        { "id": "hr1d", "correct": false, "i18n": { "ua":{"label":"Герміона Мері Ґрейнджер"}, "en":{"label":"Hermione Mary Granger"}, "es":{"label":"Hermione Mary Granger"}, "de":{"label":"Hermine Mary Granger"} } }
+      ] },
+    { "id": "hr2", "i18n": { "ua":{"text":"Хто батьки Герміони за професією?"}, "en":{"text":"What are Hermione's parents' profession?"}, "es":{"text":"¿Cuál es la profesión de los padres de Hermione?"}, "de":{"text":"Was sind Hermines Eltern von Beruf?"} },
+      "options": [
+        { "id": "hr2a", "correct": false, "i18n": { "ua":{"label":"Вчителі"}, "en":{"label":"Teachers"}, "es":{"label":"Profesores"}, "de":{"label":"Lehrer"} } },
+        { "id": "hr2b", "correct": true, "i18n": { "ua":{"label":"Дантисти"}, "en":{"label":"Dentists"}, "es":{"label":"Dentistas"}, "de":{"label":"Zahnärzte"} } },
+        { "id": "hr2c", "correct": false, "i18n": { "ua":{"label":"Лікарі"}, "en":{"label":"Doctors"}, "es":{"label":"Médicos"}, "de":{"label":"Ärzte"} } },
+        { "id": "hr2d", "correct": false, "i18n": { "ua":{"label":"Адвокати"}, "en":{"label":"Lawyers"}, "es":{"label":"Abogados"}, "de":{"label":"Anwälte"} } }
+      ] },
+    { "id": "hr3", "i18n": { "ua":{"text":"На якому факультеті Герміона?"}, "en":{"text":"Which house is Hermione in?"}, "es":{"text":"¿En qué casa está Hermione?"}, "de":{"text":"In welchem Haus ist Hermine?"} },
+      "options": [
+        { "id": "hr3a", "correct": false, "i18n": { "ua":{"label":"Рейвенклов"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "hr3b", "correct": true, "i18n": { "ua":{"label":"Ґрифіндор"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "hr3c", "correct": false, "i18n": { "ua":{"label":"Гафелпаф"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } },
+        { "id": "hr3d", "correct": false, "i18n": { "ua":{"label":"Слизерин"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } }
+      ] },
+    { "id": "hr4", "i18n": { "ua":{"text":"Яка улюблена книга Герміони?"}, "en":{"text":"What is Hermione's favourite book?"}, "es":{"text":"¿Cuál es el libro favorito de Hermione?"}, "de":{"text":"Was ist Hermines Lieblingsbuch?"} },
+      "options": [
+        { "id": "hr4a", "correct": true, "i18n": { "ua":{"label":"Історія Гоґвортсу"}, "en":{"label":"Hogwarts: A History"}, "es":{"label":"Historia de Hogwarts"}, "de":{"label":"Geschichte Hogwarts"} } },
+        { "id": "hr4b", "correct": false, "i18n": { "ua":{"label":"Квідич крізь віки"}, "en":{"label":"Quidditch Through the Ages"}, "es":{"label":"Quidditch a través de los tiempos"}, "de":{"label":"Quidditch im Wandel der Zeiten"} } },
+        { "id": "hr4c", "correct": false, "i18n": { "ua":{"label":"Магічні істоти"}, "en":{"label":"Fantastic Beasts"}, "es":{"label":"Animales fantásticos"}, "de":{"label":"Phantastische Tierwesen"} } },
+        { "id": "hr4d", "correct": false, "i18n": { "ua":{"label":"Казки Барда Бідла"}, "en":{"label":"Tales of Beedle the Bard"}, "es":{"label":"Cuentos de Beedle el Bardo"}, "de":{"label":"Märchen von Beedle dem Barden"} } }
+      ] },
+    { "id": "hr5", "i18n": { "ua":{"text":"Як звати кота Герміони?"}, "en":{"text":"What is Hermione's cat's name?"}, "es":{"text":"¿Cómo se llama el gato de Hermione?"}, "de":{"text":"Wie heißt Hermines Katze?"} },
+      "options": [
+        { "id": "hr5a", "correct": true, "i18n": { "ua":{"label":"Криволапик"}, "en":{"label":"Crookshanks"}, "es":{"label":"Crookshanks"}, "de":{"label":"Krummbein"} } },
+        { "id": "hr5b", "correct": false, "i18n": { "ua":{"label":"Містер Кігтик"}, "en":{"label":"Mr. Claws"}, "es":{"label":"Sr. Garras"}, "de":{"label":"Herr Kralle"} } },
+        { "id": "hr5c", "correct": false, "i18n": { "ua":{"label":"Вусик"}, "en":{"label":"Whiskers"}, "es":{"label":"Bigotes"}, "de":{"label":"Schnurrbart"} } },
+        { "id": "hr5d", "correct": false, "i18n": { "ua":{"label":"Пухнастик"}, "en":{"label":"Fluffy"}, "es":{"label":"Esponjoso"}, "de":{"label":"Flauschig"} } }
+      ] },
+    { "id": "hr6", "i18n": { "ua":{"text":"Що зробила Герміона на Захист від темних мистецтв-іспиті 3-го курсу?"}, "en":{"text":"What did Hermione do for her 3rd-year DADA exam?"}, "es":{"text":"¿Qué hizo Hermione en su examen de DCAO de 3º año?"}, "de":{"text":"Was tat Hermine in der VgddK-Prüfung im 3. Jahr?"} },
+      "options": [
+        { "id": "hr6a", "correct": false, "i18n": { "ua":{"label":"Здолала боґарта"}, "en":{"label":"Defeated the boggart"}, "es":{"label":"Venció al boggart"}, "de":{"label":"Besiegte den Irrwicht"} } },
+        { "id": "hr6b", "correct": true, "i18n": { "ua":{"label":"Налякалась найбільше невдачі"}, "en":{"label":"Was most afraid of failure"}, "es":{"label":"Temía más al fracaso"}, "de":{"label":"Hatte am meisten Angst vor Versagen"} } },
+        { "id": "hr6c", "correct": false, "i18n": { "ua":{"label":"Отримала перший приз"}, "en":{"label":"Got first prize"}, "es":{"label":"Obtuvo el primer premio"}, "de":{"label":"Gewann den ersten Preis"} } },
+        { "id": "hr6d", "correct": false, "i18n": { "ua":{"label":"Проспала іспит"}, "en":{"label":"Overslept the exam"}, "es":{"label":"Se quedó dormida"}, "de":{"label":"Verschlief die Prüfung"} } }
+      ] },
+    { "id": "hr7", "i18n": { "ua":{"text":"З чого паличка Герміони?"}, "en":{"text":"What is Hermione's wand made of?"}, "es":{"text":"¿De qué está hecha la varita de Hermione?"}, "de":{"text":"Woraus ist Hermines Zauberstab?"} },
+      "options": [
+        { "id": "hr7a", "correct": true, "i18n": { "ua":{"label":"Виноградна лоза"}, "en":{"label":"Vine wood"}, "es":{"label":"Madera de vid"}, "de":{"label":"Weinranke"} } },
+        { "id": "hr7b", "correct": false, "i18n": { "ua":{"label":"Дуб"}, "en":{"label":"Oak"}, "es":{"label":"Roble"}, "de":{"label":"Eiche"} } },
+        { "id": "hr7c", "correct": false, "i18n": { "ua":{"label":"Ялина"}, "en":{"label":"Fir"}, "es":{"label":"Abeto"}, "de":{"label":"Tanne"} } },
+        { "id": "hr7d", "correct": false, "i18n": { "ua":{"label":"Гостролист"}, "en":{"label":"Holly"}, "es":{"label":"Acebo"}, "de":{"label":"Stechpalme"} } }
+      ] },
+    { "id": "hr8", "i18n": { "ua":{"text":"Який орган таємно створила Герміона на 5-му курсі?"}, "en":{"text":"What group did Hermione secretly form in 5th year?"}, "es":{"text":"¿Qué grupo formó Hermione en 5º año?"}, "de":{"text":"Welche Gruppe gründete Hermine im 5. Jahr?"} },
+      "options": [
+        { "id": "hr8a", "correct": true, "i18n": { "ua":{"label":"Армія Дамблдора"}, "en":{"label":"Dumbledore's Army"}, "es":{"label":"Ejército de Dumbledore"}, "de":{"label":"Dumbledores Armee"} } },
+        { "id": "hr8b", "correct": false, "i18n": { "ua":{"label":"Орден Фенікса"}, "en":{"label":"Order of the Phoenix"}, "es":{"label":"Orden del Fénix"}, "de":{"label":"Orden des Phönix"} } },
+        { "id": "hr8c", "correct": false, "i18n": { "ua":{"label":"Клуб зілля"}, "en":{"label":"Potion Club"}, "es":{"label":"Club de Pociones"}, "de":{"label":"Trankklub"} } },
+        { "id": "hr8d", "correct": false, "i18n": { "ua":{"label":"Гурток читачів"}, "en":{"label":"Reading Circle"}, "es":{"label":"Círculo de Lectura"}, "de":{"label":"Lesekreis"} } }
+      ] },
+    { "id": "hr9", "i18n": { "ua":{"text":"Що Герміона не переносить?"}, "en":{"text":"What does Hermione hate?"}, "es":{"text":"¿Qué odia Hermione?"}, "de":{"text":"Was hasst Hermine?"} },
+      "options": [
+        { "id": "hr9a", "correct": true, "i18n": { "ua":{"label":"Прорікання"}, "en":{"label":"Divination"}, "es":{"label":"Adivinación"}, "de":{"label":"Wahrsagen"} } },
+        { "id": "hr9b", "correct": false, "i18n": { "ua":{"label":"Зілля"}, "en":{"label":"Potions"}, "es":{"label":"Pociones"}, "de":{"label":"Zaubertränke"} } },
+        { "id": "hr9c", "correct": false, "i18n": { "ua":{"label":"Трансфігурацію"}, "en":{"label":"Transfiguration"}, "es":{"label":"Transformaciones"}, "de":{"label":"Verwandlung"} } },
+        { "id": "hr9d", "correct": false, "i18n": { "ua":{"label":"Чари"}, "en":{"label":"Charms"}, "es":{"label":"Encantamientos"}, "de":{"label":"Zauberkunst"} } }
+      ] },
+    { "id": "hr10", "i18n": { "ua":{"text":"Що Герміона використовує, щоб встигати на кілька уроків?"}, "en":{"text":"What did Hermione use to attend multiple classes?"}, "es":{"text":"¿Qué usó Hermione para ir a varias clases?"}, "de":{"text":"Was nutzte Hermine, um mehrere Klassen zu besuchen?"} },
+      "options": [
+        { "id": "hr10a", "correct": true, "i18n": { "ua":{"label":"Часоворот"}, "en":{"label":"Time-Turner"}, "es":{"label":"Giratiempo"}, "de":{"label":"Zeitumkehrer"} } },
+        { "id": "hr10b", "correct": false, "i18n": { "ua":{"label":"Плащ-невидимку"}, "en":{"label":"Invisibility Cloak"}, "es":{"label":"Capa de invisibilidad"}, "de":{"label":"Tarnumhang"} } },
+        { "id": "hr10c", "correct": false, "i18n": { "ua":{"label":"Карту Мародерів"}, "en":{"label":"Marauder's Map"}, "es":{"label":"Mapa del Merodeador"}, "de":{"label":"Karte des Rumtreibers"} } },
+        { "id": "hr10d", "correct": false, "i18n": { "ua":{"label":"Літаючий килим"}, "en":{"label":"Flying carpet"}, "es":{"label":"Alfombra voladora"}, "de":{"label":"Fliegender Teppich"} } }
+      ] }
+  ]
+}

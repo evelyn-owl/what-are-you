@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_dumbledore",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Дамблдором", "description": "Чи знаєш ти директора Гоґвортсу?" },
+      "en": { "title": "Know Dumbledore", "description": "Do you know the Headmaster?" },
+      "es": { "title": "Conoce a Dumbledore", "description": "¿Conoces al Director?" },
+      "de": { "title": "Kenne Dumbledore", "description": "Kennst du den Schulleiter?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "🧙", "name": "Дамблдор", "message": "Ти маєш рідкісну допитливість, мій друже" }],
+        "en": [{ "emoji": "🧙", "name": "Dumbledore", "message": "You have rare curiosity, my friend" }],
+        "es": [{ "emoji": "🧙", "name": "Dumbledore", "message": "Tienes una curiosidad poco común" }],
+        "de": [{ "emoji": "🧙", "name": "Dumbledore", "message": "Du hast seltene Neugier, mein Freund" }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🍋", "name": "Лимонний щербет", "message": "Пригощайся і подумай ще" }],
+        "en": [{ "emoji": "🍋", "name": "Lemon Sherbet", "message": "Have one and think again" }],
+        "es": [{ "emoji": "🍋", "name": "Sorbete de limón", "message": "Toma uno y piensa de nuevo" }],
+        "de": [{ "emoji": "🍋", "name": "Zitronenbrause", "message": "Nimm eins und denke nochmal" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "🔮", "name": "Сито спогадів", "message": "Варто зазирнути глибше" }],
+        "en": [{ "emoji": "🔮", "name": "Pensieve", "message": "You should look deeper" }],
+        "es": [{ "emoji": "🔮", "name": "Pensadero", "message": "Deberías mirar más profundo" }],
+        "de": [{ "emoji": "🔮", "name": "Denkarium", "message": "Du solltest tiefer schauen" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Повне ім'я — Албус Персіваль Вулфрик Браян Дамблдор",
+        "Народився в 1881 році в Могсейді",
+        "Дамблдор переміг Ґріндельвальда в 1945 році",
+        "Його Патронус — фенікс",
+        "Він обожнював лимонний щербет і шкарпетки"
+      ],
+      "en": [
+        "Full name is Albus Percival Wulfric Brian Dumbledore",
+        "Born in 1881 in Mould-on-the-Wold",
+        "Dumbledore defeated Grindelwald in 1945",
+        "His Patronus is a phoenix",
+        "He loved lemon sherbets and socks"
+      ],
+      "es": [
+        "Su nombre completo es Albus Percival Wulfric Brian Dumbledore",
+        "Nació en 1881 en Mould-on-the-Wold",
+        "Dumbledore derrotó a Grindelwald en 1945",
+        "Su Patronus es un fénix",
+        "Amaba los sorbetes de limón y los calcetines"
+      ],
+      "de": [
+        "Voller Name: Albus Percival Wulfric Brian Dumbledore",
+        "Geboren 1881 in Mould-on-the-Wold",
+        "Dumbledore besiegte Grindelwald im Jahr 1945",
+        "Sein Patronus ist ein Phönix",
+        "Er liebte Zitronenbrause und Socken"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "dm1", "i18n": { "ua":{"text":"Яке повне ім'я Дамблдора?"}, "en":{"text":"What is Dumbledore's full name?"}, "es":{"text":"¿Cuál es el nombre completo de Dumbledore?"}, "de":{"text":"Wie lautet Dumbledores voller Name?"} },
+      "options": [
+        { "id": "dm1a", "correct": true, "i18n": { "ua":{"label":"Албус Персіваль Вулфрик Браян Дамблдор"}, "en":{"label":"Albus Percival Wulfric Brian Dumbledore"}, "es":{"label":"Albus Percival Wulfric Brian Dumbledore"}, "de":{"label":"Albus Percival Wulfric Brian Dumbledore"} } },
+        { "id": "dm1b", "correct": false, "i18n": { "ua":{"label":"Албус Браян Дамблдор"}, "en":{"label":"Albus Brian Dumbledore"}, "es":{"label":"Albus Brian Dumbledore"}, "de":{"label":"Albus Brian Dumbledore"} } },
+        { "id": "dm1c", "correct": false, "i18n": { "ua":{"label":"Албус Джон Дамблдор"}, "en":{"label":"Albus John Dumbledore"}, "es":{"label":"Albus John Dumbledore"}, "de":{"label":"Albus John Dumbledore"} } },
+        { "id": "dm1d", "correct": false, "i18n": { "ua":{"label":"Албус Майкл Дамблдор"}, "en":{"label":"Albus Michael Dumbledore"}, "es":{"label":"Albus Michael Dumbledore"}, "de":{"label":"Albus Michael Dumbledore"} } }
+      ] },
+    { "id": "dm2", "i18n": { "ua":{"text":"Як звати фенікса Дамблдора?"}, "en":{"text":"What is Dumbledore's phoenix called?"}, "es":{"text":"¿Cómo se llama el fénix de Dumbledore?"}, "de":{"text":"Wie heißt Dumbledores Phönix?"} },
+      "options": [
+        { "id": "dm2a", "correct": true, "i18n": { "ua":{"label":"Фоукс"}, "en":{"label":"Fawkes"}, "es":{"label":"Fawkes"}, "de":{"label":"Fawkes"} } },
+        { "id": "dm2b", "correct": false, "i18n": { "ua":{"label":"Альбус"}, "en":{"label":"Albus"}, "es":{"label":"Albus"}, "de":{"label":"Albus"} } },
+        { "id": "dm2c", "correct": false, "i18n": { "ua":{"label":"Аріана"}, "en":{"label":"Ariana"}, "es":{"label":"Ariana"}, "de":{"label":"Ariana"} } },
+        { "id": "dm2d", "correct": false, "i18n": { "ua":{"label":"Персі"}, "en":{"label":"Percy"}, "es":{"label":"Percy"}, "de":{"label":"Percy"} } }
+      ] },
+    { "id": "dm3", "i18n": { "ua":{"text":"Який Патронус у Дамблдора?"}, "en":{"text":"What is Dumbledore's Patronus?"}, "es":{"text":"¿Cuál es el Patronus de Dumbledore?"}, "de":{"text":"Was ist Dumbledores Patronus?"} },
+      "options": [
+        { "id": "dm3a", "correct": true, "i18n": { "ua":{"label":"Фенікс"}, "en":{"label":"Phoenix"}, "es":{"label":"Fénix"}, "de":{"label":"Phönix"} } },
+        { "id": "dm3b", "correct": false, "i18n": { "ua":{"label":"Лев"}, "en":{"label":"Lion"}, "es":{"label":"León"}, "de":{"label":"Löwe"} } },
+        { "id": "dm3c", "correct": false, "i18n": { "ua":{"label":"Орел"}, "en":{"label":"Eagle"}, "es":{"label":"Águila"}, "de":{"label":"Adler"} } },
+        { "id": "dm3d", "correct": false, "i18n": { "ua":{"label":"Дракон"}, "en":{"label":"Dragon"}, "es":{"label":"Dragón"}, "de":{"label":"Drache"} } }
+      ] },
+    { "id": "dm4", "i18n": { "ua":{"text":"Яке у Дамблдора улюблене ласощі?"}, "en":{"text":"What sweet does Dumbledore love?"}, "es":{"text":"¿Qué dulce ama Dumbledore?"}, "de":{"text":"Welche Süßigkeit liebt Dumbledore?"} },
+      "options": [
+        { "id": "dm4a", "correct": true, "i18n": { "ua":{"label":"Лимонний щербет"}, "en":{"label":"Lemon sherbet"}, "es":{"label":"Sorbete de limón"}, "de":{"label":"Zitronenbrause"} } },
+        { "id": "dm4b", "correct": false, "i18n": { "ua":{"label":"Шоколадні жаби"}, "en":{"label":"Chocolate frogs"}, "es":{"label":"Ranas de chocolate"}, "de":{"label":"Schokofrösche"} } },
+        { "id": "dm4c", "correct": false, "i18n": { "ua":{"label":"Берті Ботс"}, "en":{"label":"Bertie Bott's Beans"}, "es":{"label":"Grageas Bertie Bott"}, "de":{"label":"Bertie Botts Bohnen"} } },
+        { "id": "dm4d", "correct": false, "i18n": { "ua":{"label":"Тістечко з патокою"}, "en":{"label":"Treacle tart"}, "es":{"label":"Tarta de melaza"}, "de":{"label":"Melasse-Tarte"} } }
+      ] },
+    { "id": "dm5", "i18n": { "ua":{"text":"На якому факультеті вчився Дамблдор?"}, "en":{"text":"Which house was Dumbledore in?"}, "es":{"text":"¿En qué casa estaba Dumbledore?"}, "de":{"text":"In welchem Haus war Dumbledore?"} },
+      "options": [
+        { "id": "dm5a", "correct": true, "i18n": { "ua":{"label":"Ґрифіндор"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "dm5b", "correct": false, "i18n": { "ua":{"label":"Рейвенклов"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "dm5c", "correct": false, "i18n": { "ua":{"label":"Слизерин"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } },
+        { "id": "dm5d", "correct": false, "i18n": { "ua":{"label":"Гафелпаф"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } }
+      ] },
+    { "id": "dm6", "i18n": { "ua":{"text":"Кого переміг Дамблдор у 1945?"}, "en":{"text":"Whom did Dumbledore defeat in 1945?"}, "es":{"text":"¿A quién derrotó Dumbledore en 1945?"}, "de":{"text":"Wen besiegte Dumbledore 1945?"} },
+      "options": [
+        { "id": "dm6a", "correct": true, "i18n": { "ua":{"label":"Ґріндельвальда"}, "en":{"label":"Grindelwald"}, "es":{"label":"Grindelwald"}, "de":{"label":"Grindelwald"} } },
+        { "id": "dm6b", "correct": false, "i18n": { "ua":{"label":"Волдеморта"}, "en":{"label":"Voldemort"}, "es":{"label":"Voldemort"}, "de":{"label":"Voldemort"} } },
+        { "id": "dm6c", "correct": false, "i18n": { "ua":{"label":"Гінденбурга"}, "en":{"label":"Hindenburg"}, "es":{"label":"Hindenburg"}, "de":{"label":"Hindenburg"} } },
+        { "id": "dm6d", "correct": false, "i18n": { "ua":{"label":"Ріддла"}, "en":{"label":"Riddle"}, "es":{"label":"Riddle"}, "de":{"label":"Riddle"} } }
+      ] },
+    { "id": "dm7", "i18n": { "ua":{"text":"Ким був Дамблдор до того, як став директором?"}, "en":{"text":"What was Dumbledore before becoming Headmaster?"}, "es":{"text":"¿Qué fue Dumbledore antes de ser director?"}, "de":{"text":"Was war Dumbledore vor der Schulleitung?"} },
+      "options": [
+        { "id": "dm7a", "correct": true, "i18n": { "ua":{"label":"Вчителем трансфігурації"}, "en":{"label":"Transfiguration teacher"}, "es":{"label":"Profesor de Transformaciones"}, "de":{"label":"Verwandlungslehrer"} } },
+        { "id": "dm7b", "correct": false, "i18n": { "ua":{"label":"Вчителем зіль"}, "en":{"label":"Potions teacher"}, "es":{"label":"Profesor de Pociones"}, "de":{"label":"Zaubertränkelehrer"} } },
+        { "id": "dm7c", "correct": false, "i18n": { "ua":{"label":"Аврором"}, "en":{"label":"Auror"}, "es":{"label":"Auror"}, "de":{"label":"Auror"} } },
+        { "id": "dm7d", "correct": false, "i18n": { "ua":{"label":"Міністром магії"}, "en":{"label":"Minister of Magic"}, "es":{"label":"Ministro de Magia"}, "de":{"label":"Zaubereiminister"} } }
+      ] },
+    { "id": "dm8", "i18n": { "ua":{"text":"Який у Дамблдора знайомий родовий знак?"}, "en":{"text":"What is Dumbledore's recognizable family sign?"}, "es":{"text":"¿Cuál es la marca familiar de Dumbledore?"}, "de":{"text":"Welches Familienzeichen hat Dumbledore?"} },
+      "options": [
+        { "id": "dm8a", "correct": false, "i18n": { "ua":{"label":"Шрам на лобі"}, "en":{"label":"Scar on forehead"}, "es":{"label":"Cicatriz en la frente"}, "de":{"label":"Narbe auf der Stirn"} } },
+        { "id": "dm8b", "correct": true, "i18n": { "ua":{"label":"Довга срібляста борода"}, "en":{"label":"Long silver beard"}, "es":{"label":"Larga barba plateada"}, "de":{"label":"Langer silberner Bart"} } },
+        { "id": "dm8c", "correct": false, "i18n": { "ua":{"label":"Татуювання фенікса"}, "en":{"label":"Phoenix tattoo"}, "es":{"label":"Tatuaje de fénix"}, "de":{"label":"Phönix-Tattoo"} } },
+        { "id": "dm8d", "correct": false, "i18n": { "ua":{"label":"Золотий кулон"}, "en":{"label":"Gold locket"}, "es":{"label":"Medallón de oro"}, "de":{"label":"Goldenes Medaillon"} } }
+      ] },
+    { "id": "dm9", "i18n": { "ua":{"text":"Як звати брата Дамблдора?"}, "en":{"text":"What is Dumbledore's brother's name?"}, "es":{"text":"¿Cómo se llama el hermano de Dumbledore?"}, "de":{"text":"Wie heißt Dumbledores Bruder?"} },
+      "options": [
+        { "id": "dm9a", "correct": true, "i18n": { "ua":{"label":"Аберфорт"}, "en":{"label":"Aberforth"}, "es":{"label":"Aberforth"}, "de":{"label":"Aberforth"} } },
+        { "id": "dm9b", "correct": false, "i18n": { "ua":{"label":"Персіваль"}, "en":{"label":"Percival"}, "es":{"label":"Percival"}, "de":{"label":"Percival"} } },
+        { "id": "dm9c", "correct": false, "i18n": { "ua":{"label":"Салазар"}, "en":{"label":"Salazar"}, "es":{"label":"Salazar"}, "de":{"label":"Salazar"} } },
+        { "id": "dm9d", "correct": false, "i18n": { "ua":{"label":"Ігнотус"}, "en":{"label":"Ignotus"}, "es":{"label":"Ignotus"}, "de":{"label":"Ignotus"} } }
+      ] },
+    { "id": "dm10", "i18n": { "ua":{"text":"Який одяг часто носить Дамблдор?"}, "en":{"text":"What does Dumbledore often wear?"}, "es":{"text":"¿Qué usa Dumbledore a menudo?"}, "de":{"text":"Was trägt Dumbledore oft?"} },
+      "options": [
+        { "id": "dm10a", "correct": true, "i18n": { "ua":{"label":"Довгу мантію з зірками"}, "en":{"label":"Long robe with stars"}, "es":{"label":"Túnica larga con estrellas"}, "de":{"label":"Langes Gewand mit Sternen"} } },
+        { "id": "dm10b", "correct": false, "i18n": { "ua":{"label":"Темну шкіряну куртку"}, "en":{"label":"Dark leather jacket"}, "es":{"label":"Chaqueta de cuero negro"}, "de":{"label":"Schwarze Lederjacke"} } },
+        { "id": "dm10c", "correct": false, "i18n": { "ua":{"label":"Костюм маґла"}, "en":{"label":"Muggle suit"}, "es":{"label":"Traje muggle"}, "de":{"label":"Muggel-Anzug"} } },
+        { "id": "dm10d", "correct": false, "i18n": { "ua":{"label":"Військову форму"}, "en":{"label":"Military uniform"}, "es":{"label":"Uniforme militar"}, "de":{"label":"Uniform"} } }
+      ] }
+  ]
+}

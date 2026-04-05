@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_ginny",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Джіні", "description": "Чи знаєш ти наймолодшу Візлі?" },
+      "en": { "title": "Know Ginny", "description": "Do you know the youngest Weasley?" },
+      "es": { "title": "Conoce a Ginny", "description": "¿Conoces a la Weasley más joven?" },
+      "de": { "title": "Kenne Ginny", "description": "Kennst du die jüngste Weasley?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "🔥", "name": "Джіні", "message": "Моя найкраща шанувальниця!" }],
+        "en": [{ "emoji": "🔥", "name": "Ginny", "message": "My biggest fan!" }],
+        "es": [{ "emoji": "🔥", "name": "Ginny", "message": "¡Mi mejor fan!" }],
+        "de": [{ "emoji": "🔥", "name": "Ginny", "message": "Mein größter Fan!" }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🧹", "name": "Мітла", "message": "Майже зловила снітч" }],
+        "en": [{ "emoji": "🧹", "name": "Broomstick", "message": "Almost caught the snitch" }],
+        "es": [{ "emoji": "🧹", "name": "Escoba", "message": "Casi atrapaste la snitch" }],
+        "de": [{ "emoji": "🧹", "name": "Besen", "message": "Fast den Schnatz gefangen" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "📔", "name": "Щоденник", "message": "Тобі б Джіні краще пізнати" }],
+        "en": [{ "emoji": "📔", "name": "Diary", "message": "You should get to know Ginny better" }],
+        "es": [{ "emoji": "📔", "name": "Diario", "message": "Deberías conocer más a Ginny" }],
+        "de": [{ "emoji": "📔", "name": "Tagebuch", "message": "Du solltest Ginny besser kennenlernen" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Повне ім'я Джіні — Джіневра Моллі Візлі",
+        "Народилась 11 серпня 1981 року",
+        "Єдина дівчинка серед семи дітей Візлі за століття",
+        "Пізніше стала професійною гравчинею в Голігед Гарпіз",
+        "Її патронус — кінь"
+      ],
+      "en": [
+        "Ginny's full name is Ginevra Molly Weasley",
+        "She was born on August 11, 1981",
+        "She was the first Weasley girl in a century",
+        "Later became a professional player for Holyhead Harpies",
+        "Her Patronus is a horse"
+      ],
+      "es": [
+        "El nombre completo de Ginny es Ginevra Molly Weasley",
+        "Nació el 11 de agosto de 1981",
+        "Fue la primera chica Weasley en un siglo",
+        "Luego fue jugadora profesional de las Holyhead Harpies",
+        "Su Patronus es un caballo"
+      ],
+      "de": [
+        "Ginnys voller Name ist Ginevra Molly Weasley",
+        "Sie wurde am 11. August 1981 geboren",
+        "Das erste Weasley-Mädchen seit einem Jahrhundert",
+        "Später Profispielerin bei den Holyhead Harpies",
+        "Ihr Patronus ist ein Pferd"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "gn1", "i18n": { "ua":{"text":"Яке повне ім'я Джіні?"}, "en":{"text":"What is Ginny's full name?"}, "es":{"text":"¿Cuál es el nombre completo de Ginny?"}, "de":{"text":"Wie lautet Ginnys voller Name?"} },
+      "options": [
+        { "id": "gn1a", "correct": true, "i18n": { "ua":{"label":"Джіневра Моллі Візлі"}, "en":{"label":"Ginevra Molly Weasley"}, "es":{"label":"Ginevra Molly Weasley"}, "de":{"label":"Ginevra Molly Weasley"} } },
+        { "id": "gn1b", "correct": false, "i18n": { "ua":{"label":"Джіневра Лілі Візлі"}, "en":{"label":"Ginevra Lily Weasley"}, "es":{"label":"Ginevra Lily Weasley"}, "de":{"label":"Ginevra Lily Weasley"} } },
+        { "id": "gn1c", "correct": false, "i18n": { "ua":{"label":"Вірджинія Моллі Візлі"}, "en":{"label":"Virginia Molly Weasley"}, "es":{"label":"Virginia Molly Weasley"}, "de":{"label":"Virginia Molly Weasley"} } },
+        { "id": "gn1d", "correct": false, "i18n": { "ua":{"label":"Джіневра Мері Візлі"}, "en":{"label":"Ginevra Mary Weasley"}, "es":{"label":"Ginevra Mary Weasley"}, "de":{"label":"Ginevra Mary Weasley"} } }
+      ] },
+    { "id": "gn2", "i18n": { "ua":{"text":"Яка позиція Джіні в квідичі?"}, "en":{"text":"What is Ginny's Quidditch position?"}, "es":{"text":"¿Cuál es la posición de Ginny en Quidditch?"}, "de":{"text":"Welche Position spielt Ginny beim Quidditch?"} },
+      "options": [
+        { "id": "gn2a", "correct": true, "i18n": { "ua":{"label":"Загонич / Ловець"}, "en":{"label":"Chaser / Seeker"}, "es":{"label":"Cazadora / Buscadora"}, "de":{"label":"Jäger / Sucher"} } },
+        { "id": "gn2b", "correct": false, "i18n": { "ua":{"label":"Воротар"}, "en":{"label":"Keeper"}, "es":{"label":"Guardián"}, "de":{"label":"Hüter"} } },
+        { "id": "gn2c", "correct": false, "i18n": { "ua":{"label":"Відбивач"}, "en":{"label":"Beater"}, "es":{"label":"Golpeador"}, "de":{"label":"Treiber"} } },
+        { "id": "gn2d", "correct": false, "i18n": { "ua":{"label":"Суддя"}, "en":{"label":"Referee"}, "es":{"label":"Árbitro"}, "de":{"label":"Schiedsrichter"} } }
+      ] },
+    { "id": "gn3", "i18n": { "ua":{"text":"Хто Джіні серед братів і сестер?"}, "en":{"text":"Ginny is the ___ of the Weasley siblings"}, "es":{"text":"Ginny es la ___ de los Weasley"}, "de":{"text":"Ginny ist das ___ der Weasley-Kinder"} },
+      "options": [
+        { "id": "gn3a", "correct": true, "i18n": { "ua":{"label":"Наймолодша"}, "en":{"label":"Youngest"}, "es":{"label":"Más joven"}, "de":{"label":"Jüngste"} } },
+        { "id": "gn3b", "correct": false, "i18n": { "ua":{"label":"Найстарша"}, "en":{"label":"Oldest"}, "es":{"label":"Mayor"}, "de":{"label":"Älteste"} } },
+        { "id": "gn3c", "correct": false, "i18n": { "ua":{"label":"Середня"}, "en":{"label":"Middle"}, "es":{"label":"Del medio"}, "de":{"label":"Mittlere"} } },
+        { "id": "gn3d", "correct": false, "i18n": { "ua":{"label":"Третя"}, "en":{"label":"Third"}, "es":{"label":"Tercera"}, "de":{"label":"Dritte"} } }
+      ] },
+    { "id": "gn4", "i18n": { "ua":{"text":"Який у Джіні Патронус?"}, "en":{"text":"What is Ginny's Patronus?"}, "es":{"text":"¿Cuál es el Patronus de Ginny?"}, "de":{"text":"Was ist Ginnys Patronus?"} },
+      "options": [
+        { "id": "gn4a", "correct": true, "i18n": { "ua":{"label":"Кінь"}, "en":{"label":"Horse"}, "es":{"label":"Caballo"}, "de":{"label":"Pferd"} } },
+        { "id": "gn4b", "correct": false, "i18n": { "ua":{"label":"Фенікс"}, "en":{"label":"Phoenix"}, "es":{"label":"Fénix"}, "de":{"label":"Phönix"} } },
+        { "id": "gn4c", "correct": false, "i18n": { "ua":{"label":"Олень"}, "en":{"label":"Stag"}, "es":{"label":"Ciervo"}, "de":{"label":"Hirsch"} } },
+        { "id": "gn4d", "correct": false, "i18n": { "ua":{"label":"Вовк"}, "en":{"label":"Wolf"}, "es":{"label":"Lobo"}, "de":{"label":"Wolf"} } }
+      ] },
+    { "id": "gn5", "i18n": { "ua":{"text":"В якому Гоґвортському факультеті Джіні?"}, "en":{"text":"Which Hogwarts house is Ginny in?"}, "es":{"text":"¿En qué casa está Ginny?"}, "de":{"text":"In welchem Haus ist Ginny?"} },
+      "options": [
+        { "id": "gn5a", "correct": true, "i18n": { "ua":{"label":"Ґрифіндор"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "gn5b", "correct": false, "i18n": { "ua":{"label":"Рейвенклов"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "gn5c", "correct": false, "i18n": { "ua":{"label":"Гафелпаф"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } },
+        { "id": "gn5d", "correct": false, "i18n": { "ua":{"label":"Слизерин"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } }
+      ] },
+    { "id": "gn6", "i18n": { "ua":{"text":"Про кого Джіні мріяла з дитинства?"}, "en":{"text":"Who did Ginny have a childhood crush on?"}, "es":{"text":"¿De quién estaba enamorada Ginny desde niña?"}, "de":{"text":"In wen war Ginny als Kind verknallt?"} },
+      "options": [
+        { "id": "gn6a", "correct": true, "i18n": { "ua":{"label":"Гаррі Поттер"}, "en":{"label":"Harry Potter"}, "es":{"label":"Harry Potter"}, "de":{"label":"Harry Potter"} } },
+        { "id": "gn6b", "correct": false, "i18n": { "ua":{"label":"Деніс Кріві"}, "en":{"label":"Dennis Creevey"}, "es":{"label":"Dennis Creevey"}, "de":{"label":"Dennis Creevey"} } },
+        { "id": "gn6c", "correct": false, "i18n": { "ua":{"label":"Невіл Лонґботом"}, "en":{"label":"Neville Longbottom"}, "es":{"label":"Neville Longbottom"}, "de":{"label":"Neville Longbottom"} } },
+        { "id": "gn6d", "correct": false, "i18n": { "ua":{"label":"Дін Томас"}, "en":{"label":"Dean Thomas"}, "es":{"label":"Dean Thomas"}, "de":{"label":"Dean Thomas"} } }
+      ] },
+    { "id": "gn7", "i18n": { "ua":{"text":"В якій команді грала Джіні після Гоґвортсу?"}, "en":{"text":"Which professional team did Ginny join?"}, "es":{"text":"¿En qué equipo jugó Ginny después?"}, "de":{"text":"In welchem Profi-Team spielte Ginny?"} },
+      "options": [
+        { "id": "gn7a", "correct": true, "i18n": { "ua":{"label":"Голігед Гарпіз"}, "en":{"label":"Holyhead Harpies"}, "es":{"label":"Holyhead Harpies"}, "de":{"label":"Holyhead Harpies"} } },
+        { "id": "gn7b", "correct": false, "i18n": { "ua":{"label":"Чадлі Кенонс"}, "en":{"label":"Chudley Cannons"}, "es":{"label":"Chudley Cannons"}, "de":{"label":"Chudley Cannons"} } },
+        { "id": "gn7c", "correct": false, "i18n": { "ua":{"label":"Пуддлмір Юнайтед"}, "en":{"label":"Puddlemere United"}, "es":{"label":"Puddlemere United"}, "de":{"label":"Puddlemere United"} } },
+        { "id": "gn7d", "correct": false, "i18n": { "ua":{"label":"Татшил Торнадос"}, "en":{"label":"Tutshill Tornados"}, "es":{"label":"Tutshill Tornados"}, "de":{"label":"Tutshill Tornados"} } }
+      ] },
+    { "id": "gn8", "i18n": { "ua":{"text":"Який колір волосся у Джіні?"}, "en":{"text":"What colour is Ginny's hair?"}, "es":{"text":"¿De qué color es el pelo de Ginny?"}, "de":{"text":"Welche Haarfarbe hat Ginny?"} },
+      "options": [
+        { "id": "gn8a", "correct": true, "i18n": { "ua":{"label":"Рудий"}, "en":{"label":"Red"}, "es":{"label":"Pelirrojo"}, "de":{"label":"Rot"} } },
+        { "id": "gn8b", "correct": false, "i18n": { "ua":{"label":"Чорний"}, "en":{"label":"Black"}, "es":{"label":"Negro"}, "de":{"label":"Schwarz"} } },
+        { "id": "gn8c", "correct": false, "i18n": { "ua":{"label":"Русявий"}, "en":{"label":"Blonde"}, "es":{"label":"Rubio"}, "de":{"label":"Blond"} } },
+        { "id": "gn8d", "correct": false, "i18n": { "ua":{"label":"Каштановий"}, "en":{"label":"Brown"}, "es":{"label":"Castaño"}, "de":{"label":"Braun"} } }
+      ] },
+    { "id": "gn9", "i18n": { "ua":{"text":"Яке улюблене заклинання Джіні?"}, "en":{"text":"What is Ginny's signature spell?"}, "es":{"text":"¿Cuál es el hechizo característico de Ginny?"}, "de":{"text":"Was ist Ginnys typischer Zauber?"} },
+      "options": [
+        { "id": "gn9a", "correct": true, "i18n": { "ua":{"label":"Кажанячий цвях"}, "en":{"label":"Bat-Bogey Hex"}, "es":{"label":"Maleficio de Moco-Murciélago"}, "de":{"label":"Fledermausflügel-Fluch"} } },
+        { "id": "gn9b", "correct": false, "i18n": { "ua":{"label":"Експекто Патронум"}, "en":{"label":"Expecto Patronum"}, "es":{"label":"Expecto Patronum"}, "de":{"label":"Expecto Patronum"} } },
+        { "id": "gn9c", "correct": false, "i18n": { "ua":{"label":"Кислотне шипіння"}, "en":{"label":"Acid Hiss"}, "es":{"label":"Silbido Ácido"}, "de":{"label":"Säurezisch"} } },
+        { "id": "gn9d", "correct": false, "i18n": { "ua":{"label":"Люмос Максимум"}, "en":{"label":"Lumos Maxima"}, "es":{"label":"Lumos Maxima"}, "de":{"label":"Lumos Maxima"} } }
+      ] },
+    { "id": "gn10", "i18n": { "ua":{"text":"Скільки всього братів у Джіні?"}, "en":{"text":"How many brothers does Ginny have?"}, "es":{"text":"¿Cuántos hermanos tiene Ginny?"}, "de":{"text":"Wie viele Brüder hat Ginny?"} },
+      "options": [
+        { "id": "gn10a", "correct": false, "i18n": { "ua":{"label":"5"}, "en":{"label":"5"}, "es":{"label":"5"}, "de":{"label":"5"} } },
+        { "id": "gn10b", "correct": true, "i18n": { "ua":{"label":"6"}, "en":{"label":"6"}, "es":{"label":"6"}, "de":{"label":"6"} } },
+        { "id": "gn10c", "correct": false, "i18n": { "ua":{"label":"7"}, "en":{"label":"7"}, "es":{"label":"7"}, "de":{"label":"7"} } },
+        { "id": "gn10d", "correct": false, "i18n": { "ua":{"label":"4"}, "en":{"label":"4"}, "es":{"label":"4"}, "de":{"label":"4"} } }
+      ] }
+  ]
+}

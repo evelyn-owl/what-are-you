@@ -1,4 +1,4 @@
-const CACHE = 'htoty-v4';
+const CACHE = 'htoty-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -10,6 +10,13 @@ const ASSETS = [
   './data/food.json',
   './data/mythical.json',
   './data/hp_knowledge.json',
+  './data/hp_harry.json',
+  './data/hp_hermione.json',
+  './data/hp_ron.json',
+  './data/hp_ginny.json',
+  './data/hp_snape.json',
+  './data/hp_dumbledore.json',
+  './data/hp_draco.json',
 ];
 
 self.addEventListener('install', e => {

@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_snape",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство зі Снейпом", "description": "Чи знаєш ти Майстра зіль?" },
+      "en": { "title": "Know Snape", "description": "Do you know the Potions Master?" },
+      "es": { "title": "Conoce a Snape", "description": "¿Conoces al Maestro de Pociones?" },
+      "de": { "title": "Kenne Snape", "description": "Kennst du den Meister der Zaubertränke?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "🧪", "name": "Снейп", "message": "Можливо, ти не такий безнадійний..." }],
+        "en": [{ "emoji": "🧪", "name": "Snape", "message": "Perhaps you are not entirely hopeless..." }],
+        "es": [{ "emoji": "🧪", "name": "Snape", "message": "Quizás no eres del todo desesperanzador..." }],
+        "de": [{ "emoji": "🧪", "name": "Snape", "message": "Vielleicht bist du nicht ganz hoffnungslos..." }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🦇", "name": "Кажан підземель", "message": "10 балів... може бути" }],
+        "en": [{ "emoji": "🦇", "name": "Dungeon Bat", "message": "10 points... maybe" }],
+        "es": [{ "emoji": "🦇", "name": "Murciélago", "message": "10 puntos... tal vez" }],
+        "de": [{ "emoji": "🦇", "name": "Kerker-Fledermaus", "message": "10 Punkte... vielleicht" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "⚗️", "name": "Казанок", "message": "Мінус 10 балів Ґрифіндору" }],
+        "en": [{ "emoji": "⚗️", "name": "Cauldron", "message": "Minus 10 points from Gryffindor" }],
+        "es": [{ "emoji": "⚗️", "name": "Caldero", "message": "Menos 10 puntos para Gryffindor" }],
+        "de": [{ "emoji": "⚗️", "name": "Kessel", "message": "Minus 10 Punkte für Gryffindor" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Северус Снейп народився 9 січня 1960 року",
+        "Він виріс у містечку Коукворт",
+        "Снейп був Майстром зіль у Гоґвортсі",
+        "Його Патронус — срібна лань",
+        "Він знав Лілі ще до Гоґвортсу — вони були сусідами"
+      ],
+      "en": [
+        "Severus Snape was born on January 9, 1960",
+        "He grew up in the town of Cokeworth",
+        "Snape was Potions Master at Hogwarts",
+        "His Patronus is a silver doe",
+        "He knew Lily before Hogwarts — they were neighbours"
+      ],
+      "es": [
+        "Severus Snape nació el 9 de enero de 1960",
+        "Creció en la ciudad de Cokeworth",
+        "Snape fue Maestro de Pociones en Hogwarts",
+        "Su Patronus es una cierva plateada",
+        "Conocía a Lily antes de Hogwarts — eran vecinos"
+      ],
+      "de": [
+        "Severus Snape wurde am 9. Januar 1960 geboren",
+        "Er wuchs in der Stadt Cokeworth auf",
+        "Snape war Meister der Zaubertränke in Hogwarts",
+        "Sein Patronus ist eine silberne Hirschkuh",
+        "Er kannte Lily vor Hogwarts — sie waren Nachbarn"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "sn1", "i18n": { "ua":{"text":"Яке повне ім'я Снейпа?"}, "en":{"text":"What is Snape's full name?"}, "es":{"text":"¿Cuál es el nombre completo de Snape?"}, "de":{"text":"Wie lautet Snapes voller Name?"} },
+      "options": [
+        { "id": "sn1a", "correct": true, "i18n": { "ua":{"label":"Северус Снейп"}, "en":{"label":"Severus Snape"}, "es":{"label":"Severus Snape"}, "de":{"label":"Severus Snape"} } },
+        { "id": "sn1b", "correct": false, "i18n": { "ua":{"label":"Салазар Снейп"}, "en":{"label":"Salazar Snape"}, "es":{"label":"Salazar Snape"}, "de":{"label":"Salazar Snape"} } },
+        { "id": "sn1c", "correct": false, "i18n": { "ua":{"label":"Себастьян Снейп"}, "en":{"label":"Sebastian Snape"}, "es":{"label":"Sebastian Snape"}, "de":{"label":"Sebastian Snape"} } },
+        { "id": "sn1d", "correct": false, "i18n": { "ua":{"label":"Саймон Снейп"}, "en":{"label":"Simon Snape"}, "es":{"label":"Simon Snape"}, "de":{"label":"Simon Snape"} } }
+      ] },
+    { "id": "sn2", "i18n": { "ua":{"text":"Який предмет викладав Снейп на початку?"}, "en":{"text":"What did Snape teach initially?"}, "es":{"text":"¿Qué enseñaba Snape al principio?"}, "de":{"text":"Was unterrichtete Snape zunächst?"} },
+      "options": [
+        { "id": "sn2a", "correct": true, "i18n": { "ua":{"label":"Зілля"}, "en":{"label":"Potions"}, "es":{"label":"Pociones"}, "de":{"label":"Zaubertränke"} } },
+        { "id": "sn2b", "correct": false, "i18n": { "ua":{"label":"Захист від темних мистецтв"}, "en":{"label":"DADA"}, "es":{"label":"DCAO"}, "de":{"label":"VgddK"} } },
+        { "id": "sn2c", "correct": false, "i18n": { "ua":{"label":"Трансфігурацію"}, "en":{"label":"Transfiguration"}, "es":{"label":"Transformaciones"}, "de":{"label":"Verwandlung"} } },
+        { "id": "sn2d", "correct": false, "i18n": { "ua":{"label":"Чари"}, "en":{"label":"Charms"}, "es":{"label":"Encantamientos"}, "de":{"label":"Zauberkunst"} } }
+      ] },
+    { "id": "sn3", "i18n": { "ua":{"text":"На якому факультеті вчився Снейп?"}, "en":{"text":"Which house was Snape in?"}, "es":{"text":"¿En qué casa estaba Snape?"}, "de":{"text":"In welchem Haus war Snape?"} },
+      "options": [
+        { "id": "sn3a", "correct": true, "i18n": { "ua":{"label":"Слизерин"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } },
+        { "id": "sn3b", "correct": false, "i18n": { "ua":{"label":"Ґрифіндор"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "sn3c", "correct": false, "i18n": { "ua":{"label":"Рейвенклов"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "sn3d", "correct": false, "i18n": { "ua":{"label":"Гафелпаф"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } }
+      ] },
+    { "id": "sn4", "i18n": { "ua":{"text":"Який колір волосся у Снейпа?"}, "en":{"text":"What colour is Snape's hair?"}, "es":{"text":"¿De qué color es el pelo de Snape?"}, "de":{"text":"Welche Haarfarbe hat Snape?"} },
+      "options": [
+        { "id": "sn4a", "correct": true, "i18n": { "ua":{"label":"Чорний"}, "en":{"label":"Black"}, "es":{"label":"Negro"}, "de":{"label":"Schwarz"} } },
+        { "id": "sn4b", "correct": false, "i18n": { "ua":{"label":"Рудий"}, "en":{"label":"Red"}, "es":{"label":"Pelirrojo"}, "de":{"label":"Rot"} } },
+        { "id": "sn4c", "correct": false, "i18n": { "ua":{"label":"Сивий"}, "en":{"label":"Grey"}, "es":{"label":"Gris"}, "de":{"label":"Grau"} } },
+        { "id": "sn4d", "correct": false, "i18n": { "ua":{"label":"Русявий"}, "en":{"label":"Blonde"}, "es":{"label":"Rubio"}, "de":{"label":"Blond"} } }
+      ] },
+    { "id": "sn5", "i18n": { "ua":{"text":"Якого кольору мантія Снейпа?"}, "en":{"text":"What colour are Snape's robes?"}, "es":{"text":"¿De qué color son las túnicas de Snape?"}, "de":{"text":"Welche Farbe haben Snapes Roben?"} },
+      "options": [
+        { "id": "sn5a", "correct": true, "i18n": { "ua":{"label":"Чорного"}, "en":{"label":"Black"}, "es":{"label":"Negro"}, "de":{"label":"Schwarz"} } },
+        { "id": "sn5b", "correct": false, "i18n": { "ua":{"label":"Зеленого"}, "en":{"label":"Green"}, "es":{"label":"Verde"}, "de":{"label":"Grün"} } },
+        { "id": "sn5c", "correct": false, "i18n": { "ua":{"label":"Сірого"}, "en":{"label":"Grey"}, "es":{"label":"Gris"}, "de":{"label":"Grau"} } },
+        { "id": "sn5d", "correct": false, "i18n": { "ua":{"label":"Синього"}, "en":{"label":"Blue"}, "es":{"label":"Azul"}, "de":{"label":"Blau"} } }
+      ] },
+    { "id": "sn6", "i18n": { "ua":{"text":"Який Патронус у Снейпа?"}, "en":{"text":"What is Snape's Patronus?"}, "es":{"text":"¿Cuál es el Patronus de Snape?"}, "de":{"text":"Was ist Snapes Patronus?"} },
+      "options": [
+        { "id": "sn6a", "correct": true, "i18n": { "ua":{"label":"Лань"}, "en":{"label":"Doe"}, "es":{"label":"Cierva"}, "de":{"label":"Hirschkuh"} } },
+        { "id": "sn6b", "correct": false, "i18n": { "ua":{"label":"Змія"}, "en":{"label":"Snake"}, "es":{"label":"Serpiente"}, "de":{"label":"Schlange"} } },
+        { "id": "sn6c", "correct": false, "i18n": { "ua":{"label":"Кажан"}, "en":{"label":"Bat"}, "es":{"label":"Murciélago"}, "de":{"label":"Fledermaus"} } },
+        { "id": "sn6d", "correct": false, "i18n": { "ua":{"label":"Ворон"}, "en":{"label":"Raven"}, "es":{"label":"Cuervo"}, "de":{"label":"Rabe"} } }
+      ] },
+    { "id": "sn7", "i18n": { "ua":{"text":"Де Снейп виріс?"}, "en":{"text":"Where did Snape grow up?"}, "es":{"text":"¿Dónde creció Snape?"}, "de":{"text":"Wo wuchs Snape auf?"} },
+      "options": [
+        { "id": "sn7a", "correct": true, "i18n": { "ua":{"label":"Коукворт"}, "en":{"label":"Cokeworth"}, "es":{"label":"Cokeworth"}, "de":{"label":"Cokeworth"} } },
+        { "id": "sn7b", "correct": false, "i18n": { "ua":{"label":"Хогсмід"}, "en":{"label":"Hogsmeade"}, "es":{"label":"Hogsmeade"}, "de":{"label":"Hogsmeade"} } },
+        { "id": "sn7c", "correct": false, "i18n": { "ua":{"label":"Ґодрикова Долина"}, "en":{"label":"Godric's Hollow"}, "es":{"label":"Valle de Godric"}, "de":{"label":"Godric's Hollow"} } },
+        { "id": "sn7d", "correct": false, "i18n": { "ua":{"label":"Літл-Вінґінґ"}, "en":{"label":"Little Whinging"}, "es":{"label":"Little Whinging"}, "de":{"label":"Little Whinging"} } }
+      ] },
+    { "id": "sn8", "i18n": { "ua":{"text":"Чиїм деканом був Снейп?"}, "en":{"text":"Which house was Snape head of?"}, "es":{"text":"¿De qué casa era jefe Snape?"}, "de":{"text":"Welches Haus leitete Snape?"} },
+      "options": [
+        { "id": "sn8a", "correct": true, "i18n": { "ua":{"label":"Слизерину"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } },
+        { "id": "sn8b", "correct": false, "i18n": { "ua":{"label":"Ґрифіндору"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "sn8c", "correct": false, "i18n": { "ua":{"label":"Рейвенклову"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "sn8d", "correct": false, "i18n": { "ua":{"label":"Гафелпафу"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } }
+      ] },
+    { "id": "sn9", "i18n": { "ua":{"text":"Яким предметом Снейп завжди мріяв викладати?"}, "en":{"text":"Which subject did Snape always want to teach?"}, "es":{"text":"¿Qué asignatura siempre quiso enseñar Snape?"}, "de":{"text":"Welches Fach wollte Snape immer unterrichten?"} },
+      "options": [
+        { "id": "sn9a", "correct": true, "i18n": { "ua":{"label":"Захист від темних мистецтв"}, "en":{"label":"DADA"}, "es":{"label":"DCAO"}, "de":{"label":"VgddK"} } },
+        { "id": "sn9b", "correct": false, "i18n": { "ua":{"label":"Астрономію"}, "en":{"label":"Astronomy"}, "es":{"label":"Astronomía"}, "de":{"label":"Astronomie"} } },
+        { "id": "sn9c", "correct": false, "i18n": { "ua":{"label":"Прорікання"}, "en":{"label":"Divination"}, "es":{"label":"Adivinación"}, "de":{"label":"Wahrsagen"} } },
+        { "id": "sn9d", "correct": false, "i18n": { "ua":{"label":"Чари"}, "en":{"label":"Charms"}, "es":{"label":"Encantamientos"}, "de":{"label":"Zauberkunst"} } }
+      ] },
+    { "id": "sn10", "i18n": { "ua":{"text":"Яка мама Снейпа за походженням?"}, "en":{"text":"What was Snape's mother's magical heritage?"}, "es":{"text":"¿Cuál es la herencia mágica de la madre de Snape?"}, "de":{"text":"Welches magische Erbe hat Snapes Mutter?"} },
+      "options": [
+        { "id": "sn10a", "correct": true, "i18n": { "ua":{"label":"Чистокровна відьма"}, "en":{"label":"Pure-blood witch"}, "es":{"label":"Bruja de sangre pura"}, "de":{"label":"Reinblütige Hexe"} } },
+        { "id": "sn10b", "correct": false, "i18n": { "ua":{"label":"Маґлівського походження"}, "en":{"label":"Muggle-born"}, "es":{"label":"Hija de muggles"}, "de":{"label":"Muggelstämmig"} } },
+        { "id": "sn10c", "correct": false, "i18n": { "ua":{"label":"Сквиб"}, "en":{"label":"Squib"}, "es":{"label":"Squib"}, "de":{"label":"Squib"} } },
+        { "id": "sn10d", "correct": false, "i18n": { "ua":{"label":"Маґла"}, "en":{"label":"Muggle"}, "es":{"label":"Muggle"}, "de":{"label":"Muggel"} } }
+      ] }
+  ]
+}

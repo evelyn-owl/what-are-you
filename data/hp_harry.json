@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "id": "hp_harry",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Гаррі", "description": "Наскільки добре ти знаєш Хлопчика-що-вижив?" },
+      "en": { "title": "Know Harry", "description": "How well do you know The Boy Who Lived?" },
+      "es": { "title": "Conoce a Harry", "description": "¿Cuánto sabes del Niño que Vivió?" },
+      "de": { "title": "Kenne Harry", "description": "Wie gut kennst du den Jungen der überlebte?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [
+          { "emoji": "⚡", "name": "Гаррі", "message": "Ти знаєш мене краще ніж я сам" },
+          { "emoji": "🦉", "name": "Гедвіга", "message": "Ух! Ти справжній друг Гаррі" }
+        ],
+        "en": [
+          { "emoji": "⚡", "name": "Harry", "message": "You know me better than I know myself" },
+          { "emoji": "🦉", "name": "Hedwig", "message": "Hoot! You're a true friend of Harry's" }
+        ],
+        "es": [
+          { "emoji": "⚡", "name": "Harry", "message": "Me conoces mejor que yo mismo" },
+          { "emoji": "🦉", "name": "Hedwig", "message": "¡Uhú! Eres verdadero amigo de Harry" }
+        ],
+        "de": [
+          { "emoji": "⚡", "name": "Harry", "message": "Du kennst mich besser als ich selbst" },
+          { "emoji": "🦉", "name": "Hedwig", "message": "Uhu! Du bist ein wahrer Freund von Harry" }
+        ]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [
+          { "emoji": "🧹", "name": "Німбус 2000", "message": "Непогано, але можна швидше" }
+        ],
+        "en": [
+          { "emoji": "🧹", "name": "Nimbus 2000", "message": "Not bad, but you can fly faster" }
+        ],
+        "es": [
+          { "emoji": "🧹", "name": "Nimbus 2000", "message": "Nada mal, pero puedes volar más rápido" }
+        ],
+        "de": [
+          { "emoji": "🧹", "name": "Nimbus 2000", "message": "Nicht schlecht, aber schneller geht es" }
+        ]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [
+          { "emoji": "👓", "name": "Окуляри Гаррі", "message": "Краще придивись уважніше" }
+        ],
+        "en": [
+          { "emoji": "👓", "name": "Harry's Glasses", "message": "Look a bit closer next time" }
+        ],
+        "es": [
+          { "emoji": "👓", "name": "Gafas de Harry", "message": "Mira un poco más de cerca" }
+        ],
+        "de": [
+          { "emoji": "👓", "name": "Harrys Brille", "message": "Schau etwas genauer hin" }
+        ]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Гаррі народився 31 липня 1980 року",
+        "Його паличка 11 дюймів, з пера фенікса",
+        "Гаррі — анімаг? Ні, але його батько Джеймс був",
+        "Улюблений колір Гаррі — червоний і золотий, кольори Ґрифіндору",
+        "Його улюблена страва — тістечка з патокою"
+      ],
+      "en": [
+        "Harry was born on July 31, 1980",
+        "His wand is 11 inches, with a phoenix feather core",
+        "Harry is not an Animagus, but his father James was",
+        "Harry's favourite colours are red and gold — Gryffindor colours",
+        "His favourite treat is treacle tart"
+      ],
+      "es": [
+        "Harry nació el 31 de julio de 1980",
+        "Su varita mide 11 pulgadas, con núcleo de pluma de fénix",
+        "Harry no es animago, pero su padre James sí lo era",
+        "Sus colores favoritos son rojo y dorado — los de Gryffindor",
+        "Su postre favorito es la tarta de melaza"
+      ],
+      "de": [
+        "Harry wurde am 31. Juli 1980 geboren",
+        "Sein Zauberstab ist 11 Zoll lang, mit Phönixfeder-Kern",
+        "Harry ist kein Animagus, aber sein Vater James war einer",
+        "Seine Lieblingsfarben sind Rot und Gold — Gryffindor-Farben",
+        "Sein Lieblingsdessert ist Melasse-Tarte"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "hh1", "i18n": { "ua": {"text":"Який колір очей у Гаррі?"}, "en": {"text":"What colour are Harry's eyes?"}, "es": {"text":"¿De qué color son los ojos de Harry?"}, "de": {"text":"Welche Augenfarbe hat Harry?"} },
+      "options": [
+        { "id": "hh1a", "correct": true, "i18n": { "ua":{"label":"Зелений"}, "en":{"label":"Green"}, "es":{"label":"Verde"}, "de":{"label":"Grün"} } },
+        { "id": "hh1b", "correct": false, "i18n": { "ua":{"label":"Блакитний"}, "en":{"label":"Blue"}, "es":{"label":"Azul"}, "de":{"label":"Blau"} } },
+        { "id": "hh1c", "correct": false, "i18n": { "ua":{"label":"Карий"}, "en":{"label":"Brown"}, "es":{"label":"Marrón"}, "de":{"label":"Braun"} } },
+        { "id": "hh1d", "correct": false, "i18n": { "ua":{"label":"Сірий"}, "en":{"label":"Grey"}, "es":{"label":"Gris"}, "de":{"label":"Grau"} } }
+      ] },
+    { "id": "hh2", "i18n": { "ua":{"text":"Який у Гаррі знак на лобі?"}, "en":{"text":"What mark is on Harry's forehead?"}, "es":{"text":"¿Qué marca tiene Harry en la frente?"}, "de":{"text":"Welches Zeichen hat Harry auf der Stirn?"} },
+      "options": [
+        { "id": "hh2a", "correct": false, "i18n": { "ua":{"label":"Зірка"}, "en":{"label":"Star"}, "es":{"label":"Estrella"}, "de":{"label":"Stern"} } },
+        { "id": "hh2b", "correct": true, "i18n": { "ua":{"label":"Блискавка"}, "en":{"label":"Lightning bolt"}, "es":{"label":"Rayo"}, "de":{"label":"Blitz"} } },
+        { "id": "hh2c", "correct": false, "i18n": { "ua":{"label":"Коло"}, "en":{"label":"Circle"}, "es":{"label":"Círculo"}, "de":{"label":"Kreis"} } },
+        { "id": "hh2d", "correct": false, "i18n": { "ua":{"label":"Серце"}, "en":{"label":"Heart"}, "es":{"label":"Corazón"}, "de":{"label":"Herz"} } }
+      ] },
+    { "id": "hh3", "i18n": { "ua":{"text":"Де Гаррі жив до Гоґвортсу?"}, "en":{"text":"Where did Harry live before Hogwarts?"}, "es":{"text":"¿Dónde vivía Harry antes de Hogwarts?"}, "de":{"text":"Wo lebte Harry vor Hogwarts?"} },
+      "options": [
+        { "id": "hh3a", "correct": true, "i18n": { "ua":{"label":"У Дурслів, під сходами"}, "en":{"label":"With the Dursleys, under the stairs"}, "es":{"label":"Con los Dursley, bajo la escalera"}, "de":{"label":"Bei den Dursleys, unter der Treppe"} } },
+        { "id": "hh3b", "correct": false, "i18n": { "ua":{"label":"У замку"}, "en":{"label":"In a castle"}, "es":{"label":"En un castillo"}, "de":{"label":"In einem Schloss"} } },
+        { "id": "hh3c", "correct": false, "i18n": { "ua":{"label":"У притулку"}, "en":{"label":"In an orphanage"}, "es":{"label":"En un orfanato"}, "de":{"label":"In einem Waisenhaus"} } },
+        { "id": "hh3d", "correct": false, "i18n": { "ua":{"label":"У Візлі"}, "en":{"label":"With the Weasleys"}, "es":{"label":"Con los Weasley"}, "de":{"label":"Bei den Weasleys"} } }
+      ] },
+    { "id": "hh4", "i18n": { "ua":{"text":"Хто подарував Гаррі першу мітлу?"}, "en":{"text":"Who gave Harry his first broom?"}, "es":{"text":"¿Quién le dio a Harry su primera escoba?"}, "de":{"text":"Wer gab Harry seinen ersten Besen?"} },
+      "options": [
+        { "id": "hh4a", "correct": false, "i18n": { "ua":{"label":"Геґрід"}, "en":{"label":"Hagrid"}, "es":{"label":"Hagrid"}, "de":{"label":"Hagrid"} } },
+        { "id": "hh4b", "correct": true, "i18n": { "ua":{"label":"Професорка Макґонеґел"}, "en":{"label":"Professor McGonagall"}, "es":{"label":"Profesora McGonagall"}, "de":{"label":"Professor McGonagall"} } },
+        { "id": "hh4c", "correct": false, "i18n": { "ua":{"label":"Рон"}, "en":{"label":"Ron"}, "es":{"label":"Ron"}, "de":{"label":"Ron"} } },
+        { "id": "hh4d", "correct": false, "i18n": { "ua":{"label":"Сіріус"}, "en":{"label":"Sirius"}, "es":{"label":"Sirius"}, "de":{"label":"Sirius"} } }
+      ] },
+    { "id": "hh5", "i18n": { "ua":{"text":"Яка паличка Гаррі?"}, "en":{"text":"What is Harry's wand?"}, "es":{"text":"¿Cómo es la varita de Harry?"}, "de":{"text":"Wie ist Harrys Zauberstab?"} },
+      "options": [
+        { "id": "hh5a", "correct": true, "i18n": { "ua":{"label":"Гостролист, перо фенікса"}, "en":{"label":"Holly, phoenix feather"}, "es":{"label":"Acebo, pluma de fénix"}, "de":{"label":"Stechpalme, Phönixfeder"} } },
+        { "id": "hh5b", "correct": false, "i18n": { "ua":{"label":"Дуб, серце дракона"}, "en":{"label":"Oak, dragon heartstring"}, "es":{"label":"Roble, fibra de dragón"}, "de":{"label":"Eiche, Drachenherzfaser"} } },
+        { "id": "hh5c", "correct": false, "i18n": { "ua":{"label":"Бузок, волос єдинорога"}, "en":{"label":"Elder, unicorn hair"}, "es":{"label":"Saúco, pelo de unicornio"}, "de":{"label":"Holunder, Einhornhaar"} } },
+        { "id": "hh5d", "correct": false, "i18n": { "ua":{"label":"Верба, волос віїли"}, "en":{"label":"Willow, veela hair"}, "es":{"label":"Sauce, pelo de veela"}, "de":{"label":"Weide, Veela-Haar"} } }
+      ] },
+    { "id": "hh6", "i18n": { "ua":{"text":"Які імена батьків Гаррі?"}, "en":{"text":"What are the names of Harry's parents?"}, "es":{"text":"¿Cómo se llaman los padres de Harry?"}, "de":{"text":"Wie heißen Harrys Eltern?"} },
+      "options": [
+        { "id": "hh6a", "correct": false, "i18n": { "ua":{"label":"Джеймс і Петунія"}, "en":{"label":"James and Petunia"}, "es":{"label":"James y Petunia"}, "de":{"label":"James und Petunia"} } },
+        { "id": "hh6b", "correct": true, "i18n": { "ua":{"label":"Джеймс і Лілі"}, "en":{"label":"James and Lily"}, "es":{"label":"James y Lily"}, "de":{"label":"James und Lily"} } },
+        { "id": "hh6c", "correct": false, "i18n": { "ua":{"label":"Артур і Моллі"}, "en":{"label":"Arthur and Molly"}, "es":{"label":"Arthur y Molly"}, "de":{"label":"Arthur und Molly"} } },
+        { "id": "hh6d", "correct": false, "i18n": { "ua":{"label":"Ремус і Тонкс"}, "en":{"label":"Remus and Tonks"}, "es":{"label":"Remus y Tonks"}, "de":{"label":"Remus und Tonks"} } }
+      ] },
+    { "id": "hh7", "i18n": { "ua":{"text":"Як звати кузена Гаррі?"}, "en":{"text":"What is Harry's cousin's name?"}, "es":{"text":"¿Cómo se llama el primo de Harry?"}, "de":{"text":"Wie heißt Harrys Cousin?"} },
+      "options": [
+        { "id": "hh7a", "correct": true, "i18n": { "ua":{"label":"Дадлі"}, "en":{"label":"Dudley"}, "es":{"label":"Dudley"}, "de":{"label":"Dudley"} } },
+        { "id": "hh7b", "correct": false, "i18n": { "ua":{"label":"Вернон"}, "en":{"label":"Vernon"}, "es":{"label":"Vernon"}, "de":{"label":"Vernon"} } },
+        { "id": "hh7c", "correct": false, "i18n": { "ua":{"label":"Марджі"}, "en":{"label":"Marge"}, "es":{"label":"Marge"}, "de":{"label":"Marge"} } },
+        { "id": "hh7d", "correct": false, "i18n": { "ua":{"label":"Перс"}, "en":{"label":"Piers"}, "es":{"label":"Piers"}, "de":{"label":"Piers"} } }
+      ] },
+    { "id": "hh8", "i18n": { "ua":{"text":"Який предмет Гаррі НЕ любить?"}, "en":{"text":"Which subject does Harry NOT like?"}, "es":{"text":"¿Qué asignatura NO le gusta a Harry?"}, "de":{"text":"Welches Fach mag Harry NICHT?"} },
+      "options": [
+        { "id": "hh8a", "correct": false, "i18n": { "ua":{"label":"Квідич"}, "en":{"label":"Quidditch"}, "es":{"label":"Quidditch"}, "de":{"label":"Quidditch"} } },
+        { "id": "hh8b", "correct": true, "i18n": { "ua":{"label":"Зілля"}, "en":{"label":"Potions"}, "es":{"label":"Pociones"}, "de":{"label":"Zaubertränke"} } },
+        { "id": "hh8c", "correct": false, "i18n": { "ua":{"label":"Захист від темних мистецтв"}, "en":{"label":"DADA"}, "es":{"label":"DCAO"}, "de":{"label":"VgddK"} } },
+        { "id": "hh8d", "correct": false, "i18n": { "ua":{"label":"Трансфігурація"}, "en":{"label":"Transfiguration"}, "es":{"label":"Transformaciones"}, "de":{"label":"Verwandlung"} } }
+      ] },
+    { "id": "hh9", "i18n": { "ua":{"text":"Яка тварина-патронус у Гаррі?"}, "en":{"text":"What is Harry's Patronus?"}, "es":{"text":"¿Cuál es el Patronus de Harry?"}, "de":{"text":"Was ist Harrys Patronus?"} },
+      "options": [
+        { "id": "hh9a", "correct": true, "i18n": { "ua":{"label":"Олень"}, "en":{"label":"Stag"}, "es":{"label":"Ciervo"}, "de":{"label":"Hirsch"} } },
+        { "id": "hh9b", "correct": false, "i18n": { "ua":{"label":"Фенікс"}, "en":{"label":"Phoenix"}, "es":{"label":"Fénix"}, "de":{"label":"Phönix"} } },
+        { "id": "hh9c", "correct": false, "i18n": { "ua":{"label":"Вовк"}, "en":{"label":"Wolf"}, "es":{"label":"Lobo"}, "de":{"label":"Wolf"} } },
+        { "id": "hh9d", "correct": false, "i18n": { "ua":{"label":"Орел"}, "en":{"label":"Eagle"}, "es":{"label":"Águila"}, "de":{"label":"Adler"} } }
+      ] },
+    { "id": "hh10", "i18n": { "ua":{"text":"На якому курсі Гаррі вступив до команди квідичу?"}, "en":{"text":"In which year did Harry join the Quidditch team?"}, "es":{"text":"¿En qué año entró Harry al equipo de Quidditch?"}, "de":{"text":"In welchem Jahr kam Harry ins Quidditch-Team?"} },
+      "options": [
+        { "id": "hh10a", "correct": true, "i18n": { "ua":{"label":"На 1-му"}, "en":{"label":"1st year"}, "es":{"label":"1er año"}, "de":{"label":"1. Jahr"} } },
+        { "id": "hh10b", "correct": false, "i18n": { "ua":{"label":"На 2-му"}, "en":{"label":"2nd year"}, "es":{"label":"2º año"}, "de":{"label":"2. Jahr"} } },
+        { "id": "hh10c", "correct": false, "i18n": { "ua":{"label":"На 3-му"}, "en":{"label":"3rd year"}, "es":{"label":"3er año"}, "de":{"label":"3. Jahr"} } },
+        { "id": "hh10d", "correct": false, "i18n": { "ua":{"label":"На 4-му"}, "en":{"label":"4th year"}, "es":{"label":"4º año"}, "de":{"label":"4. Jahr"} } }
+      ] }
+  ]
+}

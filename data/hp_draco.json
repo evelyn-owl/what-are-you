@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "hp_draco",
+    "mode": "test",
+    "questions_count": 8,
+    "showCorrectDuringQuiz": true,
+    "i18n": {
+      "ua": { "title": "Знайомство з Драко", "description": "Чи знаєш ти слизеринця Малфоя?" },
+      "en": { "title": "Know Draco", "description": "Do you know the Slytherin Malfoy?" },
+      "es": { "title": "Conoce a Draco", "description": "¿Conoces al Malfoy de Slytherin?" },
+      "de": { "title": "Kenne Draco", "description": "Kennst du den Malfoy aus Slytherin?" }
+    },
+    "mentors": [
+      { "rangeMin": 80, "i18n": {
+        "ua": [{ "emoji": "🐍", "name": "Драко", "message": "Мій батько про це почує... схвально" }],
+        "en": [{ "emoji": "🐍", "name": "Draco", "message": "My father will hear about this... approvingly" }],
+        "es": [{ "emoji": "🐍", "name": "Draco", "message": "Mi padre oirá hablar de esto... con aprobación" }],
+        "de": [{ "emoji": "🐍", "name": "Draco", "message": "Mein Vater wird davon hören... anerkennend" }]
+      }},
+      { "rangeMin": 50, "rangeMax": 79, "i18n": {
+        "ua": [{ "emoji": "🪄", "name": "Паличка з глоду", "message": "Непогано" }],
+        "en": [{ "emoji": "🪄", "name": "Hawthorn Wand", "message": "Not bad" }],
+        "es": [{ "emoji": "🪄", "name": "Varita de espino", "message": "Nada mal" }],
+        "de": [{ "emoji": "🪄", "name": "Weißdorn-Stab", "message": "Nicht schlecht" }]
+      }},
+      { "rangeMax": 49, "i18n": {
+        "ua": [{ "emoji": "💰", "name": "Луціус Малфой", "message": "Розчаровуєш родину" }],
+        "en": [{ "emoji": "💰", "name": "Lucius Malfoy", "message": "You disappoint the family" }],
+        "es": [{ "emoji": "💰", "name": "Lucius Malfoy", "message": "Decepcionas a la familia" }],
+        "de": [{ "emoji": "💰", "name": "Lucius Malfoy", "message": "Du enttäuschst die Familie" }]
+      }}
+    ],
+    "facts": {
+      "ua": [
+        "Драко народився 5 червня 1980 року",
+        "Його батьки — Луціус і Нарциса Малфой",
+        "Драко був ловцем команди Слизерину з квідичу",
+        "Його паличка — з глоду, з волосом із серця єдинорога",
+        "Патронус Драко невідомий з книжок"
+      ],
+      "en": [
+        "Draco was born on June 5, 1980",
+        "His parents are Lucius and Narcissa Malfoy",
+        "Draco was the Slytherin Quidditch Seeker",
+        "His wand is hawthorn with unicorn hair core",
+        "Draco's Patronus is not mentioned in the books"
+      ],
+      "es": [
+        "Draco nació el 5 de junio de 1980",
+        "Sus padres son Lucius y Narcissa Malfoy",
+        "Draco era buscador del equipo de Slytherin",
+        "Su varita es de espino con núcleo de pelo de unicornio",
+        "El Patronus de Draco no aparece en los libros"
+      ],
+      "de": [
+        "Draco wurde am 5. Juni 1980 geboren",
+        "Seine Eltern sind Lucius und Narzissa Malfoy",
+        "Draco war Sucher der Slytherin-Quidditch-Mannschaft",
+        "Sein Zauberstab ist aus Weißdorn mit Einhornhaar",
+        "Dracos Patronus wird in den Büchern nicht erwähnt"
+      ]
+    }
+  },
+  "animals": [],
+  "questions": [
+    { "id": "dr1", "i18n": { "ua":{"text":"На якому факультеті Драко?"}, "en":{"text":"Which house is Draco in?"}, "es":{"text":"¿En qué casa está Draco?"}, "de":{"text":"In welchem Haus ist Draco?"} },
+      "options": [
+        { "id": "dr1a", "correct": true, "i18n": { "ua":{"label":"Слизерин"}, "en":{"label":"Slytherin"}, "es":{"label":"Slytherin"}, "de":{"label":"Slytherin"} } },
+        { "id": "dr1b", "correct": false, "i18n": { "ua":{"label":"Ґрифіндор"}, "en":{"label":"Gryffindor"}, "es":{"label":"Gryffindor"}, "de":{"label":"Gryffindor"} } },
+        { "id": "dr1c", "correct": false, "i18n": { "ua":{"label":"Рейвенклов"}, "en":{"label":"Ravenclaw"}, "es":{"label":"Ravenclaw"}, "de":{"label":"Ravenclaw"} } },
+        { "id": "dr1d", "correct": false, "i18n": { "ua":{"label":"Гафелпаф"}, "en":{"label":"Hufflepuff"}, "es":{"label":"Hufflepuff"}, "de":{"label":"Hufflepuff"} } }
+      ] },
+    { "id": "dr2", "i18n": { "ua":{"text":"Як звати батька Драко?"}, "en":{"text":"What is Draco's father's name?"}, "es":{"text":"¿Cómo se llama el padre de Draco?"}, "de":{"text":"Wie heißt Dracos Vater?"} },
+      "options": [
+        { "id": "dr2a", "correct": true, "i18n": { "ua":{"label":"Луціус"}, "en":{"label":"Lucius"}, "es":{"label":"Lucius"}, "de":{"label":"Lucius"} } },
+        { "id": "dr2b", "correct": false, "i18n": { "ua":{"label":"Абраксас"}, "en":{"label":"Abraxas"}, "es":{"label":"Abraxas"}, "de":{"label":"Abraxas"} } },
+        { "id": "dr2c", "correct": false, "i18n": { "ua":{"label":"Родольфус"}, "en":{"label":"Rodolphus"}, "es":{"label":"Rodolphus"}, "de":{"label":"Rodolphus"} } },
+        { "id": "dr2d", "correct": false, "i18n": { "ua":{"label":"Регулус"}, "en":{"label":"Regulus"}, "es":{"label":"Regulus"}, "de":{"label":"Regulus"} } }
+      ] },
+    { "id": "dr3", "i18n": { "ua":{"text":"Як звати маму Драко?"}, "en":{"text":"What is Draco's mother's name?"}, "es":{"text":"¿Cómo se llama la madre de Draco?"}, "de":{"text":"Wie heißt Dracos Mutter?"} },
+      "options": [
+        { "id": "dr3a", "correct": true, "i18n": { "ua":{"label":"Нарциса"}, "en":{"label":"Narcissa"}, "es":{"label":"Narcissa"}, "de":{"label":"Narzissa"} } },
+        { "id": "dr3b", "correct": false, "i18n": { "ua":{"label":"Беллатриса"}, "en":{"label":"Bellatrix"}, "es":{"label":"Bellatrix"}, "de":{"label":"Bellatrix"} } },
+        { "id": "dr3c", "correct": false, "i18n": { "ua":{"label":"Андромеда"}, "en":{"label":"Andromeda"}, "es":{"label":"Andromeda"}, "de":{"label":"Andromeda"} } },
+        { "id": "dr3d", "correct": false, "i18n": { "ua":{"label":"Петунія"}, "en":{"label":"Petunia"}, "es":{"label":"Petunia"}, "de":{"label":"Petunia"} } }
+      ] },
+    { "id": "dr4", "i18n": { "ua":{"text":"Яка позиція Драко в квідичі?"}, "en":{"text":"What is Draco's Quidditch position?"}, "es":{"text":"¿Cuál es la posición de Draco en Quidditch?"}, "de":{"text":"Welche Position spielt Draco beim Quidditch?"} },
+      "options": [
+        { "id": "dr4a", "correct": true, "i18n": { "ua":{"label":"Ловець"}, "en":{"label":"Seeker"}, "es":{"label":"Buscador"}, "de":{"label":"Sucher"} } },
+        { "id": "dr4b", "correct": false, "i18n": { "ua":{"label":"Воротар"}, "en":{"label":"Keeper"}, "es":{"label":"Guardián"}, "de":{"label":"Hüter"} } },
+        { "id": "dr4c", "correct": false, "i18n": { "ua":{"label":"Загонич"}, "en":{"label":"Chaser"}, "es":{"label":"Cazador"}, "de":{"label":"Jäger"} } },
+        { "id": "dr4d", "correct": false, "i18n": { "ua":{"label":"Відбивач"}, "en":{"label":"Beater"}, "es":{"label":"Golpeador"}, "de":{"label":"Treiber"} } }
+      ] },
+    { "id": "dr5", "i18n": { "ua":{"text":"Який колір волосся у Драко?"}, "en":{"text":"What colour is Draco's hair?"}, "es":{"text":"¿De qué color es el pelo de Draco?"}, "de":{"text":"Welche Haarfarbe hat Draco?"} },
+      "options": [
+        { "id": "dr5a", "correct": true, "i18n": { "ua":{"label":"Платиновий блонд"}, "en":{"label":"Platinum blonde"}, "es":{"label":"Rubio platino"}, "de":{"label":"Platinblond"} } },
+        { "id": "dr5b", "correct": false, "i18n": { "ua":{"label":"Чорний"}, "en":{"label":"Black"}, "es":{"label":"Negro"}, "de":{"label":"Schwarz"} } },
+        { "id": "dr5c", "correct": false, "i18n": { "ua":{"label":"Рудий"}, "en":{"label":"Red"}, "es":{"label":"Pelirrojo"}, "de":{"label":"Rot"} } },
+        { "id": "dr5d", "correct": false, "i18n": { "ua":{"label":"Каштановий"}, "en":{"label":"Brown"}, "es":{"label":"Castaño"}, "de":{"label":"Braun"} } }
+      ] },
+    { "id": "dr6", "i18n": { "ua":{"text":"Хто двоє вірних друзів Драко у Гоґвортсі?"}, "en":{"text":"Who are Draco's two loyal friends?"}, "es":{"text":"¿Quiénes son los dos amigos fieles de Draco?"}, "de":{"text":"Wer sind Dracos zwei treue Freunde?"} },
+      "options": [
+        { "id": "dr6a", "correct": true, "i18n": { "ua":{"label":"Креб і Ґойл"}, "en":{"label":"Crabbe and Goyle"}, "es":{"label":"Crabbe y Goyle"}, "de":{"label":"Crabbe und Goyle"} } },
+        { "id": "dr6b", "correct": false, "i18n": { "ua":{"label":"Блейз і Теодор"}, "en":{"label":"Blaise and Theodore"}, "es":{"label":"Blaise y Theodore"}, "de":{"label":"Blaise und Theodore"} } },
+        { "id": "dr6c", "correct": false, "i18n": { "ua":{"label":"Маркус і Адріан"}, "en":{"label":"Marcus and Adrian"}, "es":{"label":"Marcus y Adrian"}, "de":{"label":"Marcus und Adrian"} } },
+        { "id": "dr6d", "correct": false, "i18n": { "ua":{"label":"Ноттс і Забіні"}, "en":{"label":"Nott and Zabini"}, "es":{"label":"Nott y Zabini"}, "de":{"label":"Nott und Zabini"} } }
+      ] },
+    { "id": "dr7", "i18n": { "ua":{"text":"Яка паличка у Драко?"}, "en":{"text":"What is Draco's wand made of?"}, "es":{"text":"¿De qué está hecha la varita de Draco?"}, "de":{"text":"Woraus ist Dracos Zauberstab?"} },
+      "options": [
+        { "id": "dr7a", "correct": true, "i18n": { "ua":{"label":"Глоду, з волосом єдинорога"}, "en":{"label":"Hawthorn, unicorn hair"}, "es":{"label":"Espino, pelo de unicornio"}, "de":{"label":"Weißdorn, Einhornhaar"} } },
+        { "id": "dr7b", "correct": false, "i18n": { "ua":{"label":"Тиса, перо фенікса"}, "en":{"label":"Yew, phoenix feather"}, "es":{"label":"Tejo, pluma de fénix"}, "de":{"label":"Eibe, Phönixfeder"} } },
+        { "id": "dr7c", "correct": false, "i18n": { "ua":{"label":"Дубу, з волосом віїли"}, "en":{"label":"Oak, veela hair"}, "es":{"label":"Roble, pelo de veela"}, "de":{"label":"Eiche, Veela-Haar"} } },
+        { "id": "dr7d", "correct": false, "i18n": { "ua":{"label":"Вільхи, серце дракона"}, "en":{"label":"Alder, dragon heartstring"}, "es":{"label":"Aliso, fibra de dragón"}, "de":{"label":"Erle, Drachenherzfaser"} } }
+      ] },
+    { "id": "dr8", "i18n": { "ua":{"text":"Де живе сім'я Малфоїв?"}, "en":{"text":"Where does Malfoy family live?"}, "es":{"text":"¿Dónde vive la familia Malfoy?"}, "de":{"text":"Wo wohnt die Malfoy-Familie?"} },
+      "options": [
+        { "id": "dr8a", "correct": true, "i18n": { "ua":{"label":"Особняк Малфоїв"}, "en":{"label":"Malfoy Manor"}, "es":{"label":"Mansión Malfoy"}, "de":{"label":"Malfoy Manor"} } },
+        { "id": "dr8b", "correct": false, "i18n": { "ua":{"label":"Барліг"}, "en":{"label":"The Burrow"}, "es":{"label":"La Madriguera"}, "de":{"label":"Der Fuchsbau"} } },
+        { "id": "dr8c", "correct": false, "i18n": { "ua":{"label":"Ґрімолд-плейс"}, "en":{"label":"Grimmauld Place"}, "es":{"label":"Grimmauld Place"}, "de":{"label":"Grimmauldplatz"} } },
+        { "id": "dr8d", "correct": false, "i18n": { "ua":{"label":"Ракушечна хата"}, "en":{"label":"Shell Cottage"}, "es":{"label":"La Casa de la Concha"}, "de":{"label":"Muschelhaus"} } }
+      ] },
+    { "id": "dr9", "i18n": { "ua":{"text":"Хто улюблений викладач Драко?"}, "en":{"text":"Who is Draco's favourite teacher?"}, "es":{"text":"¿Quién es el profesor favorito de Draco?"}, "de":{"text":"Wer ist Dracos Lieblingslehrer?"} },
+      "options": [
+        { "id": "dr9a", "correct": true, "i18n": { "ua":{"label":"Снейп"}, "en":{"label":"Snape"}, "es":{"label":"Snape"}, "de":{"label":"Snape"} } },
+        { "id": "dr9b", "correct": false, "i18n": { "ua":{"label":"Дамблдор"}, "en":{"label":"Dumbledore"}, "es":{"label":"Dumbledore"}, "de":{"label":"Dumbledore"} } },
+        { "id": "dr9c", "correct": false, "i18n": { "ua":{"label":"Макґонеґел"}, "en":{"label":"McGonagall"}, "es":{"label":"McGonagall"}, "de":{"label":"McGonagall"} } },
+        { "id": "dr9d", "correct": false, "i18n": { "ua":{"label":"Геґрід"}, "en":{"label":"Hagrid"}, "es":{"label":"Hagrid"}, "de":{"label":"Hagrid"} } }
+      ] },
+    { "id": "dr10", "i18n": { "ua":{"text":"Яка улюблена фраза Драко?"}, "en":{"text":"What is Draco's signature phrase?"}, "es":{"text":"¿Cuál es la frase típica de Draco?"}, "de":{"text":"Was ist Dracos typischer Satz?"} },
+      "options": [
+        { "id": "dr10a", "correct": true, "i18n": { "ua":{"label":"Мій батько про це почує!"}, "en":{"label":"My father will hear about this!"}, "es":{"label":"¡Mi padre oirá hablar de esto!"}, "de":{"label":"Mein Vater wird davon hören!"} } },
+        { "id": "dr10b", "correct": false, "i18n": { "ua":{"label":"Я мушу бути першим!"}, "en":{"label":"I must be first!"}, "es":{"label":"¡Debo ser el primero!"}, "de":{"label":"Ich muss der Erste sein!"} } },
+        { "id": "dr10c", "correct": false, "i18n": { "ua":{"label":"Тьфу на тебе!"}, "en":{"label":"Pah on you!"}, "es":{"label":"¡Qué horror!"}, "de":{"label":"Pfui auf dich!"} } },
+        { "id": "dr10d", "correct": false, "i18n": { "ua":{"label":"Слизерин переможе!"}, "en":{"label":"Slytherin wins!"}, "es":{"label":"¡Slytherin gana!"}, "de":{"label":"Slytherin gewinnt!"} } }
+      ] }
+  ]
+}
