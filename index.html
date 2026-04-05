@@ -42,6 +42,7 @@
   <div id="screen-quiz" class="screen">
     <header class="top-bar top-bar-quiz">
       <button class="back-btn" id="quiz-back-btn">←</button>
+      <div class="logo" id="logo-quiz"><span class="w1">ХТО</span><span class="w2">ТИ?</span></div>
       <div class="top-right">
         <button class="theme-toggle fs-btn" id="fs-btn-quiz" title="Fullscreen">⛶</button>
         <button class="theme-toggle" id="theme-btn-quiz">☀</button>
@@ -421,7 +422,7 @@ function updateLogo() {
   const u = UI[lang];
   let html = `<span class="w1">${u.logo1}</span><span class="w2">${u.logo2}</span>`;
   if (u.logo3) html += `<span class="w1">${u.logo3}</span>`;
-  ['logo-home','logo-result','home-title'].forEach(id => {
+  ['logo-home','logo-quiz','logo-result','logo-collection','home-title'].forEach(id => {
     const el = $(id);
     if (!el) return;
     el.innerHTML = html;
@@ -1055,6 +1056,9 @@ $('btn-retry').addEventListener('click', () => startQuiz(currentQuiz));
 $('quiz-back-btn').addEventListener('click', () => { showScreen('home'); renderHome(); });
 $('result-back-btn').addEventListener('click', () => { showScreen('home'); renderHome(); });
 $('collection-back-btn').addEventListener('click', () => { showScreen('home'); renderHome(); });
+['logo-home','logo-quiz','logo-result','logo-collection'].forEach(id => {
+  const el = $(id); if (el) { el.style.cursor = 'pointer'; el.addEventListener('click', () => { showScreen('home'); renderHome(); }); }
+});
 
 const LANGS = ['ua', 'en', 'es', 'de'];
 function toggleLang() {
