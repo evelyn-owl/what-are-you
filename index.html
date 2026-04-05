@@ -23,6 +23,7 @@
         <button class="theme-toggle fs-btn" id="fs-btn" title="Fullscreen">⛶</button>
         <button class="theme-toggle" id="theme-btn">☀</button>
         <button class="theme-toggle" id="mode-btn" title="Game Mode">🧩</button>
+        <button class="theme-toggle" id="music-btn" title="Music">🔇</button>
         <button class="lang-toggle" id="lang-btn">UA</button>
       </div>
       <button class="install-btn" id="install-btn" style="display:none" data-i18n="install_btn">📲 Встановити</button>
@@ -49,6 +50,7 @@
         <button class="theme-toggle fs-btn" id="fs-btn-quiz" title="Fullscreen">⛶</button>
         <button class="theme-toggle" id="theme-btn-quiz">☀</button>
         <button class="theme-toggle" id="mode-btn-quiz" title="Game Mode">🧩</button>
+        <button class="theme-toggle" id="music-btn-quiz" title="Music">🔇</button>
         <button class="lang-toggle" id="lang-btn-quiz">UA</button>
       </div>
     </header>
@@ -69,6 +71,7 @@
         <button class="theme-toggle fs-btn" id="fs-btn-result" title="Fullscreen">⛶</button>
         <button class="theme-toggle" id="theme-btn-result">☀</button>
         <button class="theme-toggle" id="mode-btn-result" title="Game Mode">🧩</button>
+        <button class="theme-toggle" id="music-btn-result" title="Music">🔇</button>
         <button class="lang-toggle" id="lang-btn-result">UA</button>
       </div>
     </header>
@@ -96,6 +99,7 @@
         <button class="theme-toggle fs-btn" id="fs-btn-collection" title="Fullscreen">⛶</button>
         <button class="theme-toggle" id="theme-btn-collection">☀</button>
         <button class="theme-toggle" id="mode-btn-collection" title="Game Mode">🧩</button>
+        <button class="theme-toggle" id="music-btn-collection" title="Music">🔇</button>
         <button class="lang-toggle" id="lang-btn-collection">UA</button>
       </div>
     </header>
@@ -112,6 +116,66 @@ const THEMES_CSS = {
 const THEME_LABELS = {dark:'☀', vivid:'☽'};
 let currentTheme = 'dark';
 let gameMode = localStorage.getItem('gameMode') || 'personality';
+
+// Music: 0=off, 1=track1, 2=track2
+const MUSIC_TRACKS = ['audio/music1.mp3', 'audio/music2.mp3'];
+const MUSIC_ICONS = ['🔇', '🎵', '🎶'];
+let musicState = parseInt(localStorage.getItem('musicState') ?? '1');
+if (isNaN(musicState) || musicState < 0 || musicState > 2) musicState = 1;
+let audioEl = null;
+function ensureAudio() {
+  if (!audioEl) {
+    audioEl = new Audio();
+    audioEl.loop = true;
+    audioEl.volume = 0.4;
+    audioEl.preload = 'auto';
+    audioEl.playsInline = true;
+  }
+}
+function playMusicState() {
+  ensureAudio();
+  if (musicState === 0) {
+    audioEl.pause();
+  } else {
+    const newSrc = MUSIC_TRACKS[musicState - 1];
+    if (!audioEl.src.endsWith(newSrc)) audioEl.src = newSrc;
+    audioEl.play().catch(err => console.warn('Music play failed:', err));
+  }
+  updateMusicBtns();
+}
+function toggleMusic() {
+  musicState = (musicState + 1) % 3;
+  localStorage.setItem('musicState', musicState);
+  playMusicState();
+}
+// Auto-start music on first user interaction (browser requires user gesture)
+let musicAutoStarted = false;
+function tryAutoStartMusic() {
+  if (musicAutoStarted) return;
+  if (musicState > 0) {
+    ensureAudio();
+    audioEl.src = MUSIC_TRACKS[musicState - 1];
+    const p = audioEl.play();
+    if (p && p.then) {
+      p.then(() => { musicAutoStarted = true; updateMusicBtns(); })
+       .catch(err => { console.warn('Auto-start failed:', err); });
+    } else {
+      musicAutoStarted = true;
+      updateMusicBtns();
+    }
+  } else {
+    musicAutoStarted = true;
+  }
+}
+document.addEventListener('pointerdown', tryAutoStartMusic);
+document.addEventListener('click', tryAutoStartMusic);
+document.addEventListener('touchstart', tryAutoStartMusic, { passive: true });
+function updateMusicBtns() {
+  const icon = MUSIC_ICONS[musicState];
+  ['music-btn','music-btn-quiz','music-btn-result','music-btn-collection'].forEach(id => {
+    const el = $(id); if (el) el.textContent = icon;
+  });
+}
 const MODE_ICONS = { personality: '🧩', test: '📝' };
 function toggleGameMode() {
   gameMode = gameMode === 'personality' ? 'test' : 'personality';
@@ -1010,6 +1074,9 @@ function toggleLang() {
 });
 ['mode-btn','mode-btn-quiz','mode-btn-result','mode-btn-collection'].forEach(id => {
   const el = $(id); if (el) el.addEventListener('click', toggleGameMode);
+});
+['music-btn','music-btn-quiz','music-btn-result','music-btn-collection'].forEach(id => {
+  const el = $(id); if (el) el.addEventListener('click', toggleMusic);
 });
 
 function toggleFullscreen() {

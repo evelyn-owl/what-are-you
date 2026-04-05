@@ -1,9 +1,11 @@
-const CACHE = 'htoty-v6';
+const CACHE = 'htoty-v8';
 const ASSETS = [
   './',
   './index.html',
   './icon.svg',
   './manifest.json',
+  './audio/music1.mp3',
+  './audio/music2.mp3',
   './data/animals.json',
   './data/hp.json',
   './data/peculiar.json',
@@ -34,11 +36,19 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  const req = e.request;
+  // Don't intercept range requests (audio/video streaming) — browser handles them directly
+  if (req.headers.get('range')) return;
+  // Only handle GET requests
+  if (req.method !== 'GET') return;
   e.respondWith(
-    fetch(e.request).then(res => {
-      const clone = res.clone();
-      caches.open(CACHE).then(c => c.put(e.request, clone));
+    fetch(req).then(res => {
+      // Only cache successful full responses (status 200)
+      if (res.ok && res.status === 200 && res.type === 'basic') {
+        const clone = res.clone();
+        caches.open(CACHE).then(c => c.put(req, clone).catch(() => {}));
+      }
       return res;
-    }).catch(() => caches.match(e.request))
+    }).catch(() => caches.match(req))
   );
 });
